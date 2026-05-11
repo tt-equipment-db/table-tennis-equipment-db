@@ -1,0 +1,292 @@
+{
+  "rubbers": [
+    {
+      "id": "dhs-hurricane-3-neo",
+      "name": "狂飙 3 Neo",
+      "brand": "红双喜",
+      "series": "狂飙",
+      "price": 95,
+      "currency": "CNY",
+      "image": "https://placehold.co/720x480/e11d48/ffffff?text=DHS%20Hurricane%203%20Neo",
+      "description": "经典粘性正手套胶，发力后弧线强，适合弧圈结合快攻。",
+      "tags": {
+        "brand": ["红双喜"],
+        "position": ["正手"],
+        "rubberType": ["反胶", "粘性胶面"],
+        "sponge": ["高密海绵", "硬质海绵"],
+        "thickness": ["2.1", "2.15"],
+        "hardness": ["39度", "40度", "41度"],
+        "style": ["弧圈", "快攻弧圈"],
+        "origin": ["中国"]
+      }
+    },
+    {
+      "id": "dhs-hurricane-8-80",
+      "name": "狂飙 8-80",
+      "brand": "红双喜",
+      "series": "狂飙",
+      "price": 168,
+      "currency": "CNY",
+      "image": "https://placehold.co/720x480/f97316/ffffff?text=DHS%20Hurricane%208-80",
+      "description": "粘性胶面搭配偏弹海绵，速度更轻快，正反手都可尝试。",
+      "tags": {
+        "brand": ["红双喜"],
+        "position": ["正手", "反手"],
+        "rubberType": ["反胶", "粘性胶面"],
+        "sponge": ["蛋糕海绵", "高密海绵"],
+        "thickness": ["2.1", "2.15"],
+        "hardness": ["37度", "38度", "39度"],
+        "style": ["弧圈", "连续进攻"],
+        "origin": ["中国"]
+      }
+    },
+    {
+      "id": "butterfly-tenergy-05",
+      "name": "Tenergy 05",
+      "brand": "蝴蝶",
+      "series": "Tenergy",
+      "price": 360,
+      "currency": "CNY",
+      "image": "https://shop.butterflyonline.com/Item%20Images/TN05.media.01.jpg",
+      "description": "高旋转高弧线的经典外套，适合主动摩擦和上旋相持。",
+      "tags": {
+        "brand": ["蝴蝶"],
+        "position": ["正手", "反手"],
+        "rubberType": ["反胶", "涩性胶面"],
+        "sponge": ["蛋糕海绵", "高弹海绵"],
+        "thickness": ["1.9", "2.1", "Max"],
+        "hardness": ["36度", "中硬"],
+        "style": ["弧圈", "相持"],
+        "origin": ["日本"]
+      }
+    },
+    {
+      "id": "butterfly-dignics-05",
+      "name": "Dignics 05",
+      "brand": "蝴蝶",
+      "series": "Dignics",
+      "price": 460,
+      "currency": "CNY",
+      "image": "https://shop.butterflyonline.com/Item%20Images/DIG05.media.01.jpg",
+      "description": "持球感和上限更强的高端涩套，适合高质量弧圈和反拉。",
+      "tags": {
+        "brand": ["蝴蝶"],
+        "position": ["正手", "反手"],
+        "rubberType": ["反胶", "涩性胶面"],
+        "sponge": ["高密海绵", "高弹海绵"],
+        "thickness": ["1.9", "2.1"],
+        "hardness": ["40度", "硬"],
+        "style": ["弧圈", "反拉", "相持"],
+        "origin": ["日本"]
+      }
+    },
+    {
+      "id": "xiom-vega-europe",
+      "name": "Vega Europe",
+      "brand": "骄猛",
+      "series": "Vega",
+      "price": 145,
+      "currency": "CNY",
+      "image": "https://placehold.co/720x480/2563eb/ffffff?text=XIOM%20Vega%20Europe",
+      "description": "易透板、容错高的反手常见选择，适合入门到进阶。",
+      "tags": {
+        "brand": ["骄猛"],
+        "position": ["反手"],
+        "rubberType": ["反胶", "涩性胶面"],
+        "sponge": ["蛋糕海绵", "软弹海绵"],
+        "thickness": ["1.8", "2.0", "Max"],
+        "hardness": ["软", "中软"],
+        "style": ["控制", "连续进攻"],
+        "origin": ["德国"]
+      }
+    },
+    {
+      "id": "729-battle-2",
+      "name": "奔腾 2",
+      "brand": "729",
+      "series": "Battle",
+      "price": 88,
+      "currency": "CNY",
+      "image": "https://placehold.co/720x480/16a34a/ffffff?text=729%20Battle%202",
+      "description": "粘性国产套胶，性价比高，适合作为正手进攻胶皮。",
+      "tags": {
+        "brand": ["729"],
+        "position": ["正手"],
+        "rubberType": ["反胶", "粘性胶面"],
+        "sponge": ["高密海绵", "硬质海绵"],
+        "thickness": ["2.1", "2.2"],
+        "hardness": ["39度", "40度", "41度"],
+        "style": ["弧圈", "快攻弧圈"],
+        "origin": ["中国"]
+      }
+    },
+    {
+      "id": "yasaka-rakza-7",
+      "name": "Rakza 7",
+      "brand": "亚萨卡",
+      "series": "Rakza",
+      "price": 210,
+      "currency": "CNY",
+      "image": "https://placehold.co/720x480/7c3aed/ffffff?text=Yasaka%20Rakza%207",
+      "description": "稳定、均衡的涩性反胶，正反手均可，适合练基本功和比赛。",
+      "tags": {
+        "brand": ["亚萨卡"],
+        "position": ["正手", "反手"],
+        "rubberType": ["反胶", "涩性胶面"],
+        "sponge": ["蛋糕海绵", "高弹海绵"],
+        "thickness": ["1.8", "2.0", "Max"],
+        "hardness": ["中硬"],
+        "style": ["控制", "弧圈", "相持"],
+        "origin": ["德国"]
+      }
+    },
+    {
+      "id": "nittaku-fastarc-g1",
+      "name": "Fastarc G-1",
+      "brand": "尼塔库",
+      "series": "Fastarc",
+      "price": 245,
+      "currency": "CNY",
+      "image": "https://placehold.co/720x480/0891b2/ffffff?text=Nittaku%20Fastarc%20G-1",
+      "description": "弧线扎实、支撑感强的进攻涩套，正手和强反手都常见。",
+      "tags": {
+        "brand": ["尼塔库"],
+        "position": ["正手", "反手"],
+        "rubberType": ["反胶", "涩性胶面"],
+        "sponge": ["高密海绵", "高弹海绵"],
+        "thickness": ["1.8", "2.0", "Max"],
+        "hardness": ["中硬", "硬"],
+        "style": ["弧圈", "反拉", "相持"],
+        "origin": ["德国"]
+      }
+    }
+  ],
+  "blades": [
+    {
+      "id": "butterfly-viscaria",
+      "name": "Viscaria",
+      "brand": "蝴蝶",
+      "series": "Arylate Carbon",
+      "price": 980,
+      "currency": "CNY",
+      "image": "https://shop.butterflyonline.com/Item%20Images/1200.media.01.jpg",
+      "description": "外置芳碳经典结构，速度、支撑和容错兼顾。",
+      "tags": {
+        "brand": ["蝴蝶"],
+        "structure": ["外置纤维", "5+2"],
+        "material": ["芳碳", "寇头面材"],
+        "position": ["双面弧圈", "快攻弧圈"],
+        "handle": ["FL", "ST"],
+        "speed": ["快"],
+        "feel": ["清晰", "中硬"],
+        "weight": ["85-90g", "90g以上"],
+        "origin": ["日本"]
+      }
+    },
+    {
+      "id": "dhs-hurricane-long-5",
+      "name": "狂飙龙 5",
+      "brand": "红双喜",
+      "series": "Hurricane Long",
+      "price": 760,
+      "currency": "CNY",
+      "image": "https://placehold.co/720x480/b91c1c/ffffff?text=DHS%20Hurricane%20Long%205",
+      "description": "内置纤维结构，持球深、发力后底劲强。",
+      "tags": {
+        "brand": ["红双喜"],
+        "structure": ["内置纤维", "5+2"],
+        "material": ["芳碳", "寇头面材"],
+        "position": ["双面弧圈"],
+        "handle": ["FL", "CS"],
+        "speed": ["快"],
+        "feel": ["持球", "中硬"],
+        "weight": ["85-90g"],
+        "origin": ["中国"]
+      }
+    },
+    {
+      "id": "stiga-cl-cr",
+      "name": "CL CR",
+      "brand": "斯帝卡",
+      "series": "Clipper",
+      "price": 390,
+      "currency": "CNY",
+      "image": "https://placehold.co/720x480/ca8a04/111827?text=Stiga%20CL%20CR",
+      "description": "七夹纯木代表，扎实有力，适合快攻弧圈。",
+      "tags": {
+        "brand": ["斯帝卡"],
+        "structure": ["纯木", "7层"],
+        "material": ["林巴面材", "阿尤斯"],
+        "position": ["快攻弧圈", "近台进攻"],
+        "handle": ["FL", "ST", "CS"],
+        "speed": ["中快"],
+        "feel": ["扎实", "中硬"],
+        "weight": ["85-90g", "90g以上"],
+        "origin": ["瑞典"]
+      }
+    },
+    {
+      "id": "yasaka-ma-lin-extra-offensive",
+      "name": "马林 Extra Offensive",
+      "brand": "亚萨卡",
+      "series": "Ma Lin",
+      "price": 260,
+      "currency": "CNY",
+      "image": "https://placehold.co/720x480/f59e0b/111827?text=Yasaka%20YEO",
+      "description": "五夹纯木，手感清楚，兼顾弧圈与台内控制。",
+      "tags": {
+        "brand": ["亚萨卡"],
+        "structure": ["纯木", "5层"],
+        "material": ["胡桃面材", "云杉力材"],
+        "position": ["双面弧圈", "控制"],
+        "handle": ["FL", "CS"],
+        "speed": ["中快"],
+        "feel": ["清晰", "持球"],
+        "weight": ["80-85g", "85-90g"],
+        "origin": ["瑞典"]
+      }
+    },
+    {
+      "id": "nittaku-acoustic",
+      "name": "Acoustic",
+      "brand": "尼塔库",
+      "series": "Acoustic",
+      "price": 820,
+      "currency": "CNY",
+      "image": "https://placehold.co/720x480/0f766e/ffffff?text=Nittaku%20Acoustic",
+      "description": "高端五夹纯木，细腻持球，适合追求控制和连续质量。",
+      "tags": {
+        "brand": ["尼塔库"],
+        "structure": ["纯木", "5层"],
+        "material": ["林巴面材"],
+        "position": ["双面弧圈", "控制"],
+        "handle": ["FL", "ST"],
+        "speed": ["中等", "中快"],
+        "feel": ["持球", "柔和"],
+        "weight": ["80-85g", "85-90g"],
+        "origin": ["日本"]
+      }
+    },
+    {
+      "id": "xiom-36-5-alx",
+      "name": "36.5 ALX",
+      "brand": "骄猛",
+      "series": "36.5",
+      "price": 560,
+      "currency": "CNY",
+      "image": "https://placehold.co/720x480/1d4ed8/ffffff?text=XIOM%2036.5%20ALX",
+      "description": "外置纤维底板，出球干脆，适合主动进攻。",
+      "tags": {
+        "brand": ["骄猛"],
+        "structure": ["外置纤维", "5+2"],
+        "material": ["芳纶碳"],
+        "position": ["快攻弧圈", "双面弧圈"],
+        "handle": ["FL", "ST"],
+        "speed": ["快"],
+        "feel": ["清晰", "中硬"],
+        "weight": ["85-90g"],
+        "origin": ["韩国"]
+      }
+    }
+  ]
+}
