@@ -7,7 +7,7 @@
 ## 本地运行
 
 ```powershell
-cd D:\Coding\pingpong-equipment-db
+cd D:\Coding\table-tennis-equipment-db
 python -m http.server 8000
 ```
 
