@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Table Tennis Equipment Database</title>
-    <link rel="stylesheet" href="./styles.css?v=compact-3">
+    <link rel="stylesheet" href="./styles.css?v=detail-1">
   </head>
   <body>
     <main class="app-shell">
@@ -23,36 +23,40 @@
         <button class="tab" data-type="blades" type="button">底板</button>
       </nav>
 
-      <section class="filter-board" aria-label="筛选条件">
-        <div class="filter-topline">
-          <div>
-            <h2 id="filterTitle">胶皮筛选</h2>
-            <p id="filterHint">同一项目可多选，不同项目会叠加筛选。</p>
+      <section id="listView">
+        <section class="filter-board" aria-label="筛选条件">
+          <div class="filter-topline">
+            <div>
+              <h2 id="filterTitle">胶皮筛选</h2>
+              <p id="filterHint">同一项目可多选，不同项目会叠加筛选。</p>
+            </div>
+            <button id="clearFilters" class="ghost-button" type="button">清空筛选</button>
           </div>
-          <button id="clearFilters" class="ghost-button" type="button">清空筛选</button>
-        </div>
-        <div id="filterGroups" class="filter-groups"></div>
+          <div id="filterGroups" class="filter-groups"></div>
+        </section>
+
+        <section class="results-head">
+          <div>
+            <p class="result-count"><span id="resultCount">0</span> 个结果</p>
+            <div id="activeFilters" class="active-filters"></div>
+          </div>
+          <label class="sort-box">
+            <span>排序</span>
+            <select id="sortSelect">
+              <option value="default">默认</option>
+              <option value="price-asc">价格从低到高</option>
+              <option value="price-desc">价格从高到低</option>
+              <option value="name">名称</option>
+            </select>
+          </label>
+        </section>
+
+        <section id="productGrid" class="product-grid" aria-live="polite"></section>
       </section>
 
-      <section class="results-head">
-        <div>
-          <p class="result-count"><span id="resultCount">0</span> 个结果</p>
-          <div id="activeFilters" class="active-filters"></div>
-        </div>
-        <label class="sort-box">
-          <span>排序</span>
-          <select id="sortSelect">
-            <option value="default">默认</option>
-            <option value="price-asc">价格从低到高</option>
-            <option value="price-desc">价格从高到低</option>
-            <option value="name">名称</option>
-          </select>
-        </label>
-      </section>
-
-      <section id="productGrid" class="product-grid" aria-live="polite"></section>
+      <section id="detailView" class="detail-view is-hidden" aria-live="polite"></section>
     </main>
 
-    <script src="./app.js"></script>
+    <script src="./app.js?v=detail-1"></script>
   </body>
 </html>

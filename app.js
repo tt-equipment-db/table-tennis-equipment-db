@@ -24,6 +24,23 @@ const filterConfig = {
   ]
 };
 
+const fieldLabels = {
+  brand: "品牌",
+  position: "位置/打法",
+  rubberType: "胶面",
+  sponge: "海绵",
+  thickness: "厚度",
+  hardness: "硬度",
+  style: "打法",
+  origin: "产地",
+  structure: "结构",
+  material: "材料",
+  handle: "手柄",
+  speed: "速度",
+  feel: "手感",
+  weight: "重量"
+};
+
 const state = {
   type: "rubbers",
   data: { rubbers: [], blades: [] },
@@ -41,7 +58,9 @@ const nodes = {
   activeFilters: document.querySelector("#activeFilters"),
   clearFilters: document.querySelector("#clearFilters"),
   searchInput: document.querySelector("#searchInput"),
-  sortSelect: document.querySelector("#sortSelect")
+  sortSelect: document.querySelector("#sortSelect"),
+  listView: document.querySelector("#listView"),
+  detailView: document.querySelector("#detailView")
 };
 
 init();
@@ -51,6 +70,7 @@ async function init() {
   state.data = await response.json();
   bindEvents();
   render();
+  renderRoute();
 }
 
 function bindEvents() {
@@ -58,8 +78,10 @@ function bindEvents() {
     tab.addEventListener("click", () => {
       state.type = tab.dataset.type;
       state.selected = {};
+      history.replaceState(null, "", "#");
       nodes.tabs.forEach((item) => item.classList.toggle("is-active", item === tab));
       render();
+      renderRoute();
     });
   });
 
@@ -79,6 +101,8 @@ function bindEvents() {
     state.sort = event.target.value;
     renderProducts();
   });
+
+  window.addEventListener("hashchange", renderRoute);
 }
 
 function render() {
@@ -147,27 +171,122 @@ function renderProducts() {
   }
 
   nodes.productGrid.innerHTML = products.map((product) => {
-    const tags = flattenProductTags(product).slice(0, 8).map((tag) => `<span>${escapeHtml(tag)}</span>`).join("");
+    const tags = flattenProductTags(product).slice(0, 7).map((tag) => `<span>${escapeHtml(tag)}</span>`).join("");
     return `
-      <article class="product-card">
+      <a class="product-card" href="#/equipment/${product.id}" aria-label="查看 ${escapeHtml(product.brand)} ${escapeHtml(product.name)}">
         <div class="product-media">
           <img src="${product.image}" alt="${escapeHtml(product.brand)} ${escapeHtml(product.name)}" loading="lazy">
-          <div class="price-badge">¥${product.price}</div>
         </div>
         <div class="product-body">
-          <div class="brand-line">${escapeHtml(product.brand)} / ${escapeHtml(product.series)}</div>
+          <div class="brand-line">${escapeHtml(product.brand)} / ${escapeHtml(product.brandEn || "")} / ${escapeHtml(product.series)}</div>
           <h3>${escapeHtml(product.name)}</h3>
           <p>${escapeHtml(product.description)}</p>
           <div class="mini-tags">${tags}</div>
         </div>
-      </article>
+      </a>
     `;
   }).join("");
 }
 
+function renderRoute() {
+  const match = location.hash.match(/^#\/equipment\/(.+)$/);
+  if (!match) {
+    nodes.listView.classList.remove("is-hidden");
+    nodes.detailView.classList.add("is-hidden");
+    return;
+  }
+
+  const product = findProduct(match[1]);
+  if (!product) {
+    nodes.listView.classList.remove("is-hidden");
+    nodes.detailView.classList.add("is-hidden");
+    return;
+  }
+
+  const nextType = state.data.rubbers.some((item) => item.id === product.id) ? "rubbers" : "blades";
+  if (state.type !== nextType) {
+    state.type = nextType;
+    state.selected = {};
+    render();
+  }
+  nodes.tabs.forEach((tab) => tab.classList.toggle("is-active", tab.dataset.type === state.type));
+  nodes.listView.classList.add("is-hidden");
+  nodes.detailView.classList.remove("is-hidden");
+  nodes.detailView.innerHTML = renderDetail(product);
+
+  const textarea = nodes.detailView.querySelector("#commentText");
+  const counter = nodes.detailView.querySelector("#commentCounter");
+  if (textarea && counter) {
+    textarea.addEventListener("input", () => {
+      counter.textContent = `${textarea.value.length}/60`;
+    });
+  }
+}
+
+function renderDetail(product) {
+  const tagRows = Object.entries(product.tags).map(([key, values]) => `
+    <div class="detail-tag-row">
+      <div class="detail-tag-label">${escapeHtml(fieldLabels[key] || key)}</div>
+      <div class="detail-tag-list">${values.map((value) => `<span>${escapeHtml(value)}</span>`).join("")}</div>
+    </div>
+  `).join("");
+
+  const sources = (product.sources || []).map((source) => `<li>${escapeHtml(source)}</li>`).join("");
+
+  return `
+    <a class="back-link" href="#">返回列表</a>
+    <article class="detail-panel">
+      <div class="detail-media">
+        <img src="${product.image}" alt="${escapeHtml(product.brand)} ${escapeHtml(product.name)}">
+      </div>
+      <div class="detail-copy">
+        <div class="brand-line">${escapeHtml(product.brand)} / ${escapeHtml(product.brandEn || "")} / ${escapeHtml(product.series)}</div>
+        <h2>${escapeHtml(product.name)}</h2>
+        <p>${escapeHtml(product.description)}</p>
+        <div class="detail-price">参考价格：¥${escapeHtml(product.price)} ${escapeHtml(product.currency || "CNY")}</div>
+      </div>
+    </article>
+
+    <section class="detail-section">
+      <h3>标签信息</h3>
+      <div class="detail-tags">${tagRows}</div>
+    </section>
+
+    <section class="detail-section">
+      <h3>资料来源</h3>
+      <ul class="source-list">${sources}</ul>
+    </section>
+
+    <section class="detail-section comments-panel">
+      <h3>评论区</h3>
+      <p>静态 GitHub Pages 不能直接判断 GitHub 登录并保存评论。后续可以接入 Giscus 或 Utterances，让 GitHub 登录用户用 Issues/Discussions 评论；如果必须限制 60 字，需要再加一个小后端或 GitHub App。</p>
+      <label class="comment-box">
+        <span>60 字短评草稿</span>
+        <textarea id="commentText" maxlength="60" placeholder="这里先做交互占位，暂不会提交到 GitHub。"></textarea>
+      </label>
+      <div class="comment-actions">
+        <span id="commentCounter">0/60</span>
+        <button class="ghost-button" type="button" disabled>待接入 GitHub 登录</button>
+      </div>
+    </section>
+  `;
+}
+
+function findProduct(id) {
+  return [...state.data.rubbers, ...state.data.blades].find((item) => item.id === id);
+}
+
 function getFilteredProducts() {
   const filtered = state.data[state.type].filter((product) => {
-    const searchable = `${product.brand} ${product.name} ${product.series} ${product.description} ${flattenProductTags(product).join(" ")}`.toLowerCase();
+    const searchable = [
+      product.brand,
+      product.brandEn,
+      product.name,
+      product.series,
+      product.description,
+      flattenProductTags(product).join(" ")
+    ].join(" ").toLowerCase();
+
     if (state.search && !searchable.includes(state.search)) {
       return false;
     }
