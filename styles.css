@@ -558,6 +558,49 @@ h1 {
   font-weight: 800;
 }
 
+.comment-status {
+  min-height: 20px;
+  margin: 8px 0 0;
+  color: #6b7280;
+  font-size: 13px;
+}
+
+.comment-list {
+  display: grid;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+.comment-empty,
+.comment-item {
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #f9fafb;
+}
+
+.comment-empty {
+  padding: 12px;
+  color: #6b7280;
+  font-size: 13px;
+}
+
+.comment-item {
+  padding: 10px 12px;
+}
+
+.comment-item p {
+  margin: 0 0 6px;
+  color: #1f2937;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.comment-item div {
+  color: #6b7280;
+  font-size: 12px;
+  font-weight: 800;
+}
+
 @media (max-width: 900px) {
   .hero,
   .results-head {

@@ -41,6 +41,8 @@ const fieldLabels = {
   weight: "重量"
 };
 
+const commentsApiUrl = (window.COMMENTS_API_URL || "").replace(/\/$/, "");
+
 const state = {
   type: "rubbers",
   data: { rubbers: [], blades: [] },
@@ -209,18 +211,12 @@ function renderRoute() {
     state.selected = {};
     render();
   }
+
   nodes.tabs.forEach((tab) => tab.classList.toggle("is-active", tab.dataset.type === state.type));
   nodes.listView.classList.add("is-hidden");
   nodes.detailView.classList.remove("is-hidden");
   nodes.detailView.innerHTML = renderDetail(product);
-
-  const textarea = nodes.detailView.querySelector("#commentText");
-  const counter = nodes.detailView.querySelector("#commentCounter");
-  if (textarea && counter) {
-    textarea.addEventListener("input", () => {
-      counter.textContent = `${textarea.value.length}/60`;
-    });
-  }
+  initComments(product.id);
 }
 
 function renderDetail(product) {
@@ -259,17 +255,103 @@ function renderDetail(product) {
 
     <section class="detail-section comments-panel">
       <h3>评论区</h3>
-      <p>静态 GitHub Pages 不能直接判断 GitHub 登录并保存评论。后续可以接入 Giscus 或 Utterances，让 GitHub 登录用户用 Issues/Discussions 评论；如果必须限制 60 字，需要再加一个小后端或 GitHub App。</p>
+      <p>评论无需 GitHub 登录，最多 60 字。提交后只显示并保存 IP 前缀，例如 123.45.*.*；不会保存完整 IP。</p>
       <label class="comment-box">
-        <span>60 字短评草稿</span>
-        <textarea id="commentText" maxlength="60" placeholder="这里先做交互占位，暂不会提交到 GitHub。"></textarea>
+        <span>60 字短评</span>
+        <textarea id="commentText" maxlength="60" placeholder="写一句使用感受、搭配建议或纠错说明。"></textarea>
       </label>
       <div class="comment-actions">
         <span id="commentCounter">0/60</span>
-        <button class="ghost-button" type="button" disabled>待接入 GitHub 登录</button>
+        <button id="submitComment" class="ghost-button" type="button">发布评论</button>
       </div>
+      <p id="commentStatus" class="comment-status"></p>
+      <div id="commentList" class="comment-list"></div>
     </section>
   `;
+}
+
+function initComments(equipmentId) {
+  const textarea = nodes.detailView.querySelector("#commentText");
+  const counter = nodes.detailView.querySelector("#commentCounter");
+  const submit = nodes.detailView.querySelector("#submitComment");
+  const status = nodes.detailView.querySelector("#commentStatus");
+
+  textarea.addEventListener("input", () => {
+    counter.textContent = `${textarea.value.length}/60`;
+  });
+
+  if (!commentsApiUrl) {
+    submit.disabled = true;
+    status.textContent = "评论 API 尚未部署；前端已就绪，部署 cloudflare-worker 后填写 config.js 即可启用。";
+    renderComments([]);
+    return;
+  }
+
+  submit.addEventListener("click", async () => {
+    const text = textarea.value.trim();
+    if (!text) {
+      status.textContent = "先写一点内容再发布。";
+      return;
+    }
+    if (text.length > 60) {
+      status.textContent = "评论不能超过 60 字。";
+      return;
+    }
+
+    submit.disabled = true;
+    status.textContent = "正在发布...";
+    try {
+      const response = await fetch(`${commentsApiUrl}/comments`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ equipmentId, text })
+      });
+      const payload = await response.json();
+      if (!response.ok) {
+        throw new Error(payload.error || "发布失败");
+      }
+      textarea.value = "";
+      counter.textContent = "0/60";
+      status.textContent = "已发布。";
+      await loadComments(equipmentId);
+    } catch (error) {
+      status.textContent = error.message;
+    } finally {
+      submit.disabled = false;
+    }
+  });
+
+  loadComments(equipmentId);
+}
+
+async function loadComments(equipmentId) {
+  const status = nodes.detailView.querySelector("#commentStatus");
+  try {
+    const response = await fetch(`${commentsApiUrl}/comments?equipmentId=${encodeURIComponent(equipmentId)}`);
+    const payload = await response.json();
+    if (!response.ok) {
+      throw new Error(payload.error || "评论加载失败");
+    }
+    renderComments(payload.comments || []);
+  } catch (error) {
+    status.textContent = error.message;
+    renderComments([]);
+  }
+}
+
+function renderComments(comments) {
+  const list = nodes.detailView.querySelector("#commentList");
+  if (!comments.length) {
+    list.innerHTML = `<div class="comment-empty">暂无评论。</div>`;
+    return;
+  }
+
+  list.innerHTML = comments.map((comment) => `
+    <article class="comment-item">
+      <p>${escapeHtml(comment.text)}</p>
+      <div>${escapeHtml(comment.ipPrefix || "unknown")} · ${escapeHtml(formatDate(comment.createdAt))}</div>
+    </article>
+  `).join("");
 }
 
 function findProduct(id) {
@@ -359,4 +441,15 @@ function escapeHtml(value) {
     .replaceAll(">", "&gt;")
     .replaceAll('"', "&quot;")
     .replaceAll("'", "&#039;");
+}
+
+function formatDate(value) {
+  if (!value) {
+    return "";
+  }
+  const date = new Date(value);
+  if (Number.isNaN(date.getTime())) {
+    return value;
+  }
+  return date.toLocaleString("zh-CN", { hour12: false });
 }
