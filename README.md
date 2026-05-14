@@ -24,19 +24,29 @@ http://localhost:8000
 - 同一项目下多选为 OR，例如厚度选 `2.1` 和 `2.15`，满足任一厚度即可。
 - 不同项目之间为 AND，例如品牌为红双喜，同时海绵为高密海绵，同时价格为 80-100。
 
-## 评论功能
+## Discussions 评论
 
-GitHub Pages 不能直接接收评论或读取访问者 IP。项目已加入 `cloudflare-worker/`，可部署为匿名评论 API。
+评论区计划使用 Giscus，把每个器材详情页映射到 GitHub Discussions。
 
-部署后更新 `config.js`：
+识别方式：
 
-```js
-window.COMMENTS_API_URL = "https://your-worker.your-subdomain.workers.dev";
+```text
+equipment:<器材 id>
 ```
 
-评论策略：
+例如：
 
-- 任何人可评论
-- 每条最多 60 字
-- 只保存 IP 前缀，例如 `123.45.*.*`
-- 不保存完整 IP
+```text
+equipment:dhs-hurricane-3-neo
+equipment:yinhe-jupiter-3
+```
+
+这样即使器材名称或页面标题以后修改，只要 `id` 不变，对应的讨论串就不会变。
+
+启用步骤：
+
+1. 在 GitHub 仓库开启 Discussions。
+2. 安装并配置 Giscus。
+3. 在 `config.js` 填入 `repoId` 和 `categoryId`。
+
+在配置完成前，详情页会显示一个评论占位提示。

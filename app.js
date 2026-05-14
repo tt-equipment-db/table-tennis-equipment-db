@@ -41,7 +41,7 @@ const fieldLabels = {
   weight: "重量"
 };
 
-const commentsApiUrl = (window.COMMENTS_API_URL || "").replace(/\/$/, "");
+const giscusConfig = window.GISCUS_CONFIG || {};
 
 const state = {
   type: "rubbers",
@@ -216,7 +216,7 @@ function renderRoute() {
   nodes.listView.classList.add("is-hidden");
   nodes.detailView.classList.remove("is-hidden");
   nodes.detailView.innerHTML = renderDetail(product);
-  initComments(product.id);
+  initDiscussion(product);
 }
 
 function renderDetail(product) {
@@ -236,17 +236,20 @@ function renderDetail(product) {
         <img src="${product.image}" alt="${escapeHtml(product.brand)} ${escapeHtml(product.name)}">
       </div>
       <div class="detail-copy">
-        <div class="brand-line">${escapeHtml(product.brand)} / ${escapeHtml(product.brandEn || "")} / ${escapeHtml(product.series)}</div>
-        <h2>${escapeHtml(product.name)}</h2>
-        <p>${escapeHtml(product.description)}</p>
-        <div class="detail-price">参考价格：¥${escapeHtml(product.price)} ${escapeHtml(product.currency || "CNY")}</div>
+        <div class="detail-summary">
+          <div class="brand-line">${escapeHtml(product.brand)} / ${escapeHtml(product.brandEn || "")} / ${escapeHtml(product.series)}</div>
+          <h2>${escapeHtml(product.name)}</h2>
+          <p>${escapeHtml(product.description)}</p>
+          <div class="detail-meta-row">
+            <span>参考价格：¥${escapeHtml(product.price)} ${escapeHtml(product.currency || "CNY")}</span>
+          </div>
+        </div>
+        <div class="detail-tags-panel" aria-label="标签信息">
+          <h3>标签信息</h3>
+          <div class="detail-tags">${tagRows}</div>
+        </div>
       </div>
     </article>
-
-    <section class="detail-section">
-      <h3>标签信息</h3>
-      <div class="detail-tags">${tagRows}</div>
-    </section>
 
     <section class="detail-section">
       <h3>资料来源</h3>
@@ -255,103 +258,51 @@ function renderDetail(product) {
 
     <section class="detail-section comments-panel">
       <h3>评论区</h3>
-      <p>评论无需 GitHub 登录，最多 60 字。提交后只显示并保存 IP 前缀，例如 123.45.*.*；不会保存完整 IP。</p>
-      <label class="comment-box">
-        <span>60 字短评</span>
-        <textarea id="commentText" maxlength="60" placeholder="写一句使用感受、搭配建议或纠错说明。"></textarea>
-      </label>
-      <div class="comment-actions">
-        <span id="commentCounter">0/60</span>
-        <button id="submitComment" class="ghost-button" type="button">发布评论</button>
-      </div>
-      <p id="commentStatus" class="comment-status"></p>
-      <div id="commentList" class="comment-list"></div>
+      <p>评论将接入 GitHub Discussions。每个器材用固定 ID 识别，同一器材始终进入同一个讨论串。</p>
+      <div id="discussionMount" class="discussion-mount" data-equipment-id="${escapeHtml(product.id)}"></div>
     </section>
   `;
 }
 
-function initComments(equipmentId) {
-  const textarea = nodes.detailView.querySelector("#commentText");
-  const counter = nodes.detailView.querySelector("#commentCounter");
-  const submit = nodes.detailView.querySelector("#submitComment");
-  const status = nodes.detailView.querySelector("#commentStatus");
-
-  textarea.addEventListener("input", () => {
-    counter.textContent = `${textarea.value.length}/60`;
-  });
-
-  if (!commentsApiUrl) {
-    submit.disabled = true;
-    status.textContent = "评论 API 尚未部署；前端已就绪，部署 cloudflare-worker 后填写 config.js 即可启用。";
-    renderComments([]);
+function initDiscussion(product) {
+  const mount = nodes.detailView.querySelector("#discussionMount");
+  if (!mount) {
     return;
   }
 
-  submit.addEventListener("click", async () => {
-    const text = textarea.value.trim();
-    if (!text) {
-      status.textContent = "先写一点内容再发布。";
-      return;
-    }
-    if (text.length > 60) {
-      status.textContent = "评论不能超过 60 字。";
-      return;
-    }
-
-    submit.disabled = true;
-    status.textContent = "正在发布...";
-    try {
-      const response = await fetch(`${commentsApiUrl}/comments`, {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ equipmentId, text })
-      });
-      const payload = await response.json();
-      if (!response.ok) {
-        throw new Error(payload.error || "发布失败");
-      }
-      textarea.value = "";
-      counter.textContent = "0/60";
-      status.textContent = "已发布。";
-      await loadComments(equipmentId);
-    } catch (error) {
-      status.textContent = error.message;
-    } finally {
-      submit.disabled = false;
-    }
-  });
-
-  loadComments(equipmentId);
-}
-
-async function loadComments(equipmentId) {
-  const status = nodes.detailView.querySelector("#commentStatus");
-  try {
-    const response = await fetch(`${commentsApiUrl}/comments?equipmentId=${encodeURIComponent(equipmentId)}`);
-    const payload = await response.json();
-    if (!response.ok) {
-      throw new Error(payload.error || "评论加载失败");
-    }
-    renderComments(payload.comments || []);
-  } catch (error) {
-    status.textContent = error.message;
-    renderComments([]);
-  }
-}
-
-function renderComments(comments) {
-  const list = nodes.detailView.querySelector("#commentList");
-  if (!comments.length) {
-    list.innerHTML = `<div class="comment-empty">暂无评论。</div>`;
+  const missingConfig = !giscusConfig.repoId || !giscusConfig.categoryId;
+  if (missingConfig) {
+    mount.innerHTML = `
+      <div class="discussion-placeholder">
+        <div>
+          <strong>GitHub Discussions 尚未连接</strong>
+          <p>开启 Discussions 并填入 Giscus 配置后，这里会直接显示该器材的讨论区。</p>
+        </div>
+        <code>equipment:${escapeHtml(product.id)}</code>
+      </div>
+    `;
     return;
   }
 
-  list.innerHTML = comments.map((comment) => `
-    <article class="comment-item">
-      <p>${escapeHtml(comment.text)}</p>
-      <div>${escapeHtml(comment.ipPrefix || "unknown")} · ${escapeHtml(formatDate(comment.createdAt))}</div>
-    </article>
-  `).join("");
+  const script = document.createElement("script");
+  script.src = "https://giscus.app/client.js";
+  script.async = true;
+  script.crossOrigin = "anonymous";
+  script.setAttribute("data-repo", giscusConfig.repo);
+  script.setAttribute("data-repo-id", giscusConfig.repoId);
+  script.setAttribute("data-category", giscusConfig.category);
+  script.setAttribute("data-category-id", giscusConfig.categoryId);
+  script.setAttribute("data-mapping", "specific");
+  script.setAttribute("data-term", `equipment:${product.id}`);
+  script.setAttribute("data-strict", "1");
+  script.setAttribute("data-reactions-enabled", "1");
+  script.setAttribute("data-emit-metadata", "0");
+  script.setAttribute("data-input-position", "top");
+  script.setAttribute("data-theme", giscusConfig.theme || "light");
+  script.setAttribute("data-lang", giscusConfig.lang || "zh-CN");
+  script.setAttribute("data-loading", "lazy");
+  mount.innerHTML = "";
+  mount.appendChild(script);
 }
 
 function findProduct(id) {
@@ -441,15 +392,4 @@ function escapeHtml(value) {
     .replaceAll(">", "&gt;")
     .replaceAll('"', "&quot;")
     .replaceAll("'", "&#039;");
-}
-
-function formatDate(value) {
-  if (!value) {
-    return "";
-  }
-  const date = new Date(value);
-  if (Number.isNaN(date.getTime())) {
-    return value;
-  }
-  return date.toLocaleString("zh-CN", { hour12: false });
 }
