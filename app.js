@@ -297,7 +297,7 @@ function initDiscussion(product) {
   script.setAttribute("data-term", term);
   script.setAttribute("data-strict", "0");
   script.setAttribute("data-reactions-enabled", "1");
-  script.setAttribute("data-emit-metadata", "0");
+  script.setAttribute("data-emit-metadata", "1");
   script.setAttribute("data-input-position", "top");
   script.setAttribute("data-theme", giscusConfig.theme || "light");
   script.setAttribute("data-lang", giscusConfig.lang || "zh-CN");
@@ -306,7 +306,7 @@ function initDiscussion(product) {
     mount.innerHTML = renderDiscussionFallback(product, "Giscus 脚本加载失败，请检查网络或浏览器拦截。");
   });
   mount.innerHTML = `
-    <div class="discussion-placeholder is-loading">
+    <div class="discussion-placeholder is-loading" id="discussionLoading">
       <div>
         <strong>正在加载 GitHub Discussions</strong>
         <p>如果这里长时间空白，可能是 localhost 被 Giscus 拦截，发布到 GitHub Pages 后通常会正常显示。</p>
@@ -314,12 +314,45 @@ function initDiscussion(product) {
       <code>${escapeHtml(term)}</code>
     </div>
   `;
+  const hideLoading = () => {
+    const loading = mount.querySelector("#discussionLoading");
+    if (loading) {
+      loading.remove();
+    }
+  };
+  const observer = new MutationObserver(() => {
+    if (mount.querySelector("iframe.giscus-frame")) {
+      hideLoading();
+      observer.disconnect();
+    }
+  });
+  observer.observe(mount, { childList: true, subtree: true });
+
+  const handleGiscusMessage = (event) => {
+    if (event.origin !== "https://giscus.app") {
+      return;
+    }
+    if (event.data?.giscus) {
+      hideLoading();
+      window.removeEventListener("message", handleGiscusMessage);
+    }
+  };
+  window.addEventListener("message", handleGiscusMessage);
+
   mount.appendChild(script);
   window.setTimeout(() => {
-    if (!mount.querySelector("iframe.giscus-frame")) {
-      mount.innerHTML = renderDiscussionFallback(product, "未检测到 Giscus 评论框。请优先在 GitHub Pages 正式地址测试。");
+    const frame = mount.querySelector("iframe.giscus-frame");
+    const loading = mount.querySelector("#discussionLoading");
+    if (frame && loading) {
+      loading.remove();
+      return;
     }
-  }, 5000);
+    if (!frame) {
+      mount.innerHTML = renderDiscussionFallback(product, "未检测到 Giscus 评论框。请优先在 GitHub Pages 正式地址测试。");
+      observer.disconnect();
+      window.removeEventListener("message", handleGiscusMessage);
+    }
+  }, 8000);
 }
 
 function renderDiscussionFallback(product, message) {
