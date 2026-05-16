@@ -285,6 +285,7 @@ function initDiscussion(product) {
   }
 
   const script = document.createElement("script");
+  const term = `equipment:${product.id}`;
   script.src = "https://giscus.app/client.js";
   script.async = true;
   script.crossOrigin = "anonymous";
@@ -293,16 +294,46 @@ function initDiscussion(product) {
   script.setAttribute("data-category", giscusConfig.category);
   script.setAttribute("data-category-id", giscusConfig.categoryId);
   script.setAttribute("data-mapping", "specific");
-  script.setAttribute("data-term", `equipment:${product.id}`);
-  script.setAttribute("data-strict", "1");
+  script.setAttribute("data-term", term);
+  script.setAttribute("data-strict", "0");
   script.setAttribute("data-reactions-enabled", "1");
   script.setAttribute("data-emit-metadata", "0");
   script.setAttribute("data-input-position", "top");
   script.setAttribute("data-theme", giscusConfig.theme || "light");
   script.setAttribute("data-lang", giscusConfig.lang || "zh-CN");
   script.setAttribute("data-loading", "lazy");
-  mount.innerHTML = "";
+  script.addEventListener("error", () => {
+    mount.innerHTML = renderDiscussionFallback(product, "Giscus 脚本加载失败，请检查网络或浏览器拦截。");
+  });
+  mount.innerHTML = `
+    <div class="discussion-placeholder is-loading">
+      <div>
+        <strong>正在加载 GitHub Discussions</strong>
+        <p>如果这里长时间空白，可能是 localhost 被 Giscus 拦截，发布到 GitHub Pages 后通常会正常显示。</p>
+      </div>
+      <code>${escapeHtml(term)}</code>
+    </div>
+  `;
   mount.appendChild(script);
+  window.setTimeout(() => {
+    if (!mount.querySelector("iframe.giscus-frame")) {
+      mount.innerHTML = renderDiscussionFallback(product, "未检测到 Giscus 评论框。请优先在 GitHub Pages 正式地址测试。");
+    }
+  }, 5000);
+}
+
+function renderDiscussionFallback(product, message) {
+  const term = `equipment:${product.id}`;
+  return `
+    <div class="discussion-placeholder">
+      <div>
+        <strong>GitHub Discussions 暂未显示</strong>
+        <p>${escapeHtml(message)}</p>
+        <p>当前器材讨论标识：<code>${escapeHtml(term)}</code></p>
+      </div>
+      <a href="https://github.com/tt-equipment-db/table-tennis-equipment-db/discussions" target="_blank" rel="noreferrer">打开 Discussions</a>
+    </div>
+  `;
 }
 
 function findProduct(id) {

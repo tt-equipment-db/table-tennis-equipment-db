@@ -641,6 +641,21 @@ h1 {
   font-weight: 900;
 }
 
+.discussion-placeholder a {
+  flex: 0 0 auto;
+  border-radius: 8px;
+  padding: 8px 12px;
+  color: #fff;
+  background: var(--blue);
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 900;
+}
+
+.discussion-placeholder.is-loading {
+  border-style: dashed;
+}
+
 @media (max-width: 900px) {
   .hero,
   .results-head {
