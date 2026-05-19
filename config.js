@@ -1,8 +1,7 @@
-window.GISCUS_CONFIG = {
-  repo: "tt-equipment-db/table-tennis-equipment-db",
-  repoId: "R_kgDOSbBQXw",
-  category: "General",
-  categoryId: "DIC_kwDOSbBQX84C9Mh6",
-  theme: "light",
-  lang: "zh-CN"
+window.SUPABASE_CONFIG = {
+  url: "https://vevzjawyzekgooxslnst.supabase.co",
+  anonKey: "sb_publishable_RWznwa-1ba5TStPAyJ9PPw_GMnwx08T",
+  ratingsTable: "equipment_ratings",
+  commentsTable: "equipment_comments",
+  commentVotesTable: "equipment_comment_votes"
 };

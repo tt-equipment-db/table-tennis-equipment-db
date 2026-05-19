@@ -1,38 +1,3 @@
-# Table Tennis Equipment Database
-
-乒乓器材数据库，一个纯静态的乒乓球器材筛选原型，适合部署到 GitHub Pages。
-
-## 本地运行
-
-```powershell
-cd D:\Coding\table-tennis-equipment-db
-python -m http.server 8000
-```
-
-然后打开：
-
-```text
-http://localhost:8000
-```
-
-## 数据维护
-
-器材数据在 `data/equipment.json`。产品图片不存本地，只在 JSON 里填写图片 URL。
-
-当前筛选逻辑：
-
-- 同一项目下多选为 OR，例如厚度选 `2.1` 和 `2.15`，满足任一厚度即可。
-- 不同项目之间为 AND，例如品牌为红双喜，同时海绵为高密海绵，同时价格为 80-100。
-
-## 社区主观评分
-
-详情页已经预留“社区主观体感”模块。未配置 Supabase 时，体感选择只保存在当前浏览器，用来本地预览交互；填好 Supabase 配置后，数据会写入在线数据库并在所有用户之间汇总。胶皮和底板共用同一张表，但页面会按器材类型读取不同体感项。用户可以只选择自己有把握的项目，未选择的项目会保存为 `null`，统计时不计入该维度平均值。
-
-### Supabase 建表
-
-在 Supabase 的 SQL Editor 执行：
-
-```sql
 create table if not exists public.equipment_ratings (
   id uuid primary key default gen_random_uuid(),
   equipment_id text not null,
@@ -119,18 +84,3 @@ create policy "recent comments can be deleted"
 on public.equipment_comments
 for delete
 using (created_at > now() - interval '5 minutes');
-```
-
-然后在 `config.js` 填入 Supabase 项目的 URL 和 anon public key：
-
-```js
-window.SUPABASE_CONFIG = {
-  url: "https://你的项目.supabase.co",
-  anonKey: "你的 anon public key",
-  table: "equipment_ratings"
-};
-```
-
-当前防重复方式是“同一浏览器 + 同一器材只能保留一条评分”，再次提交会更新这条记录。
-
-短评使用 `equipment_comments` 表，限制 60 字以内，只保存 IP 前缀，不保存完整 IP。没有登录系统时，编辑/删除是轻量本机体验：当前浏览器发布的短评会在 5 分钟内显示编辑/删除按钮。
