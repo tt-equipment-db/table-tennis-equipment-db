@@ -18,6 +18,22 @@ alter column ip_hash set not null;
 alter table public.equipment_comments
 alter column edit_token set not null;
 
+with ranked_comments as (
+  select
+    id,
+    row_number() over (
+      partition by equipment_id, ip_hash
+      order by updated_at desc, created_at desc, id desc
+    ) as rn
+  from public.equipment_comments
+)
+delete from public.equipment_comments
+where id in (
+  select id
+  from ranked_comments
+  where rn > 1
+);
+
 create unique index if not exists equipment_comments_equipment_ip_hash_unique
 on public.equipment_comments (equipment_id, ip_hash);
 

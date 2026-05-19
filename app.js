@@ -685,6 +685,13 @@ function getSupabaseHeaders() {
   };
 }
 
+function getCommentEditHeaders(editToken = getCommentEditToken()) {
+  return {
+    ...getSupabaseHeaders(),
+    "X-Edit-Token": editToken
+  };
+}
+
 function getClientId() {
   let clientId = localStorage.getItem(clientStorageKey);
   if (!clientId) {
@@ -875,7 +882,7 @@ async function fetchComments(productId) {
 
   const query = [
     `equipment_id=eq.${encodeURIComponent(productId)}`,
-    "select=id,client_id,ip_prefix,content,created_at,updated_at,last_edited_at,edit_token",
+    "select=id,client_id,ip_prefix,content,created_at,updated_at,last_edited_at",
     "order=updated_at.desc",
     "limit=200"
   ].join("&");
@@ -895,7 +902,7 @@ async function fetchCommentById(id) {
     return null;
   }
 
-  const response = await fetch(`${getSupabaseBaseUrl()}/${encodeURIComponent(getCommentsTable())}?id=eq.${encodeURIComponent(id)}&select=id,client_id,ip_prefix,content,created_at,updated_at,last_edited_at,edit_token&limit=1`, {
+  const response = await fetch(`${getSupabaseBaseUrl()}/${encodeURIComponent(getCommentsTable())}?id=eq.${encodeURIComponent(id)}&select=id,client_id,ip_prefix,content,created_at,updated_at,last_edited_at&limit=1`, {
     headers: getSupabaseHeaders()
   });
 
@@ -912,7 +919,7 @@ async function fetchCommentByIpHash(productId, ipHash) {
     return null;
   }
 
-  const response = await fetch(`${getSupabaseBaseUrl()}/${encodeURIComponent(getCommentsTable())}?equipment_id=eq.${encodeURIComponent(productId)}&ip_hash=eq.${encodeURIComponent(ipHash)}&select=id,client_id,ip_prefix,content,created_at,updated_at,last_edited_at,edit_token&limit=1`, {
+  const response = await fetch(`${getSupabaseBaseUrl()}/${encodeURIComponent(getCommentsTable())}?equipment_id=eq.${encodeURIComponent(productId)}&ip_hash=eq.${encodeURIComponent(ipHash)}&select=id,client_id,ip_prefix,content,created_at,updated_at,last_edited_at&limit=1`, {
     headers: getSupabaseHeaders()
   });
 
@@ -958,10 +965,10 @@ async function saveComment(productId, ipMeta, content) {
 
 async function updateComment(id, content, editToken) {
   const now = new Date().toISOString();
-  const response = await fetch(`${getSupabaseBaseUrl()}/${encodeURIComponent(getCommentsTable())}?id=eq.${encodeURIComponent(id)}&edit_token=eq.${encodeURIComponent(editToken)}`, {
+  const response = await fetch(`${getSupabaseBaseUrl()}/${encodeURIComponent(getCommentsTable())}?id=eq.${encodeURIComponent(id)}`, {
     method: "PATCH",
     headers: {
-      ...getSupabaseHeaders(),
+      ...getCommentEditHeaders(editToken),
       "Content-Type": "application/json",
       Prefer: "return=minimal"
     },
@@ -978,9 +985,9 @@ async function updateComment(id, content, editToken) {
 }
 
 async function deleteComment(id, editToken) {
-  const response = await fetch(`${getSupabaseBaseUrl()}/${encodeURIComponent(getCommentsTable())}?id=eq.${encodeURIComponent(id)}&edit_token=eq.${encodeURIComponent(editToken)}`, {
+  const response = await fetch(`${getSupabaseBaseUrl()}/${encodeURIComponent(getCommentsTable())}?id=eq.${encodeURIComponent(id)}`, {
     method: "DELETE",
-    headers: getSupabaseHeaders()
+    headers: getCommentEditHeaders(editToken)
   });
 
   if (!response.ok) {
@@ -1083,7 +1090,7 @@ function renderCommentItem(comment) {
 }
 
 function canEditComment(comment) {
-  return comment.edit_token && comment.edit_token === getCommentEditToken();
+  return comment.client_id && comment.client_id === getClientId();
 }
 
 function canEditByCooldown(comment) {
