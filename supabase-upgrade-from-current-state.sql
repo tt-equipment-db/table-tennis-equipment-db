@@ -105,7 +105,7 @@ create table if not exists public.equipment_comment_votes (
 
 alter table public.equipment_comment_votes enable row level security;
 
-grant select, insert, update on public.equipment_comment_votes to anon;
+grant select, insert, update, delete on public.equipment_comment_votes to anon;
 
 drop policy if exists "comment votes are readable" on public.equipment_comment_votes;
 create policy "comment votes are readable"
@@ -125,6 +125,12 @@ on public.equipment_comment_votes
 for update
 using (true)
 with check (vote in (-1, 1));
+
+drop policy if exists "anonymous visitors can delete own comment votes" on public.equipment_comment_votes;
+create policy "anonymous visitors can delete own comment votes"
+on public.equipment_comment_votes
+for delete
+using (true);
 
 -- 6) Convert old 1..10 rating values to the new -5..+5 tendency axis.
 -- The database may be in a half-upgraded state if an earlier run failed, so drop

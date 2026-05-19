@@ -592,10 +592,23 @@ h1 {
   font-size: 14px;
 }
 
-.rating-stat-head span {
+.rating-stat-score {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 6px;
   color: #1d4ed8;
-  font-size: 13px;
+}
+
+.rating-stat-score b {
+  color: #1d4ed8;
+  font-size: 15px;
   font-weight: 900;
+}
+
+.rating-stat-score small {
+  color: #94a3b8;
+  font-size: 10px;
+  font-weight: 800;
 }
 
 .rating-bar {

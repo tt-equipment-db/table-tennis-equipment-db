@@ -8,7 +8,7 @@ const filterConfig = {
     { key: "hardness", label: "硬度", color: "slate" },
     { key: "style", label: "打法", color: "blue" },
     { key: "origin", label: "产地", color: "green" },
-    { key: "price", label: "价格", color: "rose", values: ["80以下", "80-100", "100-200", "200-300", "300以上"] }
+    { key: "price", label: "价格带", color: "rose", values: ["80内", "百元左右", "150左右", "200-300", "300以上"] }
   ],
   blades: [
     { key: "brand", label: "品牌", color: "blue" },
@@ -18,10 +18,36 @@ const filterConfig = {
     { key: "handle", label: "手柄", color: "teal" },
     { key: "speed", label: "速度", color: "slate" },
     { key: "feel", label: "手感", color: "blue" },
-    { key: "weight", label: "重量", color: "green" },
+    { key: "weight", label: "重量感", color: "green", values: ["偏轻", "常规", "偏重"] },
     { key: "origin", label: "产地", color: "rose" },
-    { key: "price", label: "价格", color: "amber", values: ["300以下", "300-600", "600-900", "900以上"] }
+    { key: "price", label: "价格带", color: "amber", values: ["200内", "300左右", "500左右", "800左右", "千元以上"] }
   ]
+};
+
+const fuzzyRangeConfig = {
+  rubbers: {
+    price: {
+      "80内": { max: 90 },
+      "百元左右": { min: 70, max: 130 },
+      "150左右": { min: 120, max: 190 },
+      "200-300": { min: 180, max: 320 },
+      "300以上": { min: 280 }
+    }
+  },
+  blades: {
+    price: {
+      "200内": { max: 230 },
+      "300左右": { min: 220, max: 420 },
+      "500左右": { min: 380, max: 650 },
+      "800左右": { min: 650, max: 950 },
+      "千元以上": { min: 900 }
+    },
+    weight: {
+      "偏轻": { max: 84 },
+      "常规": { min: 82, max: 90 },
+      "偏重": { min: 88 }
+    }
+  }
 };
 
 const fieldLabels = {
@@ -367,7 +393,10 @@ function renderRatingStatRow(item) {
     <div class="rating-stat-row" data-rating-key="${item.key}">
       <div class="rating-stat-head">
         <strong>${item.label}</strong>
-        <span data-rating-value>--</span>
+        <span class="rating-stat-score">
+          <b data-rating-value>--</b>
+          <small data-rating-count>暂无</small>
+        </span>
       </div>
       <div class="rating-bar" aria-label="${item.label}">
         <span class="rating-bar-fill"></span>
@@ -556,6 +585,7 @@ function renderRatingStats(rows, ratingDimensions) {
     }
 
     const value = row.querySelector("[data-rating-value]");
+    const count = row.querySelector("[data-rating-count]");
     const fill = row.querySelector(".rating-bar-fill");
     const marker = row.querySelector(".rating-bar-marker");
 
@@ -563,6 +593,9 @@ function renderRatingStats(rows, ratingDimensions) {
 
     if (scoredRows.length === 0) {
       value.textContent = "--";
+      if (count) {
+        count.textContent = "暂无";
+      }
       fill.style.width = "0%";
       marker.style.left = "50%";
       marker.classList.add("is-muted");
@@ -572,7 +605,10 @@ function renderRatingStats(rows, ratingDimensions) {
     const average = scoredRows.reduce((sum, record) => sum + Number(record[item.key]), 0) / scoredRows.length;
     const cappedAverage = Math.max(-5, Math.min(5, average));
     const percent = Math.max(0, Math.min(100, (cappedAverage + 5) * 10));
-    value.textContent = `${formatRatingValue(cappedAverage)} · ${scoredRows.length}人`;
+    value.textContent = formatRatingValue(cappedAverage);
+    if (count) {
+      count.textContent = `${scoredRows.length}人`;
+    }
     fill.style.width = `${percent}%`;
     marker.style.left = `${percent}%`;
     marker.classList.remove("is-muted");
@@ -782,7 +818,13 @@ function initCommentsPanel(product) {
 
     if (action === "vote-up" || action === "vote-down") {
       try {
-        await saveCommentVote(id, action === "vote-up" ? 1 : -1);
+        const currentVote = Number(event.target.dataset.userVote || "0");
+        const nextVote = action === "vote-up" ? 1 : -1;
+        if (currentVote === nextVote) {
+          await deleteCommentVote(id);
+        } else {
+          await saveCommentVote(id, nextVote);
+        }
         await refreshComments(product.id);
       } catch (error) {
         console.error(error);
@@ -1017,6 +1059,17 @@ async function saveCommentVote(commentId, vote) {
   }
 }
 
+async function deleteCommentVote(commentId) {
+  const response = await fetch(`${getSupabaseBaseUrl()}/${encodeURIComponent(getCommentVotesTable())}?comment_id=eq.${encodeURIComponent(commentId)}&client_id=eq.${encodeURIComponent(getClientId())}`, {
+    method: "DELETE",
+    headers: getSupabaseHeaders()
+  });
+
+  if (!response.ok) {
+    throw new Error(`Supabase comment vote delete failed: ${response.status}`);
+  }
+}
+
 function renderComments(comments) {
   const list = nodes.detailView.querySelector("#commentList");
   const hotList = nodes.detailView.querySelector("#hotCommentList");
@@ -1082,8 +1135,8 @@ function renderCommentItem(comment) {
       </div>
       <p>${escapeHtml(comment.content)}</p>
       <div class="comment-votes">
-        <button type="button" data-comment-action="vote-up" data-comment-id="${escapeHtml(comment.id)}" class="${comment.userVote === 1 ? "is-voted" : ""}">👍 ${comment.upCount}${comment.userVote === 1 ? " 已顶" : ""}</button>
-        <button type="button" data-comment-action="vote-down" data-comment-id="${escapeHtml(comment.id)}" class="${comment.userVote === -1 ? "is-voted" : ""}">👎 ${comment.downCount}${comment.userVote === -1 ? " 已踩" : ""}</button>
+        <button type="button" data-comment-action="vote-up" data-comment-id="${escapeHtml(comment.id)}" data-user-vote="${comment.userVote}" class="${comment.userVote === 1 ? "is-voted" : ""}">👍 ${comment.upCount}${comment.userVote === 1 ? " 已顶" : ""}</button>
+        <button type="button" data-comment-action="vote-down" data-comment-id="${escapeHtml(comment.id)}" data-user-vote="${comment.userVote}" class="${comment.userVote === -1 ? "is-voted" : ""}">👎 ${comment.downCount}${comment.userVote === -1 ? " 已踩" : ""}</button>
       </div>
     </article>
   `;
@@ -1250,6 +1303,10 @@ function getFilteredProducts() {
         return [...selectedValues].some((range) => priceMatches(product.price, range));
       }
 
+      if (key === "weight" && state.type === "blades") {
+        return [...selectedValues].some((range) => weightMatches(product.tags.weight || [], range));
+      }
+
       const productValues = product.tags[key] || [];
       return [...selectedValues].some((value) => productValues.includes(value));
     });
@@ -1273,18 +1330,50 @@ function sortProducts(products) {
 }
 
 function priceMatches(price, range) {
-  const rules = {
-    "80以下": price < 80,
-    "80-100": price >= 80 && price <= 100,
-    "100-200": price >= 100 && price <= 200,
-    "200-300": price >= 200 && price <= 300,
-    "300以上": price >= 300,
-    "300以下": price < 300,
-    "300-600": price >= 300 && price <= 600,
-    "600-900": price >= 600 && price <= 900,
-    "900以上": price >= 900
-  };
-  return Boolean(rules[range]);
+  return valueInRange(price, fuzzyRangeConfig[state.type]?.price?.[range]);
+}
+
+function weightMatches(weightTags, range) {
+  const selectedRange = fuzzyRangeConfig.blades.weight[range];
+  return weightTags.some((tag) => rangesOverlap(parseWeightTag(tag), selectedRange));
+}
+
+function valueInRange(value, range) {
+  if (!range || !Number.isFinite(Number(value))) {
+    return false;
+  }
+  const number = Number(value);
+  const min = range.min ?? -Infinity;
+  const max = range.max ?? Infinity;
+  return number >= min && number <= max;
+}
+
+function rangesOverlap(left, right) {
+  if (!left || !right) {
+    return false;
+  }
+  const leftMin = left.min ?? -Infinity;
+  const leftMax = left.max ?? Infinity;
+  const rightMin = right.min ?? -Infinity;
+  const rightMax = right.max ?? Infinity;
+  return leftMin <= rightMax && rightMin <= leftMax;
+}
+
+function parseWeightTag(tag) {
+  const numbers = String(tag).match(/\d+/g)?.map(Number) || [];
+  if (String(tag).includes("以下") && numbers.length) {
+    return { max: numbers[0] };
+  }
+  if (String(tag).includes("以上") && numbers.length) {
+    return { min: numbers[0] };
+  }
+  if (numbers.length >= 2) {
+    return { min: numbers[0], max: numbers[1] };
+  }
+  if (numbers.length === 1) {
+    return { min: numbers[0] - 2, max: numbers[0] + 2 };
+  }
+  return null;
 }
 
 function renderActiveFilters() {

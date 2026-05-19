@@ -69,3 +69,11 @@ for delete
 using (
   edit_token = coalesce(nullif(current_setting('request.headers', true), '')::jsonb ->> 'x-edit-token', '')
 );
+
+grant delete on public.equipment_comment_votes to anon;
+
+drop policy if exists "anonymous visitors can delete own comment votes" on public.equipment_comment_votes;
+create policy "anonymous visitors can delete own comment votes"
+on public.equipment_comment_votes
+for delete
+using (true);
