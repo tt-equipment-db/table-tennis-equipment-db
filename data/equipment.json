@@ -11,16 +11,43 @@
       "image": "https://shop.butterflyonline.com/Item%20Images/TN05.media.01.jpg",
       "description": "经典高旋转涩性反胶，弧线高，适合正手弧圈和主动相持。",
       "tags": {
-        "brand": ["蝴蝶", "Butterfly"],
-        "position": ["正手", "反手"],
-        "rubberType": ["反胶", "涩性胶面"],
-        "sponge": ["蛋糕海绵", "高弹海绵"],
-        "thickness": ["1.9", "2.1", "Max"],
-        "hardness": ["中硬", "36度"],
-        "style": ["弧圈", "相持", "反拉"],
-        "origin": ["日本"]
+        "brand": [
+          "蝴蝶",
+          "Butterfly"
+        ],
+        "position": [
+          "正手",
+          "反手"
+        ],
+        "rubberType": [
+          "反胶",
+          "涩性胶面"
+        ],
+        "sponge": [
+          "蛋糕海绵",
+          "高弹海绵"
+        ],
+        "thickness": [
+          "1.9",
+          "2.1",
+          "Max"
+        ],
+        "hardness": [
+          "中硬",
+          "36度"
+        ],
+        "style": [
+          "弧圈",
+          "相持",
+          "反拉"
+        ],
+        "origin": [
+          "日本"
+        ]
       },
-      "sources": ["Butterfly Tenergy 05 product page"]
+      "sources": [
+        "Butterfly Tenergy 05 product page"
+      ]
     },
     {
       "id": "butterfly-tenergy-64",
@@ -33,16 +60,41 @@
       "image": "https://placehold.co/720x480/dc2626/ffffff?text=Butterfly%20Tenergy%2064",
       "description": "速度取向的 Tenergy 系列套胶，出球快，适合反手连续和快节奏进攻。",
       "tags": {
-        "brand": ["蝴蝶", "Butterfly"],
-        "position": ["反手", "正手"],
-        "rubberType": ["反胶", "涩性胶面"],
-        "sponge": ["蛋糕海绵", "高弹海绵"],
-        "thickness": ["1.9", "2.1", "Max"],
-        "hardness": ["中硬"],
-        "style": ["快攻弧圈", "连续进攻"],
-        "origin": ["日本"]
+        "brand": [
+          "蝴蝶",
+          "Butterfly"
+        ],
+        "position": [
+          "反手",
+          "正手"
+        ],
+        "rubberType": [
+          "反胶",
+          "涩性胶面"
+        ],
+        "sponge": [
+          "蛋糕海绵",
+          "高弹海绵"
+        ],
+        "thickness": [
+          "1.9",
+          "2.1",
+          "Max"
+        ],
+        "hardness": [
+          "中硬"
+        ],
+        "style": [
+          "快攻弧圈",
+          "连续进攻"
+        ],
+        "origin": [
+          "日本"
+        ]
       },
-      "sources": ["Butterfly Tenergy product line"]
+      "sources": [
+        "Butterfly Tenergy product line"
+      ]
     },
     {
       "id": "butterfly-dignics-05",
@@ -55,16 +107,42 @@
       "image": "https://shop.butterflyonline.com/Item%20Images/DIG05.media.01.jpg",
       "description": "高端涩性反胶，持球和上限强，适合高质量弧圈、反拉和中远台相持。",
       "tags": {
-        "brand": ["蝴蝶", "Butterfly"],
-        "position": ["正手", "反手"],
-        "rubberType": ["反胶", "涩性胶面"],
-        "sponge": ["高密海绵", "高弹海绵"],
-        "thickness": ["1.9", "2.1"],
-        "hardness": ["硬", "40度"],
-        "style": ["弧圈", "反拉", "相持"],
-        "origin": ["日本"]
+        "brand": [
+          "蝴蝶",
+          "Butterfly"
+        ],
+        "position": [
+          "正手",
+          "反手"
+        ],
+        "rubberType": [
+          "反胶",
+          "涩性胶面"
+        ],
+        "sponge": [
+          "高密海绵",
+          "高弹海绵"
+        ],
+        "thickness": [
+          "1.9",
+          "2.1"
+        ],
+        "hardness": [
+          "硬",
+          "40度"
+        ],
+        "style": [
+          "弧圈",
+          "反拉",
+          "相持"
+        ],
+        "origin": [
+          "日本"
+        ]
       },
-      "sources": ["Butterfly Dignics 05 product page"]
+      "sources": [
+        "Butterfly Dignics 05 product page"
+      ]
     },
     {
       "id": "butterfly-dignics-09c",
@@ -77,16 +155,41 @@
       "image": "https://placehold.co/720x480/991b1b/ffffff?text=Butterfly%20Dignics%2009C",
       "description": "粘性胶面搭配高弹海绵，摩擦强，适合正手拉冲和高质量控制。",
       "tags": {
-        "brand": ["蝴蝶", "Butterfly"],
-        "position": ["正手", "反手"],
-        "rubberType": ["反胶", "粘性胶面"],
-        "sponge": ["高密海绵", "高弹海绵"],
-        "thickness": ["1.9", "2.1"],
-        "hardness": ["硬"],
-        "style": ["弧圈", "控制", "反拉"],
-        "origin": ["日本"]
+        "brand": [
+          "蝴蝶",
+          "Butterfly"
+        ],
+        "position": [
+          "正手",
+          "反手"
+        ],
+        "rubberType": [
+          "反胶",
+          "粘性胶面"
+        ],
+        "sponge": [
+          "高密海绵",
+          "高弹海绵"
+        ],
+        "thickness": [
+          "1.9",
+          "2.1"
+        ],
+        "hardness": [
+          "硬"
+        ],
+        "style": [
+          "弧圈",
+          "控制",
+          "反拉"
+        ],
+        "origin": [
+          "日本"
+        ]
       },
-      "sources": ["Butterfly Dignics 09C product line"]
+      "sources": [
+        "Butterfly Dignics 09C product line"
+      ]
     },
     {
       "id": "butterfly-rozena",
@@ -99,16 +202,42 @@
       "image": "https://placehold.co/720x480/f472b6/111827?text=Butterfly%20Rozena",
       "description": "容错较高的进阶涩套，速度和控制均衡，正反手都容易上手。",
       "tags": {
-        "brand": ["蝴蝶", "Butterfly"],
-        "position": ["正手", "反手"],
-        "rubberType": ["反胶", "涩性胶面"],
-        "sponge": ["蛋糕海绵", "软弹海绵"],
-        "thickness": ["1.9", "2.1"],
-        "hardness": ["中软", "中硬"],
-        "style": ["控制", "连续进攻", "弧圈"],
-        "origin": ["日本"]
+        "brand": [
+          "蝴蝶",
+          "Butterfly"
+        ],
+        "position": [
+          "正手",
+          "反手"
+        ],
+        "rubberType": [
+          "反胶",
+          "涩性胶面"
+        ],
+        "sponge": [
+          "蛋糕海绵",
+          "软弹海绵"
+        ],
+        "thickness": [
+          "1.9",
+          "2.1"
+        ],
+        "hardness": [
+          "中软",
+          "中硬"
+        ],
+        "style": [
+          "控制",
+          "连续进攻",
+          "弧圈"
+        ],
+        "origin": [
+          "日本"
+        ]
       },
-      "sources": ["Butterfly Rozena product line"]
+      "sources": [
+        "Butterfly Rozena product line"
+      ]
     },
     {
       "id": "dhs-hurricane-3-neo",
@@ -121,16 +250,41 @@
       "image": "https://placehold.co/720x480/e11d48/ffffff?text=DHS%20Hurricane%203%20Neo",
       "description": "经典粘性正手套胶，发力后弧线强，适合弧圈结合快攻。",
       "tags": {
-        "brand": ["红双喜", "DHS"],
-        "position": ["正手"],
-        "rubberType": ["反胶", "粘性胶面"],
-        "sponge": ["高密海绵", "硬质海绵"],
-        "thickness": ["2.1", "2.15"],
-        "hardness": ["39度", "40度", "41度"],
-        "style": ["弧圈", "快攻弧圈"],
-        "origin": ["中国"]
+        "brand": [
+          "红双喜",
+          "DHS"
+        ],
+        "position": [
+          "正手"
+        ],
+        "rubberType": [
+          "反胶",
+          "粘性胶面"
+        ],
+        "sponge": [
+          "高密海绵",
+          "硬质海绵"
+        ],
+        "thickness": [
+          "2.1",
+          "2.15"
+        ],
+        "hardness": [
+          "39度",
+          "40度",
+          "41度"
+        ],
+        "style": [
+          "弧圈",
+          "快攻弧圈"
+        ],
+        "origin": [
+          "中国"
+        ]
       },
-      "sources": ["DHS Hurricane rubber line"]
+      "sources": [
+        "DHS Hurricane rubber line"
+      ]
     },
     {
       "id": "dhs-hurricane-8-80",
@@ -143,16 +297,42 @@
       "image": "https://placehold.co/720x480/f97316/ffffff?text=DHS%20Hurricane%208-80",
       "description": "粘性胶面搭配偏弹海绵，速度更轻快，正反手都可尝试。",
       "tags": {
-        "brand": ["红双喜", "DHS"],
-        "position": ["正手", "反手"],
-        "rubberType": ["反胶", "粘性胶面"],
-        "sponge": ["蛋糕海绵", "高密海绵"],
-        "thickness": ["2.1", "2.15"],
-        "hardness": ["37度", "38度", "39度"],
-        "style": ["弧圈", "连续进攻"],
-        "origin": ["中国"]
+        "brand": [
+          "红双喜",
+          "DHS"
+        ],
+        "position": [
+          "正手",
+          "反手"
+        ],
+        "rubberType": [
+          "反胶",
+          "粘性胶面"
+        ],
+        "sponge": [
+          "蛋糕海绵",
+          "高密海绵"
+        ],
+        "thickness": [
+          "2.1",
+          "2.15"
+        ],
+        "hardness": [
+          "37度",
+          "38度",
+          "39度"
+        ],
+        "style": [
+          "弧圈",
+          "连续进攻"
+        ],
+        "origin": [
+          "中国"
+        ]
       },
-      "sources": ["DHS Hurricane rubber line"]
+      "sources": [
+        "DHS Hurricane rubber line"
+      ]
     },
     {
       "id": "dhs-skyline-2-neo",
@@ -165,16 +345,40 @@
       "image": "https://placehold.co/720x480/b91c1c/ffffff?text=DHS%20Skyline%202%20Neo",
       "description": "偏快攻弧圈的粘性国产套胶，前冲感较强，适合近中台主动进攻。",
       "tags": {
-        "brand": ["红双喜", "DHS"],
-        "position": ["正手"],
-        "rubberType": ["反胶", "粘性胶面"],
-        "sponge": ["高密海绵", "硬质海绵"],
-        "thickness": ["2.1", "2.15"],
-        "hardness": ["39度", "40度"],
-        "style": ["快攻弧圈", "近台进攻"],
-        "origin": ["中国"]
+        "brand": [
+          "红双喜",
+          "DHS"
+        ],
+        "position": [
+          "正手"
+        ],
+        "rubberType": [
+          "反胶",
+          "粘性胶面"
+        ],
+        "sponge": [
+          "高密海绵",
+          "硬质海绵"
+        ],
+        "thickness": [
+          "2.1",
+          "2.15"
+        ],
+        "hardness": [
+          "39度",
+          "40度"
+        ],
+        "style": [
+          "快攻弧圈",
+          "近台进攻"
+        ],
+        "origin": [
+          "中国"
+        ]
       },
-      "sources": ["DHS Skyline rubber line"]
+      "sources": [
+        "DHS Skyline rubber line"
+      ]
     },
     {
       "id": "dhs-goldarc-8",
@@ -187,16 +391,41 @@
       "image": "https://placehold.co/720x480/f59e0b/111827?text=DHS%20Goldarc%208",
       "description": "涩性内能套胶，速度和支撑不错，常见于反手或速度型正手。",
       "tags": {
-        "brand": ["红双喜", "DHS"],
-        "position": ["反手", "正手"],
-        "rubberType": ["反胶", "涩性胶面"],
-        "sponge": ["高弹海绵", "蛋糕海绵"],
-        "thickness": ["2.0", "Max"],
-        "hardness": ["中硬", "硬"],
-        "style": ["连续进攻", "相持"],
-        "origin": ["德国"]
+        "brand": [
+          "红双喜",
+          "DHS"
+        ],
+        "position": [
+          "反手",
+          "正手"
+        ],
+        "rubberType": [
+          "反胶",
+          "涩性胶面"
+        ],
+        "sponge": [
+          "高弹海绵",
+          "蛋糕海绵"
+        ],
+        "thickness": [
+          "2.0",
+          "Max"
+        ],
+        "hardness": [
+          "中硬",
+          "硬"
+        ],
+        "style": [
+          "连续进攻",
+          "相持"
+        ],
+        "origin": [
+          "德国"
+        ]
       },
-      "sources": ["DHS Goldarc rubber line"]
+      "sources": [
+        "DHS Goldarc rubber line"
+      ]
     },
     {
       "id": "tibhar-evolution-mxp",
@@ -209,16 +438,43 @@
       "image": "https://placehold.co/720x480/2563eb/ffffff?text=TIBHAR%20Evolution%20MX-P",
       "description": "TIBHAR 经典高性能涩套，速度和旋转强，适合主动进攻型打法。",
       "tags": {
-        "brand": ["挺拔", "TIBHAR"],
-        "position": ["正手", "反手"],
-        "rubberType": ["反胶", "涩性胶面"],
-        "sponge": ["蛋糕海绵", "高弹海绵"],
-        "thickness": ["1.9", "2.1", "Max"],
-        "hardness": ["硬", "中硬"],
-        "style": ["弧圈", "相持", "连续进攻"],
-        "origin": ["德国"]
+        "brand": [
+          "挺拔",
+          "TIBHAR"
+        ],
+        "position": [
+          "正手",
+          "反手"
+        ],
+        "rubberType": [
+          "反胶",
+          "涩性胶面"
+        ],
+        "sponge": [
+          "蛋糕海绵",
+          "高弹海绵"
+        ],
+        "thickness": [
+          "1.9",
+          "2.1",
+          "Max"
+        ],
+        "hardness": [
+          "硬",
+          "中硬"
+        ],
+        "style": [
+          "弧圈",
+          "相持",
+          "连续进攻"
+        ],
+        "origin": [
+          "德国"
+        ]
       },
-      "sources": ["TIBHAR Evolution product line"]
+      "sources": [
+        "TIBHAR Evolution product line"
+      ]
     },
     {
       "id": "tibhar-evolution-el-p",
@@ -231,16 +487,42 @@
       "image": "https://placehold.co/720x480/3b82f6/ffffff?text=TIBHAR%20Evolution%20EL-P",
       "description": "比 MX-P 更均衡易控的 Evolution 套胶，适合反手或偏控制的正手。",
       "tags": {
-        "brand": ["挺拔", "TIBHAR"],
-        "position": ["反手", "正手"],
-        "rubberType": ["反胶", "涩性胶面"],
-        "sponge": ["蛋糕海绵", "高弹海绵"],
-        "thickness": ["1.9", "2.1", "Max"],
-        "hardness": ["中硬"],
-        "style": ["控制", "连续进攻", "相持"],
-        "origin": ["德国"]
+        "brand": [
+          "挺拔",
+          "TIBHAR"
+        ],
+        "position": [
+          "反手",
+          "正手"
+        ],
+        "rubberType": [
+          "反胶",
+          "涩性胶面"
+        ],
+        "sponge": [
+          "蛋糕海绵",
+          "高弹海绵"
+        ],
+        "thickness": [
+          "1.9",
+          "2.1",
+          "Max"
+        ],
+        "hardness": [
+          "中硬"
+        ],
+        "style": [
+          "控制",
+          "连续进攻",
+          "相持"
+        ],
+        "origin": [
+          "德国"
+        ]
       },
-      "sources": ["TIBHAR Evolution product line"]
+      "sources": [
+        "TIBHAR Evolution product line"
+      ]
     },
     {
       "id": "tibhar-hybrid-k3",
@@ -253,16 +535,40 @@
       "image": "https://placehold.co/720x480/1d4ed8/ffffff?text=TIBHAR%20Hybrid%20K3",
       "description": "混合粘性高端套胶，兼顾粘性摩擦和德套弹性，适合强正手。",
       "tags": {
-        "brand": ["挺拔", "TIBHAR"],
-        "position": ["正手"],
-        "rubberType": ["反胶", "粘性胶面"],
-        "sponge": ["高密海绵", "高弹海绵"],
-        "thickness": ["2.0", "Max"],
-        "hardness": ["硬"],
-        "style": ["弧圈", "反拉", "快攻弧圈"],
-        "origin": ["德国"]
+        "brand": [
+          "挺拔",
+          "TIBHAR"
+        ],
+        "position": [
+          "正手"
+        ],
+        "rubberType": [
+          "反胶",
+          "粘性胶面"
+        ],
+        "sponge": [
+          "高密海绵",
+          "高弹海绵"
+        ],
+        "thickness": [
+          "2.0",
+          "Max"
+        ],
+        "hardness": [
+          "硬"
+        ],
+        "style": [
+          "弧圈",
+          "反拉",
+          "快攻弧圈"
+        ],
+        "origin": [
+          "德国"
+        ]
       },
-      "sources": ["TIBHAR Hybrid K product line"]
+      "sources": [
+        "TIBHAR Hybrid K product line"
+      ]
     },
     {
       "id": "donic-bluefire-m1",
@@ -275,16 +581,40 @@
       "image": "https://placehold.co/720x480/0284c7/ffffff?text=DONIC%20Bluefire%20M1",
       "description": "高弹涩性套胶，爆发力强，适合主动发力的正反手进攻。",
       "tags": {
-        "brand": ["多尼克", "DONIC"],
-        "position": ["正手", "反手"],
-        "rubberType": ["反胶", "涩性胶面"],
-        "sponge": ["蛋糕海绵", "高弹海绵"],
-        "thickness": ["2.0", "Max"],
-        "hardness": ["硬"],
-        "style": ["弧圈", "连续进攻"],
-        "origin": ["德国"]
+        "brand": [
+          "多尼克",
+          "DONIC"
+        ],
+        "position": [
+          "正手",
+          "反手"
+        ],
+        "rubberType": [
+          "反胶",
+          "涩性胶面"
+        ],
+        "sponge": [
+          "蛋糕海绵",
+          "高弹海绵"
+        ],
+        "thickness": [
+          "2.0",
+          "Max"
+        ],
+        "hardness": [
+          "硬"
+        ],
+        "style": [
+          "弧圈",
+          "连续进攻"
+        ],
+        "origin": [
+          "德国"
+        ]
       },
-      "sources": ["DONIC Bluefire product line"]
+      "sources": [
+        "DONIC Bluefire product line"
+      ]
     },
     {
       "id": "donic-bluestorm-z1",
@@ -297,16 +627,41 @@
       "image": "https://placehold.co/720x480/0ea5e9/ffffff?text=DONIC%20Bluestorm%20Z1",
       "description": "速度取向的德系内能套胶，出球干脆，适合快节奏相持。",
       "tags": {
-        "brand": ["多尼克", "DONIC"],
-        "position": ["反手", "正手"],
-        "rubberType": ["反胶", "涩性胶面"],
-        "sponge": ["高弹海绵", "蛋糕海绵"],
-        "thickness": ["2.0", "Max"],
-        "hardness": ["中硬", "硬"],
-        "style": ["快攻弧圈", "相持"],
-        "origin": ["德国"]
+        "brand": [
+          "多尼克",
+          "DONIC"
+        ],
+        "position": [
+          "反手",
+          "正手"
+        ],
+        "rubberType": [
+          "反胶",
+          "涩性胶面"
+        ],
+        "sponge": [
+          "高弹海绵",
+          "蛋糕海绵"
+        ],
+        "thickness": [
+          "2.0",
+          "Max"
+        ],
+        "hardness": [
+          "中硬",
+          "硬"
+        ],
+        "style": [
+          "快攻弧圈",
+          "相持"
+        ],
+        "origin": [
+          "德国"
+        ]
       },
-      "sources": ["DONIC Bluestorm product line"]
+      "sources": [
+        "DONIC Bluestorm product line"
+      ]
     },
     {
       "id": "joola-dynaryz-agr",
@@ -319,16 +674,41 @@
       "image": "https://placehold.co/720x480/ef4444/ffffff?text=JOOLA%20Dynaryz%20AGR",
       "description": "高端进攻型涩套，支撑强，适合正手弧圈和大力量相持。",
       "tags": {
-        "brand": ["优拉", "JOOLA"],
-        "position": ["正手", "反手"],
-        "rubberType": ["反胶", "涩性胶面"],
-        "sponge": ["高密海绵", "高弹海绵"],
-        "thickness": ["2.0", "Max"],
-        "hardness": ["硬"],
-        "style": ["弧圈", "相持", "反拉"],
-        "origin": ["德国"]
+        "brand": [
+          "优拉",
+          "JOOLA"
+        ],
+        "position": [
+          "正手",
+          "反手"
+        ],
+        "rubberType": [
+          "反胶",
+          "涩性胶面"
+        ],
+        "sponge": [
+          "高密海绵",
+          "高弹海绵"
+        ],
+        "thickness": [
+          "2.0",
+          "Max"
+        ],
+        "hardness": [
+          "硬"
+        ],
+        "style": [
+          "弧圈",
+          "相持",
+          "反拉"
+        ],
+        "origin": [
+          "德国"
+        ]
       },
-      "sources": ["JOOLA Dynaryz product line"]
+      "sources": [
+        "JOOLA Dynaryz product line"
+      ]
     },
     {
       "id": "joola-rhyzen-fire",
@@ -341,16 +721,40 @@
       "image": "https://placehold.co/720x480/f97316/ffffff?text=JOOLA%20Rhyzen%20Fire",
       "description": "速度较快、上手友好的涩性套胶，适合进阶玩家反手或均衡正手。",
       "tags": {
-        "brand": ["优拉", "JOOLA"],
-        "position": ["反手", "正手"],
-        "rubberType": ["反胶", "涩性胶面"],
-        "sponge": ["蛋糕海绵", "高弹海绵"],
-        "thickness": ["2.0", "Max"],
-        "hardness": ["中硬"],
-        "style": ["连续进攻", "控制"],
-        "origin": ["德国"]
+        "brand": [
+          "优拉",
+          "JOOLA"
+        ],
+        "position": [
+          "反手",
+          "正手"
+        ],
+        "rubberType": [
+          "反胶",
+          "涩性胶面"
+        ],
+        "sponge": [
+          "蛋糕海绵",
+          "高弹海绵"
+        ],
+        "thickness": [
+          "2.0",
+          "Max"
+        ],
+        "hardness": [
+          "中硬"
+        ],
+        "style": [
+          "连续进攻",
+          "控制"
+        ],
+        "origin": [
+          "德国"
+        ]
       },
-      "sources": ["JOOLA Rhyzen product line"]
+      "sources": [
+        "JOOLA Rhyzen product line"
+      ]
     },
     {
       "id": "stiga-dna-platinum-xh",
@@ -363,16 +767,41 @@
       "image": "https://placehold.co/720x480/ca8a04/111827?text=STIGA%20DNA%20Platinum%20XH",
       "description": "STIGA 高端德系涩套，硬度高、支撑强，适合力量型正手。",
       "tags": {
-        "brand": ["斯帝卡", "STIGA"],
-        "position": ["正手"],
-        "rubberType": ["反胶", "涩性胶面"],
-        "sponge": ["高密海绵", "高弹海绵"],
-        "thickness": ["2.1", "Max"],
-        "hardness": ["硬", "超硬"],
-        "style": ["弧圈", "反拉", "相持"],
-        "origin": ["德国"]
+        "brand": [
+          "斯帝卡",
+          "STIGA"
+        ],
+        "position": [
+          "正手"
+        ],
+        "rubberType": [
+          "反胶",
+          "涩性胶面"
+        ],
+        "sponge": [
+          "高密海绵",
+          "高弹海绵"
+        ],
+        "thickness": [
+          "2.1",
+          "Max"
+        ],
+        "hardness": [
+          "硬",
+          "超硬"
+        ],
+        "style": [
+          "弧圈",
+          "反拉",
+          "相持"
+        ],
+        "origin": [
+          "德国"
+        ]
       },
-      "sources": ["STIGA DNA Platinum product line"]
+      "sources": [
+        "STIGA DNA Platinum product line"
+      ]
     },
     {
       "id": "stiga-mantra-pro-m",
@@ -385,16 +814,41 @@
       "image": "https://placehold.co/720x480/eab308/111827?text=STIGA%20Mantra%20Pro%20M",
       "description": "均衡型涩性套胶，兼顾控制、速度和连续性。",
       "tags": {
-        "brand": ["斯帝卡", "STIGA"],
-        "position": ["反手", "正手"],
-        "rubberType": ["反胶", "涩性胶面"],
-        "sponge": ["蛋糕海绵", "高弹海绵"],
-        "thickness": ["2.0", "Max"],
-        "hardness": ["中硬"],
-        "style": ["控制", "连续进攻", "弧圈"],
-        "origin": ["德国"]
+        "brand": [
+          "斯帝卡",
+          "STIGA"
+        ],
+        "position": [
+          "反手",
+          "正手"
+        ],
+        "rubberType": [
+          "反胶",
+          "涩性胶面"
+        ],
+        "sponge": [
+          "蛋糕海绵",
+          "高弹海绵"
+        ],
+        "thickness": [
+          "2.0",
+          "Max"
+        ],
+        "hardness": [
+          "中硬"
+        ],
+        "style": [
+          "控制",
+          "连续进攻",
+          "弧圈"
+        ],
+        "origin": [
+          "德国"
+        ]
       },
-      "sources": ["STIGA Mantra product line"]
+      "sources": [
+        "STIGA Mantra product line"
+      ]
     },
     {
       "id": "xiom-vega-europe",
@@ -407,16 +861,41 @@
       "image": "https://placehold.co/720x480/2563eb/ffffff?text=XIOM%20Vega%20Europe",
       "description": "易透板、容错高的反手常见选择，适合入门到进阶。",
       "tags": {
-        "brand": ["骄猛", "XIOM"],
-        "position": ["反手"],
-        "rubberType": ["反胶", "涩性胶面"],
-        "sponge": ["蛋糕海绵", "软弹海绵"],
-        "thickness": ["1.8", "2.0", "Max"],
-        "hardness": ["软", "中软"],
-        "style": ["控制", "连续进攻"],
-        "origin": ["德国"]
+        "brand": [
+          "骄猛",
+          "XIOM"
+        ],
+        "position": [
+          "反手"
+        ],
+        "rubberType": [
+          "反胶",
+          "涩性胶面"
+        ],
+        "sponge": [
+          "蛋糕海绵",
+          "软弹海绵"
+        ],
+        "thickness": [
+          "1.8",
+          "2.0",
+          "Max"
+        ],
+        "hardness": [
+          "软",
+          "中软"
+        ],
+        "style": [
+          "控制",
+          "连续进攻"
+        ],
+        "origin": [
+          "德国"
+        ]
       },
-      "sources": ["XIOM Vega product line"]
+      "sources": [
+        "XIOM Vega product line"
+      ]
     },
     {
       "id": "xiom-vega-pro",
@@ -429,16 +908,41 @@
       "image": "https://placehold.co/720x480/1d4ed8/ffffff?text=XIOM%20Vega%20Pro",
       "description": "Vega 系列中更硬更有支撑的版本，适合正手或强反手。",
       "tags": {
-        "brand": ["骄猛", "XIOM"],
-        "position": ["正手", "反手"],
-        "rubberType": ["反胶", "涩性胶面"],
-        "sponge": ["高弹海绵", "蛋糕海绵"],
-        "thickness": ["2.0", "Max"],
-        "hardness": ["中硬", "硬"],
-        "style": ["弧圈", "相持"],
-        "origin": ["德国"]
+        "brand": [
+          "骄猛",
+          "XIOM"
+        ],
+        "position": [
+          "正手",
+          "反手"
+        ],
+        "rubberType": [
+          "反胶",
+          "涩性胶面"
+        ],
+        "sponge": [
+          "高弹海绵",
+          "蛋糕海绵"
+        ],
+        "thickness": [
+          "2.0",
+          "Max"
+        ],
+        "hardness": [
+          "中硬",
+          "硬"
+        ],
+        "style": [
+          "弧圈",
+          "相持"
+        ],
+        "origin": [
+          "德国"
+        ]
       },
-      "sources": ["XIOM Vega product line"]
+      "sources": [
+        "XIOM Vega product line"
+      ]
     },
     {
       "id": "xiom-omega-vii-pro",
@@ -451,16 +955,42 @@
       "image": "https://placehold.co/720x480/3730a3/ffffff?text=XIOM%20Omega%20VII%20Pro",
       "description": "高端进攻涩套，速度与旋转平衡，适合高质量连续进攻。",
       "tags": {
-        "brand": ["骄猛", "XIOM"],
-        "position": ["正手", "反手"],
-        "rubberType": ["反胶", "涩性胶面"],
-        "sponge": ["高密海绵", "高弹海绵"],
-        "thickness": ["2.0", "Max"],
-        "hardness": ["中硬", "硬"],
-        "style": ["弧圈", "反拉", "相持"],
-        "origin": ["德国"]
+        "brand": [
+          "骄猛",
+          "XIOM"
+        ],
+        "position": [
+          "正手",
+          "反手"
+        ],
+        "rubberType": [
+          "反胶",
+          "涩性胶面"
+        ],
+        "sponge": [
+          "高密海绵",
+          "高弹海绵"
+        ],
+        "thickness": [
+          "2.0",
+          "Max"
+        ],
+        "hardness": [
+          "中硬",
+          "硬"
+        ],
+        "style": [
+          "弧圈",
+          "反拉",
+          "相持"
+        ],
+        "origin": [
+          "德国"
+        ]
       },
-      "sources": ["XIOM Omega product line"]
+      "sources": [
+        "XIOM Omega product line"
+      ]
     },
     {
       "id": "yasaka-rakza-7",
@@ -473,16 +1003,42 @@
       "image": "https://placehold.co/720x480/7c3aed/ffffff?text=Yasaka%20Rakza%207",
       "description": "稳定、均衡的涩性反胶，正反手均可，适合练基本功和比赛。",
       "tags": {
-        "brand": ["亚萨卡", "Yasaka"],
-        "position": ["正手", "反手"],
-        "rubberType": ["反胶", "涩性胶面"],
-        "sponge": ["蛋糕海绵", "高弹海绵"],
-        "thickness": ["1.8", "2.0", "Max"],
-        "hardness": ["中硬"],
-        "style": ["控制", "弧圈", "相持"],
-        "origin": ["德国"]
+        "brand": [
+          "亚萨卡",
+          "Yasaka"
+        ],
+        "position": [
+          "正手",
+          "反手"
+        ],
+        "rubberType": [
+          "反胶",
+          "涩性胶面"
+        ],
+        "sponge": [
+          "蛋糕海绵",
+          "高弹海绵"
+        ],
+        "thickness": [
+          "1.8",
+          "2.0",
+          "Max"
+        ],
+        "hardness": [
+          "中硬"
+        ],
+        "style": [
+          "控制",
+          "弧圈",
+          "相持"
+        ],
+        "origin": [
+          "德国"
+        ]
       },
-      "sources": ["Yasaka Rakza product line"]
+      "sources": [
+        "Yasaka Rakza product line"
+      ]
     },
     {
       "id": "yasaka-rakza-z",
@@ -495,16 +1051,41 @@
       "image": "https://placehold.co/720x480/6d28d9/ffffff?text=Yasaka%20Rakza%20Z",
       "description": "粘性 Rakza 系列套胶，摩擦和控制更突出，适合现代弧圈打法。",
       "tags": {
-        "brand": ["亚萨卡", "Yasaka"],
-        "position": ["正手", "反手"],
-        "rubberType": ["反胶", "粘性胶面"],
-        "sponge": ["高密海绵", "高弹海绵"],
-        "thickness": ["2.0", "Max"],
-        "hardness": ["硬"],
-        "style": ["弧圈", "控制", "反拉"],
-        "origin": ["德国"]
+        "brand": [
+          "亚萨卡",
+          "Yasaka"
+        ],
+        "position": [
+          "正手",
+          "反手"
+        ],
+        "rubberType": [
+          "反胶",
+          "粘性胶面"
+        ],
+        "sponge": [
+          "高密海绵",
+          "高弹海绵"
+        ],
+        "thickness": [
+          "2.0",
+          "Max"
+        ],
+        "hardness": [
+          "硬"
+        ],
+        "style": [
+          "弧圈",
+          "控制",
+          "反拉"
+        ],
+        "origin": [
+          "德国"
+        ]
       },
-      "sources": ["Yasaka Rakza product line"]
+      "sources": [
+        "Yasaka Rakza product line"
+      ]
     },
     {
       "id": "yasaka-mark-v",
@@ -517,16 +1098,40 @@
       "image": "https://placehold.co/720x480/8b5cf6/ffffff?text=Yasaka%20Mark%20V",
       "description": "经典控制型反胶，手感清楚，适合入门、训练和传统快攻弧圈。",
       "tags": {
-        "brand": ["亚萨卡", "Yasaka"],
-        "position": ["正手", "反手"],
-        "rubberType": ["反胶", "涩性胶面"],
-        "sponge": ["传统海绵"],
-        "thickness": ["1.8", "2.0", "Max"],
-        "hardness": ["中等"],
-        "style": ["控制", "快攻弧圈"],
-        "origin": ["日本"]
+        "brand": [
+          "亚萨卡",
+          "Yasaka"
+        ],
+        "position": [
+          "正手",
+          "反手"
+        ],
+        "rubberType": [
+          "反胶",
+          "涩性胶面"
+        ],
+        "sponge": [
+          "传统海绵"
+        ],
+        "thickness": [
+          "1.8",
+          "2.0",
+          "Max"
+        ],
+        "hardness": [
+          "中等"
+        ],
+        "style": [
+          "控制",
+          "快攻弧圈"
+        ],
+        "origin": [
+          "日本"
+        ]
       },
-      "sources": ["Yasaka Mark V product line"]
+      "sources": [
+        "Yasaka Mark V product line"
+      ]
     },
     {
       "id": "nittaku-fastarc-g1",
@@ -539,16 +1144,43 @@
       "image": "https://placehold.co/720x480/0891b2/ffffff?text=Nittaku%20Fastarc%20G-1",
       "description": "弧线扎实、支撑感强的进攻涩套，正手和强反手都常见。",
       "tags": {
-        "brand": ["尼塔库", "Nittaku"],
-        "position": ["正手", "反手"],
-        "rubberType": ["反胶", "涩性胶面"],
-        "sponge": ["高密海绵", "高弹海绵"],
-        "thickness": ["1.8", "2.0", "Max"],
-        "hardness": ["中硬", "硬"],
-        "style": ["弧圈", "反拉", "相持"],
-        "origin": ["德国"]
+        "brand": [
+          "尼塔库",
+          "Nittaku"
+        ],
+        "position": [
+          "正手",
+          "反手"
+        ],
+        "rubberType": [
+          "反胶",
+          "涩性胶面"
+        ],
+        "sponge": [
+          "高密海绵",
+          "高弹海绵"
+        ],
+        "thickness": [
+          "1.8",
+          "2.0",
+          "Max"
+        ],
+        "hardness": [
+          "中硬",
+          "硬"
+        ],
+        "style": [
+          "弧圈",
+          "反拉",
+          "相持"
+        ],
+        "origin": [
+          "德国"
+        ]
       },
-      "sources": ["Nittaku Fastarc product line"]
+      "sources": [
+        "Nittaku Fastarc product line"
+      ]
     },
     {
       "id": "nittaku-fastarc-c1",
@@ -561,16 +1193,43 @@
       "image": "https://placehold.co/720x480/0e7490/ffffff?text=Nittaku%20Fastarc%20C-1",
       "description": "比 G-1 更柔和易控，适合反手连续、稳定上台和中等力量进攻。",
       "tags": {
-        "brand": ["尼塔库", "Nittaku"],
-        "position": ["反手", "正手"],
-        "rubberType": ["反胶", "涩性胶面"],
-        "sponge": ["蛋糕海绵", "高弹海绵"],
-        "thickness": ["1.8", "2.0", "Max"],
-        "hardness": ["中软", "中硬"],
-        "style": ["控制", "连续进攻", "相持"],
-        "origin": ["德国"]
+        "brand": [
+          "尼塔库",
+          "Nittaku"
+        ],
+        "position": [
+          "反手",
+          "正手"
+        ],
+        "rubberType": [
+          "反胶",
+          "涩性胶面"
+        ],
+        "sponge": [
+          "蛋糕海绵",
+          "高弹海绵"
+        ],
+        "thickness": [
+          "1.8",
+          "2.0",
+          "Max"
+        ],
+        "hardness": [
+          "中软",
+          "中硬"
+        ],
+        "style": [
+          "控制",
+          "连续进攻",
+          "相持"
+        ],
+        "origin": [
+          "德国"
+        ]
       },
-      "sources": ["Nittaku Fastarc product line"]
+      "sources": [
+        "Nittaku Fastarc product line"
+      ]
     },
     {
       "id": "victas-v15-extra",
@@ -583,16 +1242,43 @@
       "image": "https://placehold.co/720x480/0f766e/ffffff?text=VICTAS%20V%3E15%20Extra",
       "description": "VICTAS 经典高端涩套，速度和旋转强，适合正反手主动进攻。",
       "tags": {
-        "brand": ["维克塔斯", "VICTAS", "TSP系"],
-        "position": ["正手", "反手"],
-        "rubberType": ["反胶", "涩性胶面"],
-        "sponge": ["高密海绵", "高弹海绵"],
-        "thickness": ["2.0", "Max"],
-        "hardness": ["中硬", "硬"],
-        "style": ["弧圈", "相持", "反拉"],
-        "origin": ["德国"]
+        "brand": [
+          "维克塔斯",
+          "VICTAS",
+          "TSP系"
+        ],
+        "position": [
+          "正手",
+          "反手"
+        ],
+        "rubberType": [
+          "反胶",
+          "涩性胶面"
+        ],
+        "sponge": [
+          "高密海绵",
+          "高弹海绵"
+        ],
+        "thickness": [
+          "2.0",
+          "Max"
+        ],
+        "hardness": [
+          "中硬",
+          "硬"
+        ],
+        "style": [
+          "弧圈",
+          "相持",
+          "反拉"
+        ],
+        "origin": [
+          "德国"
+        ]
       },
-      "sources": ["VICTAS V>15 product line"]
+      "sources": [
+        "VICTAS V>15 product line"
+      ]
     },
     {
       "id": "victas-v15-sticky",
@@ -605,16 +1291,42 @@
       "image": "https://placehold.co/720x480/115e59/ffffff?text=VICTAS%20V%3E15%20Sticky",
       "description": "粘性取向的 V>15 系列，增强摩擦和持球，适合现代弧圈。",
       "tags": {
-        "brand": ["维克塔斯", "VICTAS", "TSP系"],
-        "position": ["正手", "反手"],
-        "rubberType": ["反胶", "粘性胶面"],
-        "sponge": ["高密海绵", "高弹海绵"],
-        "thickness": ["2.0", "Max"],
-        "hardness": ["硬"],
-        "style": ["弧圈", "控制", "反拉"],
-        "origin": ["德国"]
+        "brand": [
+          "维克塔斯",
+          "VICTAS",
+          "TSP系"
+        ],
+        "position": [
+          "正手",
+          "反手"
+        ],
+        "rubberType": [
+          "反胶",
+          "粘性胶面"
+        ],
+        "sponge": [
+          "高密海绵",
+          "高弹海绵"
+        ],
+        "thickness": [
+          "2.0",
+          "Max"
+        ],
+        "hardness": [
+          "硬"
+        ],
+        "style": [
+          "弧圈",
+          "控制",
+          "反拉"
+        ],
+        "origin": [
+          "德国"
+        ]
       },
-      "sources": ["VICTAS V>15 Sticky product line"]
+      "sources": [
+        "VICTAS V>15 Sticky product line"
+      ]
     },
     {
       "id": "yinhe-jupiter-3",
@@ -627,16 +1339,42 @@
       "image": "https://placehold.co/720x480/0f766e/ffffff?text=Yinhe%20Jupiter%203",
       "description": "常见国产粘性套胶，价格低、摩擦强，适合入门到进阶正手弧圈。",
       "tags": {
-        "brand": ["银河", "Yinhe"],
-        "position": ["正手"],
-        "rubberType": ["反胶", "粘性胶面"],
-        "sponge": ["高密海绵", "硬质海绵"],
-        "thickness": ["2.1", "2.2"],
-        "hardness": ["38度", "39度", "40度"],
-        "style": ["弧圈", "快攻弧圈"],
-        "origin": ["中国"]
+        "brand": [
+          "银河",
+          "Yinhe"
+        ],
+        "position": [
+          "正手"
+        ],
+        "rubberType": [
+          "反胶",
+          "粘性胶面"
+        ],
+        "sponge": [
+          "高密海绵",
+          "硬质海绵"
+        ],
+        "thickness": [
+          "2.1",
+          "2.2"
+        ],
+        "hardness": [
+          "38度",
+          "39度",
+          "40度"
+        ],
+        "style": [
+          "弧圈",
+          "快攻弧圈"
+        ],
+        "origin": [
+          "中国"
+        ]
       },
-      "sources": ["Yinhe Jupiter rubber line", "retailer product listings"]
+      "sources": [
+        "Yinhe Jupiter rubber line",
+        "retailer product listings"
+      ]
     },
     {
       "id": "yinhe-big-dipper",
@@ -649,16 +1387,42 @@
       "image": "https://placehold.co/720x480/14b8a6/ffffff?text=Yinhe%20Big%20Dipper",
       "description": "粘弹结合的国产反胶，兼顾粘性摩擦和一定弹性，正手常见。",
       "tags": {
-        "brand": ["银河", "Yinhe"],
-        "position": ["正手", "反手"],
-        "rubberType": ["反胶", "粘性胶面"],
-        "sponge": ["蛋糕海绵", "高密海绵"],
-        "thickness": ["2.1", "2.2"],
-        "hardness": ["38度", "39度", "40度"],
-        "style": ["弧圈", "连续进攻"],
-        "origin": ["中国"]
+        "brand": [
+          "银河",
+          "Yinhe"
+        ],
+        "position": [
+          "正手",
+          "反手"
+        ],
+        "rubberType": [
+          "反胶",
+          "粘性胶面"
+        ],
+        "sponge": [
+          "蛋糕海绵",
+          "高密海绵"
+        ],
+        "thickness": [
+          "2.1",
+          "2.2"
+        ],
+        "hardness": [
+          "38度",
+          "39度",
+          "40度"
+        ],
+        "style": [
+          "弧圈",
+          "连续进攻"
+        ],
+        "origin": [
+          "中国"
+        ]
       },
-      "sources": ["Yinhe Big Dipper product listings"]
+      "sources": [
+        "Yinhe Big Dipper product listings"
+      ]
     },
     {
       "id": "yinhe-moon-12-blue",
@@ -671,16 +1435,42 @@
       "image": "https://placehold.co/720x480/2563eb/ffffff?text=Yinhe%20Moon%2012%20Blue",
       "description": "偏涩性和弹性的经济型套胶，反手或均衡型打法较容易上手。",
       "tags": {
-        "brand": ["银河", "Yinhe"],
-        "position": ["反手", "正手"],
-        "rubberType": ["反胶", "涩性胶面"],
-        "sponge": ["蛋糕海绵", "软弹海绵"],
-        "thickness": ["2.1", "Max"],
-        "hardness": ["中软", "中硬"],
-        "style": ["控制", "连续进攻"],
-        "origin": ["中国"]
+        "brand": [
+          "银河",
+          "Yinhe"
+        ],
+        "position": [
+          "反手",
+          "正手"
+        ],
+        "rubberType": [
+          "反胶",
+          "涩性胶面"
+        ],
+        "sponge": [
+          "蛋糕海绵",
+          "软弹海绵"
+        ],
+        "thickness": [
+          "2.1",
+          "Max"
+        ],
+        "hardness": [
+          "中软",
+          "中硬"
+        ],
+        "style": [
+          "控制",
+          "连续进攻"
+        ],
+        "origin": [
+          "中国"
+        ]
       },
-      "sources": ["Yinhe Moon rubber line", "retailer product listings"]
+      "sources": [
+        "Yinhe Moon rubber line",
+        "retailer product listings"
+      ]
     },
     {
       "id": "loki-rxton-1",
@@ -693,16 +1483,41 @@
       "image": "https://revspin.net/shop/3677-large_default/loki-rxton-1.jpg",
       "description": "低价位入门反胶，强调易上手和性价比，适合训练和初阶配置。",
       "tags": {
-        "brand": ["雷神", "Loki"],
-        "position": ["正手", "反手"],
-        "rubberType": ["反胶", "粘性胶面"],
-        "sponge": ["传统海绵", "高密海绵"],
-        "thickness": ["2.1", "2.2"],
-        "hardness": ["中硬", "硬"],
-        "style": ["控制", "快攻弧圈"],
-        "origin": ["中国"]
+        "brand": [
+          "雷神",
+          "Loki"
+        ],
+        "position": [
+          "正手",
+          "反手"
+        ],
+        "rubberType": [
+          "反胶",
+          "粘性胶面"
+        ],
+        "sponge": [
+          "传统海绵",
+          "高密海绵"
+        ],
+        "thickness": [
+          "2.1",
+          "2.2"
+        ],
+        "hardness": [
+          "中硬",
+          "硬"
+        ],
+        "style": [
+          "控制",
+          "快攻弧圈"
+        ],
+        "origin": [
+          "中国"
+        ]
       },
-      "sources": ["Loki Rxton product listings"]
+      "sources": [
+        "Loki Rxton product listings"
+      ]
     },
     {
       "id": "loki-rxton-3",
@@ -715,16 +1530,40 @@
       "image": "https://revspin.net/shop/3682-large_default/loki-rxton-3-pink-or-blue.jpg",
       "description": "Rxton 系列中更偏进攻的型号，粘性和支撑比入门型号更强。",
       "tags": {
-        "brand": ["雷神", "Loki"],
-        "position": ["正手"],
-        "rubberType": ["反胶", "粘性胶面"],
-        "sponge": ["高密海绵", "硬质海绵"],
-        "thickness": ["2.1", "2.2"],
-        "hardness": ["中硬", "硬"],
-        "style": ["弧圈", "快攻弧圈"],
-        "origin": ["中国"]
+        "brand": [
+          "雷神",
+          "Loki"
+        ],
+        "position": [
+          "正手"
+        ],
+        "rubberType": [
+          "反胶",
+          "粘性胶面"
+        ],
+        "sponge": [
+          "高密海绵",
+          "硬质海绵"
+        ],
+        "thickness": [
+          "2.1",
+          "2.2"
+        ],
+        "hardness": [
+          "中硬",
+          "硬"
+        ],
+        "style": [
+          "弧圈",
+          "快攻弧圈"
+        ],
+        "origin": [
+          "中国"
+        ]
       },
-      "sources": ["Loki Rxton product listings"]
+      "sources": [
+        "Loki Rxton product listings"
+      ]
     },
     {
       "id": "729-focus-3-snipe",
@@ -737,16 +1576,40 @@
       "image": "https://placehold.co/720x480/22c55e/111827?text=729%20Focus%203%20Snipe",
       "description": "低价位内能型反胶，容错较好，常用于反手或入门训练。",
       "tags": {
-        "brand": ["729"],
-        "position": ["反手", "正手"],
-        "rubberType": ["反胶", "涩性胶面"],
-        "sponge": ["软弹海绵", "蛋糕海绵"],
-        "thickness": ["2.0", "2.1"],
-        "hardness": ["中软", "中硬"],
-        "style": ["控制", "连续进攻"],
-        "origin": ["中国"]
+        "brand": [
+          "729"
+        ],
+        "position": [
+          "反手",
+          "正手"
+        ],
+        "rubberType": [
+          "反胶",
+          "涩性胶面"
+        ],
+        "sponge": [
+          "软弹海绵",
+          "蛋糕海绵"
+        ],
+        "thickness": [
+          "2.0",
+          "2.1"
+        ],
+        "hardness": [
+          "中软",
+          "中硬"
+        ],
+        "style": [
+          "控制",
+          "连续进攻"
+        ],
+        "origin": [
+          "中国"
+        ]
       },
-      "sources": ["729 Focus product listings"]
+      "sources": [
+        "729 Focus product listings"
+      ]
     },
     {
       "id": "729-super-fx",
@@ -759,16 +1622,39 @@
       "image": "https://placehold.co/720x480/65a30d/ffffff?text=729%20Super%20FX",
       "description": "经典低价粘性反胶，控制稳定，适合入门、练球和传统打法。",
       "tags": {
-        "brand": ["729"],
-        "position": ["正手", "反手"],
-        "rubberType": ["反胶", "粘性胶面"],
-        "sponge": ["传统海绵"],
-        "thickness": ["1.8", "2.0", "2.2"],
-        "hardness": ["中硬"],
-        "style": ["控制", "快攻弧圈"],
-        "origin": ["中国"]
+        "brand": [
+          "729"
+        ],
+        "position": [
+          "正手",
+          "反手"
+        ],
+        "rubberType": [
+          "反胶",
+          "粘性胶面"
+        ],
+        "sponge": [
+          "传统海绵"
+        ],
+        "thickness": [
+          "1.8",
+          "2.0",
+          "2.2"
+        ],
+        "hardness": [
+          "中硬"
+        ],
+        "style": [
+          "控制",
+          "快攻弧圈"
+        ],
+        "origin": [
+          "中国"
+        ]
       },
-      "sources": ["729 classic rubber listings"]
+      "sources": [
+        "729 classic rubber listings"
+      ]
     },
     {
       "id": "palio-ak47-blue",
@@ -781,16 +1667,40 @@
       "image": "https://placehold.co/720x480/0ea5e9/ffffff?text=Palio%20AK47%20Blue",
       "description": "轻快易透的经济型涩套，常见于反手配置，适合控制和连续。",
       "tags": {
-        "brand": ["拍里奥", "Palio"],
-        "position": ["反手"],
-        "rubberType": ["反胶", "涩性胶面"],
-        "sponge": ["软弹海绵", "蛋糕海绵"],
-        "thickness": ["2.0", "Max"],
-        "hardness": ["软", "中软"],
-        "style": ["控制", "连续进攻"],
-        "origin": ["中国"]
+        "brand": [
+          "拍里奥",
+          "Palio"
+        ],
+        "position": [
+          "反手"
+        ],
+        "rubberType": [
+          "反胶",
+          "涩性胶面"
+        ],
+        "sponge": [
+          "软弹海绵",
+          "蛋糕海绵"
+        ],
+        "thickness": [
+          "2.0",
+          "Max"
+        ],
+        "hardness": [
+          "软",
+          "中软"
+        ],
+        "style": [
+          "控制",
+          "连续进攻"
+        ],
+        "origin": [
+          "中国"
+        ]
       },
-      "sources": ["Palio AK47 product listings"]
+      "sources": [
+        "Palio AK47 product listings"
+      ]
     },
     {
       "id": "sanwei-target-national",
@@ -803,16 +1713,40 @@
       "image": "https://placehold.co/720x480/b45309/ffffff?text=Sanwei%20Target%20National",
       "description": "国产粘性进攻套胶，正手弧圈取向，价格相对亲民。",
       "tags": {
-        "brand": ["三维", "Sanwei"],
-        "position": ["正手"],
-        "rubberType": ["反胶", "粘性胶面"],
-        "sponge": ["高密海绵", "硬质海绵"],
-        "thickness": ["2.1", "2.2"],
-        "hardness": ["中硬", "硬"],
-        "style": ["弧圈", "快攻弧圈"],
-        "origin": ["中国"]
+        "brand": [
+          "三维",
+          "Sanwei"
+        ],
+        "position": [
+          "正手"
+        ],
+        "rubberType": [
+          "反胶",
+          "粘性胶面"
+        ],
+        "sponge": [
+          "高密海绵",
+          "硬质海绵"
+        ],
+        "thickness": [
+          "2.1",
+          "2.2"
+        ],
+        "hardness": [
+          "中硬",
+          "硬"
+        ],
+        "style": [
+          "弧圈",
+          "快攻弧圈"
+        ],
+        "origin": [
+          "中国"
+        ]
       },
-      "sources": ["Sanwei Target product listings"]
+      "sources": [
+        "Sanwei Target product listings"
+      ]
     },
     {
       "id": "dhs-hurricane-3-commercial",
@@ -825,16 +1759,43 @@
       "image": "https://dhssportsusa.com/cdn/shop/files/H3-2L.png",
       "description": "普及度极高的国产粘性正手套胶，价格亲民，适合练习发力、摩擦和正手弧圈。",
       "tags": {
-        "brand": ["红双喜", "DHS"],
-        "position": ["正手"],
-        "rubberType": ["反胶", "粘性胶面"],
-        "sponge": ["高密海绵", "硬质海绵"],
-        "thickness": ["2.1", "2.15"],
-        "hardness": ["39度", "40度", "41度"],
-        "style": ["弧圈", "快攻弧圈", "训练"],
-        "origin": ["中国"]
+        "brand": [
+          "红双喜",
+          "DHS"
+        ],
+        "position": [
+          "正手"
+        ],
+        "rubberType": [
+          "反胶",
+          "粘性胶面"
+        ],
+        "sponge": [
+          "高密海绵",
+          "硬质海绵"
+        ],
+        "thickness": [
+          "2.1",
+          "2.15"
+        ],
+        "hardness": [
+          "39度",
+          "40度",
+          "41度"
+        ],
+        "style": [
+          "弧圈",
+          "快攻弧圈",
+          "训练"
+        ],
+        "origin": [
+          "中国"
+        ]
       },
-      "sources": ["DHS Hurricane 3 basic product page", "Revspin Hurricane 3 listing"]
+      "sources": [
+        "DHS Hurricane 3 basic product page",
+        "Revspin Hurricane 3 listing"
+      ]
     },
     {
       "id": "dhs-skyline-3-60",
@@ -847,16 +1808,45 @@
       "image": "https://placehold.co/720x480/dc2626/ffffff?text=DHS%20Skyline%203-60",
       "description": "偏柔和、易透板的粘性反胶，比传统硬质国产套更容易上手，正反手都有人使用。",
       "tags": {
-        "brand": ["红双喜", "DHS"],
-        "position": ["正手", "反手"],
-        "rubberType": ["反胶", "粘性胶面"],
-        "sponge": ["软弹海绵", "蛋糕海绵"],
-        "thickness": ["2.1", "2.15"],
-        "hardness": ["中软", "中硬", "36度", "37度"],
-        "style": ["控制", "弧圈", "连续进攻"],
-        "origin": ["中国"]
+        "brand": [
+          "红双喜",
+          "DHS"
+        ],
+        "position": [
+          "正手",
+          "反手"
+        ],
+        "rubberType": [
+          "反胶",
+          "粘性胶面"
+        ],
+        "sponge": [
+          "软弹海绵",
+          "蛋糕海绵"
+        ],
+        "thickness": [
+          "2.1",
+          "2.15"
+        ],
+        "hardness": [
+          "中软",
+          "中硬",
+          "36度",
+          "37度"
+        ],
+        "style": [
+          "控制",
+          "弧圈",
+          "连续进攻"
+        ],
+        "origin": [
+          "中国"
+        ]
       },
-      "sources": ["DHS Skyline 3-60 product listings", "Revspin Skyline 3-60 listing"]
+      "sources": [
+        "DHS Skyline 3-60 product listings",
+        "Revspin Skyline 3-60 listing"
+      ]
     },
     {
       "id": "dhs-pf4",
@@ -869,16 +1859,44 @@
       "image": "https://placehold.co/720x480/b91c1c/ffffff?text=DHS%20PF4",
       "description": "经典低价粘性反胶，控制扎实，适合传统快攻弧圈、入门训练和多球练习。",
       "tags": {
-        "brand": ["红双喜", "DHS"],
-        "position": ["正手", "反手"],
-        "rubberType": ["反胶", "粘性胶面"],
-        "sponge": ["传统海绵", "硬质海绵"],
-        "thickness": ["1.8", "2.0", "2.2"],
-        "hardness": ["中硬", "硬"],
-        "style": ["控制", "快攻弧圈", "训练"],
-        "origin": ["中国"]
+        "brand": [
+          "红双喜",
+          "DHS"
+        ],
+        "position": [
+          "正手",
+          "反手"
+        ],
+        "rubberType": [
+          "反胶",
+          "粘性胶面"
+        ],
+        "sponge": [
+          "传统海绵",
+          "硬质海绵"
+        ],
+        "thickness": [
+          "1.8",
+          "2.0",
+          "2.2"
+        ],
+        "hardness": [
+          "中硬",
+          "硬"
+        ],
+        "style": [
+          "控制",
+          "快攻弧圈",
+          "训练"
+        ],
+        "origin": [
+          "中国"
+        ]
       },
-      "sources": ["DHS PF4 product listings", "retailer product listings"]
+      "sources": [
+        "DHS PF4 product listings",
+        "retailer product listings"
+      ]
     },
     {
       "id": "dhs-g888",
@@ -891,16 +1909,42 @@
       "image": "https://placehold.co/720x480/991b1b/ffffff?text=DHS%20G888",
       "description": "入门到进阶常见的粘性套胶，摩擦稳定，适合预算有限的正手练习。",
       "tags": {
-        "brand": ["红双喜", "DHS"],
-        "position": ["正手"],
-        "rubberType": ["反胶", "粘性胶面"],
-        "sponge": ["传统海绵", "高密海绵"],
-        "thickness": ["2.0", "2.2"],
-        "hardness": ["中硬", "硬"],
-        "style": ["弧圈", "控制", "训练"],
-        "origin": ["中国"]
+        "brand": [
+          "红双喜",
+          "DHS"
+        ],
+        "position": [
+          "正手"
+        ],
+        "rubberType": [
+          "反胶",
+          "粘性胶面"
+        ],
+        "sponge": [
+          "传统海绵",
+          "高密海绵"
+        ],
+        "thickness": [
+          "2.0",
+          "2.2"
+        ],
+        "hardness": [
+          "中硬",
+          "硬"
+        ],
+        "style": [
+          "弧圈",
+          "控制",
+          "训练"
+        ],
+        "origin": [
+          "中国"
+        ]
       },
-      "sources": ["DHS G888 product listings", "retailer product listings"]
+      "sources": [
+        "DHS G888 product listings",
+        "retailer product listings"
+      ]
     },
     {
       "id": "friendship-729-battle-2",
@@ -913,16 +1957,42 @@
       "image": "https://placehold.co/720x480/16a34a/ffffff?text=729%20Battle%202",
       "description": "国产粘性正手套胶，性价比较高，常作为普狂替代或预算正手选择。",
       "tags": {
-        "brand": ["729", "Friendship 729"],
-        "position": ["正手"],
-        "rubberType": ["反胶", "粘性胶面"],
-        "sponge": ["高密海绵", "硬质海绵"],
-        "thickness": ["2.1", "2.2"],
-        "hardness": ["39度", "40度", "41度"],
-        "style": ["弧圈", "快攻弧圈"],
-        "origin": ["中国"]
+        "brand": [
+          "729",
+          "Friendship 729"
+        ],
+        "position": [
+          "正手"
+        ],
+        "rubberType": [
+          "反胶",
+          "粘性胶面"
+        ],
+        "sponge": [
+          "高密海绵",
+          "硬质海绵"
+        ],
+        "thickness": [
+          "2.1",
+          "2.2"
+        ],
+        "hardness": [
+          "39度",
+          "40度",
+          "41度"
+        ],
+        "style": [
+          "弧圈",
+          "快攻弧圈"
+        ],
+        "origin": [
+          "中国"
+        ]
       },
-      "sources": ["729 Battle II product listings", "Revspin Battle II listing"]
+      "sources": [
+        "729 Battle II product listings",
+        "Revspin Battle II listing"
+      ]
     },
     {
       "id": "friendship-729-bloom-power",
@@ -935,16 +2005,41 @@
       "image": "https://placehold.co/720x480/22c55e/111827?text=729%20Bloom%20Power",
       "description": "亲民价位的国产反胶，强调弹性和易打，适合反手或初中级正手。",
       "tags": {
-        "brand": ["729", "Friendship 729"],
-        "position": ["反手", "正手"],
-        "rubberType": ["反胶", "粘性胶面"],
-        "sponge": ["蛋糕海绵", "软弹海绵"],
-        "thickness": ["2.1", "2.2"],
-        "hardness": ["中软", "中硬"],
-        "style": ["控制", "连续进攻"],
-        "origin": ["中国"]
+        "brand": [
+          "729",
+          "Friendship 729"
+        ],
+        "position": [
+          "反手",
+          "正手"
+        ],
+        "rubberType": [
+          "反胶",
+          "粘性胶面"
+        ],
+        "sponge": [
+          "蛋糕海绵",
+          "软弹海绵"
+        ],
+        "thickness": [
+          "2.1",
+          "2.2"
+        ],
+        "hardness": [
+          "中软",
+          "中硬"
+        ],
+        "style": [
+          "控制",
+          "连续进攻"
+        ],
+        "origin": [
+          "中国"
+        ]
       },
-      "sources": ["729 Bloom product listings"]
+      "sources": [
+        "729 Bloom product listings"
+      ]
     },
     {
       "id": "friendship-729-cj8000",
@@ -957,16 +2052,44 @@
       "image": "https://placehold.co/720x480/4ade80/111827?text=729%20CJ8000",
       "description": "经典低价训练套胶，控制容易、手感清楚，适合入门和多球训练。",
       "tags": {
-        "brand": ["729", "Friendship 729"],
-        "position": ["反手", "正手"],
-        "rubberType": ["反胶", "粘性胶面"],
-        "sponge": ["传统海绵", "软弹海绵"],
-        "thickness": ["1.8", "2.0", "2.2"],
-        "hardness": ["软", "中软", "中硬"],
-        "style": ["控制", "训练"],
-        "origin": ["中国"]
+        "brand": [
+          "729",
+          "Friendship 729"
+        ],
+        "position": [
+          "反手",
+          "正手"
+        ],
+        "rubberType": [
+          "反胶",
+          "粘性胶面"
+        ],
+        "sponge": [
+          "传统海绵",
+          "软弹海绵"
+        ],
+        "thickness": [
+          "1.8",
+          "2.0",
+          "2.2"
+        ],
+        "hardness": [
+          "软",
+          "中软",
+          "中硬"
+        ],
+        "style": [
+          "控制",
+          "训练"
+        ],
+        "origin": [
+          "中国"
+        ]
       },
-      "sources": ["729 CJ8000 product listings", "retailer product listings"]
+      "sources": [
+        "729 CJ8000 product listings",
+        "retailer product listings"
+      ]
     },
     {
       "id": "yinhe-mercury-2",
@@ -979,16 +2102,45 @@
       "image": "https://placehold.co/720x480/0ea5e9/ffffff?text=Yinhe%20Mercury%202",
       "description": "非常常见的低价国产套胶，控制好、容错高，适合入门练习和反手配置。",
       "tags": {
-        "brand": ["银河", "Yinhe"],
-        "position": ["反手", "正手"],
-        "rubberType": ["反胶", "粘性胶面"],
-        "sponge": ["传统海绵", "软弹海绵"],
-        "thickness": ["2.0", "2.1", "2.2"],
-        "hardness": ["软", "中软", "中硬"],
-        "style": ["控制", "训练", "连续进攻"],
-        "origin": ["中国"]
+        "brand": [
+          "银河",
+          "Yinhe"
+        ],
+        "position": [
+          "反手",
+          "正手"
+        ],
+        "rubberType": [
+          "反胶",
+          "粘性胶面"
+        ],
+        "sponge": [
+          "传统海绵",
+          "软弹海绵"
+        ],
+        "thickness": [
+          "2.0",
+          "2.1",
+          "2.2"
+        ],
+        "hardness": [
+          "软",
+          "中软",
+          "中硬"
+        ],
+        "style": [
+          "控制",
+          "训练",
+          "连续进攻"
+        ],
+        "origin": [
+          "中国"
+        ]
       },
-      "sources": ["Yinhe Mercury II product listings", "Revspin Mercury II listing"]
+      "sources": [
+        "Yinhe Mercury II product listings",
+        "Revspin Mercury II listing"
+      ]
     },
     {
       "id": "yinhe-moon-speed",
@@ -1001,16 +2153,43 @@
       "image": "https://placehold.co/720x480/38bdf8/111827?text=Yinhe%20Moon%20Speed",
       "description": "经济型涩性/半涩性套胶，速度比传统粘套更轻快，适合预算反手。",
       "tags": {
-        "brand": ["银河", "Yinhe"],
-        "position": ["反手", "正手"],
-        "rubberType": ["反胶", "涩性胶面"],
-        "sponge": ["蛋糕海绵", "软弹海绵"],
-        "thickness": ["2.0", "2.1", "Max"],
-        "hardness": ["中软", "中硬"],
-        "style": ["控制", "连续进攻", "快攻弧圈"],
-        "origin": ["中国"]
+        "brand": [
+          "银河",
+          "Yinhe"
+        ],
+        "position": [
+          "反手",
+          "正手"
+        ],
+        "rubberType": [
+          "反胶",
+          "涩性胶面"
+        ],
+        "sponge": [
+          "蛋糕海绵",
+          "软弹海绵"
+        ],
+        "thickness": [
+          "2.0",
+          "2.1",
+          "Max"
+        ],
+        "hardness": [
+          "中软",
+          "中硬"
+        ],
+        "style": [
+          "控制",
+          "连续进攻",
+          "快攻弧圈"
+        ],
+        "origin": [
+          "中国"
+        ]
       },
-      "sources": ["Yinhe Moon Speed product listings"]
+      "sources": [
+        "Yinhe Moon Speed product listings"
+      ]
     },
     {
       "id": "kokutaku-868",
@@ -1023,16 +2202,41 @@
       "image": "https://placehold.co/720x480/854d0e/ffffff?text=Kokutaku%20868",
       "description": "经典廉价粘性反胶，适合入门、练习摩擦和传统控制打法。",
       "tags": {
-        "brand": ["环球", "Kokutaku"],
-        "position": ["正手", "反手"],
-        "rubberType": ["反胶", "粘性胶面"],
-        "sponge": ["传统海绵"],
-        "thickness": ["1.8", "2.0", "2.2"],
-        "hardness": ["中硬"],
-        "style": ["控制", "训练", "快攻弧圈"],
-        "origin": ["中国"]
+        "brand": [
+          "环球",
+          "Kokutaku"
+        ],
+        "position": [
+          "正手",
+          "反手"
+        ],
+        "rubberType": [
+          "反胶",
+          "粘性胶面"
+        ],
+        "sponge": [
+          "传统海绵"
+        ],
+        "thickness": [
+          "1.8",
+          "2.0",
+          "2.2"
+        ],
+        "hardness": [
+          "中硬"
+        ],
+        "style": [
+          "控制",
+          "训练",
+          "快攻弧圈"
+        ],
+        "origin": [
+          "中国"
+        ]
       },
-      "sources": ["Kokutaku 868 product listings"]
+      "sources": [
+        "Kokutaku 868 product listings"
+      ]
     },
     {
       "id": "loki-rxton-5",
@@ -1045,16 +2249,40 @@
       "image": "https://placehold.co/720x480/166534/ffffff?text=Loki%20Rxton%205",
       "description": "Rxton 系列进阶型号，粘性和支撑更强，预算正手玩家常会考虑。",
       "tags": {
-        "brand": ["雷神", "Loki"],
-        "position": ["正手"],
-        "rubberType": ["反胶", "粘性胶面"],
-        "sponge": ["高密海绵", "硬质海绵"],
-        "thickness": ["2.1", "2.2"],
-        "hardness": ["中硬", "硬"],
-        "style": ["弧圈", "快攻弧圈"],
-        "origin": ["中国"]
+        "brand": [
+          "雷神",
+          "Loki"
+        ],
+        "position": [
+          "正手"
+        ],
+        "rubberType": [
+          "反胶",
+          "粘性胶面"
+        ],
+        "sponge": [
+          "高密海绵",
+          "硬质海绵"
+        ],
+        "thickness": [
+          "2.1",
+          "2.2"
+        ],
+        "hardness": [
+          "中硬",
+          "硬"
+        ],
+        "style": [
+          "弧圈",
+          "快攻弧圈"
+        ],
+        "origin": [
+          "中国"
+        ]
       },
-      "sources": ["Loki Rxton product listings"]
+      "sources": [
+        "Loki Rxton product listings"
+      ]
     },
     {
       "id": "loki-rxton-9",
@@ -1067,16 +2295,40 @@
       "image": "https://placehold.co/720x480/14532d/ffffff?text=Loki%20Rxton%209",
       "description": "雷神 Rxton 系列高阶型号，仍保持较高性价比，适合预算内追求正手上限。",
       "tags": {
-        "brand": ["雷神", "Loki"],
-        "position": ["正手"],
-        "rubberType": ["反胶", "粘性胶面"],
-        "sponge": ["高密海绵", "硬质海绵"],
-        "thickness": ["2.1", "2.2"],
-        "hardness": ["硬"],
-        "style": ["弧圈", "反拉", "快攻弧圈"],
-        "origin": ["中国"]
+        "brand": [
+          "雷神",
+          "Loki"
+        ],
+        "position": [
+          "正手"
+        ],
+        "rubberType": [
+          "反胶",
+          "粘性胶面"
+        ],
+        "sponge": [
+          "高密海绵",
+          "硬质海绵"
+        ],
+        "thickness": [
+          "2.1",
+          "2.2"
+        ],
+        "hardness": [
+          "硬"
+        ],
+        "style": [
+          "弧圈",
+          "反拉",
+          "快攻弧圈"
+        ],
+        "origin": [
+          "中国"
+        ]
       },
-      "sources": ["Loki Rxton product listings"]
+      "sources": [
+        "Loki Rxton product listings"
+      ]
     },
     {
       "id": "palio-ak47-yellow",
@@ -1089,16 +2341,41 @@
       "image": "https://placehold.co/720x480/facc15/111827?text=Palio%20AK47%20Yellow",
       "description": "AK47 系列中较均衡的型号，经济实用，适合反手连续和初中级进攻。",
       "tags": {
-        "brand": ["拍里奥", "Palio"],
-        "position": ["反手", "正手"],
-        "rubberType": ["反胶", "涩性胶面"],
-        "sponge": ["蛋糕海绵", "软弹海绵"],
-        "thickness": ["2.0", "Max"],
-        "hardness": ["中软", "中硬"],
-        "style": ["控制", "连续进攻"],
-        "origin": ["中国"]
+        "brand": [
+          "拍里奥",
+          "Palio"
+        ],
+        "position": [
+          "反手",
+          "正手"
+        ],
+        "rubberType": [
+          "反胶",
+          "涩性胶面"
+        ],
+        "sponge": [
+          "蛋糕海绵",
+          "软弹海绵"
+        ],
+        "thickness": [
+          "2.0",
+          "Max"
+        ],
+        "hardness": [
+          "中软",
+          "中硬"
+        ],
+        "style": [
+          "控制",
+          "连续进攻"
+        ],
+        "origin": [
+          "中国"
+        ]
       },
-      "sources": ["Palio AK47 product listings"]
+      "sources": [
+        "Palio AK47 product listings"
+      ]
     },
     {
       "id": "palio-ak47-red",
@@ -1111,16 +2388,1405 @@
       "image": "https://placehold.co/720x480/ef4444/ffffff?text=Palio%20AK47%20Red",
       "description": "AK47 系列中速度更突出的版本，常用于反手速度型配置。",
       "tags": {
-        "brand": ["拍里奥", "Palio"],
-        "position": ["反手"],
-        "rubberType": ["反胶", "涩性胶面"],
-        "sponge": ["蛋糕海绵", "高弹海绵"],
-        "thickness": ["2.0", "Max"],
-        "hardness": ["中硬"],
-        "style": ["快攻弧圈", "连续进攻"],
-        "origin": ["中国"]
+        "brand": [
+          "拍里奥",
+          "Palio"
+        ],
+        "position": [
+          "反手"
+        ],
+        "rubberType": [
+          "反胶",
+          "涩性胶面"
+        ],
+        "sponge": [
+          "蛋糕海绵",
+          "高弹海绵"
+        ],
+        "thickness": [
+          "2.0",
+          "Max"
+        ],
+        "hardness": [
+          "中硬"
+        ],
+        "style": [
+          "快攻弧圈",
+          "连续进攻"
+        ],
+        "origin": [
+          "中国"
+        ]
       },
-      "sources": ["Palio AK47 product listings"]
+      "sources": [
+        "Palio AK47 product listings"
+      ]
+    },
+    {
+      "id": "butterfly-glayzer-09c",
+      "name": "Glayzer 09C",
+      "brand": "蝴蝶",
+      "brandEn": "Butterfly",
+      "series": "Glayzer",
+      "price": 260,
+      "priceMin": 230,
+      "priceMax": 300,
+      "currency": "CNY",
+      "contributors": [
+        "Codex research"
+      ],
+      "image": "https://placehold.co/720x480/111827/ffffff?text=Butterfly%20Glayzer%2009C",
+      "description": "粘性涩套取向的中高端套胶，比 Dignics 09C 更容易上手，适合正手拉冲和控制。",
+      "tags": {
+        "brand": [
+          "蝴蝶",
+          "Butterfly"
+        ],
+        "position": [
+          "正手",
+          "反手"
+        ],
+        "rubberType": [
+          "反胶",
+          "粘性胶面"
+        ],
+        "sponge": [
+          "高弹海绵"
+        ],
+        "thickness": [
+          "1.9",
+          "2.1"
+        ],
+        "hardness": [
+          "硬"
+        ],
+        "style": [
+          "弧圈",
+          "控制",
+          "反拉"
+        ],
+        "origin": [
+          "日本"
+        ]
+      },
+      "sources": [
+        "Butterfly Glayzer 09C product page",
+        "Revspin Glayzer 09C listing"
+      ]
+    },
+    {
+      "id": "butterfly-glayzer",
+      "name": "Glayzer",
+      "brand": "蝴蝶",
+      "brandEn": "Butterfly",
+      "series": "Glayzer",
+      "price": 240,
+      "priceMin": 210,
+      "priceMax": 280,
+      "currency": "CNY",
+      "contributors": [
+        "Codex research"
+      ],
+      "image": "https://placehold.co/720x480/1f2937/ffffff?text=Butterfly%20Glayzer",
+      "description": "Dignics 系技术下放的涩性套胶，速度和容错均衡，适合正反手进阶使用。",
+      "tags": {
+        "brand": [
+          "蝴蝶",
+          "Butterfly"
+        ],
+        "position": [
+          "正手",
+          "反手"
+        ],
+        "rubberType": [
+          "反胶",
+          "涩性胶面"
+        ],
+        "sponge": [
+          "高弹海绵"
+        ],
+        "thickness": [
+          "1.9",
+          "2.1"
+        ],
+        "hardness": [
+          "中硬"
+        ],
+        "style": [
+          "弧圈",
+          "连续进攻",
+          "控制"
+        ],
+        "origin": [
+          "日本"
+        ]
+      },
+      "sources": [
+        "Butterfly Glayzer product page",
+        "Revspin Glayzer listing"
+      ]
+    },
+    {
+      "id": "butterfly-sriver",
+      "name": "Sriver",
+      "brand": "蝴蝶",
+      "brandEn": "Butterfly",
+      "series": "Sriver",
+      "price": 180,
+      "priceMin": 150,
+      "priceMax": 220,
+      "currency": "CNY",
+      "contributors": [
+        "Codex research"
+      ],
+      "image": "https://placehold.co/720x480/475569/ffffff?text=Butterfly%20Sriver",
+      "description": "经典老牌反胶，控制稳定，适合基础训练和传统弧快打法。",
+      "tags": {
+        "brand": [
+          "蝴蝶",
+          "Butterfly"
+        ],
+        "position": [
+          "正手",
+          "反手"
+        ],
+        "rubberType": [
+          "反胶",
+          "涩性胶面"
+        ],
+        "sponge": [
+          "传统海绵"
+        ],
+        "thickness": [
+          "1.7",
+          "1.9",
+          "2.1"
+        ],
+        "hardness": [
+          "中硬"
+        ],
+        "style": [
+          "控制",
+          "快攻",
+          "训练"
+        ],
+        "origin": [
+          "日本"
+        ]
+      },
+      "sources": [
+        "Butterfly Sriver product page",
+        "Revspin Sriver listing"
+      ]
+    },
+    {
+      "id": "dhs-hurricane-9-violet",
+      "name": "狂飙 9 紫",
+      "brand": "红双喜",
+      "brandEn": "DHS",
+      "series": "狂飙",
+      "price": 170,
+      "priceMin": 140,
+      "priceMax": 220,
+      "currency": "CNY",
+      "contributors": [
+        "Codex research"
+      ],
+      "image": "https://placehold.co/720x480/7c3aed/ffffff?text=DHS%20%E7%8B%82%E9%A3%99%209%20%E7%B4%AB",
+      "description": "狂飙 9 系列粘性套胶，紫海绵偏支撑和旋转，正手弧圈取向。",
+      "tags": {
+        "brand": [
+          "红双喜",
+          "DHS"
+        ],
+        "position": [
+          "正手"
+        ],
+        "rubberType": [
+          "反胶",
+          "粘性胶面"
+        ],
+        "sponge": [
+          "高密海绵"
+        ],
+        "thickness": [
+          "2.1"
+        ],
+        "hardness": [
+          "中硬",
+          "硬"
+        ],
+        "style": [
+          "弧圈",
+          "快攻弧圈"
+        ],
+        "origin": [
+          "中国"
+        ]
+      },
+      "sources": [
+        "DHS Hurricane 9 product listings",
+        "Revspin Hurricane 9 listing"
+      ]
+    },
+    {
+      "id": "dhs-tin-arc-5",
+      "name": "天弓 5",
+      "brand": "红双喜",
+      "brandEn": "DHS",
+      "series": "天弓",
+      "price": 150,
+      "priceMin": 120,
+      "priceMax": 190,
+      "currency": "CNY",
+      "contributors": [
+        "Codex research"
+      ],
+      "image": "https://placehold.co/720x480/dc2626/ffffff?text=DHS%20%E5%A4%A9%E5%BC%93%205",
+      "description": "偏涩性内能的国产套胶，出球较轻快，常用于反手或均衡正手。",
+      "tags": {
+        "brand": [
+          "红双喜",
+          "DHS"
+        ],
+        "position": [
+          "反手",
+          "正手"
+        ],
+        "rubberType": [
+          "反胶",
+          "涩性胶面"
+        ],
+        "sponge": [
+          "蛋糕海绵",
+          "高弹海绵"
+        ],
+        "thickness": [
+          "2.0",
+          "2.1"
+        ],
+        "hardness": [
+          "中硬"
+        ],
+        "style": [
+          "连续进攻",
+          "相持",
+          "控制"
+        ],
+        "origin": [
+          "中国"
+        ]
+      },
+      "sources": [
+        "DHS Tin Arc product listings",
+        "Revspin Tin Arc 5 listing"
+      ]
+    },
+    {
+      "id": "dhs-goldarc-5",
+      "name": "金弓 5",
+      "brand": "红双喜",
+      "brandEn": "DHS",
+      "series": "金弓",
+      "price": 150,
+      "priceMin": 120,
+      "priceMax": 190,
+      "currency": "CNY",
+      "contributors": [
+        "Codex research"
+      ],
+      "image": "https://placehold.co/720x480/f59e0b/ffffff?text=DHS%20%E9%87%91%E5%BC%93%205",
+      "description": "德国制造涩性套胶，控制和速度均衡，适合反手连续和中等发力。",
+      "tags": {
+        "brand": [
+          "红双喜",
+          "DHS"
+        ],
+        "position": [
+          "反手",
+          "正手"
+        ],
+        "rubberType": [
+          "反胶",
+          "涩性胶面"
+        ],
+        "sponge": [
+          "蛋糕海绵",
+          "高弹海绵"
+        ],
+        "thickness": [
+          "2.0",
+          "Max"
+        ],
+        "hardness": [
+          "中硬"
+        ],
+        "style": [
+          "相持",
+          "连续进攻",
+          "控制"
+        ],
+        "origin": [
+          "德国"
+        ]
+      },
+      "sources": [
+        "DHS Goldarc product line",
+        "Revspin Goldarc 5 listing"
+      ]
+    },
+    {
+      "id": "tibhar-evolution-mxs",
+      "name": "Evolution MX-S",
+      "brand": "挺拔",
+      "brandEn": "TIBHAR",
+      "series": "Evolution",
+      "price": 260,
+      "priceMin": 220,
+      "priceMax": 310,
+      "currency": "CNY",
+      "contributors": [
+        "Codex research"
+      ],
+      "image": "https://placehold.co/720x480/1d4ed8/ffffff?text=TIBHAR%20Evolution%20MX-S",
+      "description": "比 MX-P 更强调旋转和持球的 Evolution 套胶，适合主动弧圈和发力摩擦。",
+      "tags": {
+        "brand": [
+          "挺拔",
+          "TIBHAR"
+        ],
+        "position": [
+          "正手"
+        ],
+        "rubberType": [
+          "反胶",
+          "涩性胶面"
+        ],
+        "sponge": [
+          "蛋糕海绵",
+          "高弹海绵"
+        ],
+        "thickness": [
+          "2.1",
+          "Max"
+        ],
+        "hardness": [
+          "硬"
+        ],
+        "style": [
+          "弧圈",
+          "反拉",
+          "相持"
+        ],
+        "origin": [
+          "德国"
+        ]
+      },
+      "sources": [
+        "TIBHAR Evolution product line",
+        "Revspin Evolution MX-S listing"
+      ]
+    },
+    {
+      "id": "tibhar-quantum-x-pro",
+      "name": "Quantum X Pro",
+      "brand": "挺拔",
+      "brandEn": "TIBHAR",
+      "series": "Quantum",
+      "price": 250,
+      "priceMin": 210,
+      "priceMax": 300,
+      "currency": "CNY",
+      "contributors": [
+        "Codex research"
+      ],
+      "image": "https://placehold.co/720x480/2563eb/ffffff?text=TIBHAR%20Quantum%20X%20Pro",
+      "description": "高弹涩套，速度和支撑明显，适合反手强相持或正手快弧。",
+      "tags": {
+        "brand": [
+          "挺拔",
+          "TIBHAR"
+        ],
+        "position": [
+          "反手",
+          "正手"
+        ],
+        "rubberType": [
+          "反胶",
+          "涩性胶面"
+        ],
+        "sponge": [
+          "蛋糕海绵",
+          "高弹海绵"
+        ],
+        "thickness": [
+          "2.0",
+          "Max"
+        ],
+        "hardness": [
+          "中硬",
+          "硬"
+        ],
+        "style": [
+          "相持",
+          "连续进攻",
+          "快攻弧圈"
+        ],
+        "origin": [
+          "德国"
+        ]
+      },
+      "sources": [
+        "TIBHAR Quantum product listings",
+        "Revspin Quantum X Pro listing"
+      ]
+    },
+    {
+      "id": "donic-baracuda",
+      "name": "Baracuda",
+      "brand": "多尼克",
+      "brandEn": "DONIC",
+      "series": "Baracuda",
+      "price": 190,
+      "priceMin": 160,
+      "priceMax": 240,
+      "currency": "CNY",
+      "contributors": [
+        "Codex research"
+      ],
+      "image": "https://placehold.co/720x480/0ea5e9/ffffff?text=DONIC%20Baracuda",
+      "description": "经典高旋转涩套，弧线稳定，适合强调摩擦和连续弧圈的打法。",
+      "tags": {
+        "brand": [
+          "多尼克",
+          "DONIC"
+        ],
+        "position": [
+          "正手",
+          "反手"
+        ],
+        "rubberType": [
+          "反胶",
+          "涩性胶面"
+        ],
+        "sponge": [
+          "蛋糕海绵",
+          "高弹海绵"
+        ],
+        "thickness": [
+          "1.8",
+          "2.0",
+          "Max"
+        ],
+        "hardness": [
+          "中硬"
+        ],
+        "style": [
+          "弧圈",
+          "控制",
+          "相持"
+        ],
+        "origin": [
+          "德国"
+        ]
+      },
+      "sources": [
+        "DONIC Baracuda product listings",
+        "Revspin Baracuda listing"
+      ]
+    },
+    {
+      "id": "donic-bluestar-a1",
+      "name": "Bluestar A1",
+      "brand": "多尼克",
+      "brandEn": "DONIC",
+      "series": "Bluestar",
+      "price": 300,
+      "priceMin": 260,
+      "priceMax": 360,
+      "currency": "CNY",
+      "contributors": [
+        "Codex research"
+      ],
+      "image": "https://placehold.co/720x480/0369a1/ffffff?text=DONIC%20Bluestar%20A1",
+      "description": "高端蛋糕涩套，支撑和速度突出，适合高强度相持和主动进攻。",
+      "tags": {
+        "brand": [
+          "多尼克",
+          "DONIC"
+        ],
+        "position": [
+          "正手",
+          "反手"
+        ],
+        "rubberType": [
+          "反胶",
+          "涩性胶面"
+        ],
+        "sponge": [
+          "蛋糕海绵",
+          "高弹海绵"
+        ],
+        "thickness": [
+          "2.1",
+          "Max"
+        ],
+        "hardness": [
+          "硬"
+        ],
+        "style": [
+          "相持",
+          "反拉",
+          "连续进攻"
+        ],
+        "origin": [
+          "德国"
+        ]
+      },
+      "sources": [
+        "DONIC Bluestar product listings",
+        "Revspin Bluestar A1 listing"
+      ]
+    },
+    {
+      "id": "joola-dynaryz-acc",
+      "name": "Dynaryz ACC",
+      "brand": "优拉",
+      "brandEn": "JOOLA",
+      "series": "Dynaryz",
+      "price": 280,
+      "priceMin": 240,
+      "priceMax": 330,
+      "currency": "CNY",
+      "contributors": [
+        "Codex research"
+      ],
+      "image": "https://placehold.co/720x480/ef4444/ffffff?text=JOOLA%20Dynaryz%20ACC",
+      "description": "比 AGR 更容易上手的高弹涩套，速度和控制均衡，适合反手或正手连续。",
+      "tags": {
+        "brand": [
+          "优拉",
+          "JOOLA"
+        ],
+        "position": [
+          "反手",
+          "正手"
+        ],
+        "rubberType": [
+          "反胶",
+          "涩性胶面"
+        ],
+        "sponge": [
+          "蛋糕海绵",
+          "高弹海绵"
+        ],
+        "thickness": [
+          "2.0",
+          "Max"
+        ],
+        "hardness": [
+          "中硬"
+        ],
+        "style": [
+          "相持",
+          "连续进攻",
+          "控制"
+        ],
+        "origin": [
+          "德国"
+        ]
+      },
+      "sources": [
+        "JOOLA Dynaryz product line",
+        "Revspin Dynaryz ACC listing"
+      ]
+    },
+    {
+      "id": "joola-rhyzen-zgr",
+      "name": "Rhyzen ZGR",
+      "brand": "优拉",
+      "brandEn": "JOOLA",
+      "series": "Rhyzen",
+      "price": 220,
+      "priceMin": 180,
+      "priceMax": 270,
+      "currency": "CNY",
+      "contributors": [
+        "Codex research"
+      ],
+      "image": "https://placehold.co/720x480/dc2626/ffffff?text=JOOLA%20Rhyzen%20ZGR",
+      "description": "半粘半涩取向的 Rhyzen 套胶，摩擦强，适合正手弧圈和发抢。",
+      "tags": {
+        "brand": [
+          "优拉",
+          "JOOLA"
+        ],
+        "position": [
+          "正手"
+        ],
+        "rubberType": [
+          "反胶",
+          "微粘胶面"
+        ],
+        "sponge": [
+          "蛋糕海绵"
+        ],
+        "thickness": [
+          "2.0",
+          "Max"
+        ],
+        "hardness": [
+          "硬"
+        ],
+        "style": [
+          "弧圈",
+          "快攻弧圈",
+          "控制"
+        ],
+        "origin": [
+          "德国"
+        ]
+      },
+      "sources": [
+        "JOOLA Rhyzen product line",
+        "Revspin Rhyzen ZGR listing"
+      ]
+    },
+    {
+      "id": "stiga-dna-hybrid-xh",
+      "name": "DNA Hybrid XH",
+      "brand": "斯帝卡",
+      "brandEn": "STIGA",
+      "series": "DNA",
+      "price": 300,
+      "priceMin": 260,
+      "priceMax": 360,
+      "currency": "CNY",
+      "contributors": [
+        "Codex research"
+      ],
+      "image": "https://placehold.co/720x480/ca8a04/ffffff?text=STIGA%20DNA%20Hybrid%20XH",
+      "description": "粘性混合型 DNA 套胶，支撑和摩擦强，适合正手高质量拉冲。",
+      "tags": {
+        "brand": [
+          "斯帝卡",
+          "STIGA"
+        ],
+        "position": [
+          "正手"
+        ],
+        "rubberType": [
+          "反胶",
+          "粘性胶面"
+        ],
+        "sponge": [
+          "蛋糕海绵",
+          "高密海绵"
+        ],
+        "thickness": [
+          "2.1",
+          "Max"
+        ],
+        "hardness": [
+          "硬"
+        ],
+        "style": [
+          "弧圈",
+          "反拉",
+          "发抢"
+        ],
+        "origin": [
+          "德国"
+        ]
+      },
+      "sources": [
+        "STIGA DNA Hybrid product line",
+        "Revspin DNA Hybrid XH listing"
+      ]
+    },
+    {
+      "id": "xiom-vega-x",
+      "name": "Vega X",
+      "brand": "骄猛",
+      "brandEn": "XIOM",
+      "series": "Vega",
+      "price": 180,
+      "priceMin": 150,
+      "priceMax": 230,
+      "currency": "CNY",
+      "contributors": [
+        "Codex research"
+      ],
+      "image": "https://placehold.co/720x480/2563eb/ffffff?text=XIOM%20Vega%20X",
+      "description": "Vega 系列常见升级款，速度和旋转均衡，适合进阶反手和均衡正手。",
+      "tags": {
+        "brand": [
+          "骄猛",
+          "XIOM"
+        ],
+        "position": [
+          "反手",
+          "正手"
+        ],
+        "rubberType": [
+          "反胶",
+          "涩性胶面"
+        ],
+        "sponge": [
+          "蛋糕海绵",
+          "高弹海绵"
+        ],
+        "thickness": [
+          "2.0",
+          "Max"
+        ],
+        "hardness": [
+          "中硬"
+        ],
+        "style": [
+          "相持",
+          "连续进攻",
+          "控制"
+        ],
+        "origin": [
+          "德国"
+        ]
+      },
+      "sources": [
+        "XIOM Vega product line",
+        "Revspin Vega X listing"
+      ]
+    },
+    {
+      "id": "xiom-jekyll-hyde-v52-5",
+      "name": "Jekyll & Hyde V52.5",
+      "brand": "骄猛",
+      "brandEn": "XIOM",
+      "series": "Jekyll & Hyde",
+      "price": 320,
+      "priceMin": 270,
+      "priceMax": 380,
+      "currency": "CNY",
+      "contributors": [
+        "Codex research"
+      ],
+      "image": "https://placehold.co/720x480/312e81/ffffff?text=XIOM%20Jekyll%20%26%20Hyde%20V52.5",
+      "description": "高硬度高弹涩套，上限高，适合发力充分的正手和强相持。",
+      "tags": {
+        "brand": [
+          "骄猛",
+          "XIOM"
+        ],
+        "position": [
+          "正手"
+        ],
+        "rubberType": [
+          "反胶",
+          "涩性胶面"
+        ],
+        "sponge": [
+          "蛋糕海绵",
+          "高弹海绵"
+        ],
+        "thickness": [
+          "2.1",
+          "Max"
+        ],
+        "hardness": [
+          "硬"
+        ],
+        "style": [
+          "弧圈",
+          "反拉",
+          "相持"
+        ],
+        "origin": [
+          "德国"
+        ]
+      },
+      "sources": [
+        "XIOM Jekyll & Hyde product listings",
+        "Revspin Jekyll & Hyde listing"
+      ]
+    },
+    {
+      "id": "yasaka-rakza-x",
+      "name": "Rakza X",
+      "brand": "亚萨卡",
+      "brandEn": "Yasaka",
+      "series": "Rakza",
+      "price": 230,
+      "priceMin": 190,
+      "priceMax": 280,
+      "currency": "CNY",
+      "contributors": [
+        "Codex research"
+      ],
+      "image": "https://placehold.co/720x480/7c3aed/ffffff?text=Yasaka%20Rakza%20X",
+      "description": "Rakza 系速度和旋转增强款，适合正反手主动进攻。",
+      "tags": {
+        "brand": [
+          "亚萨卡",
+          "Yasaka"
+        ],
+        "position": [
+          "正手",
+          "反手"
+        ],
+        "rubberType": [
+          "反胶",
+          "涩性胶面"
+        ],
+        "sponge": [
+          "蛋糕海绵"
+        ],
+        "thickness": [
+          "2.0",
+          "Max"
+        ],
+        "hardness": [
+          "中硬"
+        ],
+        "style": [
+          "弧圈",
+          "相持",
+          "连续进攻"
+        ],
+        "origin": [
+          "德国"
+        ]
+      },
+      "sources": [
+        "Yasaka Rakza product line",
+        "Revspin Rakza X listing"
+      ]
+    },
+    {
+      "id": "yasaka-rising-dragon",
+      "name": "翔龙 Rising Dragon",
+      "brand": "亚萨卡",
+      "brandEn": "Yasaka",
+      "series": "Dragon",
+      "price": 220,
+      "priceMin": 180,
+      "priceMax": 270,
+      "currency": "CNY",
+      "contributors": [
+        "Codex research"
+      ],
+      "image": "https://placehold.co/720x480/6d28d9/ffffff?text=Yasaka%20%E7%BF%94%E9%BE%99%20Rising%20Dragon",
+      "description": "粘性混合型套胶，咬球和旋转明显，常用于正手弧圈。",
+      "tags": {
+        "brand": [
+          "亚萨卡",
+          "Yasaka"
+        ],
+        "position": [
+          "正手"
+        ],
+        "rubberType": [
+          "反胶",
+          "粘性胶面"
+        ],
+        "sponge": [
+          "高密海绵",
+          "高弹海绵"
+        ],
+        "thickness": [
+          "2.0",
+          "Max"
+        ],
+        "hardness": [
+          "硬"
+        ],
+        "style": [
+          "弧圈",
+          "控制",
+          "发抢"
+        ],
+        "origin": [
+          "德国"
+        ]
+      },
+      "sources": [
+        "Yasaka Rising Dragon product listings",
+        "Revspin Rising Dragon listing"
+      ]
+    },
+    {
+      "id": "nittaku-hammond-z2",
+      "name": "Hammond Z2",
+      "brand": "尼塔库",
+      "brandEn": "Nittaku",
+      "series": "Hammond",
+      "price": 290,
+      "priceMin": 240,
+      "priceMax": 350,
+      "currency": "CNY",
+      "contributors": [
+        "Codex research"
+      ],
+      "image": "https://placehold.co/720x480/0f766e/ffffff?text=Nittaku%20Hammond%20Z2",
+      "description": "速度和弹性突出的涩套，适合快节奏反手和主动连续。",
+      "tags": {
+        "brand": [
+          "尼塔库",
+          "Nittaku"
+        ],
+        "position": [
+          "反手",
+          "正手"
+        ],
+        "rubberType": [
+          "反胶",
+          "涩性胶面"
+        ],
+        "sponge": [
+          "蛋糕海绵",
+          "高弹海绵"
+        ],
+        "thickness": [
+          "2.0",
+          "Max"
+        ],
+        "hardness": [
+          "中硬"
+        ],
+        "style": [
+          "连续进攻",
+          "相持",
+          "快攻"
+        ],
+        "origin": [
+          "德国"
+        ]
+      },
+      "sources": [
+        "Nittaku Hammond product listings",
+        "Revspin Hammond Z2 listing"
+      ]
+    },
+    {
+      "id": "victas-v22-double-extra",
+      "name": "V>22 Double Extra",
+      "brand": "维克塔斯",
+      "brandEn": "VICTAS",
+      "series": "V>22",
+      "price": 300,
+      "priceMin": 260,
+      "priceMax": 360,
+      "currency": "CNY",
+      "contributors": [
+        "Codex research"
+      ],
+      "image": "https://placehold.co/720x480/0f766e/ffffff?text=VICTAS%20V%3E22%20Double%20Extra",
+      "description": "高端进攻涩套，速度和相持能力强，适合高水平正反手进攻。",
+      "tags": {
+        "brand": [
+          "维克塔斯",
+          "VICTAS"
+        ],
+        "position": [
+          "正手",
+          "反手"
+        ],
+        "rubberType": [
+          "反胶",
+          "涩性胶面"
+        ],
+        "sponge": [
+          "蛋糕海绵",
+          "高弹海绵"
+        ],
+        "thickness": [
+          "2.0",
+          "Max"
+        ],
+        "hardness": [
+          "硬"
+        ],
+        "style": [
+          "相持",
+          "反拉",
+          "连续进攻"
+        ],
+        "origin": [
+          "德国"
+        ]
+      },
+      "sources": [
+        "VICTAS V>22 product listings",
+        "Revspin V>22 Double Extra listing"
+      ]
+    },
+    {
+      "id": "victas-ventus-extra",
+      "name": "Ventus Extra",
+      "brand": "维克塔斯",
+      "brandEn": "VICTAS",
+      "series": "Ventus",
+      "price": 180,
+      "priceMin": 150,
+      "priceMax": 230,
+      "currency": "CNY",
+      "contributors": [
+        "Codex research"
+      ],
+      "image": "https://placehold.co/720x480/115e59/ffffff?text=VICTAS%20Ventus%20Extra",
+      "description": "均衡涩套，控制和速度都较稳，适合进阶反手或均衡型打法。",
+      "tags": {
+        "brand": [
+          "维克塔斯",
+          "VICTAS"
+        ],
+        "position": [
+          "反手",
+          "正手"
+        ],
+        "rubberType": [
+          "反胶",
+          "涩性胶面"
+        ],
+        "sponge": [
+          "高弹海绵"
+        ],
+        "thickness": [
+          "1.8",
+          "2.0",
+          "Max"
+        ],
+        "hardness": [
+          "中硬"
+        ],
+        "style": [
+          "控制",
+          "相持",
+          "连续进攻"
+        ],
+        "origin": [
+          "德国"
+        ]
+      },
+      "sources": [
+        "VICTAS Ventus product listings",
+        "Revspin Ventus Extra listing"
+      ]
+    },
+    {
+      "id": "yinhe-apollo-5",
+      "name": "阿波罗 5",
+      "brand": "银河",
+      "brandEn": "Yinhe",
+      "series": "阿波罗",
+      "price": 70,
+      "priceMin": 55,
+      "priceMax": 95,
+      "currency": "CNY",
+      "contributors": [
+        "Codex research"
+      ],
+      "image": "https://placehold.co/720x480/0f766e/ffffff?text=Yinhe%20%E9%98%BF%E6%B3%A2%E7%BD%97%205",
+      "description": "亲民国产粘性套胶，旋转和控制不错，适合练习正手摩擦和发力。",
+      "tags": {
+        "brand": [
+          "银河",
+          "Yinhe"
+        ],
+        "position": [
+          "正手"
+        ],
+        "rubberType": [
+          "反胶",
+          "粘性胶面"
+        ],
+        "sponge": [
+          "高密海绵",
+          "硬质海绵"
+        ],
+        "thickness": [
+          "2.1",
+          "Max"
+        ],
+        "hardness": [
+          "中硬",
+          "硬"
+        ],
+        "style": [
+          "弧圈",
+          "训练",
+          "控制"
+        ],
+        "origin": [
+          "中国"
+        ]
+      },
+      "sources": [
+        "Yinhe Apollo product listings",
+        "Revspin Apollo listing",
+        "Tieba user discussions"
+      ]
+    },
+    {
+      "id": "yinhe-mars-2",
+      "name": "火星 2",
+      "brand": "银河",
+      "brandEn": "Yinhe",
+      "series": "火星",
+      "price": 35,
+      "priceMin": 25,
+      "priceMax": 50,
+      "currency": "CNY",
+      "contributors": [
+        "Codex research"
+      ],
+      "image": "https://placehold.co/720x480/0ea5e9/ffffff?text=Yinhe%20%E7%81%AB%E6%98%9F%202",
+      "description": "低价国产套胶，易上手，适合入门训练和备用拍配置。",
+      "tags": {
+        "brand": [
+          "银河",
+          "Yinhe"
+        ],
+        "position": [
+          "正手",
+          "反手"
+        ],
+        "rubberType": [
+          "反胶",
+          "粘性胶面"
+        ],
+        "sponge": [
+          "传统海绵"
+        ],
+        "thickness": [
+          "2.0",
+          "2.2"
+        ],
+        "hardness": [
+          "中硬"
+        ],
+        "style": [
+          "训练",
+          "控制",
+          "入门"
+        ],
+        "origin": [
+          "中国"
+        ]
+      },
+      "sources": [
+        "Yinhe Mars II product listings",
+        "Revspin Mars II listing",
+        "Tieba user discussions"
+      ]
+    },
+    {
+      "id": "friendship-729-battle-3",
+      "name": "奔腾 3",
+      "brand": "729",
+      "brandEn": "Friendship 729",
+      "series": "奔腾",
+      "price": 95,
+      "priceMin": 75,
+      "priceMax": 130,
+      "currency": "CNY",
+      "contributors": [
+        "Codex research"
+      ],
+      "image": "https://placehold.co/720x480/16a34a/ffffff?text=Friendship%20729%20%E5%A5%94%E8%85%BE%203",
+      "description": "国产粘性进攻套胶，支撑较强，适合正手弧圈和发抢。",
+      "tags": {
+        "brand": [
+          "729",
+          "Friendship 729"
+        ],
+        "position": [
+          "正手"
+        ],
+        "rubberType": [
+          "反胶",
+          "粘性胶面"
+        ],
+        "sponge": [
+          "高密海绵"
+        ],
+        "thickness": [
+          "2.1",
+          "Max"
+        ],
+        "hardness": [
+          "中硬",
+          "硬"
+        ],
+        "style": [
+          "弧圈",
+          "快攻弧圈",
+          "训练"
+        ],
+        "origin": [
+          "中国"
+        ]
+      },
+      "sources": [
+        "729 Battle product listings",
+        "Revspin Battle listing",
+        "Tieba user discussions"
+      ]
+    },
+    {
+      "id": "palio-hadou-40-plus",
+      "name": "Hadou 40+",
+      "brand": "拍里奥",
+      "brandEn": "Palio",
+      "series": "Hadou",
+      "price": 55,
+      "priceMin": 40,
+      "priceMax": 75,
+      "currency": "CNY",
+      "contributors": [
+        "Codex research"
+      ],
+      "image": "https://placehold.co/720x480/facc15/ffffff?text=Palio%20Hadou%2040%2B",
+      "description": "低价粘性进攻套胶，适合入门正手练习和经济配置。",
+      "tags": {
+        "brand": [
+          "拍里奥",
+          "Palio"
+        ],
+        "position": [
+          "正手"
+        ],
+        "rubberType": [
+          "反胶",
+          "粘性胶面"
+        ],
+        "sponge": [
+          "传统海绵"
+        ],
+        "thickness": [
+          "2.1",
+          "Max"
+        ],
+        "hardness": [
+          "中硬"
+        ],
+        "style": [
+          "训练",
+          "弧圈",
+          "控制"
+        ],
+        "origin": [
+          "中国"
+        ]
+      },
+      "sources": [
+        "Palio Hadou product listings",
+        "retailer listings"
+      ]
+    },
+    {
+      "id": "sanwei-target-90",
+      "name": "标靶 90",
+      "brand": "三维",
+      "brandEn": "Sanwei",
+      "series": "标靶",
+      "price": 95,
+      "priceMin": 75,
+      "priceMax": 130,
+      "currency": "CNY",
+      "contributors": [
+        "Codex research"
+      ],
+      "image": "https://placehold.co/720x480/b45309/ffffff?text=Sanwei%20%E6%A0%87%E9%9D%B6%2090",
+      "description": "标靶系列粘性套胶，价格亲民，适合正手弧圈和训练发力。",
+      "tags": {
+        "brand": [
+          "三维",
+          "Sanwei"
+        ],
+        "position": [
+          "正手"
+        ],
+        "rubberType": [
+          "反胶",
+          "粘性胶面"
+        ],
+        "sponge": [
+          "高密海绵"
+        ],
+        "thickness": [
+          "2.1",
+          "Max"
+        ],
+        "hardness": [
+          "中硬",
+          "硬"
+        ],
+        "style": [
+          "弧圈",
+          "训练",
+          "控制"
+        ],
+        "origin": [
+          "中国"
+        ]
+      },
+      "sources": [
+        "Sanwei Target product listings",
+        "Revspin Target listing",
+        "Tieba user discussions"
+      ]
+    },
+    {
+      "id": "loki-arthur-china",
+      "name": "Arthur China",
+      "brand": "雷神",
+      "brandEn": "Loki",
+      "series": "Arthur",
+      "price": 120,
+      "priceMin": 90,
+      "priceMax": 160,
+      "currency": "CNY",
+      "contributors": [
+        "Codex research"
+      ],
+      "image": "https://placehold.co/720x480/166534/ffffff?text=Loki%20Arthur%20China",
+      "description": "国产粘性进攻套胶，支撑和旋转较强，常见于亲民正手升级选择。",
+      "tags": {
+        "brand": [
+          "雷神",
+          "Loki"
+        ],
+        "position": [
+          "正手"
+        ],
+        "rubberType": [
+          "反胶",
+          "粘性胶面"
+        ],
+        "sponge": [
+          "高密海绵",
+          "硬质海绵"
+        ],
+        "thickness": [
+          "2.1",
+          "Max"
+        ],
+        "hardness": [
+          "硬"
+        ],
+        "style": [
+          "弧圈",
+          "发抢",
+          "反拉"
+        ],
+        "origin": [
+          "中国"
+        ]
+      },
+      "sources": [
+        "Loki Arthur product listings",
+        "Tieba user discussions"
+      ]
     }
   ],
   "blades": [
@@ -1135,17 +3801,44 @@
       "image": "https://shop.butterflyonline.com/Item%20Images/1200.media.01.jpg",
       "description": "外置芳碳经典结构，速度、支撑和容错兼顾。",
       "tags": {
-        "brand": ["蝴蝶", "Butterfly"],
-        "structure": ["外置纤维", "5+2"],
-        "material": ["芳碳", "寇头面材"],
-        "position": ["双面弧圈", "快攻弧圈"],
-        "handle": ["FL", "ST"],
-        "speed": ["快"],
-        "feel": ["清晰", "中硬"],
-        "weight": ["85-90g", "90g以上"],
-        "origin": ["日本"]
+        "brand": [
+          "蝴蝶",
+          "Butterfly"
+        ],
+        "structure": [
+          "外置纤维",
+          "5+2"
+        ],
+        "material": [
+          "芳碳",
+          "寇头面材"
+        ],
+        "position": [
+          "双面弧圈",
+          "快攻弧圈"
+        ],
+        "handle": [
+          "FL",
+          "ST"
+        ],
+        "speed": [
+          "快"
+        ],
+        "feel": [
+          "清晰",
+          "中硬"
+        ],
+        "weight": [
+          "85-90g",
+          "90g以上"
+        ],
+        "origin": [
+          "日本"
+        ]
       },
-      "sources": ["Butterfly Viscaria product page"]
+      "sources": [
+        "Butterfly Viscaria product page"
+      ]
     },
     {
       "id": "butterfly-harimoto-innerforce-alc",
@@ -1158,17 +3851,43 @@
       "image": "https://placehold.co/720x480/334155/ffffff?text=Butterfly%20Harimoto%20ALC",
       "description": "内置芳碳结构，持球感更深，适合中近台弧圈相持。",
       "tags": {
-        "brand": ["蝴蝶", "Butterfly"],
-        "structure": ["内置纤维", "5+2"],
-        "material": ["芳碳"],
-        "position": ["双面弧圈", "控制"],
-        "handle": ["FL", "ST"],
-        "speed": ["中快", "快"],
-        "feel": ["持球", "中硬"],
-        "weight": ["85-90g"],
-        "origin": ["日本"]
+        "brand": [
+          "蝴蝶",
+          "Butterfly"
+        ],
+        "structure": [
+          "内置纤维",
+          "5+2"
+        ],
+        "material": [
+          "芳碳"
+        ],
+        "position": [
+          "双面弧圈",
+          "控制"
+        ],
+        "handle": [
+          "FL",
+          "ST"
+        ],
+        "speed": [
+          "中快",
+          "快"
+        ],
+        "feel": [
+          "持球",
+          "中硬"
+        ],
+        "weight": [
+          "85-90g"
+        ],
+        "origin": [
+          "日本"
+        ]
       },
-      "sources": ["Butterfly Innerforce blade line"]
+      "sources": [
+        "Butterfly Innerforce blade line"
+      ]
     },
     {
       "id": "dhs-hurricane-long-5",
@@ -1181,17 +3900,42 @@
       "image": "https://placehold.co/720x480/b91c1c/ffffff?text=DHS%20Hurricane%20Long%205",
       "description": "内置纤维结构，持球深、发力后底劲强。",
       "tags": {
-        "brand": ["红双喜", "DHS"],
-        "structure": ["内置纤维", "5+2"],
-        "material": ["芳碳", "寇头面材"],
-        "position": ["双面弧圈"],
-        "handle": ["FL", "CS"],
-        "speed": ["快"],
-        "feel": ["持球", "中硬"],
-        "weight": ["85-90g"],
-        "origin": ["中国"]
+        "brand": [
+          "红双喜",
+          "DHS"
+        ],
+        "structure": [
+          "内置纤维",
+          "5+2"
+        ],
+        "material": [
+          "芳碳",
+          "寇头面材"
+        ],
+        "position": [
+          "双面弧圈"
+        ],
+        "handle": [
+          "FL",
+          "CS"
+        ],
+        "speed": [
+          "快"
+        ],
+        "feel": [
+          "持球",
+          "中硬"
+        ],
+        "weight": [
+          "85-90g"
+        ],
+        "origin": [
+          "中国"
+        ]
       },
-      "sources": ["DHS blade product line"]
+      "sources": [
+        "DHS blade product line"
+      ]
     },
     {
       "id": "dhs-w968",
@@ -1204,17 +3948,42 @@
       "image": "https://placehold.co/720x480/7f1d1d/ffffff?text=DHS%20W968",
       "description": "高端内置纤维底板，持球与底劲突出，常被视作狂飙龙 5 高阶版本。",
       "tags": {
-        "brand": ["红双喜", "DHS"],
-        "structure": ["内置纤维", "5+2"],
-        "material": ["芳碳"],
-        "position": ["双面弧圈"],
-        "handle": ["FL", "CS"],
-        "speed": ["快"],
-        "feel": ["持球", "硬"],
-        "weight": ["85-90g", "90g以上"],
-        "origin": ["中国"]
+        "brand": [
+          "红双喜",
+          "DHS"
+        ],
+        "structure": [
+          "内置纤维",
+          "5+2"
+        ],
+        "material": [
+          "芳碳"
+        ],
+        "position": [
+          "双面弧圈"
+        ],
+        "handle": [
+          "FL",
+          "CS"
+        ],
+        "speed": [
+          "快"
+        ],
+        "feel": [
+          "持球",
+          "硬"
+        ],
+        "weight": [
+          "85-90g",
+          "90g以上"
+        ],
+        "origin": [
+          "中国"
+        ]
       },
-      "sources": ["DHS W series blade references"]
+      "sources": [
+        "DHS W series blade references"
+      ]
     },
     {
       "id": "stiga-cl-cr",
@@ -1227,17 +3996,45 @@
       "image": "https://placehold.co/720x480/ca8a04/111827?text=STIGA%20CL%20CR",
       "description": "七夹纯木代表，扎实有力，适合快攻弧圈。",
       "tags": {
-        "brand": ["斯帝卡", "STIGA"],
-        "structure": ["纯木", "7层"],
-        "material": ["林巴面材", "阿尤斯"],
-        "position": ["快攻弧圈", "近台进攻"],
-        "handle": ["FL", "ST", "CS"],
-        "speed": ["中快"],
-        "feel": ["扎实", "中硬"],
-        "weight": ["85-90g", "90g以上"],
-        "origin": ["瑞典"]
+        "brand": [
+          "斯帝卡",
+          "STIGA"
+        ],
+        "structure": [
+          "纯木",
+          "7层"
+        ],
+        "material": [
+          "林巴面材",
+          "阿尤斯"
+        ],
+        "position": [
+          "快攻弧圈",
+          "近台进攻"
+        ],
+        "handle": [
+          "FL",
+          "ST",
+          "CS"
+        ],
+        "speed": [
+          "中快"
+        ],
+        "feel": [
+          "扎实",
+          "中硬"
+        ],
+        "weight": [
+          "85-90g",
+          "90g以上"
+        ],
+        "origin": [
+          "瑞典"
+        ]
       },
-      "sources": ["STIGA Clipper blade line"]
+      "sources": [
+        "STIGA Clipper blade line"
+      ]
     },
     {
       "id": "stiga-carbonado-45",
@@ -1250,17 +4047,42 @@
       "image": "https://placehold.co/720x480/a16207/111827?text=STIGA%20Carbonado%2045",
       "description": "轻快通透的碳素底板，适合追求速度和清晰反馈的弧圈打法。",
       "tags": {
-        "brand": ["斯帝卡", "STIGA"],
-        "structure": ["外置纤维", "5+2"],
-        "material": ["碳素"],
-        "position": ["双面弧圈", "快攻弧圈"],
-        "handle": ["FL", "ST"],
-        "speed": ["快"],
-        "feel": ["清晰", "中硬"],
-        "weight": ["85-90g"],
-        "origin": ["瑞典"]
+        "brand": [
+          "斯帝卡",
+          "STIGA"
+        ],
+        "structure": [
+          "外置纤维",
+          "5+2"
+        ],
+        "material": [
+          "碳素"
+        ],
+        "position": [
+          "双面弧圈",
+          "快攻弧圈"
+        ],
+        "handle": [
+          "FL",
+          "ST"
+        ],
+        "speed": [
+          "快"
+        ],
+        "feel": [
+          "清晰",
+          "中硬"
+        ],
+        "weight": [
+          "85-90g"
+        ],
+        "origin": [
+          "瑞典"
+        ]
       },
-      "sources": ["STIGA Carbonado blade line"]
+      "sources": [
+        "STIGA Carbonado blade line"
+      ]
     },
     {
       "id": "yasaka-ma-lin-extra-offensive",
@@ -1273,17 +4095,44 @@
       "image": "https://placehold.co/720x480/f59e0b/111827?text=Yasaka%20YEO",
       "description": "五夹纯木，手感清楚，兼顾弧圈与台内控制。",
       "tags": {
-        "brand": ["亚萨卡", "Yasaka"],
-        "structure": ["纯木", "5层"],
-        "material": ["胡桃面材", "云杉力材"],
-        "position": ["双面弧圈", "控制"],
-        "handle": ["FL", "CS"],
-        "speed": ["中快"],
-        "feel": ["清晰", "持球"],
-        "weight": ["80-85g", "85-90g"],
-        "origin": ["瑞典"]
+        "brand": [
+          "亚萨卡",
+          "Yasaka"
+        ],
+        "structure": [
+          "纯木",
+          "5层"
+        ],
+        "material": [
+          "胡桃面材",
+          "云杉力材"
+        ],
+        "position": [
+          "双面弧圈",
+          "控制"
+        ],
+        "handle": [
+          "FL",
+          "CS"
+        ],
+        "speed": [
+          "中快"
+        ],
+        "feel": [
+          "清晰",
+          "持球"
+        ],
+        "weight": [
+          "80-85g",
+          "85-90g"
+        ],
+        "origin": [
+          "瑞典"
+        ]
       },
-      "sources": ["Yasaka Ma Lin blade line"]
+      "sources": [
+        "Yasaka Ma Lin blade line"
+      ]
     },
     {
       "id": "yasaka-sweden-extra",
@@ -1296,17 +4145,44 @@
       "image": "https://placehold.co/720x480/fbbf24/111827?text=Yasaka%20Sweden%20Extra",
       "description": "经典五夹纯木，控制好、手感柔和，适合入门到进阶训练。",
       "tags": {
-        "brand": ["亚萨卡", "Yasaka"],
-        "structure": ["纯木", "5层"],
-        "material": ["林巴面材"],
-        "position": ["控制", "双面弧圈"],
-        "handle": ["FL", "ST", "CS"],
-        "speed": ["中等"],
-        "feel": ["柔和", "持球"],
-        "weight": ["80-85g", "85-90g"],
-        "origin": ["瑞典"]
+        "brand": [
+          "亚萨卡",
+          "Yasaka"
+        ],
+        "structure": [
+          "纯木",
+          "5层"
+        ],
+        "material": [
+          "林巴面材"
+        ],
+        "position": [
+          "控制",
+          "双面弧圈"
+        ],
+        "handle": [
+          "FL",
+          "ST",
+          "CS"
+        ],
+        "speed": [
+          "中等"
+        ],
+        "feel": [
+          "柔和",
+          "持球"
+        ],
+        "weight": [
+          "80-85g",
+          "85-90g"
+        ],
+        "origin": [
+          "瑞典"
+        ]
       },
-      "sources": ["Yasaka Sweden blade line"]
+      "sources": [
+        "Yasaka Sweden blade line"
+      ]
     },
     {
       "id": "nittaku-acoustic",
@@ -1319,17 +4195,44 @@
       "image": "https://placehold.co/720x480/0f766e/ffffff?text=Nittaku%20Acoustic",
       "description": "高端五夹纯木，细腻持球，适合追求控制和连续质量。",
       "tags": {
-        "brand": ["尼塔库", "Nittaku"],
-        "structure": ["纯木", "5层"],
-        "material": ["林巴面材"],
-        "position": ["双面弧圈", "控制"],
-        "handle": ["FL", "ST"],
-        "speed": ["中等", "中快"],
-        "feel": ["持球", "柔和"],
-        "weight": ["80-85g", "85-90g"],
-        "origin": ["日本"]
+        "brand": [
+          "尼塔库",
+          "Nittaku"
+        ],
+        "structure": [
+          "纯木",
+          "5层"
+        ],
+        "material": [
+          "林巴面材"
+        ],
+        "position": [
+          "双面弧圈",
+          "控制"
+        ],
+        "handle": [
+          "FL",
+          "ST"
+        ],
+        "speed": [
+          "中等",
+          "中快"
+        ],
+        "feel": [
+          "持球",
+          "柔和"
+        ],
+        "weight": [
+          "80-85g",
+          "85-90g"
+        ],
+        "origin": [
+          "日本"
+        ]
       },
-      "sources": ["Nittaku Acoustic blade line"]
+      "sources": [
+        "Nittaku Acoustic blade line"
+      ]
     },
     {
       "id": "xiom-36-5-alx",
@@ -1342,17 +4245,42 @@
       "image": "https://placehold.co/720x480/1d4ed8/ffffff?text=XIOM%2036.5%20ALX",
       "description": "外置纤维底板，出球干脆，适合主动进攻。",
       "tags": {
-        "brand": ["骄猛", "XIOM"],
-        "structure": ["外置纤维", "5+2"],
-        "material": ["芳纶碳"],
-        "position": ["快攻弧圈", "双面弧圈"],
-        "handle": ["FL", "ST"],
-        "speed": ["快"],
-        "feel": ["清晰", "中硬"],
-        "weight": ["85-90g"],
-        "origin": ["韩国"]
+        "brand": [
+          "骄猛",
+          "XIOM"
+        ],
+        "structure": [
+          "外置纤维",
+          "5+2"
+        ],
+        "material": [
+          "芳纶碳"
+        ],
+        "position": [
+          "快攻弧圈",
+          "双面弧圈"
+        ],
+        "handle": [
+          "FL",
+          "ST"
+        ],
+        "speed": [
+          "快"
+        ],
+        "feel": [
+          "清晰",
+          "中硬"
+        ],
+        "weight": [
+          "85-90g"
+        ],
+        "origin": [
+          "韩国"
+        ]
       },
-      "sources": ["XIOM 36.5 blade line"]
+      "sources": [
+        "XIOM 36.5 blade line"
+      ]
     },
     {
       "id": "victas-koki-niwa-wood",
@@ -1365,17 +4293,43 @@
       "image": "https://placehold.co/720x480/0f766e/ffffff?text=VICTAS%20Koki%20Niwa%20Wood",
       "description": "五夹纯木进攻底板，手感清楚，适合近中台变化和连续进攻。",
       "tags": {
-        "brand": ["维克塔斯", "VICTAS"],
-        "structure": ["纯木", "5层"],
-        "material": ["林巴面材"],
-        "position": ["双面弧圈", "控制"],
-        "handle": ["FL", "ST"],
-        "speed": ["中快"],
-        "feel": ["清晰", "持球"],
-        "weight": ["80-85g", "85-90g"],
-        "origin": ["日本"]
+        "brand": [
+          "维克塔斯",
+          "VICTAS"
+        ],
+        "structure": [
+          "纯木",
+          "5层"
+        ],
+        "material": [
+          "林巴面材"
+        ],
+        "position": [
+          "双面弧圈",
+          "控制"
+        ],
+        "handle": [
+          "FL",
+          "ST"
+        ],
+        "speed": [
+          "中快"
+        ],
+        "feel": [
+          "清晰",
+          "持球"
+        ],
+        "weight": [
+          "80-85g",
+          "85-90g"
+        ],
+        "origin": [
+          "日本"
+        ]
       },
-      "sources": ["VICTAS Koki Niwa blade line"]
+      "sources": [
+        "VICTAS Koki Niwa blade line"
+      ]
     },
     {
       "id": "joola-vyzaryz-trinity",
@@ -1388,17 +4342,43 @@
       "image": "https://placehold.co/720x480/ef4444/ffffff?text=JOOLA%20Vyzaryz%20Trinity",
       "description": "复合纤维进攻底板，速度和支撑突出，适合主动进攻型打法。",
       "tags": {
-        "brand": ["优拉", "JOOLA"],
-        "structure": ["外置纤维", "5+2"],
-        "material": ["复合纤维", "碳素"],
-        "position": ["快攻弧圈", "双面弧圈"],
-        "handle": ["FL", "ST"],
-        "speed": ["快"],
-        "feel": ["清晰", "硬"],
-        "weight": ["85-90g"],
-        "origin": ["德国"]
+        "brand": [
+          "优拉",
+          "JOOLA"
+        ],
+        "structure": [
+          "外置纤维",
+          "5+2"
+        ],
+        "material": [
+          "复合纤维",
+          "碳素"
+        ],
+        "position": [
+          "快攻弧圈",
+          "双面弧圈"
+        ],
+        "handle": [
+          "FL",
+          "ST"
+        ],
+        "speed": [
+          "快"
+        ],
+        "feel": [
+          "清晰",
+          "硬"
+        ],
+        "weight": [
+          "85-90g"
+        ],
+        "origin": [
+          "德国"
+        ]
       },
-      "sources": ["JOOLA Vyzaryz blade line"]
+      "sources": [
+        "JOOLA Vyzaryz blade line"
+      ]
     },
     {
       "id": "sanwei-fextra-7",
@@ -1411,17 +4391,46 @@
       "image": "https://placehold.co/720x480/b45309/ffffff?text=Sanwei%20Fextra%207",
       "description": "亲民七夹纯木底板，力量和支撑不错，常被预算玩家用作 CL 类结构替代。",
       "tags": {
-        "brand": ["三维", "Sanwei"],
-        "structure": ["纯木", "7层"],
-        "material": ["林巴面材", "阿尤斯"],
-        "position": ["快攻弧圈", "近台进攻"],
-        "handle": ["FL", "ST", "CS"],
-        "speed": ["中快"],
-        "feel": ["扎实", "中硬"],
-        "weight": ["85-90g", "90g以上"],
-        "origin": ["中国"]
+        "brand": [
+          "三维",
+          "Sanwei"
+        ],
+        "structure": [
+          "纯木",
+          "7层"
+        ],
+        "material": [
+          "林巴面材",
+          "阿尤斯"
+        ],
+        "position": [
+          "快攻弧圈",
+          "近台进攻"
+        ],
+        "handle": [
+          "FL",
+          "ST",
+          "CS"
+        ],
+        "speed": [
+          "中快"
+        ],
+        "feel": [
+          "扎实",
+          "中硬"
+        ],
+        "weight": [
+          "85-90g",
+          "90g以上"
+        ],
+        "origin": [
+          "中国"
+        ]
       },
-      "sources": ["Sanwei Fextra 7 product listings", "Revspin Fextra 7 listing"]
+      "sources": [
+        "Sanwei Fextra 7 product listings",
+        "Revspin Fextra 7 listing"
+      ]
     },
     {
       "id": "yinhe-n11s",
@@ -1434,17 +4443,44 @@
       "image": "https://placehold.co/720x480/0ea5e9/ffffff?text=Yinhe%20N11S",
       "description": "低价五夹纯木底板，控制友好，适合入门、练基本功和搭配国产胶皮。",
       "tags": {
-        "brand": ["银河", "Yinhe"],
-        "structure": ["纯木", "5层"],
-        "material": ["林巴面材"],
-        "position": ["控制", "双面弧圈"],
-        "handle": ["FL", "CS"],
-        "speed": ["中等"],
-        "feel": ["柔和", "持球"],
-        "weight": ["80-85g", "85-90g"],
-        "origin": ["中国"]
+        "brand": [
+          "银河",
+          "Yinhe"
+        ],
+        "structure": [
+          "纯木",
+          "5层"
+        ],
+        "material": [
+          "林巴面材"
+        ],
+        "position": [
+          "控制",
+          "双面弧圈"
+        ],
+        "handle": [
+          "FL",
+          "CS"
+        ],
+        "speed": [
+          "中等"
+        ],
+        "feel": [
+          "柔和",
+          "持球"
+        ],
+        "weight": [
+          "80-85g",
+          "85-90g"
+        ],
+        "origin": [
+          "中国"
+        ]
       },
-      "sources": ["Yinhe N11S product listings", "retailer product listings"]
+      "sources": [
+        "Yinhe N11S product listings",
+        "retailer product listings"
+      ]
     },
     {
       "id": "yinhe-u2",
@@ -1457,17 +4493,45 @@
       "image": "https://placehold.co/720x480/0284c7/ffffff?text=Yinhe%20U2",
       "description": "预算七夹纯木底板，出球扎实，适合近台快攻弧圈和力量型入门配置。",
       "tags": {
-        "brand": ["银河", "Yinhe"],
-        "structure": ["纯木", "7层"],
-        "material": ["林巴面材", "阿尤斯"],
-        "position": ["快攻弧圈", "近台进攻"],
-        "handle": ["FL", "CS"],
-        "speed": ["中快"],
-        "feel": ["扎实", "中硬"],
-        "weight": ["85-90g", "90g以上"],
-        "origin": ["中国"]
+        "brand": [
+          "银河",
+          "Yinhe"
+        ],
+        "structure": [
+          "纯木",
+          "7层"
+        ],
+        "material": [
+          "林巴面材",
+          "阿尤斯"
+        ],
+        "position": [
+          "快攻弧圈",
+          "近台进攻"
+        ],
+        "handle": [
+          "FL",
+          "CS"
+        ],
+        "speed": [
+          "中快"
+        ],
+        "feel": [
+          "扎实",
+          "中硬"
+        ],
+        "weight": [
+          "85-90g",
+          "90g以上"
+        ],
+        "origin": [
+          "中国"
+        ]
       },
-      "sources": ["Yinhe U2 product listings", "retailer product listings"]
+      "sources": [
+        "Yinhe U2 product listings",
+        "retailer product listings"
+      ]
     },
     {
       "id": "yinhe-n10",
@@ -1480,17 +4544,43 @@
       "image": "https://placehold.co/720x480/38bdf8/111827?text=Yinhe%20N10",
       "description": "入门五夹纯木底板，价格低、控制容易，适合第一块自配底板。",
       "tags": {
-        "brand": ["银河", "Yinhe"],
-        "structure": ["纯木", "5层"],
-        "material": ["林巴面材"],
-        "position": ["控制", "双面弧圈"],
-        "handle": ["FL", "CS"],
-        "speed": ["中等"],
-        "feel": ["柔和", "持球"],
-        "weight": ["80-85g", "85-90g"],
-        "origin": ["中国"]
+        "brand": [
+          "银河",
+          "Yinhe"
+        ],
+        "structure": [
+          "纯木",
+          "5层"
+        ],
+        "material": [
+          "林巴面材"
+        ],
+        "position": [
+          "控制",
+          "双面弧圈"
+        ],
+        "handle": [
+          "FL",
+          "CS"
+        ],
+        "speed": [
+          "中等"
+        ],
+        "feel": [
+          "柔和",
+          "持球"
+        ],
+        "weight": [
+          "80-85g",
+          "85-90g"
+        ],
+        "origin": [
+          "中国"
+        ]
       },
-      "sources": ["Yinhe N10 product listings"]
+      "sources": [
+        "Yinhe N10 product listings"
+      ]
     },
     {
       "id": "dhs-power-g7",
@@ -1503,17 +4593,45 @@
       "image": "https://placehold.co/720x480/b91c1c/ffffff?text=DHS%20Power%20G7",
       "description": "经典预算七夹纯木底板，力量充足，适合快攻弧圈和近中台进攻。",
       "tags": {
-        "brand": ["红双喜", "DHS"],
-        "structure": ["纯木", "7层"],
-        "material": ["林巴面材", "阿尤斯"],
-        "position": ["快攻弧圈", "近台进攻"],
-        "handle": ["FL", "CS"],
-        "speed": ["中快"],
-        "feel": ["扎实", "中硬"],
-        "weight": ["85-90g", "90g以上"],
-        "origin": ["中国"]
+        "brand": [
+          "红双喜",
+          "DHS"
+        ],
+        "structure": [
+          "纯木",
+          "7层"
+        ],
+        "material": [
+          "林巴面材",
+          "阿尤斯"
+        ],
+        "position": [
+          "快攻弧圈",
+          "近台进攻"
+        ],
+        "handle": [
+          "FL",
+          "CS"
+        ],
+        "speed": [
+          "中快"
+        ],
+        "feel": [
+          "扎实",
+          "中硬"
+        ],
+        "weight": [
+          "85-90g",
+          "90g以上"
+        ],
+        "origin": [
+          "中国"
+        ]
       },
-      "sources": ["DHS Power G7 product listings", "Revspin Power G7 listing"]
+      "sources": [
+        "DHS Power G7 product listings",
+        "Revspin Power G7 listing"
+      ]
     },
     {
       "id": "dhs-power-g5",
@@ -1526,17 +4644,44 @@
       "image": "https://placehold.co/720x480/dc2626/ffffff?text=DHS%20Power%20G5",
       "description": "亲民五夹纯木底板，控制和持球感更好，适合弧圈入门。",
       "tags": {
-        "brand": ["红双喜", "DHS"],
-        "structure": ["纯木", "5层"],
-        "material": ["林巴面材"],
-        "position": ["双面弧圈", "控制"],
-        "handle": ["FL", "CS"],
-        "speed": ["中等", "中快"],
-        "feel": ["持球", "柔和"],
-        "weight": ["80-85g", "85-90g"],
-        "origin": ["中国"]
+        "brand": [
+          "红双喜",
+          "DHS"
+        ],
+        "structure": [
+          "纯木",
+          "5层"
+        ],
+        "material": [
+          "林巴面材"
+        ],
+        "position": [
+          "双面弧圈",
+          "控制"
+        ],
+        "handle": [
+          "FL",
+          "CS"
+        ],
+        "speed": [
+          "中等",
+          "中快"
+        ],
+        "feel": [
+          "持球",
+          "柔和"
+        ],
+        "weight": [
+          "80-85g",
+          "85-90g"
+        ],
+        "origin": [
+          "中国"
+        ]
       },
-      "sources": ["DHS Power G5 product listings"]
+      "sources": [
+        "DHS Power G5 product listings"
+      ]
     },
     {
       "id": "loki-kirin-k1",
@@ -1549,17 +4694,42 @@
       "image": "https://placehold.co/720x480/166534/ffffff?text=Loki%20Kirin%20K1",
       "description": "低价位进攻底板，适合搭配国产粘套，面向预算玩家。",
       "tags": {
-        "brand": ["雷神", "Loki"],
-        "structure": ["纯木", "5层"],
-        "material": ["木材"],
-        "position": ["双面弧圈", "快攻弧圈"],
-        "handle": ["FL", "CS"],
-        "speed": ["中快"],
-        "feel": ["清晰", "中硬"],
-        "weight": ["85-90g"],
-        "origin": ["中国"]
+        "brand": [
+          "雷神",
+          "Loki"
+        ],
+        "structure": [
+          "纯木",
+          "5层"
+        ],
+        "material": [
+          "木材"
+        ],
+        "position": [
+          "双面弧圈",
+          "快攻弧圈"
+        ],
+        "handle": [
+          "FL",
+          "CS"
+        ],
+        "speed": [
+          "中快"
+        ],
+        "feel": [
+          "清晰",
+          "中硬"
+        ],
+        "weight": [
+          "85-90g"
+        ],
+        "origin": [
+          "中国"
+        ]
       },
-      "sources": ["Loki Kirin product listings"]
+      "sources": [
+        "Loki Kirin product listings"
+      ]
     },
     {
       "id": "palio-energy-03",
@@ -1572,17 +4742,979 @@
       "image": "https://placehold.co/720x480/f59e0b/111827?text=Palio%20Energy%2003",
       "description": "入门级纯木底板，价格亲民，适合初学者自配球拍。",
       "tags": {
-        "brand": ["拍里奥", "Palio"],
-        "structure": ["纯木", "5层"],
-        "material": ["木材"],
-        "position": ["控制", "双面弧圈"],
-        "handle": ["FL", "CS"],
-        "speed": ["中等"],
-        "feel": ["柔和"],
-        "weight": ["80-85g", "85-90g"],
-        "origin": ["中国"]
+        "brand": [
+          "拍里奥",
+          "Palio"
+        ],
+        "structure": [
+          "纯木",
+          "5层"
+        ],
+        "material": [
+          "木材"
+        ],
+        "position": [
+          "控制",
+          "双面弧圈"
+        ],
+        "handle": [
+          "FL",
+          "CS"
+        ],
+        "speed": [
+          "中等"
+        ],
+        "feel": [
+          "柔和"
+        ],
+        "weight": [
+          "80-85g",
+          "85-90g"
+        ],
+        "origin": [
+          "中国"
+        ]
       },
-      "sources": ["Palio Energy blade listings"]
+      "sources": [
+        "Palio Energy blade listings"
+      ]
+    },
+    {
+      "id": "butterfly-timo-boll-alc",
+      "name": "Timo Boll ALC",
+      "brand": "蝴蝶",
+      "brandEn": "Butterfly",
+      "series": "Timo Boll",
+      "price": 980,
+      "priceMin": 850,
+      "priceMax": 1150,
+      "currency": "CNY",
+      "contributors": [
+        "Codex research"
+      ],
+      "image": "https://placehold.co/720x480/334155/ffffff?text=Butterfly%20Timo%20Boll%20ALC",
+      "description": "经典外置 ALC 芳碳底板，速度和支撑强，适合弧圈结合快攻。",
+      "tags": {
+        "brand": [
+          "蝴蝶",
+          "Butterfly"
+        ],
+        "structure": [
+          "外置纤维",
+          "五木二纤"
+        ],
+        "material": [
+          "ALC",
+          "芳碳"
+        ],
+        "position": [
+          "弧圈",
+          "快攻弧圈"
+        ],
+        "handle": [
+          "FL",
+          "ST"
+        ],
+        "speed": [
+          "OFF"
+        ],
+        "feel": [
+          "中硬",
+          "清晰"
+        ],
+        "weight": [
+          "85-90g"
+        ],
+        "origin": [
+          "日本"
+        ]
+      },
+      "sources": [
+        "Butterfly Timo Boll ALC product page",
+        "Revspin Timo Boll ALC listing"
+      ]
+    },
+    {
+      "id": "butterfly-primorac",
+      "name": "Primorac",
+      "brand": "蝴蝶",
+      "brandEn": "Butterfly",
+      "series": "Primorac",
+      "price": 420,
+      "priceMin": 340,
+      "priceMax": 520,
+      "currency": "CNY",
+      "contributors": [
+        "Codex research"
+      ],
+      "image": "https://placehold.co/720x480/64748b/ffffff?text=Butterfly%20Primorac",
+      "description": "经典五夹纯木底板，控制稳定，适合基础训练和弧圈入门。",
+      "tags": {
+        "brand": [
+          "蝴蝶",
+          "Butterfly"
+        ],
+        "structure": [
+          "五夹纯木"
+        ],
+        "material": [
+          "纯木"
+        ],
+        "position": [
+          "控制",
+          "弧圈"
+        ],
+        "handle": [
+          "FL",
+          "ST"
+        ],
+        "speed": [
+          "OFF-",
+          "ALL+"
+        ],
+        "feel": [
+          "清晰",
+          "中等"
+        ],
+        "weight": [
+          "80-85g",
+          "85-90g"
+        ],
+        "origin": [
+          "日本"
+        ]
+      },
+      "sources": [
+        "Butterfly Primorac product page",
+        "Revspin Primorac listing"
+      ]
+    },
+    {
+      "id": "dhs-hurricane-301",
+      "name": "Hurricane 301",
+      "brand": "红双喜",
+      "brandEn": "DHS",
+      "series": "Hurricane",
+      "price": 360,
+      "priceMin": 300,
+      "priceMax": 450,
+      "currency": "CNY",
+      "contributors": [
+        "Codex research"
+      ],
+      "image": "https://placehold.co/720x480/b91c1c/ffffff?text=DHS%20Hurricane%20301",
+      "description": "内置芳碳结构，持球和底劲兼顾，是国产纤维底板常见进阶选择。",
+      "tags": {
+        "brand": [
+          "红双喜",
+          "DHS"
+        ],
+        "structure": [
+          "内置纤维",
+          "五木二纤"
+        ],
+        "material": [
+          "ALC",
+          "芳碳"
+        ],
+        "position": [
+          "弧圈",
+          "相持"
+        ],
+        "handle": [
+          "FL",
+          "CS"
+        ],
+        "speed": [
+          "OFF"
+        ],
+        "feel": [
+          "中硬",
+          "持球"
+        ],
+        "weight": [
+          "85-90g",
+          "90g以上"
+        ],
+        "origin": [
+          "中国"
+        ]
+      },
+      "sources": [
+        "DHS Hurricane 301 product listings",
+        "Revspin Hurricane 301 listing"
+      ]
+    },
+    {
+      "id": "dhs-fang-bo-b2",
+      "name": "方博 B2",
+      "brand": "红双喜",
+      "brandEn": "DHS",
+      "series": "方博",
+      "price": 260,
+      "priceMin": 210,
+      "priceMax": 330,
+      "currency": "CNY",
+      "contributors": [
+        "Codex research"
+      ],
+      "image": "https://placehold.co/720x480/7f1d1d/ffffff?text=DHS%20%E6%96%B9%E5%8D%9A%20B2",
+      "description": "亲民内置纤维底板，持球感较好，适合国产正手弧圈配置。",
+      "tags": {
+        "brand": [
+          "红双喜",
+          "DHS"
+        ],
+        "structure": [
+          "内置纤维",
+          "五木二纤"
+        ],
+        "material": [
+          "芳碳"
+        ],
+        "position": [
+          "弧圈",
+          "控制"
+        ],
+        "handle": [
+          "FL",
+          "CS"
+        ],
+        "speed": [
+          "OFF-",
+          "OFF"
+        ],
+        "feel": [
+          "持球",
+          "中硬"
+        ],
+        "weight": [
+          "85-90g"
+        ],
+        "origin": [
+          "中国"
+        ]
+      },
+      "sources": [
+        "DHS Fang Bo B2 product listings",
+        "Tieba user discussions"
+      ]
+    },
+    {
+      "id": "tibhar-stratus-powerwood",
+      "name": "Stratus Power Wood",
+      "brand": "挺拔",
+      "brandEn": "TIBHAR",
+      "series": "Stratus",
+      "price": 300,
+      "priceMin": 240,
+      "priceMax": 380,
+      "currency": "CNY",
+      "contributors": [
+        "Codex research"
+      ],
+      "image": "https://placehold.co/720x480/1e3a8a/ffffff?text=TIBHAR%20Stratus%20Power%20Wood",
+      "description": "五夹纯木进攻底板，手感清晰、性价比高，适合弧圈进阶。",
+      "tags": {
+        "brand": [
+          "挺拔",
+          "TIBHAR"
+        ],
+        "structure": [
+          "五夹纯木"
+        ],
+        "material": [
+          "纯木"
+        ],
+        "position": [
+          "弧圈",
+          "控制"
+        ],
+        "handle": [
+          "FL",
+          "ST"
+        ],
+        "speed": [
+          "OFF-"
+        ],
+        "feel": [
+          "清晰",
+          "中等"
+        ],
+        "weight": [
+          "85-90g"
+        ],
+        "origin": [
+          "欧洲"
+        ]
+      },
+      "sources": [
+        "TIBHAR Stratus Power Wood listings",
+        "Revspin Stratus Power Wood listing"
+      ]
+    },
+    {
+      "id": "donic-waldner-senso-carbon",
+      "name": "Waldner Senso Carbon",
+      "brand": "多尼克",
+      "brandEn": "DONIC",
+      "series": "Waldner",
+      "price": 360,
+      "priceMin": 300,
+      "priceMax": 450,
+      "currency": "CNY",
+      "contributors": [
+        "Codex research"
+      ],
+      "image": "https://placehold.co/720x480/0f172a/ffffff?text=DONIC%20Waldner%20Senso%20Carbon",
+      "description": "经典碳素进攻底板，速度较快，适合近中台进攻和快弧打法。",
+      "tags": {
+        "brand": [
+          "多尼克",
+          "DONIC"
+        ],
+        "structure": [
+          "碳素",
+          "五木二碳"
+        ],
+        "material": [
+          "碳纤维"
+        ],
+        "position": [
+          "快攻弧圈",
+          "相持"
+        ],
+        "handle": [
+          "FL",
+          "ST"
+        ],
+        "speed": [
+          "OFF"
+        ],
+        "feel": [
+          "中硬",
+          "清晰"
+        ],
+        "weight": [
+          "80-85g",
+          "85-90g"
+        ],
+        "origin": [
+          "瑞典"
+        ]
+      },
+      "sources": [
+        "DONIC Waldner Senso Carbon listings",
+        "Revspin Waldner Senso Carbon listing"
+      ]
+    },
+    {
+      "id": "joola-rosskopf-emotion",
+      "name": "Rosskopf Emotion",
+      "brand": "优拉",
+      "brandEn": "JOOLA",
+      "series": "Rosskopf",
+      "price": 480,
+      "priceMin": 380,
+      "priceMax": 600,
+      "currency": "CNY",
+      "contributors": [
+        "Codex research"
+      ],
+      "image": "https://placehold.co/720x480/ef4444/ffffff?text=JOOLA%20Rosskopf%20Emotion",
+      "description": "常见纤维进攻底板，速度和控制均衡，适合弧圈结合快攻。",
+      "tags": {
+        "brand": [
+          "优拉",
+          "JOOLA"
+        ],
+        "structure": [
+          "纤维",
+          "五木二纤"
+        ],
+        "material": [
+          "碳纤维"
+        ],
+        "position": [
+          "弧圈",
+          "快攻弧圈"
+        ],
+        "handle": [
+          "FL",
+          "ST"
+        ],
+        "speed": [
+          "OFF-",
+          "OFF"
+        ],
+        "feel": [
+          "清晰",
+          "中硬"
+        ],
+        "weight": [
+          "80-85g",
+          "85-90g"
+        ],
+        "origin": [
+          "欧洲"
+        ]
+      },
+      "sources": [
+        "JOOLA Rosskopf Emotion listings",
+        "Revspin Rosskopf Emotion listing"
+      ]
+    },
+    {
+      "id": "stiga-infinity-vps-v",
+      "name": "Infinity VPS V",
+      "brand": "斯帝卡",
+      "brandEn": "STIGA",
+      "series": "Infinity",
+      "price": 520,
+      "priceMin": 430,
+      "priceMax": 650,
+      "currency": "CNY",
+      "contributors": [
+        "Codex research"
+      ],
+      "image": "https://placehold.co/720x480/ca8a04/ffffff?text=STIGA%20Infinity%20VPS%20V",
+      "description": "五夹纯木进攻底板，持球和速度兼顾，适合弧圈和连续进攻。",
+      "tags": {
+        "brand": [
+          "斯帝卡",
+          "STIGA"
+        ],
+        "structure": [
+          "五夹纯木"
+        ],
+        "material": [
+          "纯木"
+        ],
+        "position": [
+          "弧圈",
+          "相持"
+        ],
+        "handle": [
+          "FL",
+          "ST",
+          "CS"
+        ],
+        "speed": [
+          "OFF-",
+          "OFF"
+        ],
+        "feel": [
+          "清晰",
+          "中硬"
+        ],
+        "weight": [
+          "80-85g",
+          "85-90g"
+        ],
+        "origin": [
+          "瑞典"
+        ]
+      },
+      "sources": [
+        "STIGA Infinity VPS V listings",
+        "Revspin Infinity VPS V listing"
+      ]
+    },
+    {
+      "id": "stiga-cybershape-carbon",
+      "name": "Cybershape Carbon",
+      "brand": "斯帝卡",
+      "brandEn": "STIGA",
+      "series": "Cybershape",
+      "price": 1380,
+      "priceMin": 1150,
+      "priceMax": 1650,
+      "currency": "CNY",
+      "contributors": [
+        "Codex research"
+      ],
+      "image": "https://placehold.co/720x480/a16207/ffffff?text=STIGA%20Cybershape%20Carbon",
+      "description": "六边形拍面外置碳素底板，甜区设计特殊，适合进攻型弧圈打法。",
+      "tags": {
+        "brand": [
+          "斯帝卡",
+          "STIGA"
+        ],
+        "structure": [
+          "外置纤维",
+          "五木二纤"
+        ],
+        "material": [
+          "碳纤维"
+        ],
+        "position": [
+          "弧圈",
+          "相持"
+        ],
+        "handle": [
+          "FL",
+          "ST"
+        ],
+        "speed": [
+          "OFF"
+        ],
+        "feel": [
+          "中硬",
+          "清晰"
+        ],
+        "weight": [
+          "85-90g"
+        ],
+        "origin": [
+          "瑞典"
+        ]
+      },
+      "sources": [
+        "STIGA Cybershape Carbon product listings",
+        "Revspin Cybershape Carbon listing"
+      ]
+    },
+    {
+      "id": "xiom-stradivarius",
+      "name": "Stradivarius",
+      "brand": "骄猛",
+      "brandEn": "XIOM",
+      "series": "Stradivarius",
+      "price": 520,
+      "priceMin": 430,
+      "priceMax": 650,
+      "currency": "CNY",
+      "contributors": [
+        "Codex research"
+      ],
+      "image": "https://placehold.co/720x480/1d4ed8/ffffff?text=XIOM%20Stradivarius",
+      "description": "经典外置纤维底板，速度和稳定性均衡，适合弧圈结合快攻。",
+      "tags": {
+        "brand": [
+          "骄猛",
+          "XIOM"
+        ],
+        "structure": [
+          "外置纤维",
+          "五木二纤"
+        ],
+        "material": [
+          "芳碳",
+          "纤维"
+        ],
+        "position": [
+          "弧圈",
+          "快攻弧圈"
+        ],
+        "handle": [
+          "FL",
+          "ST"
+        ],
+        "speed": [
+          "OFF"
+        ],
+        "feel": [
+          "中硬",
+          "清晰"
+        ],
+        "weight": [
+          "85-90g"
+        ],
+        "origin": [
+          "韩国"
+        ]
+      },
+      "sources": [
+        "XIOM Stradivarius listings",
+        "Revspin Stradivarius listing"
+      ]
+    },
+    {
+      "id": "yasaka-ma-lin-soft-carbon",
+      "name": "马林 Soft Carbon",
+      "brand": "亚萨卡",
+      "brandEn": "Yasaka",
+      "series": "Ma Lin",
+      "price": 360,
+      "priceMin": 290,
+      "priceMax": 450,
+      "currency": "CNY",
+      "contributors": [
+        "Codex research"
+      ],
+      "image": "https://placehold.co/720x480/f59e0b/ffffff?text=Yasaka%20%E9%A9%AC%E6%9E%97%20Soft%20Carbon",
+      "description": "较易控的软碳底板，速度适中，适合弧圈和控制结合。",
+      "tags": {
+        "brand": [
+          "亚萨卡",
+          "Yasaka"
+        ],
+        "structure": [
+          "碳素",
+          "五木二碳"
+        ],
+        "material": [
+          "软碳",
+          "纯木"
+        ],
+        "position": [
+          "弧圈",
+          "控制"
+        ],
+        "handle": [
+          "FL",
+          "ST",
+          "CS"
+        ],
+        "speed": [
+          "OFF-"
+        ],
+        "feel": [
+          "清晰",
+          "中等"
+        ],
+        "weight": [
+          "80-85g",
+          "85-90g"
+        ],
+        "origin": [
+          "瑞典"
+        ]
+      },
+      "sources": [
+        "Yasaka Ma Lin Soft Carbon listings",
+        "Revspin Ma Lin Soft Carbon listing"
+      ]
+    },
+    {
+      "id": "nittaku-ludeack",
+      "name": "Ludeack",
+      "brand": "尼塔库",
+      "brandEn": "Nittaku",
+      "series": "Ludeack",
+      "price": 520,
+      "priceMin": 430,
+      "priceMax": 650,
+      "currency": "CNY",
+      "contributors": [
+        "Codex research"
+      ],
+      "image": "https://placehold.co/720x480/0f766e/ffffff?text=Nittaku%20Ludeack",
+      "description": "七夹纯木底板，支撑扎实、手感清晰，适合中近台进攻和相持。",
+      "tags": {
+        "brand": [
+          "尼塔库",
+          "Nittaku"
+        ],
+        "structure": [
+          "七夹纯木"
+        ],
+        "material": [
+          "纯木"
+        ],
+        "position": [
+          "快攻弧圈",
+          "相持"
+        ],
+        "handle": [
+          "FL",
+          "ST"
+        ],
+        "speed": [
+          "OFF-",
+          "OFF"
+        ],
+        "feel": [
+          "清晰",
+          "中硬"
+        ],
+        "weight": [
+          "85-90g",
+          "90g以上"
+        ],
+        "origin": [
+          "日本"
+        ]
+      },
+      "sources": [
+        "Nittaku Ludeack product listings",
+        "Revspin Ludeack listing"
+      ]
+    },
+    {
+      "id": "victas-zx-gear-in",
+      "name": "ZX-Gear IN",
+      "brand": "维克塔斯",
+      "brandEn": "VICTAS",
+      "series": "ZX-Gear",
+      "price": 760,
+      "priceMin": 650,
+      "priceMax": 920,
+      "currency": "CNY",
+      "contributors": [
+        "Codex research"
+      ],
+      "image": "https://placehold.co/720x480/0f766e/ffffff?text=VICTAS%20ZX-Gear%20IN",
+      "description": "内置 Zexion 纤维底板，持球和弹性兼顾，适合弧圈进攻。",
+      "tags": {
+        "brand": [
+          "维克塔斯",
+          "VICTAS"
+        ],
+        "structure": [
+          "内置纤维",
+          "五木二纤"
+        ],
+        "material": [
+          "Zexion",
+          "纤维"
+        ],
+        "position": [
+          "弧圈",
+          "相持"
+        ],
+        "handle": [
+          "FL",
+          "ST"
+        ],
+        "speed": [
+          "OFF"
+        ],
+        "feel": [
+          "持球",
+          "中硬"
+        ],
+        "weight": [
+          "85-90g"
+        ],
+        "origin": [
+          "日本"
+        ]
+      },
+      "sources": [
+        "VICTAS ZX-Gear product listings",
+        "Revspin ZX-Gear IN listing"
+      ]
+    },
+    {
+      "id": "yinhe-pro-01",
+      "name": "Pro-01",
+      "brand": "银河",
+      "brandEn": "Yinhe",
+      "series": "Pro",
+      "price": 260,
+      "priceMin": 210,
+      "priceMax": 330,
+      "currency": "CNY",
+      "contributors": [
+        "Codex research"
+      ],
+      "image": "https://placehold.co/720x480/0284c7/ffffff?text=Yinhe%20Pro-01",
+      "description": "高性价比外置纤维底板，常被球友作为 Vis 结构平替选择。",
+      "tags": {
+        "brand": [
+          "银河",
+          "Yinhe"
+        ],
+        "structure": [
+          "外置纤维",
+          "五木二纤"
+        ],
+        "material": [
+          "ALC",
+          "芳碳"
+        ],
+        "position": [
+          "弧圈",
+          "相持"
+        ],
+        "handle": [
+          "FL",
+          "CS"
+        ],
+        "speed": [
+          "OFF"
+        ],
+        "feel": [
+          "中硬",
+          "清晰"
+        ],
+        "weight": [
+          "85-90g"
+        ],
+        "origin": [
+          "中国"
+        ]
+      },
+      "sources": [
+        "Yinhe Pro-01 product listings",
+        "Revspin Pro-01 listing",
+        "Tieba user discussions"
+      ]
+    },
+    {
+      "id": "yinhe-v14-pro",
+      "name": "V14 Pro",
+      "brand": "银河",
+      "brandEn": "Yinhe",
+      "series": "V",
+      "price": 180,
+      "priceMin": 140,
+      "priceMax": 230,
+      "currency": "CNY",
+      "contributors": [
+        "Codex research"
+      ],
+      "image": "https://placehold.co/720x480/0ea5e9/ffffff?text=Yinhe%20V14%20Pro",
+      "description": "亲民外置纤维底板，速度和支撑较强，适合入门进阶纤维板。",
+      "tags": {
+        "brand": [
+          "银河",
+          "Yinhe"
+        ],
+        "structure": [
+          "外置纤维",
+          "五木二纤"
+        ],
+        "material": [
+          "碳纤维"
+        ],
+        "position": [
+          "弧圈",
+          "快攻弧圈"
+        ],
+        "handle": [
+          "FL",
+          "CS"
+        ],
+        "speed": [
+          "OFF"
+        ],
+        "feel": [
+          "中硬",
+          "清晰"
+        ],
+        "weight": [
+          "85-90g",
+          "90g以上"
+        ],
+        "origin": [
+          "中国"
+        ]
+      },
+      "sources": [
+        "Yinhe V14 Pro product listings",
+        "Tieba user discussions"
+      ]
+    },
+    {
+      "id": "sanwei-echo",
+      "name": "Echo",
+      "brand": "三维",
+      "brandEn": "Sanwei",
+      "series": "Echo",
+      "price": 140,
+      "priceMin": 100,
+      "priceMax": 190,
+      "currency": "CNY",
+      "contributors": [
+        "Codex research"
+      ],
+      "image": "https://placehold.co/720x480/b45309/ffffff?text=Sanwei%20Echo",
+      "description": "亲民纯木底板，控制容易，适合入门和练习基本功。",
+      "tags": {
+        "brand": [
+          "三维",
+          "Sanwei"
+        ],
+        "structure": [
+          "五夹纯木"
+        ],
+        "material": [
+          "纯木"
+        ],
+        "position": [
+          "控制",
+          "弧圈"
+        ],
+        "handle": [
+          "FL",
+          "CS"
+        ],
+        "speed": [
+          "ALL+",
+          "OFF-"
+        ],
+        "feel": [
+          "清晰",
+          "中等"
+        ],
+        "weight": [
+          "80-85g",
+          "85-90g"
+        ],
+        "origin": [
+          "中国"
+        ]
+      },
+      "sources": [
+        "Sanwei Echo product listings",
+        "retailer listings"
+      ]
+    },
+    {
+      "id": "loki-kirin-k5",
+      "name": "麒麟 K5",
+      "brand": "雷神",
+      "brandEn": "Loki",
+      "series": "麒麟",
+      "price": 150,
+      "priceMin": 110,
+      "priceMax": 200,
+      "currency": "CNY",
+      "contributors": [
+        "Codex research"
+      ],
+      "image": "https://placehold.co/720x480/166534/ffffff?text=Loki%20%E9%BA%92%E9%BA%9F%20K5",
+      "description": "亲民纤维底板，速度和支撑比入门纯木更强，适合进阶练习。",
+      "tags": {
+        "brand": [
+          "雷神",
+          "Loki"
+        ],
+        "structure": [
+          "纤维",
+          "五木二纤"
+        ],
+        "material": [
+          "碳纤维"
+        ],
+        "position": [
+          "弧圈",
+          "快攻弧圈"
+        ],
+        "handle": [
+          "FL",
+          "CS"
+        ],
+        "speed": [
+          "OFF-",
+          "OFF"
+        ],
+        "feel": [
+          "中硬"
+        ],
+        "weight": [
+          "85-90g"
+        ],
+        "origin": [
+          "中国"
+        ]
+      },
+      "sources": [
+        "Loki Kirin product listings",
+        "Tieba user discussions"
+      ]
     }
   ]
 }
