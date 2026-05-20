@@ -1,11 +1,115 @@
-# Table Tennis Equipment Database
+# Table Tennis Gear Database
 
-乒乓器材数据库，一个纯静态的乒乓球器材筛选原型，适合部署到 GitHub Pages。
+乒乓器材数据库，用来查询、筛选和补充胶皮、底板资料。
 
-## 本地运行
+网站地址：
+
+https://ttgear.github.io/
+
+## 我想帮忙补充器材
+
+你不需要会写程序，只要会用 GitHub 网页编辑文件即可。
+
+1. 打开数据文件：[`data/equipment.json`](data/equipment.json)
+2. 点击右上角铅笔图标编辑。
+3. 在 `rubbers` 里添加胶皮，或在 `blades` 里添加底板。
+4. 复制下面的模板，改成真实资料。
+5. 页面底部选择 `Propose changes`，提交 Pull Request。
+
+维护者检查后会合并。合并后，网站会自动更新。
+
+## 胶皮模板
+
+把这段放进 `rubbers` 数组里。注意前后逗号要保持 JSON 格式正确。
+
+```json
+{
+  "id": "brand-product-name",
+  "name": "器材名称",
+  "brand": "中文品牌",
+  "brandEn": "English Brand",
+  "series": "系列",
+  "price": 100,
+  "priceMin": 80,
+  "priceMax": 120,
+  "currency": "CNY",
+  "image": "图片网址",
+  "description": "一句话说明它适合什么打法、手感大概如何。",
+  "tags": {
+    "brand": ["中文品牌", "English Brand"],
+    "position": ["正手", "反手"],
+    "rubberType": ["反胶", "粘性胶面"],
+    "sponge": ["高密海绵"],
+    "thickness": ["2.1", "Max"],
+    "hardness": ["中硬"],
+    "style": ["弧圈", "控制"],
+    "origin": ["中国"]
+  },
+  "sources": ["资料来源网址或店铺页面名"],
+  "contributors": ["你的名字或 GitHub ID"]
+}
+```
+
+## 底板模板
+
+把这段放进 `blades` 数组里。
+
+```json
+{
+  "id": "brand-blade-name",
+  "name": "底板名称",
+  "brand": "中文品牌",
+  "brandEn": "English Brand",
+  "series": "系列",
+  "price": 300,
+  "priceMin": 250,
+  "priceMax": 360,
+  "currency": "CNY",
+  "image": "图片网址",
+  "description": "一句话说明结构、速度、控制或适合打法。",
+  "tags": {
+    "brand": ["中文品牌", "English Brand"],
+    "structure": ["五夹纯木"],
+    "material": ["纯木"],
+    "position": ["弧圈", "控制"],
+    "handle": ["FL", "CS"],
+    "speed": ["OFF-"],
+    "feel": ["清晰", "中硬"],
+    "weight": ["80-85g", "85-90g"],
+    "origin": ["中国"]
+  },
+  "sources": ["资料来源网址或店铺页面名"],
+  "contributors": ["你的名字或 GitHub ID"]
+}
+```
+
+## 字段怎么填
+
+- `id`：唯一英文小写 ID，用短横线连接，例如 `dhs-hurricane-3-commercial`。
+- `price`：大概参考价，用于排序。
+- `priceMin` / `priceMax`：更推荐填写价格区间。
+- `image`：图片网址即可，不需要上传图片到仓库。
+- `description`：尽量一句话，别写广告语。
+- `tags`：用于筛选。一个项目可以有多个标签。
+- `sources`：资料来源，方便别人核对。
+- `contributors`：贡献者名字，可以写昵称或 GitHub ID。
+
+## 修改已有器材
+
+也可以直接编辑已有条目，例如补充图片、价格区间、标签、资料来源。
+
+如果不确定某个参数是否准确，可以在 Pull Request 里说明：
+
+```text
+这个价格来自某某店铺，可能随活动变化。
+硬度标签不确定，请维护者再看一下。
+```
+
+## 本地预览
+
+如果你想在自己电脑预览：
 
 ```powershell
-cd D:\Coding\table-tennis-equipment-db
 python -m http.server 8000
 ```
 
@@ -14,123 +118,3 @@ python -m http.server 8000
 ```text
 http://localhost:8000
 ```
-
-## 数据维护
-
-器材数据在 `data/equipment.json`。产品图片不存本地，只在 JSON 里填写图片 URL。
-
-当前筛选逻辑：
-
-- 同一项目下多选为 OR，例如厚度选 `2.1` 和 `2.15`，满足任一厚度即可。
-- 不同项目之间为 AND，例如品牌为红双喜，同时海绵为高密海绵，同时价格为 80-100。
-
-## 社区主观评分
-
-详情页已经预留“社区主观体感”模块。未配置 Supabase 时，体感选择只保存在当前浏览器，用来本地预览交互；填好 Supabase 配置后，数据会写入在线数据库并在所有用户之间汇总。胶皮和底板共用同一张表，但页面会按器材类型读取不同体感项。用户可以只选择自己有把握的项目，未选择的项目会保存为 `null`，统计时不计入该维度平均值。
-
-### Supabase 建表
-
-在 Supabase 的 SQL Editor 执行：
-
-```sql
-create table if not exists public.equipment_ratings (
-  id uuid primary key default gen_random_uuid(),
-  equipment_id text not null,
-  client_id text not null,
-  weight int check (weight between 1 and 10),
-  hardness int check (hardness between 1 and 10),
-  release int check (release between 1 and 10),
-  spin int check (spin between 1 and 10),
-  speed int check (speed between 1 and 10),
-  arc int check (arc between 1 and 10),
-  power int check (power between 1 and 10),
-  deformation int check (deformation between 1 and 10),
-  feedback int check (feedback between 1 and 10),
-  quick_block int check (quick_block between 1 and 10),
-  power_threshold int check (power_threshold between 1 and 10),
-  control_feel int check (control_feel between 1 and 10),
-  short_game int check (short_game between 1 and 10),
-  defense int check (defense between 1 and 10),
-  balance int check (balance between 1 and 10),
-  defense_borrow int check (defense_borrow between 1 and 10),
-  second_bounce int check (second_bounce between 1 and 10),
-  topsheet_life int check (topsheet_life between 1 and 10),
-  sponge_life int check (sponge_life between 1 and 10),
-  created_at timestamptz not null default now(),
-  updated_at timestamptz not null default now(),
-  unique (equipment_id, client_id)
-);
-
-alter table public.equipment_ratings enable row level security;
-
-grant usage on schema public to anon;
-grant select, insert, update on public.equipment_ratings to anon;
-
-create policy "ratings are readable"
-on public.equipment_ratings
-for select
-using (true);
-
-create policy "anonymous visitors can insert ratings"
-on public.equipment_ratings
-for insert
-with check (true);
-
-create policy "anonymous visitors can update ratings"
-on public.equipment_ratings
-for update
-using (true)
-with check (true);
-
-create table if not exists public.equipment_comments (
-  id uuid primary key default gen_random_uuid(),
-  equipment_id text not null,
-  client_id text not null,
-  ip_prefix text not null,
-  content text not null check (char_length(content) between 1 and 60),
-  created_at timestamptz not null default now(),
-  updated_at timestamptz not null default now()
-);
-
-create index if not exists equipment_comments_equipment_created_idx
-on public.equipment_comments (equipment_id, created_at desc);
-
-alter table public.equipment_comments enable row level security;
-
-grant select, insert, update, delete on public.equipment_comments to anon;
-
-create policy "comments are readable"
-on public.equipment_comments
-for select
-using (true);
-
-create policy "anonymous visitors can insert comments"
-on public.equipment_comments
-for insert
-with check (char_length(content) between 1 and 60);
-
-create policy "recent comments can be updated"
-on public.equipment_comments
-for update
-using (created_at > now() - interval '5 minutes')
-with check (char_length(content) between 1 and 60);
-
-create policy "recent comments can be deleted"
-on public.equipment_comments
-for delete
-using (created_at > now() - interval '5 minutes');
-```
-
-然后在 `config.js` 填入 Supabase 项目的 URL 和 anon public key：
-
-```js
-window.SUPABASE_CONFIG = {
-  url: "https://你的项目.supabase.co",
-  anonKey: "你的 anon public key",
-  table: "equipment_ratings"
-};
-```
-
-当前防重复方式是“同一浏览器 + 同一器材只能保留一条评分”，再次提交会更新这条记录。
-
-短评使用 `equipment_comments` 表，限制 60 字以内，只保存 IP 前缀，不保存完整 IP。没有登录系统时，编辑/删除是轻量本机体验：当前浏览器发布的短评会在 5 分钟内显示编辑/删除按钮。
