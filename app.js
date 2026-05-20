@@ -202,7 +202,7 @@ function renderFilters() {
         <div class="filter-label">${group.label}</div>
         <div class="tag-stack">
           <div class="tag-list">${tags}</div>
-          ${expandable ? `<button class="filter-more" data-filter-more="${escapeHtml(filterId)}" type="button">${expanded ? "收起" : "全部"}</button>` : ""}
+          ${expandable ? `<button class="filter-more" data-filter-more="${escapeHtml(filterId)}" type="button">${expanded ? "收起" : "展开更多"}</button>` : ""}
         </div>
       </div>
     `;
@@ -221,6 +221,22 @@ function renderFilters() {
       state.expandedFilters[filterId] = !state.expandedFilters[filterId];
       renderFilters();
     });
+  });
+
+  requestAnimationFrame(updateFilterMoreButtons);
+}
+
+function updateFilterMoreButtons() {
+  nodes.filterGroups.querySelectorAll(".filter-row").forEach((row) => {
+    const tagList = row.querySelector(".tag-list");
+    const moreButton = row.querySelector(".filter-more");
+    if (!tagList || !moreButton) {
+      return;
+    }
+
+    const isExpanded = row.classList.contains("is-expanded");
+    const hasHiddenTags = tagList.scrollHeight > tagList.clientHeight + 2;
+    moreButton.hidden = !isExpanded && !hasHiddenTags;
   });
 }
 
@@ -309,6 +325,17 @@ function renderRoute() {
 
 function renderDetail(product) {
   const ratingDimensions = getRatingDimensions(product);
+  const images = getProductImages(product);
+  const imageSlides = images.map((image, index) => `
+    <figure class="detail-image-slide">
+      <img src="${escapeHtml(image)}" alt="${escapeHtml(product.brand)} ${escapeHtml(product.name)} 图片 ${index + 1}">
+    </figure>
+  `).join("");
+  const imageDots = images.length > 1 ? `
+    <div class="detail-image-dots" aria-label="图片序号">
+      ${images.map((_, index) => `<span>${index + 1}</span>`).join("")}
+    </div>
+  ` : "";
   const tagRows = Object.entries(product.tags).map(([key, values]) => `
     <div class="detail-tag-row">
       <div class="detail-tag-label">${escapeHtml(fieldLabels[key] || key)}</div>
@@ -323,7 +350,10 @@ function renderDetail(product) {
     <a class="back-link" href="#">返回列表</a>
     <article class="detail-panel">
       <div class="detail-media">
-        <img src="${product.image}" alt="${escapeHtml(product.brand)} ${escapeHtml(product.name)}">
+        <div class="detail-image-strip">
+          ${imageSlides}
+        </div>
+        ${imageDots}
       </div>
       <div class="detail-copy">
         <div class="detail-summary">
@@ -424,6 +454,12 @@ function renderContributors(contributors) {
       <div>${chips}</div>
     </div>
   `;
+}
+
+function getProductImages(product) {
+  const images = Array.isArray(product.images) ? product.images : [];
+  const allImages = [product.image, ...images].filter(Boolean);
+  return [...new Set(allImages)].slice(0, 5);
 }
 
 function renderRatingStatRow(item) {
@@ -658,13 +694,14 @@ function renderRatingStats(rows, ratingDimensions) {
 }
 
 async function fetchRatings(productId) {
-  const ratingDimensions = getRatingDimensions(findProduct(productId));
+  const product = findProduct(productId);
+  const ratingDimensions = getRatingDimensions(product);
   if (!isSupabaseReady()) {
     const local = getSavedLocalRating(productId);
     return local ? [local] : [];
   }
 
-  const endpoint = `${getSupabaseBaseUrl()}/${encodeURIComponent(getRatingsTable())}?equipment_id=eq.${encodeURIComponent(productId)}&select=${ratingDimensions.map((item) => item.key).join(",")}`;
+  const endpoint = `${getSupabaseBaseUrl()}/${encodeURIComponent(getRatingsTable())}?${buildEquipmentIdFilter(product)}&select=${ratingDimensions.map((item) => item.key).join(",")}`;
   const response = await fetch(endpoint, {
     headers: getSupabaseHeaders()
   });
@@ -963,9 +1000,10 @@ async function fetchComments(productId) {
   if (!isSupabaseReady()) {
     return [];
   }
+  const product = findProduct(productId);
 
   const query = [
-    `equipment_id=eq.${encodeURIComponent(productId)}`,
+    buildEquipmentIdFilter(product),
     "select=id,client_id,ip_prefix,content,created_at,updated_at,last_edited_at",
     "order=updated_at.desc",
     "limit=200"
@@ -1002,8 +1040,9 @@ async function fetchCommentByIpHash(productId, ipHash) {
   if (!isSupabaseReady()) {
     return null;
   }
+  const product = findProduct(productId);
 
-  const response = await fetch(`${getSupabaseBaseUrl()}/${encodeURIComponent(getCommentsTable())}?equipment_id=eq.${encodeURIComponent(productId)}&ip_hash=eq.${encodeURIComponent(ipHash)}&select=id,client_id,ip_prefix,content,created_at,updated_at,last_edited_at&limit=1`, {
+  const response = await fetch(`${getSupabaseBaseUrl()}/${encodeURIComponent(getCommentsTable())}?${buildEquipmentIdFilter(product)}&ip_hash=eq.${encodeURIComponent(ipHash)}&select=id,client_id,ip_prefix,content,created_at,updated_at,last_edited_at&limit=1`, {
     headers: getSupabaseHeaders()
   });
 
@@ -1322,7 +1361,22 @@ function enrichCommentsWithVotes(comments, votes) {
 }
 
 function findProduct(id) {
-  return [...state.data.rubbers, ...state.data.blades].find((item) => item.id === id);
+  return [...state.data.rubbers, ...state.data.blades].find((item) => item.id === id || (item.legacyIds || []).includes(id));
+}
+
+function getProductIds(product) {
+  if (!product) {
+    return [];
+  }
+  return [product.id, ...(product.legacyIds || [])].filter(Boolean);
+}
+
+function buildEquipmentIdFilter(product) {
+  const ids = getProductIds(product);
+  if (ids.length <= 1) {
+    return `equipment_id=eq.${encodeURIComponent(ids[0] || "")}`;
+  }
+  return `equipment_id=in.(${ids.map((id) => encodeURIComponent(id)).join(",")})`;
 }
 
 function getFilteredProducts() {
