@@ -8,7 +8,7 @@ const filterConfig = {
     { key: "hardness", label: "硬度", color: "slate" },
     { key: "style", label: "打法", color: "blue" },
     { key: "origin", label: "产地", color: "green" },
-    { key: "price", label: "价格带", color: "rose", values: ["80内", "百元左右", "150左右", "200-300", "300以上"] }
+    { key: "price", label: "价格带", color: "rose", values: ["50内", "80内", "百元左右", "150左右", "200左右", "300左右", "300以上"] }
   ],
   blades: [
     { key: "brand", label: "品牌", color: "blue" },
@@ -20,26 +20,30 @@ const filterConfig = {
     { key: "feel", label: "手感", color: "blue" },
     { key: "weight", label: "重量感", color: "green", values: ["偏轻", "常规", "偏重"] },
     { key: "origin", label: "产地", color: "rose" },
-    { key: "price", label: "价格带", color: "amber", values: ["200内", "300左右", "500左右", "800左右", "千元以上"] }
+    { key: "price", label: "价格带", color: "amber", values: ["100内", "200内", "300左右", "500左右", "800左右", "千元左右", "千元以上"] }
   ]
 };
 
 const fuzzyRangeConfig = {
   rubbers: {
     price: {
-      "80内": { max: 90 },
+      "50内": { max: 60 },
+      "80内": { min: 45, max: 95 },
       "百元左右": { min: 70, max: 130 },
       "150左右": { min: 120, max: 190 },
-      "200-300": { min: 180, max: 320 },
+      "200左右": { min: 170, max: 250 },
+      "300左右": { min: 240, max: 340 },
       "300以上": { min: 280 }
     }
   },
   blades: {
     price: {
+      "100内": { max: 120 },
       "200内": { max: 230 },
       "300左右": { min: 220, max: 420 },
       "500左右": { min: 380, max: 650 },
       "800左右": { min: 650, max: 950 },
+      "千元左右": { min: 900, max: 1250 },
       "千元以上": { min: 900 }
     },
     weight: {
@@ -114,6 +118,7 @@ const state = {
   type: "rubbers",
   data: { rubbers: [], blades: [] },
   selected: {},
+  expandedFilters: {},
   search: "",
   sort: "default"
 };
@@ -184,15 +189,21 @@ function renderFilters() {
   const groups = filterConfig[state.type];
   nodes.filterGroups.innerHTML = groups.map((group) => {
     const values = group.values || collectValues(group.key);
+    const filterId = `${state.type}:${group.key}`;
+    const expanded = Boolean(state.expandedFilters[filterId]);
+    const expandable = values.length > 8;
     const tags = values.map((value) => {
       const active = state.selected[group.key]?.has(value) ? " is-active" : "";
       return `<button class="tag${active}" data-key="${group.key}" data-value="${escapeHtml(value)}" data-color="${group.color}" type="button">${escapeHtml(value)}</button>`;
     }).join("");
 
     return `
-      <div class="filter-row">
+      <div class="filter-row${expanded ? " is-expanded" : ""}">
         <div class="filter-label">${group.label}</div>
-        <div class="tag-list">${tags}</div>
+        <div class="tag-stack">
+          <div class="tag-list">${tags}</div>
+          ${expandable ? `<button class="filter-more" data-filter-more="${escapeHtml(filterId)}" type="button">${expanded ? "收起" : "全部"}</button>` : ""}
+        </div>
       </div>
     `;
   }).join("");
@@ -201,6 +212,14 @@ function renderFilters() {
     tag.addEventListener("click", () => {
       toggleFilter(tag.dataset.key, tag.dataset.value);
       render();
+    });
+  });
+
+  nodes.filterGroups.querySelectorAll("[data-filter-more]").forEach((button) => {
+    button.addEventListener("click", () => {
+      const filterId = button.dataset.filterMore;
+      state.expandedFilters[filterId] = !state.expandedFilters[filterId];
+      renderFilters();
     });
   });
 }
@@ -285,6 +304,7 @@ function renderRoute() {
   nodes.detailView.innerHTML = renderDetail(product);
   initRatingPanel(product);
   initCommentsPanel(product);
+  requestAnimationFrame(() => window.scrollTo({ top: 0, left: 0, behavior: "auto" }));
 }
 
 function renderDetail(product) {
@@ -310,7 +330,7 @@ function renderDetail(product) {
           <h2>${escapeHtml(product.name)}</h2>
           <p>${escapeHtml(product.description)}</p>
           <div class="detail-meta-row">
-            <span>参考价格：¥${escapeHtml(product.price)} ${escapeHtml(product.currency || "CNY")}</span>
+            <span>参考价格：${escapeHtml(formatPriceRange(product))}</span>
           </div>
         </div>
         <div class="detail-tags-panel" aria-label="标签信息">
@@ -1300,7 +1320,7 @@ function getFilteredProducts() {
 
     return Object.entries(state.selected).every(([key, selectedValues]) => {
       if (key === "price") {
-        return [...selectedValues].some((range) => priceMatches(product.price, range));
+        return [...selectedValues].some((range) => productPriceMatches(product, range));
       }
 
       if (key === "weight" && state.type === "blades") {
@@ -1318,10 +1338,10 @@ function getFilteredProducts() {
 function sortProducts(products) {
   const copy = [...products];
   if (state.sort === "price-asc") {
-    return copy.sort((a, b) => a.price - b.price);
+    return copy.sort((a, b) => getPriceMidpoint(a) - getPriceMidpoint(b));
   }
   if (state.sort === "price-desc") {
-    return copy.sort((a, b) => b.price - a.price);
+    return copy.sort((a, b) => getPriceMidpoint(b) - getPriceMidpoint(a));
   }
   if (state.sort === "name") {
     return copy.sort((a, b) => a.name.localeCompare(b.name, "zh-Hans-CN"));
@@ -1330,7 +1350,75 @@ function sortProducts(products) {
 }
 
 function priceMatches(price, range) {
-  return valueInRange(price, fuzzyRangeConfig[state.type]?.price?.[range]);
+  return rangesOverlap(getPriceRange({ price }), fuzzyRangeConfig[state.type]?.price?.[range]);
+}
+
+function productPriceMatches(product, range) {
+  return rangesOverlap(getPriceRange(product), fuzzyRangeConfig[state.type]?.price?.[range]);
+}
+
+function getPriceRange(product) {
+  const min = Number(product.priceMin ?? product.price_min);
+  const max = Number(product.priceMax ?? product.price_max);
+  if (Number.isFinite(min) && Number.isFinite(max)) {
+    return { min: Math.min(min, max), max: Math.max(min, max) };
+  }
+  if (Number.isFinite(min)) {
+    return { min, max: min };
+  }
+  if (Number.isFinite(max)) {
+    return { min: max, max };
+  }
+
+  const price = Number(product.price);
+  if (!Number.isFinite(price)) {
+    return null;
+  }
+
+  const margin = getEstimatedPriceMargin(price);
+  return {
+    min: Math.max(0, Math.round((price - margin) / 5) * 5),
+    max: Math.round((price + margin) / 5) * 5
+  };
+}
+
+function getEstimatedPriceMargin(price) {
+  if (price <= 60) {
+    return 10;
+  }
+  if (price <= 120) {
+    return 15;
+  }
+  if (price <= 250) {
+    return 25;
+  }
+  if (price <= 600) {
+    return 45;
+  }
+  if (price <= 1200) {
+    return 90;
+  }
+  return 160;
+}
+
+function getPriceMidpoint(product) {
+  const range = getPriceRange(product);
+  if (!range) {
+    return Number.POSITIVE_INFINITY;
+  }
+  return ((range.min ?? 0) + (range.max ?? range.min ?? 0)) / 2;
+}
+
+function formatPriceRange(product) {
+  const range = getPriceRange(product);
+  const currency = product.currency || "CNY";
+  if (!range) {
+    return "待补充";
+  }
+  if (range.min === range.max) {
+    return `¥${range.min} ${currency}`;
+  }
+  return `¥${range.min}-${range.max} ${currency}`;
 }
 
 function weightMatches(weightTags, range) {

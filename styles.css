@@ -184,6 +184,39 @@ h1 {
   gap: 5px;
 }
 
+.tag-stack {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 6px;
+  align-items: start;
+}
+
+.tag-stack .tag-list {
+  max-height: 57px;
+  overflow: hidden;
+}
+
+.filter-row.is-expanded .tag-list {
+  max-height: none;
+}
+
+.filter-more {
+  min-height: 26px;
+  padding: 3px 9px;
+  border: 1px solid #dbeafe;
+  border-radius: 7px;
+  color: var(--blue);
+  background: #eff6ff;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 900;
+}
+
+.filter-more:hover {
+  border-color: #bfdbfe;
+  background: #dbeafe;
+}
+
 .tag {
   min-height: 26px;
   border: 1px solid transparent;
@@ -1294,6 +1327,10 @@ h1 {
   .filter-row {
     grid-template-columns: 1fr;
     gap: 7px;
+  }
+
+  .tag-stack {
+    grid-template-columns: minmax(0, 1fr) auto;
   }
 
   .filter-label {
