@@ -140,7 +140,7 @@ const nodes = {
 init();
 
 async function init() {
-  const response = await fetch("./data/equipment.json");
+  const response = await fetch("./data/equipment.json?v=ratings-15");
   state.data = await response.json();
   bindEvents();
   render();
