@@ -422,7 +422,7 @@ h1 {
   display: grid;
   grid-template-columns: minmax(320px, 42%) minmax(560px, 1fr);
   gap: 0;
-  align-items: start;
+  align-items: stretch;
   border: 1px solid var(--line);
   border-radius: 16px;
   background: #fff;
@@ -445,16 +445,15 @@ h1 {
   height: 100%;
   display: block;
   object-fit: contain;
-  padding: 28px;
+  padding: 24px;
 }
 
 .detail-copy {
   min-width: 0;
-  aspect-ratio: 1 / 1;
   display: grid;
   grid-template-rows: auto 1fr;
-  gap: 16px;
-  padding: 30px 34px;
+  gap: 14px;
+  padding: 26px 30px;
 }
 
 .detail-summary {
@@ -462,14 +461,14 @@ h1 {
 }
 
 .detail-copy h2 {
-  margin: 0 0 10px;
-  font-size: clamp(30px, 3.8vw, 52px);
+  margin: 0 0 8px;
+  font-size: clamp(30px, 3.5vw, 50px);
   line-height: 1.08;
 }
 
 .detail-copy p {
   max-width: 680px;
-  margin-bottom: 14px;
+  margin-bottom: 12px;
   color: #475569;
   font-size: 15px;
   line-height: 1.55;
@@ -498,7 +497,7 @@ h1 {
 .detail-tags-panel {
   min-height: 0;
   margin-top: 0;
-  padding-top: 18px;
+  padding-top: 14px;
   border-top: 1px solid var(--soft-line);
 }
 
@@ -509,8 +508,8 @@ h1 {
 }
 
 .detail-section {
-  margin-top: 14px;
-  padding: 22px;
+  margin-top: 12px;
+  padding: 20px;
   border: 1px solid var(--line);
   border-radius: 14px;
   background: #fff;
@@ -1194,6 +1193,8 @@ h1 {
 
   .detail-media {
     aspect-ratio: 1 / 1;
+    border-right: 0;
+    border-bottom: 1px solid var(--soft-line);
   }
 
   .detail-copy {
@@ -1224,8 +1225,61 @@ h1 {
 
 @media (max-width: 640px) {
   .app-shell {
-    width: min(100% - 20px, 1180px);
-    padding-top: 18px;
+    width: min(100% - 16px, 1180px);
+    padding-top: 12px;
+  }
+
+  .hero {
+    gap: 12px;
+    margin-bottom: 10px;
+  }
+
+  .hero h1 {
+    font-size: clamp(30px, 9vw, 40px);
+  }
+
+  .tabs {
+    width: 100%;
+    margin-bottom: 12px;
+  }
+
+  .tab {
+    flex: 1;
+    min-width: 0;
+  }
+
+  .back-link {
+    margin: 0 0 8px;
+  }
+
+  .detail-view {
+    margin-top: 4px;
+  }
+
+  .detail-panel,
+  .detail-section {
+    border-radius: 12px;
+  }
+
+  .detail-media img {
+    padding: 14px;
+  }
+
+  .detail-copy {
+    padding: 16px;
+  }
+
+  .detail-copy h2 {
+    font-size: clamp(28px, 10vw, 38px);
+  }
+
+  .detail-copy p {
+    font-size: 14px;
+  }
+
+  .detail-section {
+    margin-top: 10px;
+    padding: 16px;
   }
 
   .filter-board {
@@ -1263,6 +1317,16 @@ h1 {
   .rating-stats,
   .rating-form {
     grid-template-columns: 1fr;
+    gap: 13px;
+    padding: 14px;
+  }
+
+  .rating-stat-head strong {
+    font-size: 15px;
+  }
+
+  .rating-bar {
+    height: 10px;
   }
 
   .comment-form {
