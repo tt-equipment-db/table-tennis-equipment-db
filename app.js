@@ -317,6 +317,7 @@ function renderDetail(product) {
   `).join("");
 
   const sources = (product.sources || []).map((source) => `<li>${escapeHtml(source)}</li>`).join("");
+  const contributors = renderContributors(product.contributors);
 
   return `
     <a class="back-link" href="#">返回列表</a>
@@ -404,7 +405,24 @@ function renderDetail(product) {
     <section class="detail-section">
       <h3>资料来源</h3>
       <ul class="source-list">${sources}</ul>
+      ${contributors}
     </section>
+  `;
+}
+
+function renderContributors(contributors) {
+  if (!Array.isArray(contributors) || contributors.length === 0) {
+    return "";
+  }
+
+  const chips = contributors
+    .map((name) => `<span>${escapeHtml(name)}</span>`)
+    .join("");
+  return `
+    <div class="contributor-row">
+      <strong>资料贡献</strong>
+      <div>${chips}</div>
+    </div>
   `;
 }
 
@@ -434,14 +452,18 @@ function renderRatingInput(item) {
   const centerValue = 0;
   return `
     <div class="rating-input-row is-unrated" data-rating-input-row="${item.key}">
-      <span class="rating-input-label">${item.label}</span>
-      <input name="${item.key}" type="range" min="-5" max="5" step="1" value="${centerValue}">
-      <strong data-input-value="${item.key}">${formatRatingValue(centerValue)}</strong>
-      <button class="rating-toggle" type="button" data-rating-toggle="${item.key}" aria-pressed="false">弃评</button>
-      <div class="rating-input-scale">
-        <span>${renderRatingEndpoint(item.low, item.lowNote)}</span>
-        <span>0</span>
-        <span>${renderRatingEndpoint(item.high, item.highNote, "right")}</span>
+      <div class="rating-input-top">
+        <span class="rating-input-label">${item.label}</span>
+        <button class="rating-toggle" type="button" data-rating-toggle="${item.key}" aria-pressed="false">弃评</button>
+      </div>
+      <div class="rating-input-axis">
+        <span class="rating-input-side is-low">${renderRatingEndpoint(item.low, item.lowNote)}</span>
+        <span class="rating-input-zero">0</span>
+        <span class="rating-input-side is-high">${renderRatingEndpoint(item.high, item.highNote, "right")}</span>
+      </div>
+      <div class="rating-input-control">
+        <input name="${item.key}" type="range" min="-5" max="5" step="1" value="${centerValue}">
+        <strong data-input-value="${item.key}">${formatRatingValue(centerValue)}</strong>
       </div>
     </div>
   `;
