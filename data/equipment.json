@@ -3787,6 +3787,2811 @@
         "Loki Arthur product listings",
         "Tieba user discussions"
       ]
+    },
+    {
+      "currency": "CNY",
+      "contributors": [
+        "Codex research"
+      ],
+      "id": "dhs-hurricane-2",
+      "name": "狂飙 2",
+      "brand": "红双喜",
+      "brandEn": "DHS",
+      "series": "狂飙",
+      "price": 75,
+      "priceMin": 55,
+      "priceMax": 100,
+      "description": "传统国产粘性正手套胶，出球更直接，适合快攻弧圈和发抢。",
+      "tags": {
+        "brand": [
+          "红双喜",
+          "DHS"
+        ],
+        "position": [
+          "正手"
+        ],
+        "rubberType": [
+          "反胶",
+          "粘性胶面"
+        ],
+        "sponge": [
+          "高密海绵",
+          "硬质海绵"
+        ],
+        "thickness": [
+          "2.1",
+          "2.15"
+        ],
+        "hardness": [
+          "39度",
+          "40度",
+          "41度"
+        ],
+        "style": [
+          "快攻弧圈",
+          "发抢",
+          "弧圈"
+        ],
+        "origin": [
+          "中国"
+        ]
+      },
+      "sources": [
+        "DHS Hurricane rubber line",
+        "retailer product listings",
+        "player forum discussions"
+      ],
+      "color": "b91c1c",
+      "image": "https://placehold.co/720x480/b91c1c/ffffff?text=DHS%20%E7%8B%82%E9%A3%99%202"
+    },
+    {
+      "currency": "CNY",
+      "contributors": [
+        "Codex research"
+      ],
+      "id": "dhs-hurricane-2-neo",
+      "name": "狂飙 2 Neo",
+      "brand": "红双喜",
+      "brandEn": "DHS",
+      "series": "狂飙",
+      "price": 95,
+      "priceMin": 75,
+      "priceMax": 130,
+      "description": "Neo 海绵版本，保留狂飙 2 的前冲感，出球更轻快。",
+      "tags": {
+        "brand": [
+          "红双喜",
+          "DHS"
+        ],
+        "position": [
+          "正手"
+        ],
+        "rubberType": [
+          "反胶",
+          "粘性胶面"
+        ],
+        "sponge": [
+          "高密海绵",
+          "硬质海绵"
+        ],
+        "thickness": [
+          "2.1",
+          "2.15"
+        ],
+        "hardness": [
+          "39度",
+          "40度"
+        ],
+        "style": [
+          "快攻弧圈",
+          "发抢"
+        ],
+        "origin": [
+          "中国"
+        ]
+      },
+      "sources": [
+        "DHS Hurricane Neo product listings",
+        "Revspin Hurricane 2 Neo listing"
+      ],
+      "color": "991b1b",
+      "image": "https://placehold.co/720x480/991b1b/ffffff?text=DHS%20%E7%8B%82%E9%A3%99%202%20Neo"
+    },
+    {
+      "currency": "CNY",
+      "contributors": [
+        "Codex research"
+      ],
+      "id": "dhs-hurricane-3-provincial-orange",
+      "name": "狂飙 3 省套 橙海绵",
+      "brand": "红双喜",
+      "brandEn": "DHS",
+      "series": "狂飙",
+      "price": 180,
+      "priceMin": 130,
+      "priceMax": 260,
+      "description": "常见进阶国产正手粘套，橙海绵支撑稳定，适合练习发力弧圈。",
+      "tags": {
+        "brand": [
+          "红双喜",
+          "DHS"
+        ],
+        "position": [
+          "正手"
+        ],
+        "rubberType": [
+          "反胶",
+          "粘性胶面"
+        ],
+        "sponge": [
+          "高密海绵",
+          "硬质海绵"
+        ],
+        "thickness": [
+          "2.1",
+          "2.15"
+        ],
+        "hardness": [
+          "39度",
+          "40度",
+          "41度"
+        ],
+        "style": [
+          "弧圈",
+          "发抢",
+          "反拉"
+        ],
+        "origin": [
+          "中国"
+        ]
+      },
+      "sources": [
+        "DHS Hurricane 3 provincial listings",
+        "player forum discussions"
+      ],
+      "color": "dc2626",
+      "image": "https://placehold.co/720x480/dc2626/ffffff?text=DHS%20%E7%8B%82%E9%A3%99%203%20%E7%9C%81%E5%A5%97%20%E6%A9%99%E6%B5%B7%E7%BB%B5"
+    },
+    {
+      "currency": "CNY",
+      "contributors": [
+        "Codex research"
+      ],
+      "id": "dhs-hurricane-3-provincial-blue",
+      "name": "狂飙 3 省套 蓝海绵",
+      "brand": "红双喜",
+      "brandEn": "DHS",
+      "series": "狂飙",
+      "price": 260,
+      "priceMin": 200,
+      "priceMax": 360,
+      "description": "蓝海绵省套，上限和支撑更强，适合有一定发力基础的正手。",
+      "tags": {
+        "brand": [
+          "红双喜",
+          "DHS"
+        ],
+        "position": [
+          "正手"
+        ],
+        "rubberType": [
+          "反胶",
+          "粘性胶面"
+        ],
+        "sponge": [
+          "蓝海绵",
+          "高密海绵"
+        ],
+        "thickness": [
+          "2.1",
+          "2.15"
+        ],
+        "hardness": [
+          "39度",
+          "40度",
+          "41度"
+        ],
+        "style": [
+          "弧圈",
+          "反拉",
+          "发抢"
+        ],
+        "origin": [
+          "中国"
+        ]
+      },
+      "sources": [
+        "DHS Hurricane 3 blue sponge listings",
+        "player forum discussions"
+      ],
+      "color": "1d4ed8",
+      "image": "https://placehold.co/720x480/1d4ed8/ffffff?text=DHS%20%E7%8B%82%E9%A3%99%203%20%E7%9C%81%E5%A5%97%20%E8%93%9D%E6%B5%B7%E7%BB%B5"
+    },
+    {
+      "currency": "CNY",
+      "contributors": [
+        "Codex research"
+      ],
+      "id": "dhs-hurricane-3-national-blue",
+      "name": "狂飙 3 国套 蓝海绵",
+      "brand": "红双喜",
+      "brandEn": "DHS",
+      "series": "狂飙",
+      "price": 520,
+      "priceMin": 380,
+      "priceMax": 800,
+      "description": "高端蓝海绵狂飙，底劲和旋转上限高，价格波动大。",
+      "tags": {
+        "brand": [
+          "红双喜",
+          "DHS"
+        ],
+        "position": [
+          "正手"
+        ],
+        "rubberType": [
+          "反胶",
+          "粘性胶面"
+        ],
+        "sponge": [
+          "蓝海绵",
+          "高密海绵"
+        ],
+        "thickness": [
+          "2.1",
+          "2.15"
+        ],
+        "hardness": [
+          "39度",
+          "40度",
+          "41度"
+        ],
+        "style": [
+          "弧圈",
+          "反拉",
+          "发抢"
+        ],
+        "origin": [
+          "中国"
+        ]
+      },
+      "sources": [
+        "DHS Hurricane national listings",
+        "player forum discussions"
+      ],
+      "color": "1e3a8a",
+      "image": "https://placehold.co/720x480/1e3a8a/ffffff?text=DHS%20%E7%8B%82%E9%A3%99%203%20%E5%9B%BD%E5%A5%97%20%E8%93%9D%E6%B5%B7%E7%BB%B5"
+    },
+    {
+      "currency": "CNY",
+      "contributors": [
+        "Codex research"
+      ],
+      "id": "dhs-skyline-3-neo",
+      "name": "天极 3 Neo",
+      "brand": "红双喜",
+      "brandEn": "DHS",
+      "series": "天极",
+      "price": 110,
+      "priceMin": 85,
+      "priceMax": 150,
+      "description": "国产粘性正手套胶，弧线和控制较好，适合弧圈结合快攻。",
+      "tags": {
+        "brand": [
+          "红双喜",
+          "DHS"
+        ],
+        "position": [
+          "正手"
+        ],
+        "rubberType": [
+          "反胶",
+          "粘性胶面"
+        ],
+        "sponge": [
+          "高密海绵"
+        ],
+        "thickness": [
+          "2.1",
+          "2.15"
+        ],
+        "hardness": [
+          "39度",
+          "40度"
+        ],
+        "style": [
+          "弧圈",
+          "控制",
+          "快攻弧圈"
+        ],
+        "origin": [
+          "中国"
+        ]
+      },
+      "sources": [
+        "DHS Skyline Neo product listings",
+        "Revspin Skyline 3 Neo listing"
+      ],
+      "color": "b91c1c",
+      "image": "https://placehold.co/720x480/b91c1c/ffffff?text=DHS%20%E5%A4%A9%E6%9E%81%203%20Neo"
+    },
+    {
+      "currency": "CNY",
+      "contributors": [
+        "Codex research"
+      ],
+      "id": "dhs-pf4-50",
+      "name": "PF4-50",
+      "brand": "红双喜",
+      "brandEn": "DHS",
+      "series": "PF4",
+      "price": 70,
+      "priceMin": 50,
+      "priceMax": 95,
+      "description": "偏软弹的粘性国产套胶，比传统 PF4 更容易打透。",
+      "tags": {
+        "brand": [
+          "红双喜",
+          "DHS"
+        ],
+        "position": [
+          "反手",
+          "正手"
+        ],
+        "rubberType": [
+          "反胶",
+          "粘性胶面"
+        ],
+        "sponge": [
+          "软弹海绵"
+        ],
+        "thickness": [
+          "2.0",
+          "2.1"
+        ],
+        "hardness": [
+          "中软"
+        ],
+        "style": [
+          "控制",
+          "弧圈",
+          "训练"
+        ],
+        "origin": [
+          "中国"
+        ]
+      },
+      "sources": [
+        "DHS PF4-50 product listings",
+        "retailer product listings"
+      ],
+      "color": "ef4444",
+      "image": "https://placehold.co/720x480/ef4444/ffffff?text=DHS%20PF4-50"
+    },
+    {
+      "currency": "CNY",
+      "contributors": [
+        "Codex research"
+      ],
+      "id": "dhs-c8",
+      "name": "C8 长胶",
+      "brand": "红双喜",
+      "brandEn": "DHS",
+      "series": "C",
+      "price": 35,
+      "priceMin": 25,
+      "priceMax": 55,
+      "description": "经典国产长胶，怪异度和防守变化明显，适合削挡和长胶变化。",
+      "tags": {
+        "brand": [
+          "红双喜",
+          "DHS"
+        ],
+        "position": [
+          "反手"
+        ],
+        "rubberType": [
+          "长胶"
+        ],
+        "sponge": [
+          "单胶皮",
+          "薄海绵"
+        ],
+        "thickness": [
+          "OX",
+          "0.5",
+          "1.0"
+        ],
+        "hardness": [
+          "长胶"
+        ],
+        "style": [
+          "防守",
+          "变化",
+          "削球"
+        ],
+        "origin": [
+          "中国"
+        ]
+      },
+      "sources": [
+        "DHS C8 product listings",
+        "player forum discussions"
+      ],
+      "color": "64748b",
+      "image": "https://placehold.co/720x480/64748b/ffffff?text=DHS%20C8%20%E9%95%BF%E8%83%B6"
+    },
+    {
+      "currency": "CNY",
+      "contributors": [
+        "Codex research"
+      ],
+      "id": "dhs-cloud-fog-3",
+      "name": "云雾 3 长胶",
+      "brand": "红双喜",
+      "brandEn": "DHS",
+      "series": "云雾",
+      "price": 45,
+      "priceMin": 30,
+      "priceMax": 65,
+      "description": "国产长胶，常用于防守和怪异变化，价格亲民。",
+      "tags": {
+        "brand": [
+          "红双喜",
+          "DHS"
+        ],
+        "position": [
+          "反手"
+        ],
+        "rubberType": [
+          "长胶"
+        ],
+        "sponge": [
+          "单胶皮",
+          "薄海绵"
+        ],
+        "thickness": [
+          "OX",
+          "0.5",
+          "1.0"
+        ],
+        "hardness": [
+          "长胶"
+        ],
+        "style": [
+          "防守",
+          "变化",
+          "削球"
+        ],
+        "origin": [
+          "中国"
+        ]
+      },
+      "sources": [
+        "DHS Cloud & Fog product listings",
+        "player forum discussions"
+      ],
+      "color": "475569",
+      "image": "https://placehold.co/720x480/475569/ffffff?text=DHS%20%E4%BA%91%E9%9B%BE%203%20%E9%95%BF%E8%83%B6"
+    },
+    {
+      "currency": "CNY",
+      "contributors": [
+        "Codex research"
+      ],
+      "id": "yinhe-jupiter-2",
+      "name": "木星 2",
+      "brand": "银河",
+      "brandEn": "Yinhe",
+      "series": "木星",
+      "price": 65,
+      "priceMin": 50,
+      "priceMax": 90,
+      "description": "亲民粘性正手套胶，硬挺、摩擦强，是木星系列常见选择。",
+      "tags": {
+        "brand": [
+          "银河",
+          "Yinhe"
+        ],
+        "position": [
+          "正手"
+        ],
+        "rubberType": [
+          "反胶",
+          "粘性胶面"
+        ],
+        "sponge": [
+          "高密海绵",
+          "硬质海绵"
+        ],
+        "thickness": [
+          "2.1",
+          "Max"
+        ],
+        "hardness": [
+          "中硬",
+          "硬"
+        ],
+        "style": [
+          "弧圈",
+          "训练",
+          "发抢"
+        ],
+        "origin": [
+          "中国"
+        ]
+      },
+      "sources": [
+        "银河 Jupiter 木星2 product listings",
+        "动品网/kaiqiu price list",
+        "player forum discussions"
+      ],
+      "color": "0f766e",
+      "image": "https://placehold.co/720x480/0f766e/ffffff?text=Yinhe%20%E6%9C%A8%E6%98%9F%202"
+    },
+    {
+      "currency": "CNY",
+      "contributors": [
+        "Codex research"
+      ],
+      "id": "yinhe-jupiter-3-asia",
+      "name": "木星 3 亚洲",
+      "brand": "银河",
+      "brandEn": "Yinhe",
+      "series": "木星",
+      "price": 80,
+      "priceMin": 60,
+      "priceMax": 110,
+      "description": "木星 3 亚洲版偏硬挺，适合正手摩擦和发力拉冲。",
+      "tags": {
+        "brand": [
+          "银河",
+          "Yinhe"
+        ],
+        "position": [
+          "正手"
+        ],
+        "rubberType": [
+          "反胶",
+          "粘性胶面"
+        ],
+        "sponge": [
+          "高密海绵"
+        ],
+        "thickness": [
+          "2.1",
+          "Max"
+        ],
+        "hardness": [
+          "硬"
+        ],
+        "style": [
+          "弧圈",
+          "发抢",
+          "训练"
+        ],
+        "origin": [
+          "中国"
+        ]
+      },
+      "sources": [
+        "Yinhe Jupiter 3 product listings",
+        "player forum discussions"
+      ],
+      "color": "0f766e",
+      "image": "https://placehold.co/720x480/0f766e/ffffff?text=Yinhe%20%E6%9C%A8%E6%98%9F%203%20%E4%BA%9A%E6%B4%B2"
+    },
+    {
+      "currency": "CNY",
+      "contributors": [
+        "Codex research"
+      ],
+      "id": "yinhe-jupiter-3-europe",
+      "name": "木星 3 欧洲",
+      "brand": "银河",
+      "brandEn": "Yinhe",
+      "series": "木星",
+      "price": 80,
+      "priceMin": 60,
+      "priceMax": 110,
+      "description": "木星 3 欧洲版相对更弹，适合希望粘套轻快一点的打法。",
+      "tags": {
+        "brand": [
+          "银河",
+          "Yinhe"
+        ],
+        "position": [
+          "正手",
+          "反手"
+        ],
+        "rubberType": [
+          "反胶",
+          "粘性胶面"
+        ],
+        "sponge": [
+          "高弹海绵"
+        ],
+        "thickness": [
+          "2.1",
+          "Max"
+        ],
+        "hardness": [
+          "中硬"
+        ],
+        "style": [
+          "弧圈",
+          "连续进攻",
+          "控制"
+        ],
+        "origin": [
+          "中国"
+        ]
+      },
+      "sources": [
+        "Yinhe Jupiter 3 product listings",
+        "player forum discussions"
+      ],
+      "color": "14b8a6",
+      "image": "https://placehold.co/720x480/14b8a6/ffffff?text=Yinhe%20%E6%9C%A8%E6%98%9F%203%20%E6%AC%A7%E6%B4%B2"
+    },
+    {
+      "currency": "CNY",
+      "contributors": [
+        "Codex research"
+      ],
+      "id": "yinhe-moon-pro",
+      "name": "月球 Pro",
+      "brand": "银河",
+      "brandEn": "Yinhe",
+      "series": "月球",
+      "price": 80,
+      "priceMin": 60,
+      "priceMax": 110,
+      "description": "国产涩性/半涩性反手套胶，弹性和控制均衡，常见于经济反手配置。",
+      "tags": {
+        "brand": [
+          "银河",
+          "Yinhe"
+        ],
+        "position": [
+          "反手",
+          "正手"
+        ],
+        "rubberType": [
+          "反胶",
+          "涩性胶面"
+        ],
+        "sponge": [
+          "高弹海绵"
+        ],
+        "thickness": [
+          "2.0",
+          "Max"
+        ],
+        "hardness": [
+          "中硬"
+        ],
+        "style": [
+          "相持",
+          "控制",
+          "连续进攻"
+        ],
+        "origin": [
+          "中国"
+        ]
+      },
+      "sources": [
+        "银河 MOON 月球 product listings",
+        "player forum discussions"
+      ],
+      "color": "2563eb",
+      "image": "https://placehold.co/720x480/2563eb/ffffff?text=Yinhe%20%E6%9C%88%E7%90%83%20Pro"
+    },
+    {
+      "currency": "CNY",
+      "contributors": [
+        "Codex research"
+      ],
+      "id": "yinhe-venus-2",
+      "name": "金星 2",
+      "brand": "银河",
+      "brandEn": "Yinhe",
+      "series": "金星",
+      "price": 65,
+      "priceMin": 45,
+      "priceMax": 90,
+      "description": "银河星球系半粘半涩套胶，速度和旋转较均衡。",
+      "tags": {
+        "brand": [
+          "银河",
+          "Yinhe"
+        ],
+        "position": [
+          "正手",
+          "反手"
+        ],
+        "rubberType": [
+          "反胶",
+          "微粘胶面"
+        ],
+        "sponge": [
+          "高弹海绵"
+        ],
+        "thickness": [
+          "2.1",
+          "Max"
+        ],
+        "hardness": [
+          "中硬"
+        ],
+        "style": [
+          "弧圈",
+          "控制",
+          "连续进攻"
+        ],
+        "origin": [
+          "中国"
+        ]
+      },
+      "sources": [
+        "银河星球系 product discussions",
+        "动库商城 article",
+        "player forum discussions"
+      ],
+      "color": "eab308",
+      "image": "https://placehold.co/720x480/eab308/ffffff?text=Yinhe%20%E9%87%91%E6%98%9F%202"
+    },
+    {
+      "currency": "CNY",
+      "contributors": [
+        "Codex research"
+      ],
+      "id": "yinhe-saturn-pro",
+      "name": "土星 Pro",
+      "brand": "银河",
+      "brandEn": "Yinhe",
+      "series": "土星",
+      "price": 70,
+      "priceMin": 50,
+      "priceMax": 95,
+      "description": "银河星球系进阶套胶，持球和支撑比入门款更好。",
+      "tags": {
+        "brand": [
+          "银河",
+          "Yinhe"
+        ],
+        "position": [
+          "正手",
+          "反手"
+        ],
+        "rubberType": [
+          "反胶",
+          "微粘胶面"
+        ],
+        "sponge": [
+          "高弹海绵"
+        ],
+        "thickness": [
+          "2.1",
+          "Max"
+        ],
+        "hardness": [
+          "中硬"
+        ],
+        "style": [
+          "弧圈",
+          "控制",
+          "训练"
+        ],
+        "origin": [
+          "中国"
+        ]
+      },
+      "sources": [
+        "银河星球系 product discussions",
+        "动库商城 article"
+      ],
+      "color": "a16207",
+      "image": "https://placehold.co/720x480/a16207/ffffff?text=Yinhe%20%E5%9C%9F%E6%98%9F%20Pro"
+    },
+    {
+      "currency": "CNY",
+      "contributors": [
+        "Codex research"
+      ],
+      "id": "yinhe-earth-2",
+      "name": "地球 2",
+      "brand": "银河",
+      "brandEn": "Yinhe",
+      "series": "地球",
+      "price": 45,
+      "priceMin": 30,
+      "priceMax": 65,
+      "description": "入门粘性/半粘性套胶，控制容易，适合训练和经济配置。",
+      "tags": {
+        "brand": [
+          "银河",
+          "Yinhe"
+        ],
+        "position": [
+          "正手",
+          "反手"
+        ],
+        "rubberType": [
+          "反胶",
+          "粘性胶面"
+        ],
+        "sponge": [
+          "传统海绵"
+        ],
+        "thickness": [
+          "2.1",
+          "Max"
+        ],
+        "hardness": [
+          "中硬"
+        ],
+        "style": [
+          "训练",
+          "控制",
+          "入门"
+        ],
+        "origin": [
+          "中国"
+        ]
+      },
+      "sources": [
+        "银河星球系 product discussions",
+        "player forum discussions"
+      ],
+      "color": "854d0e",
+      "image": "https://placehold.co/720x480/854d0e/ffffff?text=Yinhe%20%E5%9C%B0%E7%90%83%202"
+    },
+    {
+      "currency": "CNY",
+      "contributors": [
+        "Codex research"
+      ],
+      "id": "yinhe-apollo-3",
+      "name": "阿波罗 3",
+      "brand": "银河",
+      "brandEn": "Yinhe",
+      "series": "阿波罗",
+      "price": 86,
+      "priceMin": 65,
+      "priceMax": 120,
+      "description": "银河正手专用取向粘性套胶，硬、顶、快，适合发力型正手。",
+      "tags": {
+        "brand": [
+          "银河",
+          "Yinhe"
+        ],
+        "position": [
+          "正手"
+        ],
+        "rubberType": [
+          "反胶",
+          "粘性胶面"
+        ],
+        "sponge": [
+          "高密海绵",
+          "硬质海绵"
+        ],
+        "thickness": [
+          "2.1",
+          "Max"
+        ],
+        "hardness": [
+          "硬"
+        ],
+        "style": [
+          "弧圈",
+          "发抢",
+          "反拉"
+        ],
+        "origin": [
+          "中国"
+        ]
+      },
+      "sources": [
+        "动品网/kaiqiu price list",
+        "Yinhe Apollo product listings"
+      ],
+      "color": "115e59",
+      "image": "https://placehold.co/720x480/115e59/ffffff?text=Yinhe%20%E9%98%BF%E6%B3%A2%E7%BD%97%203"
+    },
+    {
+      "currency": "CNY",
+      "contributors": [
+        "Codex research"
+      ],
+      "id": "friendship-729-focus-1",
+      "name": "焦点 1",
+      "brand": "729",
+      "brandEn": "Friendship 729",
+      "series": "焦点",
+      "price": 35,
+      "priceMin": 25,
+      "priceMax": 55,
+      "description": "入门级国产粘性套胶，价格低，适合基本功训练。",
+      "tags": {
+        "brand": [
+          "729",
+          "Friendship 729"
+        ],
+        "position": [
+          "正手",
+          "反手"
+        ],
+        "rubberType": [
+          "反胶",
+          "粘性胶面"
+        ],
+        "sponge": [
+          "传统海绵"
+        ],
+        "thickness": [
+          "2.1"
+        ],
+        "hardness": [
+          "中硬"
+        ],
+        "style": [
+          "训练",
+          "控制",
+          "入门"
+        ],
+        "origin": [
+          "中国"
+        ]
+      },
+      "sources": [
+        "729 Focus product listings",
+        "price recommendation articles"
+      ],
+      "color": "22c55e",
+      "image": "https://placehold.co/720x480/22c55e/ffffff?text=Friendship%20729%20%E7%84%A6%E7%82%B9%201"
+    },
+    {
+      "currency": "CNY",
+      "contributors": [
+        "Codex research"
+      ],
+      "id": "friendship-729-focus-2",
+      "name": "焦点 2",
+      "brand": "729",
+      "brandEn": "Friendship 729",
+      "series": "焦点",
+      "price": 40,
+      "priceMin": 30,
+      "priceMax": 60,
+      "description": "亲民国产粘性套胶，常见于初学者和训练拍配置。",
+      "tags": {
+        "brand": [
+          "729",
+          "Friendship 729"
+        ],
+        "position": [
+          "正手",
+          "反手"
+        ],
+        "rubberType": [
+          "反胶",
+          "粘性胶面"
+        ],
+        "sponge": [
+          "传统海绵"
+        ],
+        "thickness": [
+          "2.1"
+        ],
+        "hardness": [
+          "中硬"
+        ],
+        "style": [
+          "训练",
+          "控制",
+          "入门"
+        ],
+        "origin": [
+          "中国"
+        ]
+      },
+      "sources": [
+        "729 Focus product listings",
+        "price recommendation articles"
+      ],
+      "color": "16a34a",
+      "image": "https://placehold.co/720x480/16a34a/ffffff?text=Friendship%20729%20%E7%84%A6%E7%82%B9%202"
+    },
+    {
+      "currency": "CNY",
+      "contributors": [
+        "Codex research"
+      ],
+      "id": "friendship-729-higher",
+      "name": "Higher",
+      "brand": "729",
+      "brandEn": "Friendship 729",
+      "series": "Higher",
+      "price": 45,
+      "priceMin": 30,
+      "priceMax": 65,
+      "description": "老牌国产粘性套胶，摩擦和控制稳定，适合基本功和弧圈训练。",
+      "tags": {
+        "brand": [
+          "729",
+          "Friendship 729"
+        ],
+        "position": [
+          "正手"
+        ],
+        "rubberType": [
+          "反胶",
+          "粘性胶面"
+        ],
+        "sponge": [
+          "传统海绵"
+        ],
+        "thickness": [
+          "2.1",
+          "2.2"
+        ],
+        "hardness": [
+          "中硬"
+        ],
+        "style": [
+          "训练",
+          "弧圈",
+          "控制"
+        ],
+        "origin": [
+          "中国"
+        ]
+      },
+      "sources": [
+        "729 Higher product listings",
+        "Revspin Higher listing"
+      ],
+      "color": "15803d",
+      "image": "https://placehold.co/720x480/15803d/ffffff?text=Friendship%20729%20Higher"
+    },
+    {
+      "currency": "CNY",
+      "contributors": [
+        "Codex research"
+      ],
+      "id": "friendship-729-geospin-tacky",
+      "name": "Geospin Tacky",
+      "brand": "729",
+      "brandEn": "Friendship 729",
+      "series": "Geospin",
+      "price": 55,
+      "priceMin": 40,
+      "priceMax": 75,
+      "description": "高粘性国产反胶，摩擦强，适合练习正手拉球和发球旋转。",
+      "tags": {
+        "brand": [
+          "729",
+          "Friendship 729"
+        ],
+        "position": [
+          "正手"
+        ],
+        "rubberType": [
+          "反胶",
+          "粘性胶面"
+        ],
+        "sponge": [
+          "传统海绵"
+        ],
+        "thickness": [
+          "2.1",
+          "2.2"
+        ],
+        "hardness": [
+          "中硬",
+          "硬"
+        ],
+        "style": [
+          "弧圈",
+          "发抢",
+          "训练"
+        ],
+        "origin": [
+          "中国"
+        ]
+      },
+      "sources": [
+        "729 Geospin Tacky product listings",
+        "Revspin Geospin listing"
+      ],
+      "color": "65a30d",
+      "image": "https://placehold.co/720x480/65a30d/ffffff?text=Friendship%20729%20Geospin%20Tacky"
+    },
+    {
+      "currency": "CNY",
+      "contributors": [
+        "Codex research"
+      ],
+      "id": "friendship-729-sky-wing",
+      "name": "天翼 Sky Wing",
+      "brand": "729",
+      "brandEn": "Friendship 729",
+      "series": "天翼",
+      "price": 45,
+      "priceMin": 30,
+      "priceMax": 65,
+      "description": "薄海绵通透取向的入门反手套胶，借力容易，适合控制和反手练习。",
+      "tags": {
+        "brand": [
+          "729",
+          "Friendship 729"
+        ],
+        "position": [
+          "反手"
+        ],
+        "rubberType": [
+          "反胶",
+          "涩性胶面"
+        ],
+        "sponge": [
+          "薄海绵",
+          "软弹海绵"
+        ],
+        "thickness": [
+          "2.0"
+        ],
+        "hardness": [
+          "中软"
+        ],
+        "style": [
+          "控制",
+          "反手",
+          "训练"
+        ],
+        "origin": [
+          "中国"
+        ]
+      },
+      "sources": [
+        "729 Sky Wing product listings",
+        "price recommendation articles"
+      ],
+      "color": "84cc16",
+      "image": "https://placehold.co/720x480/84cc16/ffffff?text=Friendship%20729%20%E5%A4%A9%E7%BF%BC%20Sky%20Wing"
+    },
+    {
+      "currency": "CNY",
+      "contributors": [
+        "Codex research"
+      ],
+      "id": "friendship-802-40",
+      "name": "802-40 正胶",
+      "brand": "729",
+      "brandEn": "Friendship 729",
+      "series": "802",
+      "price": 35,
+      "priceMin": 25,
+      "priceMax": 55,
+      "description": "经典国产正胶，速度快、下沉明显，适合近台快攻。",
+      "tags": {
+        "brand": [
+          "729",
+          "Friendship 729"
+        ],
+        "position": [
+          "正手",
+          "反手"
+        ],
+        "rubberType": [
+          "正胶"
+        ],
+        "sponge": [
+          "薄海绵"
+        ],
+        "thickness": [
+          "1.8",
+          "2.0",
+          "2.2"
+        ],
+        "hardness": [
+          "正胶"
+        ],
+        "style": [
+          "快攻",
+          "近台进攻",
+          "变化"
+        ],
+        "origin": [
+          "中国"
+        ]
+      },
+      "sources": [
+        "729 802-40 product listings",
+        "player forum discussions"
+      ],
+      "color": "4ade80",
+      "image": "https://placehold.co/720x480/4ade80/ffffff?text=Friendship%20729%20802-40%20%E6%AD%A3%E8%83%B6"
+    },
+    {
+      "currency": "CNY",
+      "contributors": [
+        "Codex research"
+      ],
+      "id": "friendship-563",
+      "name": "563 生胶",
+      "brand": "729",
+      "brandEn": "Friendship 729",
+      "series": "563",
+      "price": 35,
+      "priceMin": 25,
+      "priceMax": 55,
+      "description": "经典国产生胶，弹击和变化明显，适合近台快攻和反手变化。",
+      "tags": {
+        "brand": [
+          "729",
+          "Friendship 729"
+        ],
+        "position": [
+          "反手",
+          "正手"
+        ],
+        "rubberType": [
+          "生胶"
+        ],
+        "sponge": [
+          "薄海绵"
+        ],
+        "thickness": [
+          "1.5",
+          "1.8",
+          "2.0"
+        ],
+        "hardness": [
+          "生胶"
+        ],
+        "style": [
+          "快攻",
+          "变化",
+          "弹击"
+        ],
+        "origin": [
+          "中国"
+        ]
+      },
+      "sources": [
+        "729 563 product listings",
+        "player forum discussions"
+      ],
+      "color": "22c55e",
+      "image": "https://placehold.co/720x480/22c55e/ffffff?text=Friendship%20729%20563%20%E7%94%9F%E8%83%B6"
+    },
+    {
+      "currency": "CNY",
+      "contributors": [
+        "Codex research"
+      ],
+      "id": "friendship-755",
+      "name": "755 长胶",
+      "brand": "729",
+      "brandEn": "Friendship 729",
+      "series": "755",
+      "price": 30,
+      "priceMin": 20,
+      "priceMax": 50,
+      "description": "经典国产长胶，价格低、变化强，常用于防守和怪异打法。",
+      "tags": {
+        "brand": [
+          "729",
+          "Friendship 729"
+        ],
+        "position": [
+          "反手"
+        ],
+        "rubberType": [
+          "长胶"
+        ],
+        "sponge": [
+          "单胶皮",
+          "薄海绵"
+        ],
+        "thickness": [
+          "OX",
+          "0.6",
+          "1.0"
+        ],
+        "hardness": [
+          "长胶"
+        ],
+        "style": [
+          "防守",
+          "变化",
+          "削球"
+        ],
+        "origin": [
+          "中国"
+        ]
+      },
+      "sources": [
+        "729 755 product listings",
+        "player forum discussions"
+      ],
+      "color": "166534",
+      "image": "https://placehold.co/720x480/166534/ffffff?text=Friendship%20729%20755%20%E9%95%BF%E8%83%B6"
+    },
+    {
+      "currency": "CNY",
+      "contributors": [
+        "Codex research"
+      ],
+      "id": "dawei-388d-1",
+      "name": "388D-1 长胶",
+      "brand": "大维",
+      "brandEn": "Dawei",
+      "series": "388",
+      "price": 35,
+      "priceMin": 25,
+      "priceMax": 55,
+      "description": "常见国产长胶，防守变化明显，适合长胶入门和削挡打法。",
+      "tags": {
+        "brand": [
+          "大维",
+          "Dawei"
+        ],
+        "position": [
+          "反手"
+        ],
+        "rubberType": [
+          "长胶"
+        ],
+        "sponge": [
+          "单胶皮",
+          "薄海绵"
+        ],
+        "thickness": [
+          "OX",
+          "0.5",
+          "1.0"
+        ],
+        "hardness": [
+          "长胶"
+        ],
+        "style": [
+          "防守",
+          "变化",
+          "削球"
+        ],
+        "origin": [
+          "中国"
+        ]
+      },
+      "sources": [
+        "Dawei 388D-1 product listings",
+        "player forum discussions"
+      ],
+      "color": "475569",
+      "image": "https://placehold.co/720x480/475569/ffffff?text=Dawei%20388D-1%20%E9%95%BF%E8%83%B6"
+    },
+    {
+      "currency": "CNY",
+      "contributors": [
+        "Codex research"
+      ],
+      "id": "dawei-388c-1",
+      "name": "388C-1 生胶",
+      "brand": "大维",
+      "brandEn": "Dawei",
+      "series": "388",
+      "price": 35,
+      "priceMin": 25,
+      "priceMax": 55,
+      "description": "国产生胶，近台弹击和变化取向，价格亲民。",
+      "tags": {
+        "brand": [
+          "大维",
+          "Dawei"
+        ],
+        "position": [
+          "反手",
+          "正手"
+        ],
+        "rubberType": [
+          "生胶"
+        ],
+        "sponge": [
+          "薄海绵"
+        ],
+        "thickness": [
+          "1.5",
+          "1.8",
+          "2.0"
+        ],
+        "hardness": [
+          "生胶"
+        ],
+        "style": [
+          "快攻",
+          "弹击",
+          "变化"
+        ],
+        "origin": [
+          "中国"
+        ]
+      },
+      "sources": [
+        "Dawei 388C-1 product listings",
+        "player forum discussions"
+      ],
+      "color": "64748b",
+      "image": "https://placehold.co/720x480/64748b/ffffff?text=Dawei%20388C-1%20%E7%94%9F%E8%83%B6"
+    },
+    {
+      "currency": "CNY",
+      "contributors": [
+        "Codex research"
+      ],
+      "id": "dawei-2008xp",
+      "name": "2008 XP",
+      "brand": "大维",
+      "brandEn": "Dawei",
+      "series": "2008",
+      "price": 45,
+      "priceMin": 30,
+      "priceMax": 70,
+      "description": "老牌国产反胶，控制容易，常用于入门和经济配置。",
+      "tags": {
+        "brand": [
+          "大维",
+          "Dawei"
+        ],
+        "position": [
+          "正手",
+          "反手"
+        ],
+        "rubberType": [
+          "反胶",
+          "粘性胶面"
+        ],
+        "sponge": [
+          "传统海绵"
+        ],
+        "thickness": [
+          "2.0",
+          "2.2"
+        ],
+        "hardness": [
+          "中硬"
+        ],
+        "style": [
+          "训练",
+          "控制",
+          "弧圈"
+        ],
+        "origin": [
+          "中国"
+        ]
+      },
+      "sources": [
+        "Dawei 2008XP product listings",
+        "Revspin 2008XP listing"
+      ],
+      "color": "334155",
+      "image": "https://placehold.co/720x480/334155/ffffff?text=Dawei%202008%20XP"
+    },
+    {
+      "currency": "CNY",
+      "contributors": [
+        "Codex research"
+      ],
+      "id": "giant-dragon-dragon-talon",
+      "name": "Dragon Talon 长胶",
+      "brand": "巨龙",
+      "brandEn": "Giant Dragon",
+      "series": "Dragon",
+      "price": 70,
+      "priceMin": 50,
+      "priceMax": 95,
+      "description": "国产长胶，怪异度较强，适合防守变化打法。",
+      "tags": {
+        "brand": [
+          "巨龙",
+          "Giant Dragon"
+        ],
+        "position": [
+          "反手"
+        ],
+        "rubberType": [
+          "长胶"
+        ],
+        "sponge": [
+          "单胶皮",
+          "薄海绵"
+        ],
+        "thickness": [
+          "OX",
+          "0.5",
+          "1.0"
+        ],
+        "hardness": [
+          "长胶"
+        ],
+        "style": [
+          "防守",
+          "变化",
+          "削球"
+        ],
+        "origin": [
+          "中国"
+        ]
+      },
+      "sources": [
+        "Giant Dragon Dragon Talon listings",
+        "player forum discussions"
+      ],
+      "color": "0f766e",
+      "image": "https://placehold.co/720x480/0f766e/ffffff?text=Giant%20Dragon%20Dragon%20Talon%20%E9%95%BF%E8%83%B6"
+    },
+    {
+      "currency": "CNY",
+      "contributors": [
+        "Codex research"
+      ],
+      "id": "kokutaku-868-blue-sponge",
+      "name": "868 蓝海绵",
+      "brand": "环球",
+      "brandEn": "Kokutaku",
+      "series": "868",
+      "price": 45,
+      "priceMin": 30,
+      "priceMax": 70,
+      "description": "环球 868 蓝海绵版本，粘性和控制较好，适合低价正手练习。",
+      "tags": {
+        "brand": [
+          "环球",
+          "Kokutaku"
+        ],
+        "position": [
+          "正手"
+        ],
+        "rubberType": [
+          "反胶",
+          "粘性胶面"
+        ],
+        "sponge": [
+          "蓝海绵",
+          "传统海绵"
+        ],
+        "thickness": [
+          "2.1",
+          "2.2"
+        ],
+        "hardness": [
+          "中硬"
+        ],
+        "style": [
+          "训练",
+          "弧圈",
+          "控制"
+        ],
+        "origin": [
+          "中国"
+        ]
+      },
+      "sources": [
+        "Kokutaku 868 product listings",
+        "player forum discussions"
+      ],
+      "color": "854d0e",
+      "image": "https://placehold.co/720x480/854d0e/ffffff?text=Kokutaku%20868%20%E8%93%9D%E6%B5%B7%E7%BB%B5"
+    },
+    {
+      "currency": "CNY",
+      "contributors": [
+        "Codex research"
+      ],
+      "id": "reactor-corbor",
+      "name": "Corbor",
+      "brand": "锐科特",
+      "brandEn": "Reactor",
+      "series": "Corbor",
+      "price": 35,
+      "priceMin": 25,
+      "priceMax": 55,
+      "description": "低价国产粘性套胶，适合入门和训练用拍。",
+      "tags": {
+        "brand": [
+          "锐科特",
+          "Reactor"
+        ],
+        "position": [
+          "正手",
+          "反手"
+        ],
+        "rubberType": [
+          "反胶",
+          "粘性胶面"
+        ],
+        "sponge": [
+          "传统海绵"
+        ],
+        "thickness": [
+          "2.0",
+          "2.2"
+        ],
+        "hardness": [
+          "中硬"
+        ],
+        "style": [
+          "训练",
+          "控制",
+          "入门"
+        ],
+        "origin": [
+          "中国"
+        ]
+      },
+      "sources": [
+        "Reactor Corbor product listings",
+        "player forum discussions"
+      ],
+      "color": "dc2626",
+      "image": "https://placehold.co/720x480/dc2626/ffffff?text=Reactor%20Corbor"
+    },
+    {
+      "id": "friendship-729-battle-2-provincial",
+      "name": "奔腾 2 省队",
+      "brand": "729",
+      "brandEn": "Friendship 729",
+      "series": "Battle",
+      "price": 120,
+      "priceMin": 90,
+      "priceMax": 170,
+      "description": "奔腾 2 的进阶版本，常被作为国产正手粘套升级选择。",
+      "tags": {
+        "brand": [
+          "729",
+          "Friendship 729"
+        ],
+        "position": [
+          "正手"
+        ],
+        "rubberType": [
+          "反胶",
+          "粘性胶面"
+        ],
+        "sponge": [
+          "高密海绵",
+          "蓝海绵"
+        ],
+        "thickness": [
+          "2.1",
+          "Max"
+        ],
+        "hardness": [
+          "39度",
+          "40度",
+          "41度",
+          "硬"
+        ],
+        "style": [
+          "弧圈",
+          "发抢"
+        ],
+        "origin": [
+          "中国"
+        ]
+      },
+      "sources": [
+        "Friendship 729 Battle II provincial listings",
+        "player forum discussions"
+      ],
+      "color": "1d4ed8",
+      "image": "https://placehold.co/720x480/1d4ed8/ffffff?text=Friendship%20729%20%E5%A5%94%E8%85%BE%202%20%E7%9C%81%E9%98%9F",
+      "contributors": [
+        "Codex research"
+      ]
+    },
+    {
+      "id": "friendship-729-bloom-arc",
+      "name": "绽放 Arc",
+      "brand": "729",
+      "brandEn": "Friendship 729",
+      "series": "绽放",
+      "price": 90,
+      "priceMin": 65,
+      "priceMax": 130,
+      "description": "绽放系列偏弧线和易用性，适合作为训练或反手过渡选择。",
+      "tags": {
+        "brand": [
+          "729",
+          "Friendship 729"
+        ],
+        "position": [
+          "反手",
+          "正手"
+        ],
+        "rubberType": [
+          "反胶",
+          "涩性胶面"
+        ],
+        "sponge": [
+          "蛋糕海绵",
+          "高弹海绵"
+        ],
+        "thickness": [
+          "2.1",
+          "Max"
+        ],
+        "hardness": [
+          "中等",
+          "中硬"
+        ],
+        "style": [
+          "弧圈",
+          "连续进攻"
+        ],
+        "origin": [
+          "中国"
+        ]
+      },
+      "sources": [
+        "Friendship 729 Bloom Arc listings",
+        "player forum discussions"
+      ],
+      "color": "7c3aed",
+      "image": "https://placehold.co/720x480/7c3aed/ffffff?text=Friendship%20729%20%E7%BB%BD%E6%94%BE%20Arc",
+      "contributors": [
+        "Codex research"
+      ]
+    },
+    {
+      "id": "friendship-729-bloom-spin",
+      "name": "绽放 Spin",
+      "brand": "729",
+      "brandEn": "Friendship 729",
+      "series": "绽放",
+      "price": 90,
+      "priceMin": 65,
+      "priceMax": 130,
+      "description": "绽放系列中更偏摩擦和旋转的型号，适合弧圈练习。",
+      "tags": {
+        "brand": [
+          "729",
+          "Friendship 729"
+        ],
+        "position": [
+          "反手",
+          "正手"
+        ],
+        "rubberType": [
+          "反胶",
+          "涩性胶面",
+          "微粘胶面"
+        ],
+        "sponge": [
+          "蛋糕海绵"
+        ],
+        "thickness": [
+          "2.1",
+          "Max"
+        ],
+        "hardness": [
+          "中等",
+          "中硬"
+        ],
+        "style": [
+          "弧圈",
+          "控制"
+        ],
+        "origin": [
+          "中国"
+        ]
+      },
+      "sources": [
+        "Friendship 729 Bloom Spin listings",
+        "player forum discussions"
+      ],
+      "color": "9333ea",
+      "image": "https://placehold.co/720x480/9333ea/ffffff?text=Friendship%20729%20%E7%BB%BD%E6%94%BE%20Spin",
+      "contributors": [
+        "Codex research"
+      ]
+    },
+    {
+      "id": "friendship-729-bloom-speed",
+      "name": "绽放 Speed",
+      "brand": "729",
+      "brandEn": "Friendship 729",
+      "series": "绽放",
+      "price": 90,
+      "priceMin": 65,
+      "priceMax": 130,
+      "description": "出球速度更直接的绽放型号，适合反手快撕和衔接。",
+      "tags": {
+        "brand": [
+          "729",
+          "Friendship 729"
+        ],
+        "position": [
+          "反手"
+        ],
+        "rubberType": [
+          "反胶",
+          "涩性胶面"
+        ],
+        "sponge": [
+          "蛋糕海绵",
+          "高弹海绵"
+        ],
+        "thickness": [
+          "2.1",
+          "Max"
+        ],
+        "hardness": [
+          "中等",
+          "中硬"
+        ],
+        "style": [
+          "快攻弧圈",
+          "连续进攻"
+        ],
+        "origin": [
+          "中国"
+        ]
+      },
+      "sources": [
+        "Friendship 729 Bloom Speed listings",
+        "retailer product listings"
+      ],
+      "color": "6d28d9",
+      "image": "https://placehold.co/720x480/6d28d9/ffffff?text=Friendship%20729%20%E7%BB%BD%E6%94%BE%20Speed",
+      "contributors": [
+        "Codex research"
+      ]
+    },
+    {
+      "id": "friendship-729-super-fx",
+      "name": "729 Super FX",
+      "brand": "729",
+      "brandEn": "Friendship 729",
+      "series": "传统 729",
+      "price": 35,
+      "priceMin": 25,
+      "priceMax": 55,
+      "description": "老牌入门粘性胶皮，便宜耐练，适合基础摩擦和控制练习。",
+      "tags": {
+        "brand": [
+          "729",
+          "Friendship 729"
+        ],
+        "position": [
+          "正手",
+          "反手"
+        ],
+        "rubberType": [
+          "反胶",
+          "粘性胶面"
+        ],
+        "sponge": [
+          "传统海绵"
+        ],
+        "thickness": [
+          "2.0",
+          "2.1",
+          "Max"
+        ],
+        "hardness": [
+          "中硬",
+          "硬"
+        ],
+        "style": [
+          "训练",
+          "控制",
+          "弧圈"
+        ],
+        "origin": [
+          "中国"
+        ]
+      },
+      "sources": [
+        "Friendship 729 Super FX listings",
+        "classic rubber discussions"
+      ],
+      "color": "f97316",
+      "image": "https://placehold.co/720x480/f97316/ffffff?text=Friendship%20729%20729%20Super%20FX",
+      "contributors": [
+        "Codex research"
+      ]
+    },
+    {
+      "id": "friendship-729-cream-transcend",
+      "name": "Cream Transcend",
+      "brand": "729",
+      "brandEn": "Friendship 729",
+      "series": "Cream",
+      "price": 55,
+      "priceMin": 35,
+      "priceMax": 80,
+      "description": "729 经典外销型号之一，偏控制和旋转，价格通常较低。",
+      "tags": {
+        "brand": [
+          "729",
+          "Friendship 729"
+        ],
+        "position": [
+          "正手",
+          "反手"
+        ],
+        "rubberType": [
+          "反胶",
+          "粘性胶面"
+        ],
+        "sponge": [
+          "传统海绵"
+        ],
+        "thickness": [
+          "2.0",
+          "2.1",
+          "Max"
+        ],
+        "hardness": [
+          "中等",
+          "中硬"
+        ],
+        "style": [
+          "控制",
+          "训练"
+        ],
+        "origin": [
+          "中国"
+        ]
+      },
+      "sources": [
+        "Friendship 729 Cream Transcend listings",
+        "player forum discussions"
+      ],
+      "color": "ea580c",
+      "image": "https://placehold.co/720x480/ea580c/ffffff?text=Friendship%20729%20Cream%20Transcend",
+      "contributors": [
+        "Codex research"
+      ]
+    },
+    {
+      "id": "yinhe-mercury-2-soft",
+      "name": "水星 2 软",
+      "brand": "银河",
+      "brandEn": "Yinhe",
+      "series": "水星",
+      "price": 32,
+      "priceMin": 25,
+      "priceMax": 50,
+      "description": "极常见的低价入门反胶，软版更容易打透，适合初学和反手。",
+      "tags": {
+        "brand": [
+          "银河",
+          "Yinhe"
+        ],
+        "position": [
+          "反手",
+          "正手"
+        ],
+        "rubberType": [
+          "反胶",
+          "微粘胶面"
+        ],
+        "sponge": [
+          "软弹海绵"
+        ],
+        "thickness": [
+          "2.1",
+          "Max"
+        ],
+        "hardness": [
+          "软",
+          "中软"
+        ],
+        "style": [
+          "训练",
+          "控制"
+        ],
+        "origin": [
+          "中国"
+        ]
+      },
+      "sources": [
+        "Yinhe Mercury II listings",
+        "beginner gear discussions"
+      ],
+      "color": "0e7490",
+      "image": "https://placehold.co/720x480/0e7490/ffffff?text=Yinhe%20%E6%B0%B4%E6%98%9F%202%20%E8%BD%AF",
+      "contributors": [
+        "Codex research"
+      ]
+    },
+    {
+      "id": "yinhe-mercury-2-medium",
+      "name": "水星 2 中硬",
+      "brand": "银河",
+      "brandEn": "Yinhe",
+      "series": "水星",
+      "price": 32,
+      "priceMin": 25,
+      "priceMax": 50,
+      "description": "水星 2 中硬版均衡便宜，常用于入门底板搭配和练球。",
+      "tags": {
+        "brand": [
+          "银河",
+          "Yinhe"
+        ],
+        "position": [
+          "正手",
+          "反手"
+        ],
+        "rubberType": [
+          "反胶",
+          "微粘胶面"
+        ],
+        "sponge": [
+          "传统海绵"
+        ],
+        "thickness": [
+          "2.1",
+          "Max"
+        ],
+        "hardness": [
+          "中等",
+          "中硬"
+        ],
+        "style": [
+          "训练",
+          "控制",
+          "弧圈"
+        ],
+        "origin": [
+          "中国"
+        ]
+      },
+      "sources": [
+        "Yinhe Mercury II listings",
+        "player forum discussions"
+      ],
+      "color": "0891b2",
+      "image": "https://placehold.co/720x480/0891b2/ffffff?text=Yinhe%20%E6%B0%B4%E6%98%9F%202%20%E4%B8%AD%E7%A1%AC",
+      "contributors": [
+        "Codex research"
+      ]
+    },
+    {
+      "id": "yinhe-mercury-2-hard",
+      "name": "水星 2 硬",
+      "brand": "银河",
+      "brandEn": "Yinhe",
+      "series": "水星",
+      "price": 32,
+      "priceMin": 25,
+      "priceMax": 50,
+      "description": "水星 2 硬版更适合正手练习，低价但需要主动发力。",
+      "tags": {
+        "brand": [
+          "银河",
+          "Yinhe"
+        ],
+        "position": [
+          "正手"
+        ],
+        "rubberType": [
+          "反胶",
+          "微粘胶面"
+        ],
+        "sponge": [
+          "硬质海绵"
+        ],
+        "thickness": [
+          "2.1",
+          "Max"
+        ],
+        "hardness": [
+          "硬"
+        ],
+        "style": [
+          "训练",
+          "弧圈"
+        ],
+        "origin": [
+          "中国"
+        ]
+      },
+      "sources": [
+        "Yinhe Mercury II listings",
+        "player forum discussions"
+      ],
+      "color": "155e75",
+      "image": "https://placehold.co/720x480/155e75/ffffff?text=Yinhe%20%E6%B0%B4%E6%98%9F%202%20%E7%A1%AC",
+      "contributors": [
+        "Codex research"
+      ]
+    },
+    {
+      "id": "yinhe-big-dipper-2",
+      "name": "北斗 2",
+      "brand": "银河",
+      "brandEn": "Yinhe",
+      "series": "北斗",
+      "price": 85,
+      "priceMin": 60,
+      "priceMax": 120,
+      "description": "银河北斗系列的常见粘弹选择，兼顾国产粘性和较现代的弹性。",
+      "tags": {
+        "brand": [
+          "银河",
+          "Yinhe"
+        ],
+        "position": [
+          "正手"
+        ],
+        "rubberType": [
+          "反胶",
+          "粘性胶面"
+        ],
+        "sponge": [
+          "高弹海绵",
+          "高密海绵"
+        ],
+        "thickness": [
+          "2.1",
+          "Max"
+        ],
+        "hardness": [
+          "中硬",
+          "硬"
+        ],
+        "style": [
+          "弧圈",
+          "快攻弧圈"
+        ],
+        "origin": [
+          "中国"
+        ]
+      },
+      "sources": [
+        "Yinhe Big Dipper listings",
+        "player forum discussions"
+      ],
+      "color": "0f766e",
+      "image": "https://placehold.co/720x480/0f766e/ffffff?text=Yinhe%20%E5%8C%97%E6%96%97%202",
+      "contributors": [
+        "Codex research"
+      ]
+    },
+    {
+      "id": "yinhe-neptune",
+      "name": "海王星 长胶",
+      "brand": "银河",
+      "brandEn": "Yinhe",
+      "series": "颗粒",
+      "price": 40,
+      "priceMin": 30,
+      "priceMax": 65,
+      "description": "银河入门长胶，常见于削挡、怪异变化和防守打法。",
+      "tags": {
+        "brand": [
+          "银河",
+          "Yinhe"
+        ],
+        "position": [
+          "反手"
+        ],
+        "rubberType": [
+          "长胶"
+        ],
+        "sponge": [
+          "薄海绵",
+          "单胶皮"
+        ],
+        "thickness": [
+          "OX",
+          "0.5",
+          "1.0"
+        ],
+        "hardness": [
+          "长胶"
+        ],
+        "style": [
+          "防守",
+          "削球",
+          "怪异"
+        ],
+        "origin": [
+          "中国"
+        ]
+      },
+      "sources": [
+        "Yinhe Neptune listings",
+        "long pips discussions"
+      ],
+      "color": "0f172a",
+      "image": "https://placehold.co/720x480/0f172a/ffffff?text=Yinhe%20%E6%B5%B7%E7%8E%8B%E6%98%9F%20%E9%95%BF%E8%83%B6",
+      "contributors": [
+        "Codex research"
+      ]
+    },
+    {
+      "id": "yinhe-pluto",
+      "name": "冥王星 生胶",
+      "brand": "银河",
+      "brandEn": "Yinhe",
+      "series": "颗粒",
+      "price": 45,
+      "priceMin": 30,
+      "priceMax": 70,
+      "description": "银河常见生胶，适合快攻弹击和近台变化。",
+      "tags": {
+        "brand": [
+          "银河",
+          "Yinhe"
+        ],
+        "position": [
+          "反手",
+          "正手"
+        ],
+        "rubberType": [
+          "生胶",
+          "正胶"
+        ],
+        "sponge": [
+          "薄海绵",
+          "传统海绵"
+        ],
+        "thickness": [
+          "1.5",
+          "1.8",
+          "2.0"
+        ],
+        "hardness": [
+          "生胶"
+        ],
+        "style": [
+          "快攻",
+          "弹击",
+          "近台"
+        ],
+        "origin": [
+          "中国"
+        ]
+      },
+      "sources": [
+        "Yinhe Pluto listings",
+        "short pips discussions"
+      ],
+      "color": "111827",
+      "image": "https://placehold.co/720x480/111827/ffffff?text=Yinhe%20%E5%86%A5%E7%8E%8B%E6%98%9F%20%E7%94%9F%E8%83%B6",
+      "contributors": [
+        "Codex research"
+      ]
+    },
+    {
+      "id": "loki-rxton-pink",
+      "name": "Rxton Pink",
+      "brand": "雷神",
+      "brandEn": "Loki",
+      "series": "Rxton",
+      "price": 95,
+      "priceMin": 70,
+      "priceMax": 135,
+      "description": "雷神 Rxton 系列中较受关注的彩海绵型号，主打粘弹和性价比。",
+      "tags": {
+        "brand": [
+          "雷神",
+          "Loki"
+        ],
+        "position": [
+          "正手"
+        ],
+        "rubberType": [
+          "反胶",
+          "粘性胶面"
+        ],
+        "sponge": [
+          "高密海绵",
+          "高弹海绵"
+        ],
+        "thickness": [
+          "2.1",
+          "Max"
+        ],
+        "hardness": [
+          "硬",
+          "中硬"
+        ],
+        "style": [
+          "弧圈",
+          "发抢"
+        ],
+        "origin": [
+          "中国"
+        ]
+      },
+      "sources": [
+        "Loki Rxton Pink listings",
+        "player forum discussions"
+      ],
+      "color": "db2777",
+      "image": "https://placehold.co/720x480/db2777/ffffff?text=Loki%20Rxton%20Pink",
+      "contributors": [
+        "Codex research"
+      ]
+    },
+    {
+      "id": "loki-arthur-europe",
+      "name": "Arthur Europe",
+      "brand": "雷神",
+      "brandEn": "Loki",
+      "series": "Arthur",
+      "price": 110,
+      "priceMin": 85,
+      "priceMax": 150,
+      "description": "Arthur 系列偏外套手感的型号，适合想要弹性和上手感的用户。",
+      "tags": {
+        "brand": [
+          "雷神",
+          "Loki"
+        ],
+        "position": [
+          "反手",
+          "正手"
+        ],
+        "rubberType": [
+          "反胶",
+          "涩性胶面"
+        ],
+        "sponge": [
+          "蛋糕海绵",
+          "高弹海绵"
+        ],
+        "thickness": [
+          "2.1",
+          "Max"
+        ],
+        "hardness": [
+          "中等",
+          "中硬"
+        ],
+        "style": [
+          "连续进攻",
+          "快攻弧圈"
+        ],
+        "origin": [
+          "中国"
+        ]
+      },
+      "sources": [
+        "Loki Arthur Europe listings",
+        "retailer product listings"
+      ],
+      "color": "2563eb",
+      "image": "https://placehold.co/720x480/2563eb/ffffff?text=Loki%20Arthur%20Europe",
+      "contributors": [
+        "Codex research"
+      ]
+    },
+    {
+      "id": "sanwei-target-pro",
+      "name": "标靶 Pro",
+      "brand": "三维",
+      "brandEn": "Sanwei",
+      "series": "标靶",
+      "price": 85,
+      "priceMin": 60,
+      "priceMax": 120,
+      "description": "三维标靶系列的进阶款，常作为低价国产粘套选择。",
+      "tags": {
+        "brand": [
+          "三维",
+          "Sanwei"
+        ],
+        "position": [
+          "正手"
+        ],
+        "rubberType": [
+          "反胶",
+          "粘性胶面"
+        ],
+        "sponge": [
+          "高密海绵"
+        ],
+        "thickness": [
+          "2.1",
+          "Max"
+        ],
+        "hardness": [
+          "中硬",
+          "硬"
+        ],
+        "style": [
+          "弧圈",
+          "训练"
+        ],
+        "origin": [
+          "中国"
+        ]
+      },
+      "sources": [
+        "Sanwei Target Pro listings",
+        "player forum discussions"
+      ],
+      "color": "dc2626",
+      "image": "https://placehold.co/720x480/dc2626/ffffff?text=Sanwei%20%E6%A0%87%E9%9D%B6%20Pro",
+      "contributors": [
+        "Codex research"
+      ]
+    },
+    {
+      "id": "sanwei-gear-hyper",
+      "name": "Gear Hyper",
+      "brand": "三维",
+      "brandEn": "Sanwei",
+      "series": "Gear",
+      "price": 95,
+      "priceMin": 70,
+      "priceMax": 135,
+      "description": "三维偏现代弹性手感的反胶，适合反手和连续衔接。",
+      "tags": {
+        "brand": [
+          "三维",
+          "Sanwei"
+        ],
+        "position": [
+          "反手",
+          "正手"
+        ],
+        "rubberType": [
+          "反胶",
+          "涩性胶面"
+        ],
+        "sponge": [
+          "蛋糕海绵",
+          "高弹海绵"
+        ],
+        "thickness": [
+          "2.1",
+          "Max"
+        ],
+        "hardness": [
+          "中等",
+          "中硬"
+        ],
+        "style": [
+          "快攻弧圈",
+          "连续进攻"
+        ],
+        "origin": [
+          "中国"
+        ]
+      },
+      "sources": [
+        "Sanwei Gear Hyper listings",
+        "retailer product listings"
+      ],
+      "color": "ef4444",
+      "image": "https://placehold.co/720x480/ef4444/ffffff?text=Sanwei%20Gear%20Hyper",
+      "contributors": [
+        "Codex research"
+      ]
+    },
+    {
+      "id": "palio-hidden-dragon",
+      "name": "Hidden Dragon",
+      "brand": "拍里奥",
+      "brandEn": "Palio",
+      "series": "Dragon",
+      "price": 55,
+      "priceMin": 40,
+      "priceMax": 85,
+      "description": "拍里奥低价反胶之一，偏训练和控制，适合预算型配置。",
+      "tags": {
+        "brand": [
+          "拍里奥",
+          "Palio"
+        ],
+        "position": [
+          "正手",
+          "反手"
+        ],
+        "rubberType": [
+          "反胶",
+          "微粘胶面"
+        ],
+        "sponge": [
+          "传统海绵"
+        ],
+        "thickness": [
+          "2.0",
+          "2.1",
+          "Max"
+        ],
+        "hardness": [
+          "中等",
+          "中硬"
+        ],
+        "style": [
+          "训练",
+          "控制"
+        ],
+        "origin": [
+          "中国"
+        ]
+      },
+      "sources": [
+        "Palio Hidden Dragon listings",
+        "player forum discussions"
+      ],
+      "color": "16a34a",
+      "image": "https://placehold.co/720x480/16a34a/ffffff?text=Palio%20Hidden%20Dragon",
+      "contributors": [
+        "Codex research"
+      ]
+    },
+    {
+      "id": "palio-emperor-dragon",
+      "name": "Emperor Dragon",
+      "brand": "拍里奥",
+      "brandEn": "Palio",
+      "series": "Dragon",
+      "price": 65,
+      "priceMin": 45,
+      "priceMax": 95,
+      "description": "拍里奥 Dragon 系列常见型号，面向训练和入门进阶。",
+      "tags": {
+        "brand": [
+          "拍里奥",
+          "Palio"
+        ],
+        "position": [
+          "正手",
+          "反手"
+        ],
+        "rubberType": [
+          "反胶",
+          "微粘胶面"
+        ],
+        "sponge": [
+          "传统海绵"
+        ],
+        "thickness": [
+          "2.0",
+          "2.1",
+          "Max"
+        ],
+        "hardness": [
+          "中硬"
+        ],
+        "style": [
+          "训练",
+          "弧圈"
+        ],
+        "origin": [
+          "中国"
+        ]
+      },
+      "sources": [
+        "Palio Emperor Dragon listings",
+        "retailer product listings"
+      ],
+      "color": "15803d",
+      "image": "https://placehold.co/720x480/15803d/ffffff?text=Palio%20Emperor%20Dragon",
+      "contributors": [
+        "Codex research"
+      ]
+    },
+    {
+      "id": "tuttle-beijing-4",
+      "name": "北京 IV",
+      "brand": "塔特尔",
+      "brandEn": "Tuttle",
+      "series": "北京",
+      "price": 80,
+      "priceMin": 60,
+      "priceMax": 115,
+      "description": "塔特尔常见国产粘套，面向正手弧圈和训练配置。",
+      "tags": {
+        "brand": [
+          "塔特尔",
+          "Tuttle"
+        ],
+        "position": [
+          "正手"
+        ],
+        "rubberType": [
+          "反胶",
+          "粘性胶面"
+        ],
+        "sponge": [
+          "高密海绵"
+        ],
+        "thickness": [
+          "2.1",
+          "Max"
+        ],
+        "hardness": [
+          "中硬",
+          "硬"
+        ],
+        "style": [
+          "弧圈",
+          "训练"
+        ],
+        "origin": [
+          "中国"
+        ]
+      },
+      "sources": [
+        "Tuttle Beijing IV listings",
+        "player forum discussions"
+      ],
+      "color": "be123c",
+      "image": "https://placehold.co/720x480/be123c/ffffff?text=Tuttle%20%E5%8C%97%E4%BA%AC%20IV",
+      "contributors": [
+        "Codex research"
+      ]
+    },
+    {
+      "id": "tuttle-vip-2018",
+      "name": "VIP 2018",
+      "brand": "塔特尔",
+      "brandEn": "Tuttle",
+      "series": "VIP",
+      "price": 95,
+      "priceMin": 70,
+      "priceMax": 135,
+      "description": "塔特尔进阶反胶，常被作为性价比国产粘弹套胶讨论。",
+      "tags": {
+        "brand": [
+          "塔特尔",
+          "Tuttle"
+        ],
+        "position": [
+          "正手"
+        ],
+        "rubberType": [
+          "反胶",
+          "粘性胶面"
+        ],
+        "sponge": [
+          "高密海绵",
+          "高弹海绵"
+        ],
+        "thickness": [
+          "2.1",
+          "Max"
+        ],
+        "hardness": [
+          "硬",
+          "中硬"
+        ],
+        "style": [
+          "弧圈",
+          "发抢"
+        ],
+        "origin": [
+          "中国"
+        ]
+      },
+      "sources": [
+        "Tuttle VIP 2018 listings",
+        "player forum discussions"
+      ],
+      "color": "9f1239",
+      "image": "https://placehold.co/720x480/9f1239/ffffff?text=Tuttle%20VIP%202018",
+      "contributors": [
+        "Codex research"
+      ]
+    },
+    {
+      "id": "dawei-inspirit-quattro-ultralight",
+      "name": "Inspirit Quattro Ultralight",
+      "brand": "大维",
+      "brandEn": "Dawei",
+      "series": "Inspirit",
+      "price": 75,
+      "priceMin": 55,
+      "priceMax": 110,
+      "description": "大维外销常见型号，主打较轻重量和易上手弹性。",
+      "tags": {
+        "brand": [
+          "大维",
+          "Dawei"
+        ],
+        "position": [
+          "反手",
+          "正手"
+        ],
+        "rubberType": [
+          "反胶",
+          "涩性胶面"
+        ],
+        "sponge": [
+          "高弹海绵"
+        ],
+        "thickness": [
+          "2.0",
+          "2.1",
+          "Max"
+        ],
+        "hardness": [
+          "中等",
+          "中软"
+        ],
+        "style": [
+          "控制",
+          "连续进攻"
+        ],
+        "origin": [
+          "中国"
+        ]
+      },
+      "sources": [
+        "Dawei Inspirit Quattro Ultralight listings",
+        "player forum discussions"
+      ],
+      "color": "64748b",
+      "image": "https://placehold.co/720x480/64748b/ffffff?text=Dawei%20Inspirit%20Quattro%20Ultralight",
+      "contributors": [
+        "Codex research"
+      ]
+    },
+    {
+      "id": "reactor-tornado-v5",
+      "name": "Tornado V5",
+      "brand": "锐科特",
+      "brandEn": "Reactor",
+      "series": "Tornado",
+      "price": 45,
+      "priceMin": 30,
+      "priceMax": 70,
+      "description": "锐科特常见低价反胶，适合预算配置和练习用胶。",
+      "tags": {
+        "brand": [
+          "锐科特",
+          "Reactor"
+        ],
+        "position": [
+          "正手",
+          "反手"
+        ],
+        "rubberType": [
+          "反胶",
+          "粘性胶面"
+        ],
+        "sponge": [
+          "传统海绵"
+        ],
+        "thickness": [
+          "2.0",
+          "2.1",
+          "Max"
+        ],
+        "hardness": [
+          "中硬",
+          "硬"
+        ],
+        "style": [
+          "训练",
+          "控制"
+        ],
+        "origin": [
+          "中国"
+        ]
+      },
+      "sources": [
+        "Reactor Tornado V5 listings",
+        "budget rubber discussions"
+      ],
+      "color": "1f2937",
+      "image": "https://placehold.co/720x480/1f2937/ffffff?text=Reactor%20Tornado%20V5",
+      "contributors": [
+        "Codex research"
+      ]
     }
   ],
   "blades": [
@@ -5714,6 +8519,1844 @@
       "sources": [
         "Loki Kirin product listings",
         "Tieba user discussions"
+      ]
+    },
+    {
+      "currency": "CNY",
+      "contributors": [
+        "Codex research"
+      ],
+      "id": "dhs-power-g3",
+      "name": "劲极 3",
+      "brand": "红双喜",
+      "brandEn": "DHS",
+      "series": "劲极",
+      "price": 90,
+      "priceMin": 65,
+      "priceMax": 130,
+      "description": "入门纯木底板，控制容易，适合初学者自配球拍。",
+      "tags": {
+        "brand": [
+          "红双喜",
+          "DHS"
+        ],
+        "structure": [
+          "五夹纯木"
+        ],
+        "material": [
+          "纯木"
+        ],
+        "position": [
+          "控制",
+          "训练"
+        ],
+        "handle": [
+          "FL",
+          "CS"
+        ],
+        "speed": [
+          "ALL+",
+          "OFF-"
+        ],
+        "feel": [
+          "清晰",
+          "中等"
+        ],
+        "weight": [
+          "80-85g",
+          "85-90g"
+        ],
+        "origin": [
+          "中国"
+        ]
+      },
+      "sources": [
+        "DHS Power G product listings",
+        "player forum discussions"
+      ],
+      "color": "b91c1c",
+      "image": "https://placehold.co/720x480/b91c1c/ffffff?text=DHS%20%E5%8A%B2%E6%9E%81%203"
+    },
+    {
+      "currency": "CNY",
+      "contributors": [
+        "Codex research"
+      ],
+      "id": "dhs-power-g9",
+      "name": "劲极 9",
+      "brand": "红双喜",
+      "brandEn": "DHS",
+      "series": "劲极",
+      "price": 180,
+      "priceMin": 140,
+      "priceMax": 240,
+      "description": "国产进攻型底板，支撑较强，适合弧圈结合快攻。",
+      "tags": {
+        "brand": [
+          "红双喜",
+          "DHS"
+        ],
+        "structure": [
+          "七夹纯木"
+        ],
+        "material": [
+          "纯木"
+        ],
+        "position": [
+          "快攻弧圈",
+          "相持"
+        ],
+        "handle": [
+          "FL",
+          "CS"
+        ],
+        "speed": [
+          "OFF"
+        ],
+        "feel": [
+          "中硬",
+          "清晰"
+        ],
+        "weight": [
+          "85-90g",
+          "90g以上"
+        ],
+        "origin": [
+          "中国"
+        ]
+      },
+      "sources": [
+        "DHS Power G product listings",
+        "player forum discussions"
+      ],
+      "color": "dc2626",
+      "image": "https://placehold.co/720x480/dc2626/ffffff?text=DHS%20%E5%8A%B2%E6%9E%81%209"
+    },
+    {
+      "currency": "CNY",
+      "contributors": [
+        "Codex research"
+      ],
+      "id": "dhs-hurricane-hao-3",
+      "name": "狂飙皓 3",
+      "brand": "红双喜",
+      "brandEn": "DHS",
+      "series": "狂飙皓",
+      "price": 420,
+      "priceMin": 330,
+      "priceMax": 560,
+      "description": "国产进攻底板，适合弧圈结合快攻，常见于横打/直板讨论。",
+      "tags": {
+        "brand": [
+          "红双喜",
+          "DHS"
+        ],
+        "structure": [
+          "五夹纯木"
+        ],
+        "material": [
+          "纯木"
+        ],
+        "position": [
+          "弧圈",
+          "快攻弧圈"
+        ],
+        "handle": [
+          "CS",
+          "FL"
+        ],
+        "speed": [
+          "OFF-"
+        ],
+        "feel": [
+          "持球",
+          "清晰"
+        ],
+        "weight": [
+          "85-90g"
+        ],
+        "origin": [
+          "中国"
+        ]
+      },
+      "sources": [
+        "DHS Hurricane Hao product listings",
+        "player forum discussions"
+      ],
+      "color": "7f1d1d",
+      "image": "https://placehold.co/720x480/7f1d1d/ffffff?text=DHS%20%E7%8B%82%E9%A3%99%E7%9A%93%203"
+    },
+    {
+      "currency": "CNY",
+      "contributors": [
+        "Codex research"
+      ],
+      "id": "dhs-b2x",
+      "name": "方博 B2X",
+      "brand": "红双喜",
+      "brandEn": "DHS",
+      "series": "方博",
+      "price": 330,
+      "priceMin": 260,
+      "priceMax": 430,
+      "description": "方博系列纤维底板，速度和支撑比 B2 更强，适合进阶弧圈。",
+      "tags": {
+        "brand": [
+          "红双喜",
+          "DHS"
+        ],
+        "structure": [
+          "内置纤维",
+          "五木二纤"
+        ],
+        "material": [
+          "芳碳"
+        ],
+        "position": [
+          "弧圈",
+          "相持"
+        ],
+        "handle": [
+          "FL",
+          "CS"
+        ],
+        "speed": [
+          "OFF"
+        ],
+        "feel": [
+          "中硬",
+          "持球"
+        ],
+        "weight": [
+          "85-90g"
+        ],
+        "origin": [
+          "中国"
+        ]
+      },
+      "sources": [
+        "DHS Fang Bo B2X product listings",
+        "player forum discussions"
+      ],
+      "color": "991b1b",
+      "image": "https://placehold.co/720x480/991b1b/ffffff?text=DHS%20%E6%96%B9%E5%8D%9A%20B2X"
+    },
+    {
+      "currency": "CNY",
+      "contributors": [
+        "Codex research"
+      ],
+      "id": "yinhe-mc-2",
+      "name": "MC-2",
+      "brand": "银河",
+      "brandEn": "Yinhe",
+      "series": "MC",
+      "price": 120,
+      "priceMin": 90,
+      "priceMax": 170,
+      "description": "经典亲民五夹纯木底板，控制和弧圈手感好，适合进阶基本功。",
+      "tags": {
+        "brand": [
+          "银河",
+          "Yinhe"
+        ],
+        "structure": [
+          "五夹纯木"
+        ],
+        "material": [
+          "纯木"
+        ],
+        "position": [
+          "弧圈",
+          "控制"
+        ],
+        "handle": [
+          "FL",
+          "CS"
+        ],
+        "speed": [
+          "OFF-"
+        ],
+        "feel": [
+          "清晰",
+          "持球"
+        ],
+        "weight": [
+          "80-85g",
+          "85-90g"
+        ],
+        "origin": [
+          "中国"
+        ]
+      },
+      "sources": [
+        "Yinhe MC-2 product listings",
+        "player forum discussions"
+      ],
+      "color": "0284c7",
+      "image": "https://placehold.co/720x480/0284c7/ffffff?text=Yinhe%20MC-2"
+    },
+    {
+      "currency": "CNY",
+      "contributors": [
+        "Codex research"
+      ],
+      "id": "yinhe-mc-2-pro",
+      "name": "MC-2 Pro",
+      "brand": "银河",
+      "brandEn": "Yinhe",
+      "series": "MC",
+      "price": 180,
+      "priceMin": 140,
+      "priceMax": 240,
+      "description": "MC-2 升级款，支撑更强，适合弧圈进阶和中近台连续。",
+      "tags": {
+        "brand": [
+          "银河",
+          "Yinhe"
+        ],
+        "structure": [
+          "五夹纯木"
+        ],
+        "material": [
+          "纯木"
+        ],
+        "position": [
+          "弧圈",
+          "相持"
+        ],
+        "handle": [
+          "FL",
+          "CS"
+        ],
+        "speed": [
+          "OFF-"
+        ],
+        "feel": [
+          "清晰",
+          "中等"
+        ],
+        "weight": [
+          "85-90g"
+        ],
+        "origin": [
+          "中国"
+        ]
+      },
+      "sources": [
+        "Yinhe MC-2 Pro product listings",
+        "player forum discussions"
+      ],
+      "color": "0369a1",
+      "image": "https://placehold.co/720x480/0369a1/ffffff?text=Yinhe%20MC-2%20Pro"
+    },
+    {
+      "currency": "CNY",
+      "contributors": [
+        "Codex research"
+      ],
+      "id": "yinhe-t11-plus",
+      "name": "T11+",
+      "brand": "银河",
+      "brandEn": "Yinhe",
+      "series": "T",
+      "price": 170,
+      "priceMin": 130,
+      "priceMax": 230,
+      "description": "轻量碳素底板，速度快、重量轻，适合近台快攻和反手弹击。",
+      "tags": {
+        "brand": [
+          "银河",
+          "Yinhe"
+        ],
+        "structure": [
+          "碳素",
+          "轻量"
+        ],
+        "material": [
+          "碳纤维",
+          "桐木"
+        ],
+        "position": [
+          "快攻",
+          "近台进攻"
+        ],
+        "handle": [
+          "FL",
+          "CS"
+        ],
+        "speed": [
+          "OFF"
+        ],
+        "feel": [
+          "弹性",
+          "中硬"
+        ],
+        "weight": [
+          "80-85g"
+        ],
+        "origin": [
+          "中国"
+        ]
+      },
+      "sources": [
+        "Yinhe T11+ product listings",
+        "player forum discussions"
+      ],
+      "color": "0ea5e9",
+      "image": "https://placehold.co/720x480/0ea5e9/ffffff?text=Yinhe%20T11%2B"
+    },
+    {
+      "currency": "CNY",
+      "contributors": [
+        "Codex research"
+      ],
+      "id": "yinhe-e3",
+      "name": "E-3",
+      "brand": "银河",
+      "brandEn": "Yinhe",
+      "series": "E",
+      "price": 90,
+      "priceMin": 65,
+      "priceMax": 130,
+      "description": "亲民纯木底板，控制稳定，适合入门和训练。",
+      "tags": {
+        "brand": [
+          "银河",
+          "Yinhe"
+        ],
+        "structure": [
+          "五夹纯木"
+        ],
+        "material": [
+          "纯木"
+        ],
+        "position": [
+          "控制",
+          "训练"
+        ],
+        "handle": [
+          "FL",
+          "CS"
+        ],
+        "speed": [
+          "ALL+",
+          "OFF-"
+        ],
+        "feel": [
+          "清晰",
+          "中等"
+        ],
+        "weight": [
+          "80-85g",
+          "85-90g"
+        ],
+        "origin": [
+          "中国"
+        ]
+      },
+      "sources": [
+        "Yinhe E-3 product listings",
+        "player forum discussions"
+      ],
+      "color": "38bdf8",
+      "image": "https://placehold.co/720x480/38bdf8/ffffff?text=Yinhe%20E-3"
+    },
+    {
+      "currency": "CNY",
+      "contributors": [
+        "Codex research"
+      ],
+      "id": "yinhe-y13",
+      "name": "Y-13",
+      "brand": "银河",
+      "brandEn": "Yinhe",
+      "series": "Y",
+      "price": 160,
+      "priceMin": 120,
+      "priceMax": 220,
+      "description": "亲民进攻底板，速度和控制均衡，适合弧圈结合快攻。",
+      "tags": {
+        "brand": [
+          "银河",
+          "Yinhe"
+        ],
+        "structure": [
+          "五夹纯木"
+        ],
+        "material": [
+          "纯木"
+        ],
+        "position": [
+          "弧圈",
+          "快攻弧圈"
+        ],
+        "handle": [
+          "FL",
+          "CS"
+        ],
+        "speed": [
+          "OFF-"
+        ],
+        "feel": [
+          "中等",
+          "清晰"
+        ],
+        "weight": [
+          "85-90g"
+        ],
+        "origin": [
+          "中国"
+        ]
+      },
+      "sources": [
+        "Yinhe Y-13 product listings",
+        "player forum discussions"
+      ],
+      "color": "0e7490",
+      "image": "https://placehold.co/720x480/0e7490/ffffff?text=Yinhe%20Y-13"
+    },
+    {
+      "currency": "CNY",
+      "contributors": [
+        "Codex research"
+      ],
+      "id": "yinhe-pro-05",
+      "name": "Pro-05",
+      "brand": "银河",
+      "brandEn": "Yinhe",
+      "series": "Pro",
+      "price": 320,
+      "priceMin": 260,
+      "priceMax": 420,
+      "description": "国产高性价比纤维底板，支撑较强，适合进阶弧圈和相持。",
+      "tags": {
+        "brand": [
+          "银河",
+          "Yinhe"
+        ],
+        "structure": [
+          "纤维",
+          "五木二纤"
+        ],
+        "material": [
+          "芳碳"
+        ],
+        "position": [
+          "弧圈",
+          "相持"
+        ],
+        "handle": [
+          "FL",
+          "CS"
+        ],
+        "speed": [
+          "OFF"
+        ],
+        "feel": [
+          "中硬",
+          "清晰"
+        ],
+        "weight": [
+          "85-90g"
+        ],
+        "origin": [
+          "中国"
+        ]
+      },
+      "sources": [
+        "Yinhe Pro blade listings",
+        "player forum discussions"
+      ],
+      "color": "1d4ed8",
+      "image": "https://placehold.co/720x480/1d4ed8/ffffff?text=Yinhe%20Pro-05"
+    },
+    {
+      "currency": "CNY",
+      "contributors": [
+        "Codex research"
+      ],
+      "id": "yinhe-v16",
+      "name": "V16",
+      "brand": "银河",
+      "brandEn": "Yinhe",
+      "series": "V",
+      "price": 220,
+      "priceMin": 170,
+      "priceMax": 290,
+      "description": "国产纤维底板，速度较快，适合中近台弧圈快攻。",
+      "tags": {
+        "brand": [
+          "银河",
+          "Yinhe"
+        ],
+        "structure": [
+          "外置纤维",
+          "五木二纤"
+        ],
+        "material": [
+          "碳纤维"
+        ],
+        "position": [
+          "弧圈",
+          "快攻弧圈"
+        ],
+        "handle": [
+          "FL",
+          "CS"
+        ],
+        "speed": [
+          "OFF"
+        ],
+        "feel": [
+          "中硬"
+        ],
+        "weight": [
+          "85-90g",
+          "90g以上"
+        ],
+        "origin": [
+          "中国"
+        ]
+      },
+      "sources": [
+        "Yinhe V16 product listings",
+        "player forum discussions"
+      ],
+      "color": "1e40af",
+      "image": "https://placehold.co/720x480/1e40af/ffffff?text=Yinhe%20V16"
+    },
+    {
+      "currency": "CNY",
+      "contributors": [
+        "Codex research"
+      ],
+      "id": "sanwei-hc-5s",
+      "name": "HC-5S",
+      "brand": "三维",
+      "brandEn": "Sanwei",
+      "series": "HC",
+      "price": 160,
+      "priceMin": 120,
+      "priceMax": 220,
+      "description": "亲民五夹纯木底板，弧圈和控制取向，适合入门进阶。",
+      "tags": {
+        "brand": [
+          "三维",
+          "Sanwei"
+        ],
+        "structure": [
+          "五夹纯木"
+        ],
+        "material": [
+          "纯木"
+        ],
+        "position": [
+          "弧圈",
+          "控制"
+        ],
+        "handle": [
+          "FL",
+          "CS"
+        ],
+        "speed": [
+          "OFF-"
+        ],
+        "feel": [
+          "清晰",
+          "中等"
+        ],
+        "weight": [
+          "80-85g",
+          "85-90g"
+        ],
+        "origin": [
+          "中国"
+        ]
+      },
+      "sources": [
+        "Sanwei HC-5S product listings",
+        "player forum discussions"
+      ],
+      "color": "b45309",
+      "image": "https://placehold.co/720x480/b45309/ffffff?text=Sanwei%20HC-5S"
+    },
+    {
+      "currency": "CNY",
+      "contributors": [
+        "Codex research"
+      ],
+      "id": "sanwei-f3-pro",
+      "name": "F3 Pro",
+      "brand": "三维",
+      "brandEn": "Sanwei",
+      "series": "F",
+      "price": 220,
+      "priceMin": 170,
+      "priceMax": 290,
+      "description": "三维纤维进攻底板，速度和稳定性较好，适合弧圈进阶。",
+      "tags": {
+        "brand": [
+          "三维",
+          "Sanwei"
+        ],
+        "structure": [
+          "纤维",
+          "五木二纤"
+        ],
+        "material": [
+          "碳纤维"
+        ],
+        "position": [
+          "弧圈",
+          "相持"
+        ],
+        "handle": [
+          "FL",
+          "CS"
+        ],
+        "speed": [
+          "OFF"
+        ],
+        "feel": [
+          "中硬",
+          "清晰"
+        ],
+        "weight": [
+          "85-90g"
+        ],
+        "origin": [
+          "中国"
+        ]
+      },
+      "sources": [
+        "Sanwei F3 Pro product listings",
+        "player forum discussions"
+      ],
+      "color": "92400e",
+      "image": "https://placehold.co/720x480/92400e/ffffff?text=Sanwei%20F3%20Pro"
+    },
+    {
+      "currency": "CNY",
+      "contributors": [
+        "Codex research"
+      ],
+      "id": "sanwei-75-inner",
+      "name": "75 Inner",
+      "brand": "三维",
+      "brandEn": "Sanwei",
+      "series": "75",
+      "price": 260,
+      "priceMin": 210,
+      "priceMax": 340,
+      "description": "亲民内置纤维底板，持球和底劲兼顾，适合弧圈打法。",
+      "tags": {
+        "brand": [
+          "三维",
+          "Sanwei"
+        ],
+        "structure": [
+          "内置纤维",
+          "五木二纤"
+        ],
+        "material": [
+          "纤维"
+        ],
+        "position": [
+          "弧圈",
+          "相持"
+        ],
+        "handle": [
+          "FL",
+          "CS"
+        ],
+        "speed": [
+          "OFF-",
+          "OFF"
+        ],
+        "feel": [
+          "持球",
+          "中硬"
+        ],
+        "weight": [
+          "85-90g"
+        ],
+        "origin": [
+          "中国"
+        ]
+      },
+      "sources": [
+        "Sanwei 75 Inner product listings",
+        "player forum discussions"
+      ],
+      "color": "78350f",
+      "image": "https://placehold.co/720x480/78350f/ffffff?text=Sanwei%2075%20Inner"
+    },
+    {
+      "currency": "CNY",
+      "contributors": [
+        "Codex research"
+      ],
+      "id": "loki-kirin-k3",
+      "name": "麒麟 K3",
+      "brand": "雷神",
+      "brandEn": "Loki",
+      "series": "麒麟",
+      "price": 120,
+      "priceMin": 90,
+      "priceMax": 170,
+      "description": "亲民纯木/进阶底板，控制和速度较均衡，适合初学进阶。",
+      "tags": {
+        "brand": [
+          "雷神",
+          "Loki"
+        ],
+        "structure": [
+          "五夹纯木"
+        ],
+        "material": [
+          "纯木"
+        ],
+        "position": [
+          "控制",
+          "弧圈"
+        ],
+        "handle": [
+          "FL",
+          "CS"
+        ],
+        "speed": [
+          "OFF-"
+        ],
+        "feel": [
+          "中等"
+        ],
+        "weight": [
+          "80-85g",
+          "85-90g"
+        ],
+        "origin": [
+          "中国"
+        ]
+      },
+      "sources": [
+        "Loki Kirin product listings",
+        "player forum discussions"
+      ],
+      "color": "166534",
+      "image": "https://placehold.co/720x480/166534/ffffff?text=Loki%20%E9%BA%92%E9%BA%9F%20K3"
+    },
+    {
+      "currency": "CNY",
+      "contributors": [
+        "Codex research"
+      ],
+      "id": "loki-arthur-k5",
+      "name": "Arthur K5",
+      "brand": "雷神",
+      "brandEn": "Loki",
+      "series": "Arthur",
+      "price": 220,
+      "priceMin": 170,
+      "priceMax": 290,
+      "description": "雷神亲民纤维底板，支撑和速度较强，适合弧圈结合快攻。",
+      "tags": {
+        "brand": [
+          "雷神",
+          "Loki"
+        ],
+        "structure": [
+          "纤维",
+          "五木二纤"
+        ],
+        "material": [
+          "碳纤维"
+        ],
+        "position": [
+          "弧圈",
+          "快攻弧圈"
+        ],
+        "handle": [
+          "FL",
+          "CS"
+        ],
+        "speed": [
+          "OFF"
+        ],
+        "feel": [
+          "中硬"
+        ],
+        "weight": [
+          "85-90g"
+        ],
+        "origin": [
+          "中国"
+        ]
+      },
+      "sources": [
+        "Loki Arthur blade listings",
+        "player forum discussions"
+      ],
+      "color": "14532d",
+      "image": "https://placehold.co/720x480/14532d/ffffff?text=Loki%20Arthur%20K5"
+    },
+    {
+      "currency": "CNY",
+      "contributors": [
+        "Codex research"
+      ],
+      "id": "sword-black-feather",
+      "name": "黑羽",
+      "brand": "世奥得",
+      "brandEn": "Sword",
+      "series": "羽",
+      "price": 260,
+      "priceMin": 200,
+      "priceMax": 340,
+      "description": "国产纤维进攻底板，速度和支撑较好，适合弧圈快攻。",
+      "tags": {
+        "brand": [
+          "世奥得",
+          "Sword"
+        ],
+        "structure": [
+          "纤维",
+          "五木二纤"
+        ],
+        "material": [
+          "碳纤维"
+        ],
+        "position": [
+          "弧圈",
+          "相持"
+        ],
+        "handle": [
+          "FL",
+          "CS"
+        ],
+        "speed": [
+          "OFF"
+        ],
+        "feel": [
+          "中硬",
+          "清晰"
+        ],
+        "weight": [
+          "85-90g"
+        ],
+        "origin": [
+          "中国"
+        ]
+      },
+      "sources": [
+        "Sword blade product listings",
+        "player forum discussions"
+      ],
+      "color": "111827",
+      "image": "https://placehold.co/720x480/111827/ffffff?text=Sword%20%E9%BB%91%E7%BE%BD"
+    },
+    {
+      "currency": "CNY",
+      "contributors": [
+        "Codex research"
+      ],
+      "id": "sword-blue-feather",
+      "name": "蓝羽",
+      "brand": "世奥得",
+      "brandEn": "Sword",
+      "series": "羽",
+      "price": 220,
+      "priceMin": 170,
+      "priceMax": 290,
+      "description": "国产进攻底板，手感较清晰，适合弧圈结合快攻。",
+      "tags": {
+        "brand": [
+          "世奥得",
+          "Sword"
+        ],
+        "structure": [
+          "纤维",
+          "五木二纤"
+        ],
+        "material": [
+          "碳纤维"
+        ],
+        "position": [
+          "弧圈",
+          "快攻弧圈"
+        ],
+        "handle": [
+          "FL",
+          "CS"
+        ],
+        "speed": [
+          "OFF-",
+          "OFF"
+        ],
+        "feel": [
+          "清晰",
+          "中硬"
+        ],
+        "weight": [
+          "85-90g"
+        ],
+        "origin": [
+          "中国"
+        ]
+      },
+      "sources": [
+        "Sword blade product listings",
+        "player forum discussions"
+      ],
+      "color": "1d4ed8",
+      "image": "https://placehold.co/720x480/1d4ed8/ffffff?text=Sword%20%E8%93%9D%E7%BE%BD"
+    },
+    {
+      "currency": "CNY",
+      "contributors": [
+        "Codex research"
+      ],
+      "id": "palio-tct",
+      "name": "TCT",
+      "brand": "拍里奥",
+      "brandEn": "Palio",
+      "series": "TCT",
+      "price": 130,
+      "priceMin": 95,
+      "priceMax": 180,
+      "description": "亲民碳素底板，速度较快，适合入门进阶的快弧配置。",
+      "tags": {
+        "brand": [
+          "拍里奥",
+          "Palio"
+        ],
+        "structure": [
+          "碳素",
+          "五木二碳"
+        ],
+        "material": [
+          "碳纤维"
+        ],
+        "position": [
+          "快攻弧圈",
+          "训练"
+        ],
+        "handle": [
+          "FL",
+          "CS"
+        ],
+        "speed": [
+          "OFF-"
+        ],
+        "feel": [
+          "中硬"
+        ],
+        "weight": [
+          "85-90g"
+        ],
+        "origin": [
+          "中国"
+        ]
+      },
+      "sources": [
+        "Palio TCT blade listings",
+        "player forum discussions"
+      ],
+      "color": "f59e0b",
+      "image": "https://placehold.co/720x480/f59e0b/ffffff?text=Palio%20TCT"
+    },
+    {
+      "currency": "CNY",
+      "contributors": [
+        "Codex research"
+      ],
+      "id": "friendship-729-v6",
+      "name": "V-6",
+      "brand": "729",
+      "brandEn": "Friendship 729",
+      "series": "V",
+      "price": 160,
+      "priceMin": 120,
+      "priceMax": 220,
+      "description": "729 亲民纤维底板，速度和控制均衡，适合弧圈快攻。",
+      "tags": {
+        "brand": [
+          "729",
+          "Friendship 729"
+        ],
+        "structure": [
+          "纤维",
+          "五木二纤"
+        ],
+        "material": [
+          "碳纤维"
+        ],
+        "position": [
+          "弧圈",
+          "快攻弧圈"
+        ],
+        "handle": [
+          "FL",
+          "CS"
+        ],
+        "speed": [
+          "OFF-",
+          "OFF"
+        ],
+        "feel": [
+          "中硬"
+        ],
+        "weight": [
+          "85-90g"
+        ],
+        "origin": [
+          "中国"
+        ]
+      },
+      "sources": [
+        "729 blade product listings",
+        "player forum discussions"
+      ],
+      "color": "16a34a",
+      "image": "https://placehold.co/720x480/16a34a/ffffff?text=Friendship%20729%20V-6"
+    },
+    {
+      "currency": "CNY",
+      "contributors": [
+        "Codex research"
+      ],
+      "id": "friendship-729-l5",
+      "name": "L-5",
+      "brand": "729",
+      "brandEn": "Friendship 729",
+      "series": "L",
+      "price": 120,
+      "priceMin": 90,
+      "priceMax": 170,
+      "description": "729 经济型纯木底板，控制容易，适合入门和训练。",
+      "tags": {
+        "brand": [
+          "729",
+          "Friendship 729"
+        ],
+        "structure": [
+          "五夹纯木"
+        ],
+        "material": [
+          "纯木"
+        ],
+        "position": [
+          "控制",
+          "训练"
+        ],
+        "handle": [
+          "FL",
+          "CS"
+        ],
+        "speed": [
+          "ALL+",
+          "OFF-"
+        ],
+        "feel": [
+          "清晰"
+        ],
+        "weight": [
+          "80-85g",
+          "85-90g"
+        ],
+        "origin": [
+          "中国"
+        ]
+      },
+      "sources": [
+        "729 blade product listings",
+        "player forum discussions"
+      ],
+      "color": "22c55e",
+      "image": "https://placehold.co/720x480/22c55e/ffffff?text=Friendship%20729%20L-5"
+    },
+    {
+      "id": "yinhe-w6",
+      "name": "W-6",
+      "brand": "银河",
+      "brandEn": "Yinhe",
+      "series": "W",
+      "price": 120,
+      "priceMin": 90,
+      "priceMax": 170,
+      "description": "银河经典纯木弧圈板，形变感和持球感较明显。",
+      "tags": {
+        "brand": [
+          "银河",
+          "Yinhe"
+        ],
+        "bladeType": [
+          "纯木"
+        ],
+        "structure": [
+          "五层纯木"
+        ],
+        "speed": [
+          "中等"
+        ],
+        "feel": [
+          "中软",
+          "形变"
+        ],
+        "style": [
+          "弧圈",
+          "控制"
+        ],
+        "origin": [
+          "中国"
+        ]
+      },
+      "sources": [
+        "Yinhe W-6 blade listings",
+        "player forum discussions"
+      ],
+      "color": "92400e",
+      "image": "https://placehold.co/720x480/92400e/ffffff?text=Yinhe%20W-6",
+      "contributors": [
+        "Codex research"
+      ]
+    },
+    {
+      "id": "yinhe-w6-vb",
+      "name": "W-6 VB",
+      "brand": "银河",
+      "brandEn": "Yinhe",
+      "series": "W",
+      "price": 150,
+      "priceMin": 110,
+      "priceMax": 210,
+      "description": "W-6 的变化版本，延续弧圈取向，适合喜欢持球感的用户。",
+      "tags": {
+        "brand": [
+          "银河",
+          "Yinhe"
+        ],
+        "bladeType": [
+          "纯木"
+        ],
+        "structure": [
+          "五层纯木"
+        ],
+        "speed": [
+          "中等"
+        ],
+        "feel": [
+          "中软",
+          "形变"
+        ],
+        "style": [
+          "弧圈",
+          "控制"
+        ],
+        "origin": [
+          "中国"
+        ]
+      },
+      "sources": [
+        "Yinhe W-6 VB listings",
+        "retailer product listings"
+      ],
+      "color": "a16207",
+      "image": "https://placehold.co/720x480/a16207/ffffff?text=Yinhe%20W-6%20VB",
+      "contributors": [
+        "Codex research"
+      ]
+    },
+    {
+      "id": "yinhe-v1",
+      "name": "V-1",
+      "brand": "银河",
+      "brandEn": "Yinhe",
+      "series": "V",
+      "price": 150,
+      "priceMin": 110,
+      "priceMax": 220,
+      "description": "银河 V 系列常见纤维板，性价比高，偏快攻弧圈。",
+      "tags": {
+        "brand": [
+          "银河",
+          "Yinhe"
+        ],
+        "bladeType": [
+          "纤维"
+        ],
+        "structure": [
+          "外置纤维"
+        ],
+        "speed": [
+          "快"
+        ],
+        "feel": [
+          "中硬"
+        ],
+        "style": [
+          "快攻弧圈",
+          "近台"
+        ],
+        "origin": [
+          "中国"
+        ]
+      },
+      "sources": [
+        "Yinhe V-1 blade listings",
+        "player forum discussions"
+      ],
+      "color": "1d4ed8",
+      "image": "https://placehold.co/720x480/1d4ed8/ffffff?text=Yinhe%20V-1",
+      "contributors": [
+        "Codex research"
+      ]
+    },
+    {
+      "id": "yinhe-v2",
+      "name": "V-2",
+      "brand": "银河",
+      "brandEn": "Yinhe",
+      "series": "V",
+      "price": 170,
+      "priceMin": 130,
+      "priceMax": 240,
+      "description": "银河 V 系列进攻型纤维板，速度和支撑较明显。",
+      "tags": {
+        "brand": [
+          "银河",
+          "Yinhe"
+        ],
+        "bladeType": [
+          "纤维"
+        ],
+        "structure": [
+          "外置纤维"
+        ],
+        "speed": [
+          "快"
+        ],
+        "feel": [
+          "中硬",
+          "清晰"
+        ],
+        "style": [
+          "快攻弧圈",
+          "连续进攻"
+        ],
+        "origin": [
+          "中国"
+        ]
+      },
+      "sources": [
+        "Yinhe V-2 blade listings",
+        "retailer product listings"
+      ],
+      "color": "1e40af",
+      "image": "https://placehold.co/720x480/1e40af/ffffff?text=Yinhe%20V-2",
+      "contributors": [
+        "Codex research"
+      ]
+    },
+    {
+      "id": "yinhe-y4",
+      "name": "Y-4",
+      "brand": "银河",
+      "brandEn": "Yinhe",
+      "series": "Y",
+      "price": 95,
+      "priceMin": 70,
+      "priceMax": 140,
+      "description": "银河低价纯木板之一，适合入门和训练搭配。",
+      "tags": {
+        "brand": [
+          "银河",
+          "Yinhe"
+        ],
+        "bladeType": [
+          "纯木"
+        ],
+        "structure": [
+          "五层纯木"
+        ],
+        "speed": [
+          "中等"
+        ],
+        "feel": [
+          "中等",
+          "控制"
+        ],
+        "style": [
+          "训练",
+          "控制"
+        ],
+        "origin": [
+          "中国"
+        ]
+      },
+      "sources": [
+        "Yinhe Y-4 blade listings",
+        "beginner gear discussions"
+      ],
+      "color": "854d0e",
+      "image": "https://placehold.co/720x480/854d0e/ffffff?text=Yinhe%20Y-4",
+      "contributors": [
+        "Codex research"
+      ]
+    },
+    {
+      "id": "yinhe-n9",
+      "name": "N-9",
+      "brand": "银河",
+      "brandEn": "Yinhe",
+      "series": "N",
+      "price": 80,
+      "priceMin": 60,
+      "priceMax": 120,
+      "description": "银河 N 系列入门纯木板，价格低，适合基础练习。",
+      "tags": {
+        "brand": [
+          "银河",
+          "Yinhe"
+        ],
+        "bladeType": [
+          "纯木"
+        ],
+        "structure": [
+          "五层纯木"
+        ],
+        "speed": [
+          "中等"
+        ],
+        "feel": [
+          "中等"
+        ],
+        "style": [
+          "训练",
+          "控制"
+        ],
+        "origin": [
+          "中国"
+        ]
+      },
+      "sources": [
+        "Yinhe N-9 blade listings",
+        "beginner gear discussions"
+      ],
+      "color": "78350f",
+      "image": "https://placehold.co/720x480/78350f/ffffff?text=Yinhe%20N-9",
+      "contributors": [
+        "Codex research"
+      ]
+    },
+    {
+      "id": "dhs-power-g8",
+      "name": "劲极 8",
+      "brand": "红双喜",
+      "brandEn": "DHS",
+      "series": "劲极",
+      "price": 150,
+      "priceMin": 110,
+      "priceMax": 210,
+      "description": "劲极系列进攻型底板，面向预算有限的快攻弧圈配置。",
+      "tags": {
+        "brand": [
+          "红双喜",
+          "DHS"
+        ],
+        "bladeType": [
+          "纯木"
+        ],
+        "structure": [
+          "七层纯木"
+        ],
+        "speed": [
+          "中快"
+        ],
+        "feel": [
+          "中硬"
+        ],
+        "style": [
+          "快攻弧圈",
+          "连续进攻"
+        ],
+        "origin": [
+          "中国"
+        ]
+      },
+      "sources": [
+        "DHS Power G8 blade listings",
+        "retailer product listings"
+      ],
+      "color": "991b1b",
+      "image": "https://placehold.co/720x480/991b1b/ffffff?text=DHS%20%E5%8A%B2%E6%9E%81%208",
+      "contributors": [
+        "Codex research"
+      ]
+    },
+    {
+      "id": "dhs-hurricane-301t",
+      "name": "Hurricane 301T",
+      "brand": "红双喜",
+      "brandEn": "DHS",
+      "series": "Hurricane",
+      "price": 360,
+      "priceMin": 290,
+      "priceMax": 460,
+      "description": "301 系列的变体之一，常作为国产纤维板升级选择。",
+      "tags": {
+        "brand": [
+          "红双喜",
+          "DHS"
+        ],
+        "bladeType": [
+          "纤维"
+        ],
+        "structure": [
+          "内置纤维"
+        ],
+        "speed": [
+          "快"
+        ],
+        "feel": [
+          "中硬",
+          "清晰"
+        ],
+        "style": [
+          "弧圈",
+          "快攻弧圈"
+        ],
+        "origin": [
+          "中国"
+        ]
+      },
+      "sources": [
+        "DHS Hurricane 301T listings",
+        "player forum discussions"
+      ],
+      "color": "dc2626",
+      "image": "https://placehold.co/720x480/dc2626/ffffff?text=DHS%20Hurricane%20301T",
+      "contributors": [
+        "Codex research"
+      ]
+    },
+    {
+      "id": "sanwei-v5-pro",
+      "name": "V5 Pro",
+      "brand": "三维",
+      "brandEn": "Sanwei",
+      "series": "V",
+      "price": 170,
+      "priceMin": 130,
+      "priceMax": 240,
+      "description": "三维常见性价比纤维板，偏进攻和近中台支撑。",
+      "tags": {
+        "brand": [
+          "三维",
+          "Sanwei"
+        ],
+        "bladeType": [
+          "纤维"
+        ],
+        "structure": [
+          "外置纤维"
+        ],
+        "speed": [
+          "快"
+        ],
+        "feel": [
+          "中硬",
+          "清晰"
+        ],
+        "style": [
+          "快攻弧圈",
+          "连续进攻"
+        ],
+        "origin": [
+          "中国"
+        ]
+      },
+      "sources": [
+        "Sanwei V5 Pro listings",
+        "player forum discussions"
+      ],
+      "color": "ea580c",
+      "image": "https://placehold.co/720x480/ea580c/ffffff?text=Sanwei%20V5%20Pro",
+      "contributors": [
+        "Codex research"
+      ]
+    },
+    {
+      "id": "sanwei-cc",
+      "name": "CC",
+      "brand": "三维",
+      "brandEn": "Sanwei",
+      "series": "CC",
+      "price": 90,
+      "priceMin": 65,
+      "priceMax": 130,
+      "description": "三维低价训练底板，适合预算配置和新手练球。",
+      "tags": {
+        "brand": [
+          "三维",
+          "Sanwei"
+        ],
+        "bladeType": [
+          "纯木"
+        ],
+        "structure": [
+          "五层纯木"
+        ],
+        "speed": [
+          "中等"
+        ],
+        "feel": [
+          "中等"
+        ],
+        "style": [
+          "训练",
+          "控制"
+        ],
+        "origin": [
+          "中国"
+        ]
+      },
+      "sources": [
+        "Sanwei CC blade listings",
+        "beginner gear discussions"
+      ],
+      "color": "c2410c",
+      "image": "https://placehold.co/720x480/c2410c/ffffff?text=Sanwei%20CC",
+      "contributors": [
+        "Codex research"
+      ]
+    },
+    {
+      "id": "sanwei-feather-carbon",
+      "name": "Feather Carbon",
+      "brand": "三维",
+      "brandEn": "Sanwei",
+      "series": "Feather",
+      "price": 160,
+      "priceMin": 120,
+      "priceMax": 230,
+      "description": "三维轻量化纤维板，面向想减轻球拍重量的用户。",
+      "tags": {
+        "brand": [
+          "三维",
+          "Sanwei"
+        ],
+        "bladeType": [
+          "纤维"
+        ],
+        "structure": [
+          "碳素"
+        ],
+        "speed": [
+          "中快",
+          "快"
+        ],
+        "feel": [
+          "中硬"
+        ],
+        "style": [
+          "快攻弧圈",
+          "控制"
+        ],
+        "origin": [
+          "中国"
+        ]
+      },
+      "sources": [
+        "Sanwei Feather Carbon listings",
+        "player forum discussions"
+      ],
+      "color": "334155",
+      "image": "https://placehold.co/720x480/334155/ffffff?text=Sanwei%20Feather%20Carbon",
+      "contributors": [
+        "Codex research"
+      ]
+    },
+    {
+      "id": "loki-kirin-k2",
+      "name": "麒麟 K2",
+      "brand": "雷神",
+      "brandEn": "Loki",
+      "series": "麒麟",
+      "price": 130,
+      "priceMin": 95,
+      "priceMax": 190,
+      "description": "雷神麒麟系列入门进攻底板，适合预算型套装升级。",
+      "tags": {
+        "brand": [
+          "雷神",
+          "Loki"
+        ],
+        "bladeType": [
+          "纯木"
+        ],
+        "structure": [
+          "七层纯木"
+        ],
+        "speed": [
+          "中快"
+        ],
+        "feel": [
+          "中硬"
+        ],
+        "style": [
+          "快攻弧圈",
+          "训练"
+        ],
+        "origin": [
+          "中国"
+        ]
+      },
+      "sources": [
+        "Loki Kirin K2 listings",
+        "player forum discussions"
+      ],
+      "color": "0f766e",
+      "image": "https://placehold.co/720x480/0f766e/ffffff?text=Loki%20%E9%BA%92%E9%BA%9F%20K2",
+      "contributors": [
+        "Codex research"
+      ]
+    },
+    {
+      "id": "friendship-729-v3",
+      "name": "V-3",
+      "brand": "729",
+      "brandEn": "Friendship 729",
+      "series": "V",
+      "price": 100,
+      "priceMin": 75,
+      "priceMax": 150,
+      "description": "729 常见低价底板型号，适合入门和预算配置。",
+      "tags": {
+        "brand": [
+          "729",
+          "Friendship 729"
+        ],
+        "bladeType": [
+          "纯木"
+        ],
+        "structure": [
+          "五层纯木"
+        ],
+        "speed": [
+          "中等"
+        ],
+        "feel": [
+          "中等"
+        ],
+        "style": [
+          "训练",
+          "控制"
+        ],
+        "origin": [
+          "中国"
+        ]
+      },
+      "sources": [
+        "Friendship 729 V-3 blade listings",
+        "beginner gear discussions"
+      ],
+      "color": "7f1d1d",
+      "image": "https://placehold.co/720x480/7f1d1d/ffffff?text=Friendship%20729%20V-3",
+      "contributors": [
+        "Codex research"
+      ]
+    },
+    {
+      "id": "sword-blue-storm",
+      "name": "蓝色风暴",
+      "brand": "世奥得",
+      "brandEn": "Sword",
+      "series": "风暴",
+      "price": 180,
+      "priceMin": 130,
+      "priceMax": 260,
+      "description": "世奥得常见进攻型底板，面向国产性价比配置。",
+      "tags": {
+        "brand": [
+          "世奥得",
+          "Sword"
+        ],
+        "bladeType": [
+          "纤维"
+        ],
+        "structure": [
+          "碳素"
+        ],
+        "speed": [
+          "快"
+        ],
+        "feel": [
+          "中硬",
+          "清晰"
+        ],
+        "style": [
+          "快攻弧圈",
+          "连续进攻"
+        ],
+        "origin": [
+          "中国"
+        ]
+      },
+      "sources": [
+        "Sword Blue Storm blade listings",
+        "player forum discussions"
+      ],
+      "color": "1e3a8a",
+      "image": "https://placehold.co/720x480/1e3a8a/ffffff?text=Sword%20%E8%93%9D%E8%89%B2%E9%A3%8E%E6%9A%B4",
+      "contributors": [
+        "Codex research"
+      ]
+    },
+    {
+      "id": "palio-hadraw",
+      "name": "Hadraw",
+      "brand": "拍里奥",
+      "brandEn": "Palio",
+      "series": "Hadraw",
+      "price": 120,
+      "priceMin": 90,
+      "priceMax": 170,
+      "description": "拍里奥常见纯木底板，适合训练和控制型打法。",
+      "tags": {
+        "brand": [
+          "拍里奥",
+          "Palio"
+        ],
+        "bladeType": [
+          "纯木"
+        ],
+        "structure": [
+          "五层纯木"
+        ],
+        "speed": [
+          "中等"
+        ],
+        "feel": [
+          "中等",
+          "控制"
+        ],
+        "style": [
+          "训练",
+          "弧圈"
+        ],
+        "origin": [
+          "中国"
+        ]
+      },
+      "sources": [
+        "Palio blade listings",
+        "player forum discussions"
+      ],
+      "color": "166534",
+      "image": "https://placehold.co/720x480/166534/ffffff?text=Palio%20Hadraw",
+      "contributors": [
+        "Codex research"
       ]
     }
   ]
