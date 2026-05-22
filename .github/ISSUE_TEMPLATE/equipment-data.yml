@@ -1,0 +1,78 @@
+name: 补充或修改器材资料
+description: 新增胶皮/底板，或修正已有资料
+title: "[器材资料] "
+labels: ["data"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢帮忙补充资料。能填多少填多少，不确定的可以留空。
+        维护者会检查后整理进数据库。
+  - type: dropdown
+    id: action
+    attributes:
+      label: 你想做什么？
+      options:
+        - 新增胶皮
+        - 新增底板
+        - 修改已有胶皮
+        - 修改已有底板
+    validations:
+      required: true
+  - type: input
+    id: name
+    attributes:
+      label: 器材名称
+      description: 例如：狂飙 3 普狂、银河 木星 3 亚洲、三维 Fextra 7
+      placeholder: 器材名称
+    validations:
+      required: true
+  - type: input
+    id: brand
+    attributes:
+      label: 品牌
+      description: 可以同时写中文和英文
+      placeholder: 例如：银河 / Yinhe
+  - type: input
+    id: price
+    attributes:
+      label: 参考价格区间
+      placeholder: 例如：60-110 元
+  - type: textarea
+    id: specs
+    attributes:
+      label: 规格和标签
+      description: 胶皮可写厚度、硬度、胶面、海绵、正反手；底板可写结构、重量、速度、手感。
+      placeholder: |
+        厚度：
+        硬度：
+        胶面/海绵：
+        底板结构：
+        适合打法：
+  - type: textarea
+    id: description
+    attributes:
+      label: 简短说明
+      description: 一两句话即可，尽量客观。
+      placeholder: 例如：偏硬挺的国产粘套，适合正手发力拉冲。
+  - type: textarea
+    id: images
+    attributes:
+      label: 图片网址
+      description: 每行一个图片地址，最多建议 5 张。
+      placeholder: |
+        https://example.com/image1.jpg
+        https://example.com/image2.jpg
+  - type: textarea
+    id: sources
+    attributes:
+      label: 资料来源
+      description: 官网、店铺页面、评测帖、实物图来源都可以。
+      placeholder: |
+        官网/店铺/评测链接：
+  - type: input
+    id: contributor
+    attributes:
+      label: 贡献者名字
+      description: 可以写昵称、真名或 GitHub ID。会用于资料页展示。
+      placeholder: 例如：GodloveALei
