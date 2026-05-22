@@ -1,30 +1,149 @@
 # Table Tennis Gear Database
 
-乒乓器材数据库，用来查询、筛选和补充胶皮、底板资料。
+一个面向乒乓球爱好者的器材资料库，用来查找、筛选和补充胶皮、底板信息。
 
 网站地址：
 
 https://ttgear.github.io/
 
-## 我想帮忙补充器材
+这里不是官方参数表，而是一个社区共同维护的器材索引。价格、手感、标签和图片都可能随着版本、渠道和个人体验变化，所以每条资料都欢迎补充来源、修正错误。
 
-你不需要会写程序，只要会用 GitHub 网页编辑文件即可。
+## 我想帮忙，应该怎么做？
 
-1. 打开数据文件：[`data/equipment.json`](data/equipment.json)
-2. 点击右上角铅笔图标编辑。
-3. 在 `rubbers` 里添加胶皮，或在 `blades` 里添加底板。
-4. 复制下面的模板，改成真实资料。
+如果你只是想补充一条器材、纠正一个错误、增加图片或价格区间，推荐走最简单的方式：
+
+1. 打开项目仓库：https://github.com/ttgear/ttgear.github.io
+2. 点上方的 `Issues`
+3. 点 `New issue`
+4. 选择“补充或修改器材资料”
+5. 按表格填写你知道的信息
+6. 点 `Submit new issue`
+
+维护者看到后会检查资料，并整理进数据库。你不需要会写代码。
+
+如果你会使用 GitHub，也可以直接修改数据文件并提交 Pull Request。数据文件是：
+
+```text
+data/equipment.json
+```
+
+## 最推荐提交哪些信息？
+
+能填多少填多少，不确定的可以留空。最有用的信息是：
+
+- 品牌和型号，例如“银河 木星 3 亚洲”
+- 类型：胶皮或底板
+- 参考价格区间，例如“60-110 元”
+- 胶皮厚度、硬度、胶面类型、海绵类型
+- 底板结构、重量范围、速度/手感标签
+- 图片网址，最多 5 张
+- 资料来源，例如官网、店铺页面、评测帖、自己实物照片链接
+- 你的贡献者名字，可以是真名、昵称或 GitHub ID
+
+图片不用上传到这个仓库。只要填写图片网址即可。
+
+## 图片怎么填？
+
+`image` 是主图，`images` 是详情页轮播图。里面写的都是图片地址。
+
+示例：
+
+```json
+"image": "https://example.com/main.jpg",
+"images": [
+  "https://example.com/front.jpg",
+  "https://example.com/sponge.jpg",
+  "https://example.com/package.jpg"
+]
+```
+
+建议最多 5 张：
+
+- 包装正面
+- 胶面细节
+- 海绵或底板侧面
+- 参数图
+- 实物图
+
+请尽量使用稳定的图片地址。如果图片来自店铺，后续可能失效，维护者可以再替换。
+
+## 关于器材 ID
+
+器材的 `id` 会关联网页地址、短评和体感评分。上线后不要随便改。
+
+未来会逐步使用更稳定的编号：
+
+```text
+rubber-1
+rubber-2
+blade-1
+blade-2
+```
+
+普通贡献者不需要自己决定正式 ID。你可以在 Issue 里不填 ID，由维护者统一分配。
+
+如果你直接改 `data/equipment.json`，新器材可以先写一个临时 ID，例如：
+
+```json
+"id": "todo-rubber-yinhe-jupiter-3-asia"
+```
+
+维护者合并前会改成正式编号。已经上线的旧 ID 如果必须修改，会放进 `legacyIds`，避免旧评分和短评丢失。
+
+## 方式一：发 Issue，最适合普通用户
+
+适合这些情况：
+
+- 我想新增一个胶皮
+- 我想新增一个底板
+- 我发现价格、图片、厚度、硬度写错了
+- 我不想碰 JSON
+
+入口：
+
+https://github.com/ttgear/ttgear.github.io/issues/new/choose
+
+提交时可以这样写：
+
+```text
+类型：胶皮
+品牌：银河 / Yinhe
+型号：木星 3 亚洲
+参考价格：60-110 元
+厚度：2.1、Max
+硬度：偏硬
+胶面：粘性反胶
+适合：正手、弧圈、发抢
+图片：
+https://example.com/image1.jpg
+https://example.com/image2.jpg
+来源：某店铺页面、球友评测、自己实物
+贡献者：你的昵称
+```
+
+## 方式二：直接改 JSON，适合会一点 GitHub 的用户
+
+1. 打开数据文件：
+
+   https://github.com/ttgear/ttgear.github.io/blob/main/data/equipment.json
+
+2. 点右上角铅笔按钮编辑。
+
+3. 胶皮放到 `rubbers` 数组里，底板放到 `blades` 数组里。
+
+4. 复制下面模板，改成真实资料。
+
 5. 页面底部选择 `Propose changes`，提交 Pull Request。
 
-维护者检查后会合并。合并后，网站会自动更新。你不需要把 JSON 单独发给维护者，也不需要手工粘贴到数据库；直接修改 `data/equipment.json` 并提交 Pull Request 就可以。
+6. 维护者检查后合并。合并后网站会更新。
+
+注意：JSON 对逗号和引号很敏感。如果提交失败或不会改，可以直接发 Issue。
 
 ## 胶皮模板
 
-把这段放进 `rubbers` 数组里。注意前后逗号要保持 JSON 格式正确。
-
 ```json
 {
-  "id": "brand-product-name",
+  "id": "todo-rubber-brand-model",
   "name": "器材名称",
   "brand": "中文品牌",
   "brandEn": "English Brand",
@@ -33,12 +152,12 @@ https://ttgear.github.io/
   "priceMin": 80,
   "priceMax": 120,
   "currency": "CNY",
-  "image": "图片网址",
+  "image": "https://example.com/main.jpg",
   "images": [
-    "图片网址 1",
-    "图片网址 2"
+    "https://example.com/detail-1.jpg",
+    "https://example.com/detail-2.jpg"
   ],
-  "description": "一句话说明它适合什么打法、手感大概如何。",
+  "description": "一句话说明它的大致特点和适合打法。",
   "tags": {
     "brand": ["中文品牌", "English Brand"],
     "position": ["正手", "反手"],
@@ -49,18 +168,16 @@ https://ttgear.github.io/
     "style": ["弧圈", "控制"],
     "origin": ["中国"]
   },
-  "sources": ["资料来源网址或店铺页面名"],
+  "sources": ["资料来源网址或页面名称"],
   "contributors": ["你的名字或 GitHub ID"]
 }
 ```
 
 ## 底板模板
 
-把这段放进 `blades` 数组里。
-
 ```json
 {
-  "id": "brand-blade-name",
+  "id": "todo-blade-brand-model",
   "name": "底板名称",
   "brand": "中文品牌",
   "brandEn": "English Brand",
@@ -69,84 +186,75 @@ https://ttgear.github.io/
   "priceMin": 250,
   "priceMax": 360,
   "currency": "CNY",
-  "image": "图片网址",
+  "image": "https://example.com/main.jpg",
   "images": [
-    "图片网址 1",
-    "图片网址 2"
+    "https://example.com/front.jpg",
+    "https://example.com/side.jpg"
   ],
   "description": "一句话说明结构、速度、控制或适合打法。",
   "tags": {
     "brand": ["中文品牌", "English Brand"],
-    "structure": ["五夹纯木"],
-    "material": ["纯木"],
-    "position": ["弧圈", "控制"],
-    "handle": ["FL", "CS"],
-    "speed": ["OFF-"],
+    "bladeType": ["纯木"],
+    "structure": ["五层纯木"],
+    "speed": ["中等"],
     "feel": ["清晰", "中硬"],
+    "style": ["弧圈", "控制"],
     "weight": ["80-85g", "85-90g"],
     "origin": ["中国"]
   },
-  "sources": ["资料来源网址或店铺页面名"],
+  "sources": ["资料来源网址或页面名称"],
   "contributors": ["你的名字或 GitHub ID"]
 }
 ```
 
-## 字段怎么填
+## 价格怎么写？
 
-- `id`：唯一英文小写 ID，用短横线连接，例如 `dhs-hurricane-3-commercial`。如果不会写，先按“品牌-型号”写，维护者合并前可以帮你调整。
-- `legacyIds`：如果已经上线的器材后来必须改 `id`，把旧 ID 放到这里，例如 `"legacyIds": ["old-product-id"]`，旧评论和评分仍可读取。
-- `price`：大概参考价，用于排序。
-- `priceMin` / `priceMax`：更推荐填写价格区间。
-- `image`：主图网址。
-- `images`：更多图片网址，最多建议 5 张。图片只是外链，不占这个网站或后端数据库空间。
-- `description`：尽量一句话，别写广告语。
-- `tags`：用于筛选。一个项目可以有多个标签。
-- `sources`：资料来源，方便别人核对。
-- `contributors`：贡献者名字，可以写昵称或 GitHub ID。
-
-## 关于 ID、评论和评分
-
-器材的 `id` 会用于网页地址，也会关联后端里的短评和体感评分。器材刚提交时，维护者可以调整 `id`；一旦合并上线，尽量不要再改。
-
-如果确实需要改名，例如原来写错了型号，可以这样处理：
+器材价格经常浮动，所以更推荐写区间：
 
 ```json
-"id": "new-correct-id",
-"legacyIds": ["old-wrong-id"]
+"priceMin": 80,
+"priceMax": 120,
+"price": 100
 ```
 
-这样旧 ID 下的评分和短评还能被读取到。
+`price` 可以写大概中间值，用来排序；`priceMin` 和 `priceMax` 用来展示“约 80-120 元”。
 
-## 贡献者名字会自动保留吗
+## 贡献者名字会显示吗？
 
-如果你在条目里写了：
+会。只要条目里有：
 
 ```json
 "contributors": ["你的名字"]
 ```
 
-合并后网页会显示你的名字。多人维护同一个器材时，可以把名字加进同一个数组：
+网站详情页就可以显示贡献者。多人共同维护同一个器材时，可以写成：
 
 ```json
 "contributors": ["Alice", "Bob"]
 ```
 
-GitHub 不会自动替你合并贡献者名字；你或维护者需要在 JSON 里保留这些名字。Pull Request 合并后，这些内容就会进入网站数据。
+GitHub 不会自动帮你把名字写进 JSON。如果你希望显示贡献者名字，请在 Issue 或 Pull Request 里写清楚。
 
-## 修改已有器材
+## 哪些资料更容易被合并？
 
-也可以直接编辑已有条目，例如补充图片、价格区间、标签、资料来源。
+更容易合并：
 
-如果不确定某个参数是否准确，可以在 Pull Request 里说明：
+- 有清楚品牌和型号
+- 有价格区间，而不是只写“很便宜”
+- 有图片链接
+- 有资料来源
+- 标签不要写太夸张，例如“神胶”“无敌”“最强”
 
-```text
-这个价格来自某某店铺，可能随活动变化。
-硬度标签不确定，请维护者再看一下。
-```
+需要再确认：
+
+- 只有口头印象，没有型号
+- 图片打不开
+- 价格明显只是一家店的活动价
+- 把不同版本混在一起，例如普狂、省狂、国狂混为一条
 
 ## 本地预览
 
-如果你想在自己电脑预览：
+如果你想在自己电脑上预览：
 
 ```powershell
 python -m http.server 8000
