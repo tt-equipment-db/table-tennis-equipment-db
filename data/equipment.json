@@ -6592,6 +6592,116 @@
       "contributors": [
         "Codex research"
       ]
+    },
+    {
+      "id": "joola-trinity-dynamic-hugo-calderano",
+      "name": "Trinity Dynamic Hugo Calderano",
+      "brand": "优拉",
+      "brandEn": "JOOLA",
+      "series": "Trinity Hugo Calderano",
+      "price": 540,
+      "priceMin": 480,
+      "priceMax": 620,
+      "currency": "CNY",
+      "description": "雨果合作款 Trinity 系列中相对更均衡的一款，52.5° 海绵，兼顾旋转、速度和控制。",
+      "tags": {
+        "brand": [
+          "优拉",
+          "JOOLA"
+        ],
+        "position": [
+          "正手",
+          "反手"
+        ],
+        "rubberType": [
+          "反胶",
+          "微粘胶面",
+          "涩性胶面"
+        ],
+        "sponge": [
+          "蛋糕海绵",
+          "高弹海绵"
+        ],
+        "thickness": [
+          "2.0",
+          "Max"
+        ],
+        "hardness": [
+          "52.5度",
+          "硬"
+        ],
+        "style": [
+          "弧圈",
+          "快攻弧圈",
+          "连续进攻"
+        ],
+        "origin": [
+          "德国"
+        ]
+      },
+      "sources": [
+        "JOOLA Trinity Dynamic Hugo Calderano product page",
+        "JOOLA Hugo Calderano collection page"
+      ],
+      "contributors": [
+        "Codex research"
+      ],
+      "image": "https://placehold.co/720x480/16a34a/ffffff?text=JOOLA%20Trinity%20Dynamic%20Hugo%20Calderano"
+    },
+    {
+      "id": "joola-trinity-charged-hugo-calderano",
+      "name": "Trinity Charged Hugo Calderano",
+      "brand": "优拉",
+      "brandEn": "JOOLA",
+      "series": "Trinity Hugo Calderano",
+      "price": 540,
+      "priceMin": 480,
+      "priceMax": 620,
+      "currency": "CNY",
+      "description": "雨果合作款 Trinity 系列中更硬、更直接的旗舰型号，57.5° 海绵，面向高水平进攻。",
+      "tags": {
+        "brand": [
+          "优拉",
+          "JOOLA"
+        ],
+        "position": [
+          "正手"
+        ],
+        "rubberType": [
+          "反胶",
+          "微粘胶面",
+          "涩性胶面"
+        ],
+        "sponge": [
+          "蛋糕海绵",
+          "高弹海绵"
+        ],
+        "thickness": [
+          "2.0",
+          "Max"
+        ],
+        "hardness": [
+          "57.5度",
+          "超硬",
+          "硬"
+        ],
+        "style": [
+          "弧圈",
+          "发抢",
+          "快攻弧圈"
+        ],
+        "origin": [
+          "德国"
+        ]
+      },
+      "sources": [
+        "JOOLA Trinity Charged Hugo Calderano product page",
+        "JOOLA Hugo Calderano collection page"
+      ],
+      "contributors": [
+        "Codex research"
+      ],
+      "image": "https://placehold.co/720x480/15803d/ffffff?text=JOOLA%20Trinity%20Charged%20Hugo%20Calderano"
     }
   ],
   "blades": [
@@ -10358,6 +10468,520 @@
       "contributors": [
         "Codex research"
       ]
+    },
+    {
+      "id": "loki-liang-jingkun-adc",
+      "name": "梁靖崑 ADC",
+      "brand": "雷神",
+      "brandEn": "Loki",
+      "series": "梁靖崑",
+      "price": 820,
+      "priceMin": 700,
+      "priceMax": 950,
+      "currency": "CNY",
+      "description": "梁靖崑合作款内置芳碳进攻底板，强调持球、弧圈和中远台连续进攻。",
+      "tags": {
+        "brand": [
+          "雷神",
+          "Loki"
+        ],
+        "bladeType": [
+          "纤维"
+        ],
+        "structure": [
+          "五木二芳碳",
+          "内置纤维"
+        ],
+        "speed": [
+          "快",
+          "OFF+"
+        ],
+        "feel": [
+          "中硬",
+          "持球",
+          "清晰"
+        ],
+        "style": [
+          "弧圈",
+          "快攻弧圈",
+          "中远台"
+        ],
+        "handle": [
+          "FL",
+          "CS"
+        ],
+        "origin": [
+          "中国"
+        ]
+      },
+      "sources": [
+        "Loki Liang Jingkun ADC retailer product page",
+        "TableTennisDaily discussion"
+      ],
+      "contributors": [
+        "Codex research"
+      ],
+      "image": "https://placehold.co/720x480/0f766e/ffffff?text=Loki%20%E6%A2%81%E9%9D%96%E5%B4%91%20ADC"
+    },
+    {
+      "id": "loki-liang-jingkun-alc",
+      "name": "梁靖崑 ALC",
+      "brand": "雷神",
+      "brandEn": "Loki",
+      "series": "梁靖崑",
+      "price": 780,
+      "priceMin": 650,
+      "priceMax": 920,
+      "currency": "CNY",
+      "description": "梁靖崑合作款外置/进攻取向 ALC 底板，速度和支撑更直接。",
+      "tags": {
+        "brand": [
+          "雷神",
+          "Loki"
+        ],
+        "bladeType": [
+          "纤维"
+        ],
+        "structure": [
+          "五木二芳碳",
+          "ALC",
+          "外置纤维"
+        ],
+        "speed": [
+          "快",
+          "OFF+"
+        ],
+        "feel": [
+          "中硬",
+          "清晰"
+        ],
+        "style": [
+          "快攻弧圈",
+          "连续进攻"
+        ],
+        "handle": [
+          "FL",
+          "CS"
+        ],
+        "origin": [
+          "中国"
+        ]
+      },
+      "sources": [
+        "Loki Liang Jingkun ALC retailer listings",
+        "player forum discussions"
+      ],
+      "contributors": [
+        "Codex research"
+      ],
+      "image": "https://placehold.co/720x480/0e7490/ffffff?text=Loki%20%E6%A2%81%E9%9D%96%E5%B4%91%20ALC"
+    },
+    {
+      "id": "loki-arthur-w81-inner-special",
+      "name": "Arthur W81 Inner Special",
+      "brand": "雷神",
+      "brandEn": "Loki",
+      "series": "Arthur",
+      "price": 930,
+      "priceMin": 780,
+      "priceMax": 1100,
+      "currency": "CNY",
+      "description": "Arthur W81 特制内置芳碳底板，强调甜区、容错和弧快打法。",
+      "tags": {
+        "brand": [
+          "雷神",
+          "Loki"
+        ],
+        "bladeType": [
+          "纤维"
+        ],
+        "structure": [
+          "五木二碳",
+          "内置纤维",
+          "芳碳"
+        ],
+        "speed": [
+          "快"
+        ],
+        "feel": [
+          "中硬",
+          "清晰",
+          "稳定"
+        ],
+        "style": [
+          "弧圈",
+          "快攻弧圈"
+        ],
+        "handle": [
+          "FL",
+          "CS"
+        ],
+        "origin": [
+          "中国"
+        ]
+      },
+      "sources": [
+        "Loki Beyond Arthur W81 Inner Special product page"
+      ],
+      "contributors": [
+        "Codex research"
+      ],
+      "image": "https://placehold.co/720x480/1e3a8a/ffffff?text=Loki%20Arthur%20W81%20Inner%20Special"
+    },
+    {
+      "id": "loki-rxton-7-pro-blade",
+      "name": "Rxton 7 Pro 底板",
+      "brand": "雷神",
+      "brandEn": "Loki",
+      "series": "Rxton",
+      "price": 330,
+      "priceMin": 260,
+      "priceMax": 420,
+      "currency": "CNY",
+      "description": "Rxton 系列外置碳素进攻底板，偏弧快打法，弹性和速度更明显。",
+      "tags": {
+        "brand": [
+          "雷神",
+          "Loki"
+        ],
+        "bladeType": [
+          "纤维"
+        ],
+        "structure": [
+          "外置纤维",
+          "碳素"
+        ],
+        "speed": [
+          "快"
+        ],
+        "feel": [
+          "中硬",
+          "清晰"
+        ],
+        "style": [
+          "快攻弧圈",
+          "连续进攻"
+        ],
+        "handle": [
+          "FL",
+          "CS"
+        ],
+        "origin": [
+          "中国"
+        ]
+      },
+      "sources": [
+        "Loki Beyond Rxton 7 Pro product page"
+      ],
+      "contributors": [
+        "Codex research"
+      ],
+      "image": "https://placehold.co/720x480/2563eb/ffffff?text=Loki%20Rxton%207%20Pro%20Blade"
+    },
+    {
+      "id": "loki-violent-v5-rs",
+      "name": "Violent V5-RS",
+      "brand": "雷神",
+      "brandEn": "Loki",
+      "series": "Violent",
+      "price": 180,
+      "priceMin": 130,
+      "priceMax": 250,
+      "currency": "CNY",
+      "description": "五层纯木进攻/全能底板，强调控制、清晰反馈和轻快上手。",
+      "tags": {
+        "brand": [
+          "雷神",
+          "Loki"
+        ],
+        "bladeType": [
+          "纯木"
+        ],
+        "structure": [
+          "五层纯木"
+        ],
+        "speed": [
+          "中快"
+        ],
+        "feel": [
+          "中等",
+          "清晰",
+          "控制"
+        ],
+        "style": [
+          "训练",
+          "快攻弧圈",
+          "控制"
+        ],
+        "handle": [
+          "FL",
+          "CS"
+        ],
+        "origin": [
+          "中国"
+        ]
+      },
+      "sources": [
+        "Bladerubber Loki Violent V5-RS blade page"
+      ],
+      "contributors": [
+        "Codex research"
+      ],
+      "image": "https://placehold.co/720x480/334155/ffffff?text=Loki%20Violent%20V5-RS"
+    },
+    {
+      "id": "loki-violent-v7-rs",
+      "name": "Violent V7-RS",
+      "brand": "雷神",
+      "brandEn": "Loki",
+      "series": "Violent",
+      "price": 220,
+      "priceMin": 160,
+      "priceMax": 300,
+      "currency": "CNY",
+      "description": "七层纯木进攻底板，支撑和速度比 V5-RS 更强，适合近中台快攻弧圈。",
+      "tags": {
+        "brand": [
+          "雷神",
+          "Loki"
+        ],
+        "bladeType": [
+          "纯木"
+        ],
+        "structure": [
+          "七层纯木"
+        ],
+        "speed": [
+          "中快",
+          "快"
+        ],
+        "feel": [
+          "中硬",
+          "清晰"
+        ],
+        "style": [
+          "快攻弧圈",
+          "连续进攻"
+        ],
+        "handle": [
+          "FL",
+          "CS"
+        ],
+        "origin": [
+          "中国"
+        ]
+      },
+      "sources": [
+        "Bladerubber Loki Violent V7-RS blade page"
+      ],
+      "contributors": [
+        "Codex research"
+      ],
+      "image": "https://placehold.co/720x480/475569/ffffff?text=Loki%20Violent%20V7-RS"
+    },
+    {
+      "id": "loki-violent-v9-ebony-carbon",
+      "name": "Violent V9 Ebony Carbon",
+      "brand": "雷神",
+      "brandEn": "Loki",
+      "series": "Violent",
+      "price": 280,
+      "priceMin": 210,
+      "priceMax": 380,
+      "currency": "CNY",
+      "description": "黑檀碳素进攻底板，速度和硬挺感较强，更适合有一定基础的进攻型用户。",
+      "tags": {
+        "brand": [
+          "雷神",
+          "Loki"
+        ],
+        "bladeType": [
+          "纤维"
+        ],
+        "structure": [
+          "黑檀",
+          "碳素",
+          "外置纤维"
+        ],
+        "speed": [
+          "快",
+          "OFF+"
+        ],
+        "feel": [
+          "硬",
+          "清晰"
+        ],
+        "style": [
+          "快攻弧圈",
+          "发抢"
+        ],
+        "handle": [
+          "FL",
+          "CS"
+        ],
+        "origin": [
+          "中国"
+        ]
+      },
+      "sources": [
+        "Bladerubber Loki Violent V9 Ebony Carbon reviews"
+      ],
+      "contributors": [
+        "Codex research"
+      ],
+      "image": "https://placehold.co/720x480/111827/ffffff?text=Loki%20Violent%20V9%20Ebony%20Carbon"
+    },
+    {
+      "id": "loki-kirin-k5-pro",
+      "name": "麒麟 K5 Pro",
+      "brand": "雷神",
+      "brandEn": "Loki",
+      "series": "麒麟",
+      "price": 180,
+      "priceMin": 130,
+      "priceMax": 260,
+      "currency": "CNY",
+      "description": "麒麟 K5 的进阶取向版本，常被作为低价进攻板升级选择。",
+      "tags": {
+        "brand": [
+          "雷神",
+          "Loki"
+        ],
+        "bladeType": [
+          "纯木"
+        ],
+        "structure": [
+          "五层纯木"
+        ],
+        "speed": [
+          "中快"
+        ],
+        "feel": [
+          "中硬",
+          "清晰"
+        ],
+        "style": [
+          "快攻弧圈",
+          "训练"
+        ],
+        "handle": [
+          "FL",
+          "CS"
+        ],
+        "origin": [
+          "中国"
+        ]
+      },
+      "sources": [
+        "Loki Kirin K5 listings",
+        "player forum discussions"
+      ],
+      "contributors": [
+        "Codex research"
+      ],
+      "image": "https://placehold.co/720x480/0f766e/ffffff?text=Loki%20%E9%BA%92%E9%BA%9F%20K5%20Pro"
+    },
+    {
+      "id": "loki-kirin-k6",
+      "name": "麒麟 K6",
+      "brand": "雷神",
+      "brandEn": "Loki",
+      "series": "麒麟",
+      "price": 210,
+      "priceMin": 150,
+      "priceMax": 300,
+      "currency": "CNY",
+      "description": "麒麟 K 系列中进阶进攻型号，面向预算型弧快打法。",
+      "tags": {
+        "brand": [
+          "雷神",
+          "Loki"
+        ],
+        "bladeType": [
+          "纤维"
+        ],
+        "structure": [
+          "碳素",
+          "外置纤维"
+        ],
+        "speed": [
+          "快"
+        ],
+        "feel": [
+          "中硬",
+          "清晰"
+        ],
+        "style": [
+          "快攻弧圈",
+          "连续进攻"
+        ],
+        "handle": [
+          "FL",
+          "CS"
+        ],
+        "origin": [
+          "中国"
+        ]
+      },
+      "sources": [
+        "Loki Kirin K6 retailer listings",
+        "player forum discussions"
+      ],
+      "contributors": [
+        "Codex research"
+      ],
+      "image": "https://placehold.co/720x480/047857/ffffff?text=Loki%20%E9%BA%92%E9%BA%9F%20K6"
+    },
+    {
+      "id": "loki-kirin-k7",
+      "name": "麒麟 K7",
+      "brand": "雷神",
+      "brandEn": "Loki",
+      "series": "麒麟",
+      "price": 240,
+      "priceMin": 180,
+      "priceMax": 340,
+      "currency": "CNY",
+      "description": "麒麟 K 系列更偏速度和支撑的型号，适合进攻型配置。",
+      "tags": {
+        "brand": [
+          "雷神",
+          "Loki"
+        ],
+        "bladeType": [
+          "纤维"
+        ],
+        "structure": [
+          "碳素",
+          "外置纤维"
+        ],
+        "speed": [
+          "快"
+        ],
+        "feel": [
+          "中硬",
+          "清晰"
+        ],
+        "style": [
+          "快攻弧圈",
+          "发抢"
+        ],
+        "handle": [
+          "FL",
+          "CS"
+        ],
+        "origin": [
+          "中国"
+        ]
+      },
+      "sources": [
+        "Loki Kirin K7 retailer listings",
+        "player forum discussions"
+      ],
+      "contributors": [
+        "Codex research"
+      ],
+      "image": "https://placehold.co/720x480/065f46/ffffff?text=Loki%20%E9%BA%92%E9%BA%9F%20K7"
     }
   ]
 }

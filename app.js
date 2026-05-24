@@ -63,6 +63,7 @@ const fieldLabels = {
   hardness: "硬度",
   style: "打法",
   origin: "产地",
+  bladeType: "类型",
   structure: "结构",
   material: "材料",
   handle: "手柄",
@@ -140,7 +141,7 @@ const nodes = {
 init();
 
 async function init() {
-  const response = await fetch("./data/equipment.json?v=ratings-17");
+  const response = await fetch("./data/equipment.json?v=ratings-18");
   state.data = await response.json();
   bindEvents();
   render();
