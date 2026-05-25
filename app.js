@@ -141,7 +141,7 @@ const nodes = {
 init();
 
 async function init() {
-  const response = await fetch("./data/equipment.json?v=ratings-18");
+  const response = await fetch("./data/equipment.json?v=ratings-19");
   state.data = await response.json();
   bindEvents();
   render();
