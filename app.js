@@ -141,7 +141,7 @@ const nodes = {
 init();
 
 async function init() {
-  const response = await fetch("./data/equipment.json?v=ratings-19");
+  const response = await fetch("./data/equipment.json?v=ratings-20");
   state.data = await response.json();
   bindEvents();
   render();
@@ -493,13 +493,15 @@ function renderRatingInput(item) {
         <span class="rating-input-label">${item.label}</span>
         <button class="rating-toggle" type="button" data-rating-toggle="${item.key}" aria-pressed="false">弃评</button>
       </div>
-      <div class="rating-input-control">
+      <div class="rating-input-axis">
         <span class="rating-input-side is-low">${renderRatingEndpoint(item.low, item.lowNote)}</span>
+        <span class="rating-input-zero">0</span>
+        <span class="rating-input-side is-high">${renderRatingEndpoint(item.high, item.highNote, "right")}</span>
+      </div>
+      <div class="rating-input-control">
         <div class="rating-input-range">
-          <span class="rating-input-zero">0</span>
           <input name="${item.key}" type="range" min="-5" max="5" step="1" value="${centerValue}">
         </div>
-        <span class="rating-input-side is-high">${renderRatingEndpoint(item.high, item.highNote, "right")}</span>
         <strong data-input-value="${item.key}">${formatRatingValue(centerValue)}</strong>
       </div>
     </div>
