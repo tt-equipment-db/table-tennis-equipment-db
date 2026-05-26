@@ -894,7 +894,7 @@ h1 {
 
 .rating-input-axis {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) 30px minmax(0, 1fr);
+  grid-template-columns: minmax(0, 1fr) 30px minmax(0, 1fr) 36px;
   gap: 8px;
   align-items: center;
 }
