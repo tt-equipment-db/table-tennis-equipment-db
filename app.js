@@ -114,6 +114,204 @@ const commentEditCooldownMs = 60 * 60 * 1000;
 const commentPostCooldownMs = 60 * 1000;
 const commentsPerPage = 10;
 const hotCommentsCount = 3;
+const assetVersion = "ratings-22";
+const languageStorageKey = "tt-equipment-language";
+
+const englishText = {
+  "乒乓器材数据库": "Table Tennis Gear Database",
+  "搜索品牌、型号、系列...": "Search brand, model, series...",
+  "器材类型": "Equipment type",
+  "胶皮": "Rubbers",
+  "底板": "Blades",
+  "筛选条件": "Filters",
+  "胶皮筛选": "Rubber Filters",
+  "底板筛选": "Blade Filters",
+  "同一项目可多选，不同项目会叠加筛选。": "Select multiple tags in one group; different groups narrow results together.",
+  "清空筛选": "Clear",
+  "排序": "Sort",
+  "默认": "Default",
+  "价格从低到高": "Price: low to high",
+  "价格从高到低": "Price: high to low",
+  "名称": "Name",
+  "品牌": "Brand",
+  "位置": "Position",
+  "位置/打法": "Position / style",
+  "胶面": "Rubber type",
+  "海绵": "Sponge",
+  "厚度": "Thickness",
+  "硬度": "Hardness",
+  "打法": "Style",
+  "产地": "Origin",
+  "价格带": "Price",
+  "结构": "Structure",
+  "材料": "Material",
+  "手柄": "Handle",
+  "速度": "Speed",
+  "手感": "Feel",
+  "重量感": "Weight feel",
+  "类型": "Type",
+  "重量": "Weight",
+  "板身硬度": "Blade hardness",
+  "形变感": "Flex",
+  "出球": "Release",
+  "出球速度": "Release speed",
+  "旋转": "Spin",
+  "弧线": "Arc",
+  "底劲": "Power reserve",
+  "力量门槛": "Power threshold",
+  "发力门槛": "Power threshold",
+  "控制感": "Control feel",
+  "防守借力": "Defensive rebound",
+  "二跳变速": "Second-bounce change",
+  "胶面寿命": "Top-sheet life",
+  "海绵寿命": "Sponge life",
+  "手感反馈": "Feedback",
+  "近台快带": "Close-table block",
+  "台内小球": "Short game",
+  "防守": "Defense",
+  "重心": "Balance",
+  "偏轻": "Light",
+  "偏重": "Heavy",
+  "柔软": "Soft",
+  "偏硬": "Hard",
+  "持球": "Dwell",
+  "喷弹": "Bouncy",
+  "撞击": "Hit",
+  "缓和": "Controlled",
+  "快速": "Fast",
+  "低平": "Low",
+  "弧圈": "Loop arc",
+  "普通": "Normal",
+  "强劲": "Strong",
+  "易透": "Easy to activate",
+  "需发力": "Needs power",
+  "敏感": "Sensitive",
+  "跟手": "Connected",
+  "容易": "Easy",
+  "明显": "Obvious",
+  "短": "Short",
+  "长": "Long",
+  "轻巧": "Light",
+  "厚重": "Heavy",
+  "偏软": "Soft",
+  "固定": "Stable",
+  "形变": "Flexy",
+  "稳定": "Stable",
+  "上限一般": "Limited ceiling",
+  "后劲充足": "Strong reserve",
+  "模糊": "Muted",
+  "清晰": "Clear",
+  "平庸": "Average",
+  "舒适": "Comfortable",
+  "容易打透": "Easy to activate",
+  "需要发力": "Needs power",
+  "活跃敏感": "Active / sensitive",
+  "稳定跟手": "Stable / connected",
+  "容易冒高/出台": "Pops up / long",
+  "稳定卸力": "Absorbs pace",
+  "反弹借力": "Borrows pace",
+  "靠柄": "Handle-heavy",
+  "拍头": "Head-heavy",
+  "前冲、下扎": "forward kick / dip",
+  "易起鳞、氧化": "flakes / oxidizes",
+  "易衰减": "decays easily",
+  "返回列表": "Back to list",
+  "标签信息": "Tags",
+  "社区主观体感": "Community Feel",
+  "这些不是好坏分数，而是体感倾向。只选择你有把握的项目，未选择的项目不会进入统计。": "These are feel tendencies, not good/bad scores. Only rate items you know; skipped items are not counted.",
+  "正在读取评分...": "Loading ratings...",
+  "暂无": "None",
+  "暂无样本": "No samples",
+  "添加我的体感评价": "Add My Feel Rating",
+  "只勾选你有把握的项目，弃评项不会进入统计。": "Only include items you know; skipped items are not counted.",
+  "关闭": "Close",
+  "提交 / 更新评分": "Submit / Update Rating",
+  "计入": "Include",
+  "弃评": "Skip",
+  "请至少选择一个体感项目": "Please include at least one feel item",
+  "正在提交...": "Submitting...",
+  "已保存到在线统计": "Saved to online stats",
+  "已保存为本机预览": "Saved as local preview",
+  "提交失败，请检查 Supabase 配置": "Submit failed; please check Supabase configuration",
+  "在线统计读取失败，暂用本机预览": "Online stats failed; using local preview",
+  "暂无评分，等第一个人来投": "No ratings yet",
+  "在线统计已同步": "Online stats synced",
+  "短评": "Short Comments",
+  "60 字以内。每个 IP 每个器材保留 1 条，可编辑原评论。": "Up to 60 characters. One comment per IP per item; edit your original comment.",
+  "正在读取短评...": "Loading comments...",
+  "写一句使用感受": "Write a short impression",
+  "发布": "Post",
+  "保存": "Save",
+  "资料来源": "Sources",
+  "资料贡献": "Contributors",
+  "暂无短评。": "No comments yet.",
+  "热评": "Hot comments",
+  "全部短评": "All comments",
+  "上一页": "Previous",
+  "下一页": "Next",
+  "编辑": "Edit",
+  "删除": "Delete",
+  "访客": "Guest",
+  "已顶": " liked",
+  "已踩": " disliked",
+  "这条短评已超过可编辑时间": "This comment can no longer be edited",
+  "正在删除...": "Deleting...",
+  "短评已删除": "Comment deleted",
+  "删除失败": "Delete failed",
+  "投票失败，请稍后再试": "Vote failed; try again later",
+  "请先写一句短评": "Please write a short comment first",
+  "正在保存...": "Saving...",
+  "正在发布...": "Posting...",
+  "只能编辑本机原评论": "You can only edit the original comment from this browser",
+  "每 1 小时只能编辑 1 次": "You can edit once per hour",
+  "短评已更新": "Comment updated",
+  "发布太频繁，请稍后再试": "Posting too often; try again later",
+  "你已评论过，如有增加信息请编辑原评论": "You already commented; edit your original comment if needed",
+  "该 IP 已评论过，请在原浏览器编辑原评论": "This IP has already commented; edit from the original browser",
+  "短评已发布": "Comment posted",
+  "操作失败，请检查评论表是否已创建": "Action failed; please check whether the comment table exists",
+  "暂无短评": "No comments yet",
+  "短评表尚未连接": "Comment table not connected",
+  "Supabase 未配置": "Supabase not configured",
+  "Supabase 未配置，当前为本机预览": "Supabase not configured; local preview only",
+  "没有匹配器材，试着减少一两个标签。": "No matching equipment. Try removing one or two tags.",
+  "展开更多": "More",
+  "收起": "Collapse",
+  "待补充": "To be added",
+  "参考价格": "Reference price",
+  "个结果": "results",
+  "条短评": "comments",
+  "位用户提交过体感": "users rated feel",
+  "编辑于": "edited",
+  "搜索：": "Search: ",
+  "查看": "View",
+  "图片": "image",
+  "图片序号": "Image index",
+  "50内": "Under 50",
+  "80内": "Under 80",
+  "100内": "Under 100",
+  "200内": "Under 200",
+  "百元左右": "Around 100",
+  "150左右": "Around 150",
+  "200左右": "Around 200",
+  "300左右": "Around 300",
+  "500左右": "Around 500",
+  "800左右": "Around 800",
+  "千元左右": "Around 1000",
+  "300以上": "300+",
+  "千元以上": "1000+",
+  "常规": "Regular",
+  "中国": "China",
+  "日本": "Japan",
+  "德国": "Germany",
+  "瑞典": "Sweden",
+  "韩国": "Korea",
+  "法国": "France",
+  "美国": "USA",
+  "意大利": "Italy"
+};
+
+const chineseText = Object.fromEntries(Object.entries(englishText).map(([zh, en]) => [en, zh]));
 
 const state = {
   type: "rubbers",
@@ -121,7 +319,8 @@ const state = {
   selected: {},
   expandedFilters: {},
   search: "",
-  sort: "default"
+  sort: "default",
+  lang: localStorage.getItem(languageStorageKey) || "zh"
 };
 
 const nodes = {
@@ -130,10 +329,13 @@ const nodes = {
   filterGroups: document.querySelector("#filterGroups"),
   productGrid: document.querySelector("#productGrid"),
   resultCount: document.querySelector("#resultCount"),
+  resultSuffix: document.querySelector("#resultSuffix"),
   activeFilters: document.querySelector("#activeFilters"),
   clearFilters: document.querySelector("#clearFilters"),
   searchInput: document.querySelector("#searchInput"),
   sortSelect: document.querySelector("#sortSelect"),
+  filterHint: document.querySelector("#filterHint"),
+  langToggle: document.querySelector("#langToggle"),
   listView: document.querySelector("#listView"),
   detailView: document.querySelector("#detailView")
 };
@@ -141,7 +343,7 @@ const nodes = {
 init();
 
 async function init() {
-  const response = await fetch("./data/equipment.json?v=ratings-21");
+  const response = await fetch(`./data/equipment.json?v=${assetVersion}`);
   state.data = await response.json();
   bindEvents();
   render();
@@ -177,13 +379,77 @@ function bindEvents() {
     renderProducts();
   });
 
+  nodes.langToggle?.addEventListener("click", () => {
+    state.lang = state.lang === "en" ? "zh" : "en";
+    localStorage.setItem(languageStorageKey, state.lang);
+    render();
+    renderRoute();
+  });
+
   window.addEventListener("hashchange", renderRoute);
 }
 
 function render() {
-  nodes.filterTitle.textContent = state.type === "rubbers" ? "胶皮筛选" : "底板筛选";
+  applyLanguageChrome();
+  nodes.filterTitle.textContent = t(state.type === "rubbers" ? "胶皮筛选" : "底板筛选");
   renderFilters();
   renderProducts();
+}
+
+function t(text) {
+  if (text === null || text === undefined) {
+    return "";
+  }
+
+  if (state.lang === "en") {
+    return englishText[String(text)] || String(text);
+  }
+
+  return String(text);
+}
+
+function th(text) {
+  return escapeHtml(t(text));
+}
+
+function applyLanguageChrome() {
+  document.documentElement.lang = state.lang === "en" ? "en" : "zh-CN";
+  document.title = "Table Tennis Gear Database";
+  const title = document.querySelector(".hero h1");
+  if (title) {
+    title.textContent = t("乒乓器材数据库");
+  }
+
+  if (nodes.langToggle) {
+    nodes.langToggle.textContent = state.lang === "en" ? "中" : "EN";
+    nodes.langToggle.setAttribute("aria-label", state.lang === "en" ? "切换到中文" : "Switch to English");
+  }
+
+  nodes.searchInput.placeholder = t("搜索品牌、型号、系列...");
+  nodes.filterHint.textContent = t("同一项目可多选，不同项目会叠加筛选。");
+  nodes.clearFilters.textContent = t("清空筛选");
+  if (nodes.resultSuffix) {
+    nodes.resultSuffix.textContent = state.lang === "en" ? ` ${t("个结果")}` : " 个结果";
+  }
+
+  nodes.tabs.forEach((tab) => {
+    tab.textContent = t(tab.dataset.type === "rubbers" ? "胶皮" : "底板");
+  });
+
+  const sortLabel = document.querySelector(".sort-box span");
+  if (sortLabel) {
+    sortLabel.textContent = t("排序");
+  }
+
+  const sortLabels = {
+    default: "默认",
+    "price-asc": "价格从低到高",
+    "price-desc": "价格从高到低",
+    name: "名称"
+  };
+  [...nodes.sortSelect.options].forEach((option) => {
+    option.textContent = t(sortLabels[option.value] || option.textContent);
+  });
 }
 
 function renderFilters() {
@@ -195,15 +461,15 @@ function renderFilters() {
     const expandable = values.length > 8;
     const tags = values.map((value) => {
       const active = state.selected[group.key]?.has(value) ? " is-active" : "";
-      return `<button class="tag${active}" data-key="${group.key}" data-value="${escapeHtml(value)}" data-color="${group.color}" type="button">${escapeHtml(value)}</button>`;
+      return `<button class="tag${active}" data-key="${group.key}" data-value="${escapeHtml(value)}" data-color="${group.color}" type="button">${th(value)}</button>`;
     }).join("");
 
     return `
       <div class="filter-row${expanded ? " is-expanded" : ""}">
-        <div class="filter-label">${group.label}</div>
+        <div class="filter-label">${th(group.label)}</div>
         <div class="tag-stack">
           <div class="tag-list">${tags}</div>
-          ${expandable ? `<button class="filter-more" data-filter-more="${escapeHtml(filterId)}" type="button">${expanded ? "收起" : "展开更多"}</button>` : ""}
+          ${expandable ? `<button class="filter-more" data-filter-more="${escapeHtml(filterId)}" type="button">${th(expanded ? "收起" : "展开更多")}</button>` : ""}
         </div>
       </div>
     `;
@@ -271,14 +537,14 @@ function renderProducts() {
   renderActiveFilters();
 
   if (products.length === 0) {
-    nodes.productGrid.innerHTML = `<div class="empty-state">没有匹配器材，试着减少一两个标签。</div>`;
+    nodes.productGrid.innerHTML = `<div class="empty-state">${th("没有匹配器材，试着减少一两个标签。")}</div>`;
     return;
   }
 
   nodes.productGrid.innerHTML = products.map((product) => {
-    const tags = flattenProductTags(product).slice(0, 7).map((tag) => `<span>${escapeHtml(tag)}</span>`).join("");
+    const tags = flattenProductTags(product).slice(0, 7).map((tag) => `<span>${th(tag)}</span>`).join("");
     return `
-      <a class="product-card" href="#/equipment/${product.id}" aria-label="查看 ${escapeHtml(product.brand)} ${escapeHtml(product.name)}">
+      <a class="product-card" href="#/equipment/${product.id}" aria-label="${th("查看")} ${escapeHtml(product.brand)} ${escapeHtml(product.name)}">
         <div class="product-media">
           <img src="${product.image}" alt="${escapeHtml(product.brand)} ${escapeHtml(product.name)}" loading="lazy">
         </div>
@@ -329,18 +595,18 @@ function renderDetail(product) {
   const images = getProductImages(product);
   const imageSlides = images.map((image, index) => `
     <figure class="detail-image-slide">
-      <img src="${escapeHtml(image)}" alt="${escapeHtml(product.brand)} ${escapeHtml(product.name)} 图片 ${index + 1}">
+      <img src="${escapeHtml(image)}" alt="${escapeHtml(product.brand)} ${escapeHtml(product.name)} ${th("图片")} ${index + 1}">
     </figure>
   `).join("");
   const imageDots = images.length > 1 ? `
-    <div class="detail-image-dots" aria-label="图片序号">
+    <div class="detail-image-dots" aria-label="${th("图片序号")}">
       ${images.map((_, index) => `<span>${index + 1}</span>`).join("")}
     </div>
   ` : "";
   const tagRows = Object.entries(product.tags).map(([key, values]) => `
     <div class="detail-tag-row">
-      <div class="detail-tag-label">${escapeHtml(fieldLabels[key] || key)}</div>
-      <div class="detail-tag-list">${values.map((value) => `<span>${escapeHtml(value)}</span>`).join("")}</div>
+      <div class="detail-tag-label">${th(fieldLabels[key] || key)}</div>
+      <div class="detail-tag-list">${values.map((value) => `<span>${th(value)}</span>`).join("")}</div>
     </div>
   `).join("");
 
@@ -348,7 +614,7 @@ function renderDetail(product) {
   const contributors = renderContributors(product.contributors);
 
   return `
-    <a class="back-link" href="#">返回列表</a>
+    <a class="back-link" href="#">${th("返回列表")}</a>
     <article class="detail-panel">
       <div class="detail-media">
         <div class="detail-image-strip">
@@ -362,11 +628,11 @@ function renderDetail(product) {
           <h2>${escapeHtml(product.name)}</h2>
           <p>${escapeHtml(product.description)}</p>
           <div class="detail-meta-row">
-            <span>参考价格：${escapeHtml(formatPriceRange(product))}</span>
+            <span>${th("参考价格")}：${escapeHtml(formatPriceRange(product))}</span>
           </div>
         </div>
-        <div class="detail-tags-panel" aria-label="标签信息">
-          <h3>标签信息</h3>
+        <div class="detail-tags-panel" aria-label="${th("标签信息")}">
+          <h3>${th("标签信息")}</h3>
           <div class="detail-tags">${tagRows}</div>
         </div>
       </div>
@@ -376,33 +642,33 @@ function renderDetail(product) {
     <section class="detail-section rating-panel" id="ratingPanel" data-equipment-id="${escapeHtml(product.id)}">
       <div class="section-title-row">
         <div>
-          <h3>社区主观体感</h3>
-          <p>这些不是好坏分数，而是体感倾向。只选择你有把握的项目，未选择的项目不会进入统计。</p>
+          <h3>${th("社区主观体感")}</h3>
+          <p>${th("这些不是好坏分数，而是体感倾向。只选择你有把握的项目，未选择的项目不会进入统计。")}</p>
         </div>
-        <span class="rating-status" id="ratingStatus">正在读取评分...</span>
+        <span class="rating-status" id="ratingStatus">${th("正在读取评分...")}</span>
       </div>
 
       <div class="rating-layout">
         <div class="rating-stats" id="ratingStats">
           ${ratingDimensions.map((item) => renderRatingStatRow(item)).join("")}
-          <div class="rating-sample-count" id="ratingSampleCount">暂无样本</div>
+          <div class="rating-sample-count" id="ratingSampleCount">${th("暂无样本")}</div>
         </div>
       </div>
 
-      <button class="rating-open-button" id="ratingOpenButton" type="button">添加我的体感评价</button>
+      <button class="rating-open-button" id="ratingOpenButton" type="button">${th("添加我的体感评价")}</button>
       <div class="rating-editor is-hidden" id="ratingEditor" aria-hidden="true">
         <div class="rating-editor-backdrop" data-rating-close></div>
         <div class="rating-editor-dialog" role="dialog" aria-modal="true" aria-labelledby="ratingEditorTitle">
           <div class="rating-editor-head">
             <div>
-              <h4 id="ratingEditorTitle">添加我的体感评价</h4>
-              <p>只勾选你有把握的项目，弃评项不会进入统计。</p>
+              <h4 id="ratingEditorTitle">${th("添加我的体感评价")}</h4>
+              <p>${th("只勾选你有把握的项目，弃评项不会进入统计。")}</p>
             </div>
-            <button class="rating-close-button" type="button" data-rating-close aria-label="关闭">×</button>
+            <button class="rating-close-button" type="button" data-rating-close aria-label="${th("关闭")}">×</button>
           </div>
           <form class="rating-form" id="ratingForm">
             ${ratingDimensions.map((item) => renderRatingInput(item)).join("")}
-            <button class="rating-submit" type="submit">提交 / 更新评分</button>
+            <button class="rating-submit" type="submit">${th("提交 / 更新评分")}</button>
           </form>
         </div>
       </div>
@@ -412,20 +678,20 @@ function renderDetail(product) {
     <section class="detail-section comments-panel" id="commentsPanel" data-equipment-id="${escapeHtml(product.id)}">
       <div class="section-title-row">
         <div>
-          <h3>短评</h3>
-          <p>60 字以内。每个 IP 每个器材保留 1 条，可编辑原评论。</p>
+          <h3>${th("短评")}</h3>
+          <p>${th("60 字以内。每个 IP 每个器材保留 1 条，可编辑原评论。")}</p>
         </div>
-        <span class="comment-status" id="commentStatus">正在读取短评...</span>
+        <span class="comment-status" id="commentStatus">${th("正在读取短评...")}</span>
       </div>
 
       <form class="comment-form" id="commentForm">
         <input type="hidden" id="editingCommentId" name="editingCommentId">
         <input type="hidden" id="editingCommentToken" name="editingCommentToken">
         <div class="comment-input-wrap">
-          <textarea id="commentContent" name="content" maxlength="${commentMaxLength}" rows="2" placeholder="写一句使用感受"></textarea>
+          <textarea id="commentContent" name="content" maxlength="${commentMaxLength}" rows="2" placeholder="${th("写一句使用感受")}"></textarea>
           <span id="commentCounter">0/${commentMaxLength}</span>
         </div>
-        <button type="submit" id="commentSubmit">发布</button>
+        <button type="submit" id="commentSubmit">${th("发布")}</button>
       </form>
 
       <div class="hot-comment-list" id="hotCommentList"></div>
@@ -434,7 +700,7 @@ function renderDetail(product) {
     </section>
 
     <section class="detail-section">
-      <h3>资料来源</h3>
+      <h3>${th("资料来源")}</h3>
       <ul class="source-list">${sources}</ul>
       ${contributors}
     </section>
@@ -451,7 +717,7 @@ function renderContributors(contributors) {
     .join("");
   return `
     <div class="contributor-row">
-      <strong>资料贡献</strong>
+      <strong>${th("资料贡献")}</strong>
       <div>${chips}</div>
     </div>
   `;
@@ -467,13 +733,13 @@ function renderRatingStatRow(item) {
   return `
     <div class="rating-stat-row" data-rating-key="${item.key}">
       <div class="rating-stat-head">
-        <strong>${item.label}</strong>
+        <strong>${th(item.label)}</strong>
         <span class="rating-stat-score">
           <b data-rating-value>--</b>
-          <small data-rating-count>暂无</small>
+          <small data-rating-count>${th("暂无")}</small>
         </span>
       </div>
-      <div class="rating-bar" aria-label="${item.label}">
+      <div class="rating-bar" aria-label="${th(item.label)}">
         <span class="rating-bar-fill"></span>
         <span class="rating-bar-marker"></span>
       </div>
@@ -490,8 +756,8 @@ function renderRatingInput(item) {
   return `
     <div class="rating-input-row is-unrated" data-rating-input-row="${item.key}">
       <div class="rating-input-top">
-        <span class="rating-input-label">${item.label}</span>
-        <button class="rating-toggle" type="button" data-rating-toggle="${item.key}" aria-pressed="false">弃评</button>
+        <span class="rating-input-label">${th(item.label)}</span>
+        <button class="rating-toggle" type="button" data-rating-toggle="${item.key}" aria-pressed="false">${th("弃评")}</button>
       </div>
       <div class="rating-input-axis">
         <span class="rating-input-side is-low">${renderRatingEndpoint(item.low, item.lowNote)}</span>
@@ -571,21 +837,21 @@ function initRatingPanel(product) {
     const submit = form.querySelector(".rating-submit");
     const values = collectRatingFormValues(form, ratingDimensions);
     if (!hasAnyScoredValue(values, ratingDimensions)) {
-      status.textContent = "请至少选择一个体感项目";
+      status.textContent = t("请至少选择一个体感项目");
       return;
     }
     submit.disabled = true;
-    status.textContent = "正在提交...";
+    status.textContent = t("正在提交...");
 
     try {
       await saveRating(product.id, values);
       saveLocalRating(product.id, values);
-      status.textContent = isSupabaseReady() ? "已保存到在线统计" : "已保存为本机预览";
+      status.textContent = t(isSupabaseReady() ? "已保存到在线统计" : "已保存为本机预览");
       await refreshRatingStats(product.id);
       closeEditor();
     } catch (error) {
       console.error(error);
-      status.textContent = "提交失败，请检查 Supabase 配置";
+      status.textContent = t("提交失败，请检查 Supabase 配置");
     } finally {
       submit.disabled = false;
     }
@@ -610,7 +876,7 @@ function setRatingInputActive(key, active) {
 
   row.dataset.rated = active ? "true" : "false";
   row.classList.toggle("is-unrated", !active);
-  button.textContent = active ? "计入" : "弃评";
+  button.textContent = t(active ? "计入" : "弃评");
   button.setAttribute("aria-pressed", active ? "true" : "false");
 }
 
@@ -639,14 +905,14 @@ async function refreshRatingStats(productId) {
     const local = getSavedLocalRating(productId);
     rows = local ? [local] : [];
     renderRatingStats(rows, getRatingDimensions(findProduct(productId)));
-    status.textContent = "在线统计读取失败，暂用本机预览";
+    status.textContent = t("在线统计读取失败，暂用本机预览");
     return;
   }
 
   if (rows.length === 0) {
-    status.textContent = isSupabaseReady() ? "暂无评分，等第一个人来投" : "Supabase 未配置，当前为本机预览";
+    status.textContent = t(isSupabaseReady() ? "暂无评分，等第一个人来投" : "Supabase 未配置，当前为本机预览");
   } else {
-    status.textContent = isSupabaseReady() ? "在线统计已同步" : "Supabase 未配置，当前为本机预览";
+    status.textContent = t(isSupabaseReady() ? "在线统计已同步" : "Supabase 未配置，当前为本机预览");
   }
 }
 
@@ -654,7 +920,9 @@ function renderRatingStats(rows, ratingDimensions) {
   const sampleCount = nodes.detailView.querySelector("#ratingSampleCount");
   const activeRows = rows.filter((record) => hasAnyScoredValue(record, ratingDimensions));
   if (sampleCount) {
-    sampleCount.textContent = activeRows.length ? `${activeRows.length} 位用户提交过体感` : "暂无样本";
+    sampleCount.textContent = activeRows.length
+      ? (state.lang === "en" ? `${activeRows.length} ${t("位用户提交过体感")}` : `${activeRows.length} 位用户提交过体感`)
+      : t("暂无样本");
   }
 
   ratingDimensions.forEach((item) => {
@@ -673,7 +941,7 @@ function renderRatingStats(rows, ratingDimensions) {
     if (scoredRows.length === 0) {
       value.textContent = "--";
       if (count) {
-        count.textContent = "暂无";
+        count.textContent = t("暂无");
       }
       fill.style.width = "0%";
       marker.style.left = "50%";
@@ -686,7 +954,7 @@ function renderRatingStats(rows, ratingDimensions) {
     const percent = Math.max(0, Math.min(100, (cappedAverage + 5) * 10));
     value.textContent = formatRatingValue(cappedAverage);
     if (count) {
-      count.textContent = `${scoredRows.length}人`;
+      count.textContent = state.lang === "en" ? `${scoredRows.length}` : `${scoredRows.length}人`;
     }
     fill.style.width = `${percent}%`;
     marker.style.left = `${percent}%`;
@@ -870,28 +1138,28 @@ function initCommentsPanel(product) {
     if (action === "edit") {
       const comment = await fetchCommentById(id);
       if (!comment || !canEditComment(comment)) {
-        status.textContent = "这条短评已超过可编辑时间";
+        status.textContent = t("这条短评已超过可编辑时间");
         return;
       }
       editingCommentId.value = comment.id;
       editingCommentToken.value = getCommentEditToken();
       content.value = comment.content;
       counter.textContent = `${content.value.length}/${commentMaxLength}`;
-      submit.textContent = "保存";
+      submit.textContent = t("保存");
       content.focus();
       return;
     }
 
     if (action === "delete") {
-      status.textContent = "正在删除...";
+      status.textContent = t("正在删除...");
       try {
         await deleteComment(id, getCommentEditToken());
         resetCommentForm(form);
         await refreshComments(product.id);
-        status.textContent = "短评已删除";
+        status.textContent = t("短评已删除");
       } catch (error) {
         console.error(error);
-        status.textContent = "删除失败";
+        status.textContent = t("删除失败");
       }
       return;
     }
@@ -908,7 +1176,7 @@ function initCommentsPanel(product) {
         await refreshComments(product.id);
       } catch (error) {
         console.error(error);
-        status.textContent = "投票失败，请稍后再试";
+        status.textContent = t("投票失败，请稍后再试");
       }
     }
   });
@@ -918,29 +1186,29 @@ function initCommentsPanel(product) {
     const cleanContent = content.value.trim();
 
     if (!cleanContent) {
-      status.textContent = "请先写一句短评";
+      status.textContent = t("请先写一句短评");
       return;
     }
 
     submit.disabled = true;
-    status.textContent = editingCommentId.value ? "正在保存..." : "正在发布...";
+    status.textContent = t(editingCommentId.value ? "正在保存..." : "正在发布...");
 
     try {
       if (editingCommentId.value) {
         const target = await fetchCommentById(editingCommentId.value);
         if (!target || !canEditComment(target)) {
-          status.textContent = "只能编辑本机原评论";
+          status.textContent = t("只能编辑本机原评论");
           return;
         }
         if (!canEditByCooldown(target)) {
-          status.textContent = "每 1 小时只能编辑 1 次";
+          status.textContent = t("每 1 小时只能编辑 1 次");
           return;
         }
         await updateComment(editingCommentId.value, cleanContent, editingCommentToken.value);
-        status.textContent = "短评已更新";
+        status.textContent = t("短评已更新");
       } else {
         if (!canPostByCooldown(product.id)) {
-          status.textContent = "发布太频繁，请稍后再试";
+          status.textContent = t("发布太频繁，请稍后再试");
           return;
         }
         const ipMeta = await getIpMeta();
@@ -951,22 +1219,22 @@ function initCommentsPanel(product) {
             editingCommentToken.value = getCommentEditToken();
             content.value = existingComment.content;
             counter.textContent = `${content.value.length}/${commentMaxLength}`;
-            submit.textContent = "保存";
-            status.textContent = "你已评论过，如有增加信息请编辑原评论";
+            submit.textContent = t("保存");
+            status.textContent = t("你已评论过，如有增加信息请编辑原评论");
           } else {
-            status.textContent = "该 IP 已评论过，请在原浏览器编辑原评论";
+            status.textContent = t("该 IP 已评论过，请在原浏览器编辑原评论");
           }
           return;
         }
         await saveComment(product.id, ipMeta, cleanContent);
         saveCommentCooldown(product.id);
-        status.textContent = "短评已发布";
+        status.textContent = t("短评已发布");
       }
       resetCommentForm(form);
       await refreshComments(product.id);
     } catch (error) {
       console.error(error);
-      status.textContent = "操作失败，请检查评论表是否已创建";
+      status.textContent = t("操作失败，请检查评论表是否已创建");
     } finally {
       submit.disabled = false;
     }
@@ -989,11 +1257,13 @@ async function refreshComments(productId) {
     const votes = await fetchCommentVotes(commentIds);
     const enrichedComments = enrichCommentsWithVotes(comments, votes);
     renderComments(enrichedComments);
-    status.textContent = comments.length ? `${comments.length} 条短评` : "暂无短评";
+    status.textContent = comments.length
+      ? (state.lang === "en" ? `${comments.length} ${t("条短评")}` : `${comments.length} 条短评`)
+      : t("暂无短评");
   } catch (error) {
     console.error(error);
     renderComments([]);
-    status.textContent = isSupabaseReady() ? "短评表尚未连接" : "Supabase 未配置";
+    status.textContent = t(isSupabaseReady() ? "短评表尚未连接" : "Supabase 未配置");
   }
 }
 
@@ -1167,7 +1437,7 @@ function renderComments(comments) {
     if (pagination) {
       pagination.innerHTML = "";
     }
-    list.innerHTML = `<div class="comment-empty">暂无短评。</div>`;
+    list.innerHTML = `<div class="comment-empty">${th("暂无短评。")}</div>`;
     return;
   }
 
@@ -1183,42 +1453,42 @@ function renderComments(comments) {
 
   if (hotList) {
     hotList.innerHTML = hotComments.length ? `
-      <div class="hot-comment-title">热评</div>
+      <div class="hot-comment-title">${th("热评")}</div>
       ${hotComments.map(renderCommentItem).join("")}
     ` : "";
   }
 
   list.innerHTML = `
-    <div class="comment-list-title">全部短评</div>
+    <div class="comment-list-title">${th("全部短评")}</div>
     ${pagedComments.map(renderCommentItem).join("")}
   `;
 
   if (pagination) {
     pagination.innerHTML = totalPages > 1 ? `
-      <button type="button" data-comment-page="${safePage - 1}" ${safePage === 1 ? "disabled" : ""}>上一页</button>
+      <button type="button" data-comment-page="${safePage - 1}" ${safePage === 1 ? "disabled" : ""}>${th("上一页")}</button>
       <span>${safePage} / ${totalPages}</span>
-      <button type="button" data-comment-page="${safePage + 1}" ${safePage === totalPages ? "disabled" : ""}>下一页</button>
+      <button type="button" data-comment-page="${safePage + 1}" ${safePage === totalPages ? "disabled" : ""}>${th("下一页")}</button>
     ` : "";
   }
 }
 
 function renderCommentItem(comment) {
-  const editedText = comment.last_edited_at ? `编辑于 ${formatCommentDate(comment.last_edited_at)}` : "";
+  const editedText = comment.last_edited_at ? `${t("编辑于")} ${formatCommentDate(comment.last_edited_at)}` : "";
   return `
     <article class="comment-item">
       <div class="comment-meta">
-        <strong>${escapeHtml(comment.ip_prefix || "访客")}</strong>
+        <strong>${escapeHtml(comment.ip_prefix || t("访客"))}</strong>
         <span>${escapeHtml(formatCommentDate(comment.created_at))}</span>
         ${editedText ? `<span>${escapeHtml(editedText)}</span>` : ""}
         ${canEditComment(comment) ? `
-          <button type="button" data-comment-action="edit" data-comment-id="${escapeHtml(comment.id)}">编辑</button>
-          <button type="button" data-comment-action="delete" data-comment-id="${escapeHtml(comment.id)}">删除</button>
+          <button type="button" data-comment-action="edit" data-comment-id="${escapeHtml(comment.id)}">${th("编辑")}</button>
+          <button type="button" data-comment-action="delete" data-comment-id="${escapeHtml(comment.id)}">${th("删除")}</button>
         ` : ""}
       </div>
       <p>${escapeHtml(comment.content)}</p>
       <div class="comment-votes">
-        <button type="button" data-comment-action="vote-up" data-comment-id="${escapeHtml(comment.id)}" data-user-vote="${comment.userVote}" class="${comment.userVote === 1 ? "is-voted" : ""}">👍 ${comment.upCount}${comment.userVote === 1 ? " 已顶" : ""}</button>
-        <button type="button" data-comment-action="vote-down" data-comment-id="${escapeHtml(comment.id)}" data-user-vote="${comment.userVote}" class="${comment.userVote === -1 ? "is-voted" : ""}">👎 ${comment.downCount}${comment.userVote === -1 ? " 已踩" : ""}</button>
+        <button type="button" data-comment-action="vote-up" data-comment-id="${escapeHtml(comment.id)}" data-user-vote="${comment.userVote}" class="${comment.userVote === 1 ? "is-voted" : ""}">👍 ${comment.upCount}${comment.userVote === 1 ? th("已顶") : ""}</button>
+        <button type="button" data-comment-action="vote-down" data-comment-id="${escapeHtml(comment.id)}" data-user-vote="${comment.userVote}" class="${comment.userVote === -1 ? "is-voted" : ""}">👎 ${comment.downCount}${comment.userVote === -1 ? th("已踩") : ""}</button>
       </div>
     </article>
   `;
@@ -1253,7 +1523,7 @@ function resetCommentForm(form) {
   form.elements.editingCommentToken.value = "";
   form.elements.content.value = "";
   form.querySelector("#commentCounter").textContent = `0/${commentMaxLength}`;
-  form.querySelector("#commentSubmit").textContent = "发布";
+  form.querySelector("#commentSubmit").textContent = t("发布");
 }
 
 async function getIpMeta() {
@@ -1271,7 +1541,7 @@ async function getIpMeta() {
     localStorage.setItem(commentIpCacheStorageKey, JSON.stringify(value));
     return value;
   } catch {
-    return { prefix: "访客", hash: await sha256Hex(getClientId()), createdAt: Date.now() };
+    return { prefix: t("访客"), hash: await sha256Hex(getClientId()), createdAt: Date.now() };
   }
 }
 
@@ -1285,7 +1555,7 @@ function readIpPrefixCache() {
 
 function formatIpPrefix(ip) {
   if (!ip) {
-    return "访客";
+    return t("访客");
   }
   if (ip.includes(":")) {
     return `${ip.split(":").slice(0, 2).join(":")}:*`;
@@ -1294,7 +1564,7 @@ function formatIpPrefix(ip) {
   if (parts.length >= 2) {
     return `${parts[0]}.${parts[1]}.*`;
   }
-  return "访客";
+  return t("访客");
 }
 
 function getCommentEditToken() {
@@ -1490,7 +1760,7 @@ function formatPriceRange(product) {
   const range = getPriceRange(product);
   const currency = product.currency || "CNY";
   if (!range) {
-    return "待补充";
+    return t("待补充");
   }
   if (range.min === range.max) {
     return `¥${range.min} ${currency}`;
@@ -1546,11 +1816,11 @@ function renderActiveFilters() {
   const labels = new Map(filterConfig[state.type].map((group) => [group.key, group.label]));
 
   Object.entries(state.selected).forEach(([key, values]) => {
-    values.forEach((value) => chips.push(`${labels.get(key)}：${value}`));
+    values.forEach((value) => chips.push(`${t(labels.get(key))}：${t(value)}`));
   });
 
   if (state.search) {
-    chips.push(`搜索：${state.search}`);
+    chips.push(`${t("搜索：")}${state.search}`);
   }
 
   nodes.activeFilters.innerHTML = chips.map((chip) => `<span class="active-chip">${escapeHtml(chip)}</span>`).join("");

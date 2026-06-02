@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Table Tennis Gear Database</title>
-    <link rel="stylesheet" href="./styles.css?v=ratings-21">
+    <link rel="stylesheet" href="./styles.css?v=ratings-22">
   </head>
   <body>
     <main class="app-shell">
@@ -13,8 +13,11 @@
           <p class="eyebrow">Table Tennis Gear Database</p>
           <h1>乒乓器材数据库</h1>
         </div>
-        <div class="search-wrap">
-          <input id="searchInput" type="search" placeholder="搜索品牌、型号、系列..." autocomplete="off">
+        <div class="hero-tools">
+          <button id="langToggle" class="lang-toggle" type="button" aria-label="Switch language">EN</button>
+          <div class="search-wrap">
+            <input id="searchInput" type="search" placeholder="搜索品牌、型号、系列..." autocomplete="off">
+          </div>
         </div>
       </section>
 
@@ -37,7 +40,7 @@
 
         <section class="results-head">
           <div>
-            <p class="result-count"><span id="resultCount">0</span> 个结果</p>
+            <p class="result-count"><span id="resultCount">0</span><span id="resultSuffix"> 个结果</span></p>
             <div id="activeFilters" class="active-filters"></div>
           </div>
           <label class="sort-box">
@@ -57,7 +60,7 @@
       <section id="detailView" class="detail-view is-hidden" aria-live="polite"></section>
     </main>
 
-    <script src="./config.js?v=ratings-21"></script>
-    <script src="./app.js?v=ratings-21"></script>
+    <script src="./config.js?v=ratings-22"></script>
+    <script src="./app.js?v=ratings-22"></script>
   </body>
 </html>
