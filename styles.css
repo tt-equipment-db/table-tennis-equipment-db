@@ -48,6 +48,30 @@ select {
   margin-bottom: 8px;
 }
 
+.hero-tools {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  gap: 8px;
+  align-items: center;
+}
+
+.lang-toggle {
+  height: 38px;
+  min-width: 46px;
+  border: 1px solid rgba(37, 99, 235, 0.28);
+  border-radius: 10px;
+  color: var(--blue);
+  background: #eff6ff;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 900;
+  box-shadow: var(--shadow-sm);
+}
+
+.lang-toggle:hover {
+  background: #dbeafe;
+}
+
 .eyebrow {
   margin: 0 0 4px;
   color: var(--blue);
