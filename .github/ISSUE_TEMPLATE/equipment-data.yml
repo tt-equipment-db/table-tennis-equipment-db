@@ -1,5 +1,5 @@
 name: 补充或修改器材资料
-description: 新增胶皮/底板，或修正已有资料
+description: 新增套胶/底板，或修正已有资料
 title: "[器材资料] "
 labels: ["data"]
 body:
@@ -13,9 +13,9 @@ body:
     attributes:
       label: 你想做什么？
       options:
-        - 新增胶皮
+        - 新增套胶
         - 新增底板
-        - 修改已有胶皮
+        - 修改已有套胶
         - 修改已有底板
     validations:
       required: true
@@ -42,10 +42,10 @@ body:
     id: specs
     attributes:
       label: 规格和标签
-      description: 胶皮可写厚度、硬度、胶面、海绵、正反手；底板可写结构、重量、速度、手感。
+      description: 套胶可写厚度、胶面、海绵、正反手，硬度只写商品内部标注；底板可写结构、重量、速度、手感、是否有直板柄。
       placeholder: |
         厚度：
-        硬度：
+        商品内部硬度：
         胶面/海绵：
         底板结构：
         适合打法：

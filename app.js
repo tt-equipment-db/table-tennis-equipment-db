@@ -5,7 +5,6 @@ const filterConfig = {
     { key: "rubberType", label: "胶面", color: "rose" },
     { key: "sponge", label: "海绵", color: "amber" },
     { key: "thickness", label: "厚度", color: "teal" },
-    { key: "hardness", label: "硬度", color: "slate" },
     { key: "style", label: "打法", color: "blue" },
     { key: "origin", label: "产地", color: "green" },
     { key: "price", label: "价格带", color: "rose", values: ["50内", "80内", "百元左右", "150左右", "200左右", "300左右", "300以上"] }
@@ -15,7 +14,7 @@ const filterConfig = {
     { key: "structure", label: "结构", color: "green" },
     { key: "material", label: "材料", color: "rose" },
     { key: "position", label: "打法", color: "amber" },
-    { key: "handle", label: "手柄", color: "teal" },
+    { key: "handle", label: "手柄", color: "teal", values: ["横板", "直板", "FL", "ST", "CS"] },
     { key: "speed", label: "速度", color: "slate" },
     { key: "feel", label: "手感", color: "blue" },
     { key: "weight", label: "重量感", color: "green", values: ["偏轻", "常规", "偏重"] },
@@ -114,7 +113,7 @@ const commentEditCooldownMs = 60 * 60 * 1000;
 const commentPostCooldownMs = 60 * 1000;
 const commentsPerPage = 10;
 const hotCommentsCount = 3;
-const assetVersion = "ratings-22";
+const assetVersion = "ratings-23";
 const languageStorageKey = "tt-equipment-language";
 
 const englishText = {
@@ -122,9 +121,11 @@ const englishText = {
   "搜索品牌、型号、系列...": "Search brand, model, series...",
   "器材类型": "Equipment type",
   "胶皮": "Rubbers",
+  "套胶": "Rubbers",
   "底板": "Blades",
   "筛选条件": "Filters",
   "胶皮筛选": "Rubber Filters",
+  "套胶筛选": "Rubber Filters",
   "底板筛选": "Blade Filters",
   "同一项目可多选，不同项目会叠加筛选。": "Select multiple tags in one group; different groups narrow results together.",
   "清空筛选": "Clear",
@@ -146,6 +147,8 @@ const englishText = {
   "结构": "Structure",
   "材料": "Material",
   "手柄": "Handle",
+  "横板": "Shakehand",
+  "直板": "Penhold",
   "速度": "Speed",
   "手感": "Feel",
   "重量感": "Weight feel",
@@ -391,7 +394,7 @@ function bindEvents() {
 
 function render() {
   applyLanguageChrome();
-  nodes.filterTitle.textContent = t(state.type === "rubbers" ? "胶皮筛选" : "底板筛选");
+  nodes.filterTitle.textContent = t(state.type === "rubbers" ? "套胶筛选" : "底板筛选");
   renderFilters();
   renderProducts();
 }
@@ -433,7 +436,7 @@ function applyLanguageChrome() {
   }
 
   nodes.tabs.forEach((tab) => {
-    tab.textContent = t(tab.dataset.type === "rubbers" ? "胶皮" : "底板");
+    tab.textContent = t(tab.dataset.type === "rubbers" ? "套胶" : "底板");
   });
 
   const sortLabel = document.querySelector(".sort-box span");
