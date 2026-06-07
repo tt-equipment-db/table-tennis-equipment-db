@@ -20,6 +20,16 @@ const filterConfig = {
     { key: "weight", label: "重量感", color: "green", values: ["偏轻", "常规", "偏重"] },
     { key: "origin", label: "产地", color: "rose" },
     { key: "price", label: "价格带", color: "amber", values: ["100内", "200内", "300左右", "500左右", "800左右", "千元左右", "千元以上"] }
+  ],
+  boosters: [
+    { key: "brand", label: "品牌", color: "blue" },
+    { key: "boosterType", label: "类型", color: "green" },
+    { key: "effect", label: "主要效果", color: "rose" },
+    { key: "drying", label: "晾干速度", color: "amber" },
+    { key: "duration", label: "持久时间", color: "teal" },
+    { key: "volume", label: "规格", color: "slate" },
+    { key: "origin", label: "产地", color: "green" },
+    { key: "price", label: "价格带", color: "rose", values: ["50内", "80内", "百元左右", "150左右", "200左右", "300左右"] }
   ]
 };
 
@@ -50,6 +60,16 @@ const fuzzyRangeConfig = {
       "常规": { min: 82, max: 90 },
       "偏重": { min: 88 }
     }
+  },
+  boosters: {
+    price: {
+      "50内": { max: 60 },
+      "80内": { min: 45, max: 95 },
+      "百元左右": { min: 70, max: 130 },
+      "150左右": { min: 120, max: 190 },
+      "200左右": { min: 170, max: 250 },
+      "300左右": { min: 240, max: 360 }
+    }
   }
 };
 
@@ -68,10 +88,30 @@ const fieldLabels = {
   handle: "手柄",
   speed: "速度",
   feel: "手感",
-  weight: "重量"
+  weight: "重量",
+  boosterType: "类型",
+  effect: "主要效果",
+  drying: "晾干速度",
+  duration: "持久时间",
+  volume: "规格"
 };
 
 const supabaseConfig = window.SUPABASE_CONFIG || {};
+const priceRatingDimension = {
+  key: "user_price",
+  label: "社区价格",
+  low: "0元",
+  high: "600元",
+  centerLabel: "300元",
+  min: 0,
+  max: 600,
+  step: 10,
+  defaultValue: 0,
+  format: "price",
+  wide: true,
+  optionalDb: true
+};
+
 const rubberRatingDimensions = [
   { key: "weight", label: "重量", low: "偏轻", high: "偏重" },
   { key: "hardness", label: "硬度", low: "柔软", high: "偏硬" },
@@ -85,7 +125,8 @@ const rubberRatingDimensions = [
   { key: "defense_borrow", label: "防守借力", low: "普通", high: "容易" },
   { key: "second_bounce", label: "二跳变速", low: "普通", high: "明显", highNote: "前冲、下扎" },
   { key: "topsheet_life", label: "胶面寿命", low: "短", high: "长", lowNote: "易起鳞、氧化" },
-  { key: "sponge_life", label: "海绵寿命", low: "短", high: "长", lowNote: "易衰减" }
+  { key: "sponge_life", label: "海绵寿命", low: "短", high: "长", lowNote: "易衰减" },
+  priceRatingDimension
 ];
 
 const bladeRatingDimensions = [
@@ -100,7 +141,16 @@ const bladeRatingDimensions = [
   { key: "control_feel", label: "控制感", low: "活跃敏感", high: "稳定跟手" },
   { key: "short_game", label: "台内小球", low: "容易冒高/出台", high: "舒适" },
   { key: "defense", label: "防守", low: "稳定卸力", high: "反弹借力" },
-  { key: "balance", label: "重心", low: "靠柄", high: "拍头" }
+  { key: "balance", label: "重心", low: "靠柄", high: "拍头" },
+  priceRatingDimension
+];
+
+const boosterRatingDimensions = [
+  { key: "softening", label: "软化", low: "弱", high: "强", centerLabel: "2.5", min: 0, max: 5, step: 1, defaultValue: 0, format: "level", optionalDb: true },
+  { key: "elasticity_boost", label: "增弹", low: "弱", high: "强", centerLabel: "2.5", min: 0, max: 5, step: 1, defaultValue: 0, format: "level", optionalDb: true },
+  { key: "drying_speed", label: "晾干速度", low: "慢", high: "快", centerLabel: "2.5", min: 0, max: 5, step: 1, defaultValue: 0, format: "level", optionalDb: true },
+  { key: "duration_score", label: "持久时间", low: "短", high: "长", centerLabel: "2.5", min: 0, max: 5, step: 1, defaultValue: 0, format: "level", optionalDb: true },
+  priceRatingDimension
 ];
 
 const ratingStorageKey = "tt-equipment-ratings";
@@ -113,7 +163,7 @@ const commentEditCooldownMs = 60 * 60 * 1000;
 const commentPostCooldownMs = 60 * 1000;
 const commentsPerPage = 10;
 const hotCommentsCount = 3;
-const assetVersion = "ratings-23";
+const assetVersion = "ratings-24";
 const languageStorageKey = "tt-equipment-language";
 
 const englishText = {
@@ -123,10 +173,12 @@ const englishText = {
   "胶皮": "Rubbers",
   "套胶": "Rubbers",
   "底板": "Blades",
+  "膨胀油": "Boosters",
   "筛选条件": "Filters",
   "胶皮筛选": "Rubber Filters",
   "套胶筛选": "Rubber Filters",
   "底板筛选": "Blade Filters",
+  "膨胀油筛选": "Booster Filters",
   "同一项目可多选，不同项目会叠加筛选。": "Select multiple tags in one group; different groups narrow results together.",
   "清空筛选": "Clear",
   "排序": "Sort",
@@ -149,6 +201,10 @@ const englishText = {
   "手柄": "Handle",
   "横板": "Shakehand",
   "直板": "Penhold",
+  "主要效果": "Main effect",
+  "晾干速度": "Drying speed",
+  "持久时间": "Duration",
+  "规格": "Size",
   "速度": "Speed",
   "手感": "Feel",
   "重量感": "Weight feel",
@@ -168,6 +224,9 @@ const englishText = {
   "二跳变速": "Second-bounce change",
   "胶面寿命": "Top-sheet life",
   "海绵寿命": "Sponge life",
+  "社区价格": "Community price",
+  "软化": "Softening",
+  "增弹": "Elasticity boost",
   "手感反馈": "Feedback",
   "近台快带": "Close-table block",
   "台内小球": "Short game",
@@ -194,6 +253,10 @@ const englishText = {
   "明显": "Obvious",
   "短": "Short",
   "长": "Long",
+  "弱": "Weak",
+  "强": "Strong",
+  "慢": "Slow",
+  "快": "Fast",
   "轻巧": "Light",
   "厚重": "Heavy",
   "偏软": "Soft",
@@ -221,7 +284,8 @@ const englishText = {
   "返回列表": "Back to list",
   "标签信息": "Tags",
   "社区主观体感": "Community Feel",
-  "这些不是好坏分数，而是体感倾向。只选择你有把握的项目，未选择的项目不会进入统计。": "These are feel tendencies, not good/bad scores. Only rate items you know; skipped items are not counted.",
+  "社区评分与体感": "Community Ratings",
+  "这些不是好坏分数，而是体感倾向。只选择你有把握的项目，未选择的项目不会进入统计。": "These are community tendencies and ratings. Only rate items you know; skipped items are not counted.",
   "正在读取评分...": "Loading ratings...",
   "暂无": "None",
   "暂无样本": "No samples",
@@ -236,6 +300,7 @@ const englishText = {
   "已保存到在线统计": "Saved to online stats",
   "已保存为本机预览": "Saved as local preview",
   "提交失败，请检查 Supabase 配置": "Submit failed; please check Supabase configuration",
+  "已保存，部分新评分需更新数据库后启用": "Saved; some new rating fields need a database upgrade",
   "在线统计读取失败，暂用本机预览": "Online stats failed; using local preview",
   "暂无评分，等第一个人来投": "No ratings yet",
   "在线统计已同步": "Online stats synced",
@@ -304,6 +369,27 @@ const englishText = {
   "300以上": "300+",
   "千元以上": "1000+",
   "常规": "Regular",
+  "打底油": "Priming oil",
+  "软化": "Softening",
+  "增弹": "Elasticity",
+  "持久": "Long-lasting",
+  "温和": "Mild",
+  "强力": "Strong",
+  "训练": "Training",
+  "比赛": "Match",
+  "慢干": "Slow-drying",
+  "中速": "Medium",
+  "快干": "Fast-drying",
+  "短效": "Short",
+  "中效": "Medium",
+  "长效": "Long",
+  "50ml": "50 ml",
+  "60ml": "60 ml",
+  "80ml": "80 ml",
+  "100ml": "100 ml",
+  "150ml": "150 ml",
+  "200ml": "200 ml",
+  "250ml": "250 ml",
   "中国": "China",
   "日本": "Japan",
   "德国": "Germany",
@@ -318,7 +404,7 @@ const chineseText = Object.fromEntries(Object.entries(englishText).map(([zh, en]
 
 const state = {
   type: "rubbers",
-  data: { rubbers: [], blades: [] },
+  data: { rubbers: [], blades: [], boosters: [] },
   selected: {},
   expandedFilters: {},
   search: "",
@@ -394,7 +480,7 @@ function bindEvents() {
 
 function render() {
   applyLanguageChrome();
-  nodes.filterTitle.textContent = t(state.type === "rubbers" ? "套胶筛选" : "底板筛选");
+  nodes.filterTitle.textContent = t(getTypeLabel(state.type, "filter"));
   renderFilters();
   renderProducts();
 }
@@ -436,7 +522,7 @@ function applyLanguageChrome() {
   }
 
   nodes.tabs.forEach((tab) => {
-    tab.textContent = t(tab.dataset.type === "rubbers" ? "套胶" : "底板");
+    tab.textContent = t(getTypeLabel(tab.dataset.type));
   });
 
   const sortLabel = document.querySelector(".sort-box span");
@@ -453,6 +539,15 @@ function applyLanguageChrome() {
   [...nodes.sortSelect.options].forEach((option) => {
     option.textContent = t(sortLabels[option.value] || option.textContent);
   });
+}
+
+function getTypeLabel(type, variant = "tab") {
+  const labels = {
+    rubbers: { tab: "套胶", filter: "套胶筛选" },
+    blades: { tab: "底板", filter: "底板筛选" },
+    boosters: { tab: "膨胀油", filter: "膨胀油筛选" }
+  };
+  return labels[type]?.[variant] || labels.rubbers[variant];
 }
 
 function renderFilters() {
@@ -577,7 +672,7 @@ function renderRoute() {
     return;
   }
 
-  const nextType = state.data.rubbers.some((item) => item.id === product.id) ? "rubbers" : "blades";
+  const nextType = getProductType(product) || "rubbers";
   if (state.type !== nextType) {
     state.type = nextType;
     state.selected = {};
@@ -645,7 +740,7 @@ function renderDetail(product) {
     <section class="detail-section rating-panel" id="ratingPanel" data-equipment-id="${escapeHtml(product.id)}">
       <div class="section-title-row">
         <div>
-          <h3>${th("社区主观体感")}</h3>
+          <h3>${th("社区评分与体感")}</h3>
           <p>${th("这些不是好坏分数，而是体感倾向。只选择你有把握的项目，未选择的项目不会进入统计。")}</p>
         </div>
         <span class="rating-status" id="ratingStatus">${th("正在读取评分...")}</span>
@@ -734,7 +829,7 @@ function getProductImages(product) {
 
 function renderRatingStatRow(item) {
   return `
-    <div class="rating-stat-row" data-rating-key="${item.key}">
+    <div class="rating-stat-row${item.wide ? " is-wide" : ""}" data-rating-key="${item.key}">
       <div class="rating-stat-head">
         <strong>${th(item.label)}</strong>
         <span class="rating-stat-score">
@@ -755,23 +850,27 @@ function renderRatingStatRow(item) {
 }
 
 function renderRatingInput(item) {
-  const centerValue = 0;
+  const centerValue = item.defaultValue ?? 0;
+  const min = item.min ?? -5;
+  const max = item.max ?? 5;
+  const step = item.step ?? 1;
+  const centerLabel = item.centerLabel ?? "0";
   return `
-    <div class="rating-input-row is-unrated" data-rating-input-row="${item.key}">
+    <div class="rating-input-row${item.wide ? " is-wide" : ""} is-unrated" data-rating-input-row="${item.key}">
       <div class="rating-input-top">
         <span class="rating-input-label">${th(item.label)}</span>
         <button class="rating-toggle" type="button" data-rating-toggle="${item.key}" aria-pressed="false">${th("弃评")}</button>
       </div>
       <div class="rating-input-axis">
         <span class="rating-input-side is-low">${renderRatingEndpoint(item.low, item.lowNote)}</span>
-        <span class="rating-input-zero">0</span>
+        <span class="rating-input-zero">${escapeHtml(centerLabel)}</span>
         <span class="rating-input-side is-high">${renderRatingEndpoint(item.high, item.highNote, "right")}</span>
       </div>
       <div class="rating-input-control">
         <div class="rating-input-range">
-          <input name="${item.key}" type="range" min="-5" max="5" step="1" value="${centerValue}">
+          <input name="${item.key}" type="range" min="${min}" max="${max}" step="${step}" value="${centerValue}">
         </div>
-        <strong data-input-value="${item.key}">${formatRatingValue(centerValue)}</strong>
+        <strong data-input-value="${item.key}">${formatRatingValue(centerValue, item)}</strong>
       </div>
     </div>
   `;
@@ -779,10 +878,10 @@ function renderRatingInput(item) {
 
 function renderRatingEndpoint(label, note, side = "left") {
   if (!note) {
-    return escapeHtml(label);
+    return th(label);
   }
   const noteText = `（${note}）`;
-  return `${escapeHtml(label)}<small>${escapeHtml(noteText)}</small>`;
+  return `${th(label)}<small>${th(noteText)}</small>`;
 }
 
 function initRatingPanel(product) {
@@ -847,9 +946,11 @@ function initRatingPanel(product) {
     status.textContent = t("正在提交...");
 
     try {
-      await saveRating(product.id, values);
+      const saveResult = await saveRating(product.id, values, ratingDimensions);
       saveLocalRating(product.id, values);
-      status.textContent = t(isSupabaseReady() ? "已保存到在线统计" : "已保存为本机预览");
+      status.textContent = saveResult?.partial
+        ? t("已保存，部分新评分需更新数据库后启用")
+        : t(isSupabaseReady() ? "已保存到在线统计" : "已保存为本机预览");
       await refreshRatingStats(product.id);
       closeEditor();
     } catch (error) {
@@ -866,7 +967,9 @@ function initRatingPanel(product) {
 function updateRatingInputValue(input) {
   const output = nodes.detailView.querySelector(`[data-input-value="${input.name}"]`);
   if (output) {
-    output.textContent = formatRatingValue(input.value);
+    const product = findProduct(nodes.detailView.querySelector("#ratingPanel")?.dataset.equipmentId);
+    const item = getRatingDimensions(product).find((dimension) => dimension.key === input.name);
+    output.textContent = formatRatingValue(input.value, item);
   }
 }
 
@@ -953,9 +1056,10 @@ function renderRatingStats(rows, ratingDimensions) {
     }
 
     const average = scoredRows.reduce((sum, record) => sum + Number(record[item.key]), 0) / scoredRows.length;
-    const cappedAverage = Math.max(-5, Math.min(5, average));
-    const percent = Math.max(0, Math.min(100, (cappedAverage + 5) * 10));
-    value.textContent = formatRatingValue(cappedAverage);
+    const { min, max } = getRatingRange(item);
+    const cappedAverage = Math.max(min, Math.min(max, average));
+    const percent = getRatingPercent(item, cappedAverage);
+    value.textContent = formatRatingValue(cappedAverage, item);
     if (count) {
       count.textContent = state.lang === "en" ? `${scoredRows.length}` : `${scoredRows.length}人`;
     }
@@ -979,16 +1083,33 @@ async function fetchRatings(productId) {
   });
 
   if (!response.ok) {
+    if (response.status === 400 && ratingDimensions.some((item) => item.optionalDb)) {
+      return fetchRatingsWithDimensions(product, ratingDimensions.filter((item) => !item.optionalDb));
+    }
     throw new Error(`Supabase select failed: ${response.status}`);
   }
 
   return response.json();
 }
 
-async function saveRating(productId, values) {
+async function fetchRatingsWithDimensions(product, ratingDimensions) {
+  if (!ratingDimensions.length) {
+    return [];
+  }
+  const endpoint = `${getSupabaseBaseUrl()}/${encodeURIComponent(getRatingsTable())}?${buildEquipmentIdFilter(product)}&select=${ratingDimensions.map((item) => item.key).join(",")}`;
+  const response = await fetch(endpoint, {
+    headers: getSupabaseHeaders()
+  });
+  if (!response.ok) {
+    throw new Error(`Supabase fallback select failed: ${response.status}`);
+  }
+  return response.json();
+}
+
+async function saveRating(productId, values, ratingDimensions = []) {
   if (!isSupabaseReady()) {
     saveLocalRating(productId, values);
-    return;
+    return { partial: false };
   }
 
   const payload = {
@@ -1010,28 +1131,60 @@ async function saveRating(productId, values) {
   });
 
   if (!response.ok) {
+    if (response.status === 400 && ratingDimensions.some((item) => item.optionalDb)) {
+      const fallbackKeys = new Set(ratingDimensions.filter((item) => !item.optionalDb).map((item) => item.key));
+      const fallbackValues = Object.fromEntries(Object.entries(values).filter(([key]) => fallbackKeys.has(key)));
+      if (Object.keys(fallbackValues).length) {
+        await saveRating(productId, fallbackValues, ratingDimensions.filter((item) => !item.optionalDb));
+      }
+      return { partial: true };
+    }
     throw new Error(`Supabase upsert failed: ${response.status}`);
   }
+  return { partial: false };
 }
 
 function getRatingDimensions(product) {
   if (!product) {
     return [];
   }
-  const isRubber = state.data.rubbers.some((item) => item.id === product.id);
-  if (isRubber) {
+  const type = getProductType(product);
+  if (type === "rubbers") {
     return rubberRatingDimensions;
   }
-  const isBlade = state.data.blades.some((item) => item.id === product.id);
-  return isBlade ? bladeRatingDimensions : [];
+  if (type === "blades") {
+    return bladeRatingDimensions;
+  }
+  return type === "boosters" ? boosterRatingDimensions : [];
 }
 
 function isScoredValue(value) {
   return value !== null && value !== undefined && value !== "" && Number.isFinite(Number(value));
 }
 
-function formatRatingValue(value) {
+function getRatingRange(item = {}) {
+  return {
+    min: item.min ?? -5,
+    max: item.max ?? 5
+  };
+}
+
+function getRatingPercent(item, value) {
+  const { min, max } = getRatingRange(item);
+  if (max === min) {
+    return 50;
+  }
+  return Math.max(0, Math.min(100, ((Number(value) - min) / (max - min)) * 100));
+}
+
+function formatRatingValue(value, item = {}) {
   const number = Number(value);
+  if (item.format === "price") {
+    return `¥${Math.round(number)}`;
+  }
+  if (item.format === "level") {
+    return Number.isInteger(number) ? String(number) : number.toFixed(1);
+  }
   if (number > 0) {
     return `+${Number.isInteger(number) ? number : number.toFixed(1)}`;
   }
@@ -1635,7 +1788,20 @@ function enrichCommentsWithVotes(comments, votes) {
 }
 
 function findProduct(id) {
-  return [...state.data.rubbers, ...state.data.blades].find((item) => item.id === id || (item.legacyIds || []).includes(id));
+  return getAllProducts().find((item) => item.id === id || (item.legacyIds || []).includes(id));
+}
+
+function getAllProducts() {
+  return [...state.data.rubbers, ...state.data.blades, ...(state.data.boosters || [])];
+}
+
+function getProductType(product) {
+  if (!product) {
+    return "";
+  }
+  return ["rubbers", "blades", "boosters"].find((type) =>
+    (state.data[type] || []).some((item) => item.id === product.id)
+  ) || "";
 }
 
 function getProductIds(product) {

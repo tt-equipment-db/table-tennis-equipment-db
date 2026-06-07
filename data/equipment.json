@@ -11731,5 +11731,1517 @@
         "https://revspin.net/assets/table-tennis-images/blades/loki-kirin-k7.jpg"
       ]
     }
+  ],
+  "boosters": [
+    {
+      "id": "booster-001-haifu-seamoon",
+      "name": "海上明月膨胀油",
+      "brand": "海夫",
+      "brandEn": "Haifu",
+      "series": "Seamoon",
+      "price": 85,
+      "priceMin": 55,
+      "priceMax": 115,
+      "currency": "CNY",
+      "image": "https://placehold.co/720x480/2563eb/ffffff?text=Haifu%20%E6%B5%B7%E4%B8%8A%E6%98%8E%E6%9C%88%E8%86%A8%E8%83%80%E6%B2%B9",
+      "description": "常见国产膨胀油，整体偏均衡，常用于国产粘套打底和日常维护。",
+      "tags": {
+        "brand": [
+          "海夫",
+          "Haifu"
+        ],
+        "boosterType": [
+          "膨胀油",
+          "打底油"
+        ],
+        "effect": [
+          "软化",
+          "增弹",
+          "持久"
+        ],
+        "drying": [
+          "中速"
+        ],
+        "duration": [
+          "中效"
+        ],
+        "volume": [
+          "60ml",
+          "100ml"
+        ],
+        "origin": [
+          "中国"
+        ]
+      },
+      "sources": [
+        "社区初始资料，待补充官网/店铺/评测来源"
+      ],
+      "contributors": [
+        "Codex seed data"
+      ]
+    },
+    {
+      "id": "booster-002-haifu-seamoon-national-yellow",
+      "name": "海上明月国套黄油",
+      "brand": "海夫",
+      "brandEn": "Haifu",
+      "series": "Seamoon National",
+      "price": 130,
+      "priceMin": 85,
+      "priceMax": 175,
+      "currency": "CNY",
+      "image": "https://placehold.co/720x480/0f766e/ffffff?text=Haifu%20%E6%B5%B7%E4%B8%8A%E6%98%8E%E6%9C%88%E5%9B%BD%E5%A5%97%E9%BB%84%E6%B2%B9",
+      "description": "海夫海上明月的高阶版本，偏重持续性和支撑感，价格通常高于普通版。",
+      "tags": {
+        "brand": [
+          "海夫",
+          "Haifu"
+        ],
+        "boosterType": [
+          "膨胀油",
+          "打底油"
+        ],
+        "effect": [
+          "软化",
+          "增弹",
+          "比赛"
+        ],
+        "drying": [
+          "中速"
+        ],
+        "duration": [
+          "长效"
+        ],
+        "volume": [
+          "60ml",
+          "100ml"
+        ],
+        "origin": [
+          "中国"
+        ]
+      },
+      "sources": [
+        "社区初始资料，待补充官网/店铺/评测来源"
+      ],
+      "contributors": [
+        "Codex seed data"
+      ]
+    },
+    {
+      "id": "booster-003-haifu-seamoon-black",
+      "name": "海上明月黑油",
+      "brand": "海夫",
+      "brandEn": "Haifu",
+      "series": "Seamoon",
+      "price": 120,
+      "priceMin": 75,
+      "priceMax": 165,
+      "currency": "CNY",
+      "image": "https://placehold.co/720x480/be123c/ffffff?text=Haifu%20%E6%B5%B7%E4%B8%8A%E6%98%8E%E6%9C%88%E9%BB%91%E6%B2%B9",
+      "description": "偏强力和持久取向的膨胀油，适合需要明显软化和增弹的配置。",
+      "tags": {
+        "brand": [
+          "海夫",
+          "Haifu"
+        ],
+        "boosterType": [
+          "膨胀油"
+        ],
+        "effect": [
+          "强力",
+          "增弹",
+          "持久"
+        ],
+        "drying": [
+          "慢干"
+        ],
+        "duration": [
+          "长效"
+        ],
+        "volume": [
+          "60ml",
+          "100ml"
+        ],
+        "origin": [
+          "中国"
+        ]
+      },
+      "sources": [
+        "社区初始资料，待补充官网/店铺/评测来源"
+      ],
+      "contributors": [
+        "Codex seed data"
+      ]
+    },
+    {
+      "id": "booster-004-haifu-seamoon-white",
+      "name": "海上明月白油",
+      "brand": "海夫",
+      "brandEn": "Haifu",
+      "series": "Seamoon",
+      "price": 95,
+      "priceMin": 60,
+      "priceMax": 130,
+      "currency": "CNY",
+      "image": "https://placehold.co/720x480/b45309/ffffff?text=Haifu%20%E6%B5%B7%E4%B8%8A%E6%98%8E%E6%9C%88%E7%99%BD%E6%B2%B9",
+      "description": "偏温和的海夫膨胀油版本，适合不想让套胶变化过大的用户。",
+      "tags": {
+        "brand": [
+          "海夫",
+          "Haifu"
+        ],
+        "boosterType": [
+          "膨胀油"
+        ],
+        "effect": [
+          "温和",
+          "软化"
+        ],
+        "drying": [
+          "中速"
+        ],
+        "duration": [
+          "中效"
+        ],
+        "volume": [
+          "60ml"
+        ],
+        "origin": [
+          "中国"
+        ]
+      },
+      "sources": [
+        "社区初始资料，待补充官网/店铺/评测来源"
+      ],
+      "contributors": [
+        "Codex seed data"
+      ]
+    },
+    {
+      "id": "booster-005-haifu-blue-whale-oil",
+      "name": "蓝鲸打底油",
+      "brand": "海夫",
+      "brandEn": "Haifu",
+      "series": "Blue Whale",
+      "price": 90,
+      "priceMin": 55,
+      "priceMax": 125,
+      "currency": "CNY",
+      "image": "https://placehold.co/720x480/4f46e5/ffffff?text=Haifu%20%E8%93%9D%E9%B2%B8%E6%89%93%E5%BA%95%E6%B2%B9",
+      "description": "蓝鲸系列相关打底油，常见于国产粘套打底讨论中。",
+      "tags": {
+        "brand": [
+          "海夫",
+          "Haifu"
+        ],
+        "boosterType": [
+          "打底油",
+          "膨胀油"
+        ],
+        "effect": [
+          "增弹",
+          "训练"
+        ],
+        "drying": [
+          "中速"
+        ],
+        "duration": [
+          "中效"
+        ],
+        "volume": [
+          "60ml"
+        ],
+        "origin": [
+          "中国"
+        ]
+      },
+      "sources": [
+        "社区初始资料，待补充官网/店铺/评测来源"
+      ],
+      "contributors": [
+        "Codex seed data"
+      ]
+    },
+    {
+      "id": "booster-006-haifu-speed-oil",
+      "name": "海夫速度油",
+      "brand": "海夫",
+      "brandEn": "Haifu",
+      "series": "Speed Oil",
+      "price": 70,
+      "priceMin": 40,
+      "priceMax": 100,
+      "currency": "CNY",
+      "image": "https://placehold.co/720x480/0f172a/ffffff?text=Haifu%20%E6%B5%B7%E5%A4%AB%E9%80%9F%E5%BA%A6%E6%B2%B9",
+      "description": "偏入门和训练取向的速度油，适合低成本尝试打底。",
+      "tags": {
+        "brand": [
+          "海夫",
+          "Haifu"
+        ],
+        "boosterType": [
+          "膨胀油"
+        ],
+        "effect": [
+          "增弹",
+          "训练"
+        ],
+        "drying": [
+          "快干"
+        ],
+        "duration": [
+          "短效"
+        ],
+        "volume": [
+          "60ml"
+        ],
+        "origin": [
+          "中国"
+        ]
+      },
+      "sources": [
+        "社区初始资料，待补充官网/店铺/评测来源"
+      ],
+      "contributors": [
+        "Codex seed data"
+      ]
+    },
+    {
+      "id": "booster-007-falco-tempo-long",
+      "name": "Tempo Long Booster",
+      "brand": "法尔克",
+      "brandEn": "Falco",
+      "series": "Tempo",
+      "price": 160,
+      "priceMin": 105,
+      "priceMax": 215,
+      "currency": "CNY",
+      "image": "https://placehold.co/720x480/16a34a/ffffff?text=Falco%20Tempo%20Long%20Booster",
+      "description": "海外常见长效膨胀油，主打较长持续时间和稳定膨胀效果。",
+      "tags": {
+        "brand": [
+          "法尔克",
+          "Falco"
+        ],
+        "boosterType": [
+          "膨胀油"
+        ],
+        "effect": [
+          "增弹",
+          "持久"
+        ],
+        "drying": [
+          "慢干"
+        ],
+        "duration": [
+          "长效"
+        ],
+        "volume": [
+          "150ml"
+        ],
+        "origin": [
+          "比利时"
+        ]
+      },
+      "sources": [
+        "Falco Tempo Long Booster product listings"
+      ],
+      "contributors": [
+        "Codex seed data"
+      ]
+    },
+    {
+      "id": "booster-008-falco-tempo-platinum",
+      "name": "Tempo Platinum Booster",
+      "brand": "法尔克",
+      "brandEn": "Falco",
+      "series": "Tempo",
+      "price": 190,
+      "priceMin": 125,
+      "priceMax": 255,
+      "currency": "CNY",
+      "image": "https://placehold.co/720x480/7c3aed/ffffff?text=Falco%20Tempo%20Platinum%20Booster",
+      "description": "Falco Tempo 系列高阶膨胀油，偏强力和长效取向。",
+      "tags": {
+        "brand": [
+          "法尔克",
+          "Falco"
+        ],
+        "boosterType": [
+          "膨胀油"
+        ],
+        "effect": [
+          "强力",
+          "增弹"
+        ],
+        "drying": [
+          "慢干"
+        ],
+        "duration": [
+          "长效"
+        ],
+        "volume": [
+          "150ml"
+        ],
+        "origin": [
+          "比利时"
+        ]
+      },
+      "sources": [
+        "Falco Tempo Platinum Booster product listings"
+      ],
+      "contributors": [
+        "Codex seed data"
+      ]
+    },
+    {
+      "id": "booster-009-falco-tempo-unlimited",
+      "name": "Tempo Unlimited Booster",
+      "brand": "法尔克",
+      "brandEn": "Falco",
+      "series": "Tempo",
+      "price": 210,
+      "priceMin": 140,
+      "priceMax": 280,
+      "currency": "CNY",
+      "image": "https://placehold.co/720x480/2563eb/ffffff?text=Falco%20Tempo%20Unlimited%20Booster",
+      "description": "Tempo 系列更偏持久和高弹的版本，价格通常较高。",
+      "tags": {
+        "brand": [
+          "法尔克",
+          "Falco"
+        ],
+        "boosterType": [
+          "膨胀油"
+        ],
+        "effect": [
+          "强力",
+          "持久"
+        ],
+        "drying": [
+          "慢干"
+        ],
+        "duration": [
+          "长效"
+        ],
+        "volume": [
+          "150ml"
+        ],
+        "origin": [
+          "比利时"
+        ]
+      },
+      "sources": [
+        "社区初始资料，待补充官网/店铺/评测来源"
+      ],
+      "contributors": [
+        "Codex seed data"
+      ]
+    },
+    {
+      "id": "booster-010-falco-life-expander",
+      "name": "Life Expander",
+      "brand": "法尔克",
+      "brandEn": "Falco",
+      "series": "Life Expander",
+      "price": 130,
+      "priceMin": 85,
+      "priceMax": 175,
+      "currency": "CNY",
+      "image": "https://placehold.co/720x480/0f766e/ffffff?text=Falco%20Life%20Expander",
+      "description": "更偏胶皮活化和保养的油类产品，效果相对温和。",
+      "tags": {
+        "brand": [
+          "法尔克",
+          "Falco"
+        ],
+        "boosterType": [
+          "保养油",
+          "膨胀油"
+        ],
+        "effect": [
+          "软化",
+          "温和"
+        ],
+        "drying": [
+          "快干"
+        ],
+        "duration": [
+          "中效"
+        ],
+        "volume": [
+          "100ml"
+        ],
+        "origin": [
+          "比利时"
+        ]
+      },
+      "sources": [
+        "社区初始资料，待补充官网/店铺/评测来源"
+      ],
+      "contributors": [
+        "Codex seed data"
+      ]
+    },
+    {
+      "id": "booster-011-revolution-no3-booster",
+      "name": "No.3 Booster",
+      "brand": "Revolution No.3",
+      "brandEn": "Revolution No.3",
+      "series": "No.3",
+      "price": 150,
+      "priceMin": 95,
+      "priceMax": 205,
+      "currency": "CNY",
+      "image": "https://placehold.co/720x480/be123c/ffffff?text=Revolution%20No.3%20No.3%20Booster",
+      "description": "Revolution No.3 系列常见膨胀油，定位在性能和易用性之间。",
+      "tags": {
+        "brand": [
+          "Revolution No.3",
+          "Revolution No.3"
+        ],
+        "boosterType": [
+          "膨胀油"
+        ],
+        "effect": [
+          "增弹",
+          "软化"
+        ],
+        "drying": [
+          "中速"
+        ],
+        "duration": [
+          "中效"
+        ],
+        "volume": [
+          "100ml"
+        ],
+        "origin": [
+          "韩国"
+        ]
+      },
+      "sources": [
+        "社区初始资料，待补充官网/店铺/评测来源"
+      ],
+      "contributors": [
+        "Codex seed data"
+      ]
+    },
+    {
+      "id": "booster-012-revolution-no3-bio-booster",
+      "name": "No.3 Bio Booster",
+      "brand": "Revolution No.3",
+      "brandEn": "Revolution No.3",
+      "series": "No.3",
+      "price": 170,
+      "priceMin": 110,
+      "priceMax": 230,
+      "currency": "CNY",
+      "image": "https://placehold.co/720x480/b45309/ffffff?text=Revolution%20No.3%20No.3%20Bio%20Booster",
+      "description": "偏温和取向的 No.3 膨胀油版本，适合希望控制膨胀幅度的用户。",
+      "tags": {
+        "brand": [
+          "Revolution No.3",
+          "Revolution No.3"
+        ],
+        "boosterType": [
+          "膨胀油"
+        ],
+        "effect": [
+          "温和",
+          "增弹"
+        ],
+        "drying": [
+          "中速"
+        ],
+        "duration": [
+          "中效"
+        ],
+        "volume": [
+          "100ml"
+        ],
+        "origin": [
+          "韩国"
+        ]
+      },
+      "sources": [
+        "社区初始资料，待补充官网/店铺/评测来源"
+      ],
+      "contributors": [
+        "Codex seed data"
+      ]
+    },
+    {
+      "id": "booster-013-dianchi-booster",
+      "name": "典驰膨胀油",
+      "brand": "典驰",
+      "brandEn": "Dianchi",
+      "series": "Booster",
+      "price": 75,
+      "priceMin": 45,
+      "priceMax": 105,
+      "currency": "CNY",
+      "image": "https://placehold.co/720x480/4f46e5/ffffff?text=Dianchi%20%E5%85%B8%E9%A9%B0%E8%86%A8%E8%83%80%E6%B2%B9",
+      "description": "国产常见膨胀油，价格亲民，常用于入门尝试和日常训练。",
+      "tags": {
+        "brand": [
+          "典驰",
+          "Dianchi"
+        ],
+        "boosterType": [
+          "膨胀油"
+        ],
+        "effect": [
+          "增弹",
+          "训练"
+        ],
+        "drying": [
+          "中速"
+        ],
+        "duration": [
+          "中效"
+        ],
+        "volume": [
+          "60ml"
+        ],
+        "origin": [
+          "中国"
+        ]
+      },
+      "sources": [
+        "社区初始资料，待补充官网/店铺/评测来源"
+      ],
+      "contributors": [
+        "Codex seed data"
+      ]
+    },
+    {
+      "id": "booster-014-dianchi-black-oil",
+      "name": "典驰黑油",
+      "brand": "典驰",
+      "brandEn": "Dianchi",
+      "series": "Black Oil",
+      "price": 100,
+      "priceMin": 60,
+      "priceMax": 140,
+      "currency": "CNY",
+      "image": "https://placehold.co/720x480/0f172a/ffffff?text=Dianchi%20%E5%85%B8%E9%A9%B0%E9%BB%91%E6%B2%B9",
+      "description": "偏强力和持久的典驰油类版本，适合追求明显形变的套胶。",
+      "tags": {
+        "brand": [
+          "典驰",
+          "Dianchi"
+        ],
+        "boosterType": [
+          "膨胀油"
+        ],
+        "effect": [
+          "强力",
+          "持久"
+        ],
+        "drying": [
+          "慢干"
+        ],
+        "duration": [
+          "长效"
+        ],
+        "volume": [
+          "60ml",
+          "100ml"
+        ],
+        "origin": [
+          "中国"
+        ]
+      },
+      "sources": [
+        "社区初始资料，待补充官网/店铺/评测来源"
+      ],
+      "contributors": [
+        "Codex seed data"
+      ]
+    },
+    {
+      "id": "booster-015-dianchi-national",
+      "name": "典驰国套油",
+      "brand": "典驰",
+      "brandEn": "Dianchi",
+      "series": "National",
+      "price": 115,
+      "priceMin": 70,
+      "priceMax": 160,
+      "currency": "CNY",
+      "image": "https://placehold.co/720x480/16a34a/ffffff?text=Dianchi%20%E5%85%B8%E9%A9%B0%E5%9B%BD%E5%A5%97%E6%B2%B9",
+      "description": "典驰偏高阶定位的打底油，适合国产粘套和需要更强支撑的配置。",
+      "tags": {
+        "brand": [
+          "典驰",
+          "Dianchi"
+        ],
+        "boosterType": [
+          "打底油",
+          "膨胀油"
+        ],
+        "effect": [
+          "比赛",
+          "增弹"
+        ],
+        "drying": [
+          "中速"
+        ],
+        "duration": [
+          "长效"
+        ],
+        "volume": [
+          "60ml"
+        ],
+        "origin": [
+          "中国"
+        ]
+      },
+      "sources": [
+        "社区初始资料，待补充官网/店铺/评测来源"
+      ],
+      "contributors": [
+        "Codex seed data"
+      ]
+    },
+    {
+      "id": "booster-016-kailin-yellow",
+      "name": "开林黄油",
+      "brand": "开林",
+      "brandEn": "Kailin",
+      "series": "Yellow",
+      "price": 65,
+      "priceMin": 40,
+      "priceMax": 90,
+      "currency": "CNY",
+      "image": "https://placehold.co/720x480/7c3aed/ffffff?text=Kailin%20%E5%BC%80%E6%9E%97%E9%BB%84%E6%B2%B9",
+      "description": "亲民价位国产膨胀油，常见于基础打底和练习配置。",
+      "tags": {
+        "brand": [
+          "开林",
+          "Kailin"
+        ],
+        "boosterType": [
+          "膨胀油"
+        ],
+        "effect": [
+          "软化",
+          "训练"
+        ],
+        "drying": [
+          "中速"
+        ],
+        "duration": [
+          "中效"
+        ],
+        "volume": [
+          "60ml"
+        ],
+        "origin": [
+          "中国"
+        ]
+      },
+      "sources": [
+        "社区初始资料，待补充官网/店铺/评测来源"
+      ],
+      "contributors": [
+        "Codex seed data"
+      ]
+    },
+    {
+      "id": "booster-017-kailin-black",
+      "name": "开林黑油",
+      "brand": "开林",
+      "brandEn": "Kailin",
+      "series": "Black",
+      "price": 85,
+      "priceMin": 50,
+      "priceMax": 120,
+      "currency": "CNY",
+      "image": "https://placehold.co/720x480/2563eb/ffffff?text=Kailin%20%E5%BC%80%E6%9E%97%E9%BB%91%E6%B2%B9",
+      "description": "开林偏强力的黑油版本，侧重增弹和较明显软化。",
+      "tags": {
+        "brand": [
+          "开林",
+          "Kailin"
+        ],
+        "boosterType": [
+          "膨胀油"
+        ],
+        "effect": [
+          "增弹",
+          "强力"
+        ],
+        "drying": [
+          "慢干"
+        ],
+        "duration": [
+          "中效"
+        ],
+        "volume": [
+          "60ml"
+        ],
+        "origin": [
+          "中国"
+        ]
+      },
+      "sources": [
+        "社区初始资料，待补充官网/店铺/评测来源"
+      ],
+      "contributors": [
+        "Codex seed data"
+      ]
+    },
+    {
+      "id": "booster-018-kailin-red",
+      "name": "开林红油",
+      "brand": "开林",
+      "brandEn": "Kailin",
+      "series": "Red",
+      "price": 80,
+      "priceMin": 50,
+      "priceMax": 110,
+      "currency": "CNY",
+      "image": "https://placehold.co/720x480/0f766e/ffffff?text=Kailin%20%E5%BC%80%E6%9E%97%E7%BA%A2%E6%B2%B9",
+      "description": "开林红油偏易用，适合希望晾干更快、变化不要过猛的用户。",
+      "tags": {
+        "brand": [
+          "开林",
+          "Kailin"
+        ],
+        "boosterType": [
+          "膨胀油"
+        ],
+        "effect": [
+          "增弹",
+          "温和"
+        ],
+        "drying": [
+          "快干"
+        ],
+        "duration": [
+          "中效"
+        ],
+        "volume": [
+          "60ml"
+        ],
+        "origin": [
+          "中国"
+        ]
+      },
+      "sources": [
+        "社区初始资料，待补充官网/店铺/评测来源"
+      ],
+      "contributors": [
+        "Codex seed data"
+      ]
+    },
+    {
+      "id": "booster-019-lidu-yellow",
+      "name": "李渡黄油",
+      "brand": "李渡",
+      "brandEn": "Lidu",
+      "series": "Yellow",
+      "price": 75,
+      "priceMin": 45,
+      "priceMax": 105,
+      "currency": "CNY",
+      "image": "https://placehold.co/720x480/be123c/ffffff?text=Lidu%20%E6%9D%8E%E6%B8%A1%E9%BB%84%E6%B2%B9",
+      "description": "国产平价膨胀油之一，适合日常训练和低成本配置测试。",
+      "tags": {
+        "brand": [
+          "李渡",
+          "Lidu"
+        ],
+        "boosterType": [
+          "膨胀油"
+        ],
+        "effect": [
+          "软化",
+          "增弹"
+        ],
+        "drying": [
+          "中速"
+        ],
+        "duration": [
+          "中效"
+        ],
+        "volume": [
+          "60ml"
+        ],
+        "origin": [
+          "中国"
+        ]
+      },
+      "sources": [
+        "社区初始资料，待补充官网/店铺/评测来源"
+      ],
+      "contributors": [
+        "Codex seed data"
+      ]
+    },
+    {
+      "id": "booster-020-lidu-black",
+      "name": "李渡黑油",
+      "brand": "李渡",
+      "brandEn": "Lidu",
+      "series": "Black",
+      "price": 95,
+      "priceMin": 60,
+      "priceMax": 130,
+      "currency": "CNY",
+      "image": "https://placehold.co/720x480/b45309/ffffff?text=Lidu%20%E6%9D%8E%E6%B8%A1%E9%BB%91%E6%B2%B9",
+      "description": "李渡偏强力版本，适合需要更明显支撑和持久效果的用户。",
+      "tags": {
+        "brand": [
+          "李渡",
+          "Lidu"
+        ],
+        "boosterType": [
+          "膨胀油"
+        ],
+        "effect": [
+          "强力",
+          "持久"
+        ],
+        "drying": [
+          "慢干"
+        ],
+        "duration": [
+          "长效"
+        ],
+        "volume": [
+          "60ml"
+        ],
+        "origin": [
+          "中国"
+        ]
+      },
+      "sources": [
+        "社区初始资料，待补充官网/店铺/评测来源"
+      ],
+      "contributors": [
+        "Codex seed data"
+      ]
+    },
+    {
+      "id": "booster-021-lidu-national",
+      "name": "李渡国套油",
+      "brand": "李渡",
+      "brandEn": "Lidu",
+      "series": "National",
+      "price": 115,
+      "priceMin": 70,
+      "priceMax": 160,
+      "currency": "CNY",
+      "image": "https://placehold.co/720x480/4f46e5/ffffff?text=Lidu%20%E6%9D%8E%E6%B8%A1%E5%9B%BD%E5%A5%97%E6%B2%B9",
+      "description": "李渡高阶定位油类，常用于国产粘套打底和赛前维护讨论。",
+      "tags": {
+        "brand": [
+          "李渡",
+          "Lidu"
+        ],
+        "boosterType": [
+          "膨胀油",
+          "打底油"
+        ],
+        "effect": [
+          "比赛",
+          "增弹"
+        ],
+        "drying": [
+          "中速"
+        ],
+        "duration": [
+          "长效"
+        ],
+        "volume": [
+          "60ml"
+        ],
+        "origin": [
+          "中国"
+        ]
+      },
+      "sources": [
+        "社区初始资料，待补充官网/店铺/评测来源"
+      ],
+      "contributors": [
+        "Codex seed data"
+      ]
+    },
+    {
+      "id": "booster-022-flame-gold",
+      "name": "黄金膨胀油",
+      "brand": "弗雷姆",
+      "brandEn": "Flame",
+      "series": "Gold",
+      "price": 90,
+      "priceMin": 55,
+      "priceMax": 125,
+      "currency": "CNY",
+      "image": "https://placehold.co/720x480/0f172a/ffffff?text=Flame%20%E9%BB%84%E9%87%91%E8%86%A8%E8%83%80%E6%B2%B9",
+      "description": "弗雷姆常见系列油之一，定位偏均衡，适合补充社区实测数据。",
+      "tags": {
+        "brand": [
+          "弗雷姆",
+          "Flame"
+        ],
+        "boosterType": [
+          "膨胀油"
+        ],
+        "effect": [
+          "增弹",
+          "持久"
+        ],
+        "drying": [
+          "中速"
+        ],
+        "duration": [
+          "中效"
+        ],
+        "volume": [
+          "60ml"
+        ],
+        "origin": [
+          "中国"
+        ]
+      },
+      "sources": [
+        "社区初始资料，待补充官网/店铺/评测来源"
+      ],
+      "contributors": [
+        "Codex seed data"
+      ]
+    },
+    {
+      "id": "booster-023-flame-red",
+      "name": "红标膨胀油",
+      "brand": "弗雷姆",
+      "brandEn": "Flame",
+      "series": "Red",
+      "price": 80,
+      "priceMin": 50,
+      "priceMax": 110,
+      "currency": "CNY",
+      "image": "https://placehold.co/720x480/16a34a/ffffff?text=Flame%20%E7%BA%A2%E6%A0%87%E8%86%A8%E8%83%80%E6%B2%B9",
+      "description": "弗雷姆红标偏易用和训练取向，价格通常较亲民。",
+      "tags": {
+        "brand": [
+          "弗雷姆",
+          "Flame"
+        ],
+        "boosterType": [
+          "膨胀油"
+        ],
+        "effect": [
+          "软化",
+          "增弹"
+        ],
+        "drying": [
+          "快干"
+        ],
+        "duration": [
+          "中效"
+        ],
+        "volume": [
+          "60ml"
+        ],
+        "origin": [
+          "中国"
+        ]
+      },
+      "sources": [
+        "社区初始资料，待补充官网/店铺/评测来源"
+      ],
+      "contributors": [
+        "Codex seed data"
+      ]
+    },
+    {
+      "id": "booster-024-flame-blue",
+      "name": "蓝标膨胀油",
+      "brand": "弗雷姆",
+      "brandEn": "Flame",
+      "series": "Blue",
+      "price": 85,
+      "priceMin": 55,
+      "priceMax": 115,
+      "currency": "CNY",
+      "image": "https://placehold.co/720x480/7c3aed/ffffff?text=Flame%20%E8%93%9D%E6%A0%87%E8%86%A8%E8%83%80%E6%B2%B9",
+      "description": "弗雷姆蓝标偏温和版本，适合不希望膨胀过强的套胶。",
+      "tags": {
+        "brand": [
+          "弗雷姆",
+          "Flame"
+        ],
+        "boosterType": [
+          "膨胀油"
+        ],
+        "effect": [
+          "温和",
+          "软化"
+        ],
+        "drying": [
+          "中速"
+        ],
+        "duration": [
+          "中效"
+        ],
+        "volume": [
+          "60ml"
+        ],
+        "origin": [
+          "中国"
+        ]
+      },
+      "sources": [
+        "社区初始资料，待补充官网/店铺/评测来源"
+      ],
+      "contributors": [
+        "Codex seed data"
+      ]
+    },
+    {
+      "id": "booster-025-flame-black",
+      "name": "黑标膨胀油",
+      "brand": "弗雷姆",
+      "brandEn": "Flame",
+      "series": "Black",
+      "price": 105,
+      "priceMin": 65,
+      "priceMax": 145,
+      "currency": "CNY",
+      "image": "https://placehold.co/720x480/2563eb/ffffff?text=Flame%20%E9%BB%91%E6%A0%87%E8%86%A8%E8%83%80%E6%B2%B9",
+      "description": "弗雷姆黑标偏强力取向，适合追求明显形变和弹性的用户。",
+      "tags": {
+        "brand": [
+          "弗雷姆",
+          "Flame"
+        ],
+        "boosterType": [
+          "膨胀油"
+        ],
+        "effect": [
+          "强力",
+          "持久"
+        ],
+        "drying": [
+          "慢干"
+        ],
+        "duration": [
+          "长效"
+        ],
+        "volume": [
+          "60ml"
+        ],
+        "origin": [
+          "中国"
+        ]
+      },
+      "sources": [
+        "社区初始资料，待补充官网/店铺/评测来源"
+      ],
+      "contributors": [
+        "Codex seed data"
+      ]
+    },
+    {
+      "id": "booster-026-taiji-black-oil",
+      "name": "太极黑油",
+      "brand": "太极",
+      "brandEn": "Taiji",
+      "series": "Black Oil",
+      "price": 95,
+      "priceMin": 60,
+      "priceMax": 130,
+      "currency": "CNY",
+      "image": "https://placehold.co/720x480/0f766e/ffffff?text=Taiji%20%E5%A4%AA%E6%9E%81%E9%BB%91%E6%B2%B9",
+      "description": "国产黑油类产品，偏明显增弹和较强软化效果。",
+      "tags": {
+        "brand": [
+          "太极",
+          "Taiji"
+        ],
+        "boosterType": [
+          "膨胀油"
+        ],
+        "effect": [
+          "强力",
+          "增弹"
+        ],
+        "drying": [
+          "慢干"
+        ],
+        "duration": [
+          "中效"
+        ],
+        "volume": [
+          "60ml"
+        ],
+        "origin": [
+          "中国"
+        ]
+      },
+      "sources": [
+        "社区初始资料，待补充官网/店铺/评测来源"
+      ],
+      "contributors": [
+        "Codex seed data"
+      ]
+    },
+    {
+      "id": "booster-027-taiji-yellow",
+      "name": "太极黄油",
+      "brand": "太极",
+      "brandEn": "Taiji",
+      "series": "Yellow",
+      "price": 75,
+      "priceMin": 45,
+      "priceMax": 105,
+      "currency": "CNY",
+      "image": "https://placehold.co/720x480/be123c/ffffff?text=Taiji%20%E5%A4%AA%E6%9E%81%E9%BB%84%E6%B2%B9",
+      "description": "太极平价黄油，适合训练和入门打底尝试。",
+      "tags": {
+        "brand": [
+          "太极",
+          "Taiji"
+        ],
+        "boosterType": [
+          "膨胀油"
+        ],
+        "effect": [
+          "训练",
+          "软化"
+        ],
+        "drying": [
+          "中速"
+        ],
+        "duration": [
+          "中效"
+        ],
+        "volume": [
+          "60ml"
+        ],
+        "origin": [
+          "中国"
+        ]
+      },
+      "sources": [
+        "社区初始资料，待补充官网/店铺/评测来源"
+      ],
+      "contributors": [
+        "Codex seed data"
+      ]
+    },
+    {
+      "id": "booster-028-loki-rxton-booster",
+      "name": "Rxton 膨胀油",
+      "brand": "雷神",
+      "brandEn": "Loki",
+      "series": "Rxton",
+      "price": 70,
+      "priceMin": 40,
+      "priceMax": 100,
+      "currency": "CNY",
+      "image": "https://placehold.co/720x480/b45309/ffffff?text=Loki%20Rxton%20%E8%86%A8%E8%83%80%E6%B2%B9",
+      "description": "雷神 Rxton 系列相关膨胀油，适合雷神国产套胶搭配尝试。",
+      "tags": {
+        "brand": [
+          "雷神",
+          "Loki"
+        ],
+        "boosterType": [
+          "膨胀油"
+        ],
+        "effect": [
+          "训练",
+          "增弹"
+        ],
+        "drying": [
+          "快干"
+        ],
+        "duration": [
+          "短效"
+        ],
+        "volume": [
+          "60ml"
+        ],
+        "origin": [
+          "中国"
+        ]
+      },
+      "sources": [
+        "社区初始资料，待补充官网/店铺/评测来源"
+      ],
+      "contributors": [
+        "Codex seed data"
+      ]
+    },
+    {
+      "id": "booster-029-loki-arthur-booster",
+      "name": "Arthur 膨胀油",
+      "brand": "雷神",
+      "brandEn": "Loki",
+      "series": "Arthur",
+      "price": 90,
+      "priceMin": 55,
+      "priceMax": 125,
+      "currency": "CNY",
+      "image": "https://placehold.co/720x480/4f46e5/ffffff?text=Loki%20Arthur%20%E8%86%A8%E8%83%80%E6%B2%B9",
+      "description": "雷神 Arthur 系列相关膨胀油，偏性能向配置。",
+      "tags": {
+        "brand": [
+          "雷神",
+          "Loki"
+        ],
+        "boosterType": [
+          "膨胀油"
+        ],
+        "effect": [
+          "增弹",
+          "比赛"
+        ],
+        "drying": [
+          "中速"
+        ],
+        "duration": [
+          "中效"
+        ],
+        "volume": [
+          "60ml"
+        ],
+        "origin": [
+          "中国"
+        ]
+      },
+      "sources": [
+        "社区初始资料，待补充官网/店铺/评测来源"
+      ],
+      "contributors": [
+        "Codex seed data"
+      ]
+    },
+    {
+      "id": "booster-030-tuttle-vip",
+      "name": "VIP 膨胀油",
+      "brand": "挺拔兔",
+      "brandEn": "Tuttle",
+      "series": "VIP",
+      "price": 80,
+      "priceMin": 45,
+      "priceMax": 115,
+      "currency": "CNY",
+      "image": "https://placehold.co/720x480/0f172a/ffffff?text=Tuttle%20VIP%20%E8%86%A8%E8%83%80%E6%B2%B9",
+      "description": "Tuttle VIP 系列相关膨胀油，定位亲民，适合国产套胶打底。",
+      "tags": {
+        "brand": [
+          "挺拔兔",
+          "Tuttle"
+        ],
+        "boosterType": [
+          "膨胀油"
+        ],
+        "effect": [
+          "增弹",
+          "软化"
+        ],
+        "drying": [
+          "中速"
+        ],
+        "duration": [
+          "中效"
+        ],
+        "volume": [
+          "60ml"
+        ],
+        "origin": [
+          "中国"
+        ]
+      },
+      "sources": [
+        "社区初始资料，待补充官网/店铺/评测来源"
+      ],
+      "contributors": [
+        "Codex seed data"
+      ]
+    },
+    {
+      "id": "booster-031-sanwei-target-booster",
+      "name": "Target 膨胀油",
+      "brand": "三维",
+      "brandEn": "Sanwei",
+      "series": "Target",
+      "price": 75,
+      "priceMin": 45,
+      "priceMax": 105,
+      "currency": "CNY",
+      "image": "https://placehold.co/720x480/16a34a/ffffff?text=Sanwei%20Target%20%E8%86%A8%E8%83%80%E6%B2%B9",
+      "description": "三维 Target 系列相关打底油，适合三维国产粘套搭配。",
+      "tags": {
+        "brand": [
+          "三维",
+          "Sanwei"
+        ],
+        "boosterType": [
+          "膨胀油"
+        ],
+        "effect": [
+          "训练",
+          "增弹"
+        ],
+        "drying": [
+          "快干"
+        ],
+        "duration": [
+          "中效"
+        ],
+        "volume": [
+          "60ml"
+        ],
+        "origin": [
+          "中国"
+        ]
+      },
+      "sources": [
+        "社区初始资料，待补充官网/店铺/评测来源"
+      ],
+      "contributors": [
+        "Codex seed data"
+      ]
+    },
+    {
+      "id": "booster-032-friendship-729-booster",
+      "name": "729 膨胀油",
+      "brand": "729",
+      "brandEn": "Friendship 729",
+      "series": "Booster",
+      "price": 65,
+      "priceMin": 40,
+      "priceMax": 90,
+      "currency": "CNY",
+      "image": "https://placehold.co/720x480/7c3aed/ffffff?text=Friendship%20729%20729%20%E8%86%A8%E8%83%80%E6%B2%B9",
+      "description": "729 平价膨胀油，适合搭配传统国产粘套和低成本训练。",
+      "tags": {
+        "brand": [
+          "729",
+          "Friendship 729"
+        ],
+        "boosterType": [
+          "膨胀油"
+        ],
+        "effect": [
+          "训练",
+          "软化"
+        ],
+        "drying": [
+          "快干"
+        ],
+        "duration": [
+          "短效"
+        ],
+        "volume": [
+          "60ml"
+        ],
+        "origin": [
+          "中国"
+        ]
+      },
+      "sources": [
+        "社区初始资料，待补充官网/店铺/评测来源"
+      ],
+      "contributors": [
+        "Codex seed data"
+      ]
+    },
+    {
+      "id": "booster-033-yinhe-galaxy-booster",
+      "name": "银河膨胀油",
+      "brand": "银河",
+      "brandEn": "Yinhe",
+      "series": "Galaxy",
+      "price": 70,
+      "priceMin": 40,
+      "priceMax": 100,
+      "currency": "CNY",
+      "image": "https://placehold.co/720x480/2563eb/ffffff?text=Yinhe%20%E9%93%B6%E6%B2%B3%E8%86%A8%E8%83%80%E6%B2%B9",
+      "description": "银河平价油类产品，适合搭配木星、月球等国产套胶进行打底尝试。",
+      "tags": {
+        "brand": [
+          "银河",
+          "Yinhe"
+        ],
+        "boosterType": [
+          "膨胀油"
+        ],
+        "effect": [
+          "训练",
+          "增弹"
+        ],
+        "drying": [
+          "中速"
+        ],
+        "duration": [
+          "中效"
+        ],
+        "volume": [
+          "60ml"
+        ],
+        "origin": [
+          "中国"
+        ]
+      },
+      "sources": [
+        "社区初始资料，待补充官网/店铺/评测来源"
+      ],
+      "contributors": [
+        "Codex seed data"
+      ]
+    },
+    {
+      "id": "booster-034-dhs-booster-oil",
+      "name": "红双喜打底油",
+      "brand": "红双喜",
+      "brandEn": "DHS",
+      "series": "Booster",
+      "price": 85,
+      "priceMin": 50,
+      "priceMax": 120,
+      "currency": "CNY",
+      "image": "https://placehold.co/720x480/0f766e/ffffff?text=DHS%20%E7%BA%A2%E5%8F%8C%E5%96%9C%E6%89%93%E5%BA%95%E6%B2%B9",
+      "description": "红双喜相关打底油条目，适合后续由社区补充具体版本和来源。",
+      "tags": {
+        "brand": [
+          "红双喜",
+          "DHS"
+        ],
+        "boosterType": [
+          "打底油",
+          "膨胀油"
+        ],
+        "effect": [
+          "训练",
+          "软化"
+        ],
+        "drying": [
+          "中速"
+        ],
+        "duration": [
+          "中效"
+        ],
+        "volume": [
+          "60ml"
+        ],
+        "origin": [
+          "中国"
+        ]
+      },
+      "sources": [
+        "社区初始资料，待补充官网/店铺/评测来源"
+      ],
+      "contributors": [
+        "Codex seed data"
+      ]
+    }
   ]
 }
