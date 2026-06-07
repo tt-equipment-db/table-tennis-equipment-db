@@ -897,6 +897,11 @@ h1 {
   font-weight: 800;
 }
 
+.rating-input-row.is-wide,
+.rating-stat-row.is-wide {
+  grid-column: 1 / -1;
+}
+
 .rating-input-top,
 .rating-input-axis,
 .rating-input-control {
@@ -969,6 +974,12 @@ h1 {
   width: 100%;
   accent-color: var(--blue);
   display: block;
+  cursor: pointer;
+  transition: filter 160ms ease, opacity 160ms ease;
+}
+
+.rating-input-row input[type="range"]:active {
+  filter: saturate(1.2);
 }
 
 .rating-input-row strong {
