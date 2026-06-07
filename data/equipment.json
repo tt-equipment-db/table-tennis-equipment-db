@@ -11743,7 +11743,7 @@
       "priceMin": 55,
       "priceMax": 115,
       "currency": "CNY",
-      "image": "https://placehold.co/720x480/2563eb/ffffff?text=Haifu%20%E6%B5%B7%E4%B8%8A%E6%98%8E%E6%9C%88%E8%86%A8%E8%83%80%E6%B2%B9",
+      "image": "https://img30.360buyimg.com/n7/jfs/t1/111937/24/29282/53142/6311636bEcc3af57d/53ee37339547168f.jpg",
       "description": "常见国产膨胀油，整体偏均衡，常用于国产粘套打底和日常维护。",
       "tags": {
         "brand": [
@@ -11774,10 +11774,16 @@
         ]
       },
       "sources": [
-        "社区初始资料，待补充官网/店铺/评测来源"
+        "社区初始资料，待补充官网/店铺/评测来源",
+        "JD Sea Moon booster listing"
       ],
       "contributors": [
         "Codex seed data"
+      ],
+      "images": [
+        "https://img30.360buyimg.com/n7/jfs/t1/111937/24/29282/53142/6311636bEcc3af57d/53ee37339547168f.jpg",
+        "https://img30.360buyimg.com/n7/jfs/t1/239042/10/5554/40322/65e7d0f0F8ca9249b/05394e092041bda4.jpg",
+        "https://img30.360buyimg.com/n7/jfs/t1/230982/20/26730/62749/66daa506Fcd1a9dc7/fde667f1bcf70774.jpg"
       ]
     },
     {
@@ -11790,7 +11796,7 @@
       "priceMin": 85,
       "priceMax": 175,
       "currency": "CNY",
-      "image": "https://placehold.co/720x480/0f766e/ffffff?text=Haifu%20%E6%B5%B7%E4%B8%8A%E6%98%8E%E6%9C%88%E5%9B%BD%E5%A5%97%E9%BB%84%E6%B2%B9",
+      "image": "https://img30.360buyimg.com/n7/jfs/t1/135403/26/26098/54790/6311639cEffdc025f/75e467e8af84a094.jpg",
       "description": "海夫海上明月的高阶版本，偏重持续性和支撑感，价格通常高于普通版。",
       "tags": {
         "brand": [
@@ -11821,10 +11827,15 @@
         ]
       },
       "sources": [
-        "社区初始资料，待补充官网/店铺/评测来源"
+        "社区初始资料，待补充官网/店铺/评测来源",
+        "JD Haifu national yellow oil listing"
       ],
       "contributors": [
         "Codex seed data"
+      ],
+      "images": [
+        "https://img30.360buyimg.com/n7/jfs/t1/135403/26/26098/54790/6311639cEffdc025f/75e467e8af84a094.jpg",
+        "https://img30.360buyimg.com/n7/jfs/t1/284785/27/27821/37364/68104746Fe7e85a5b/a48606a4226477ed.png"
       ]
     },
     {
@@ -11837,7 +11848,7 @@
       "priceMin": 75,
       "priceMax": 165,
       "currency": "CNY",
-      "image": "https://placehold.co/720x480/be123c/ffffff?text=Haifu%20%E6%B5%B7%E4%B8%8A%E6%98%8E%E6%9C%88%E9%BB%91%E6%B2%B9",
+      "image": "https://img30.360buyimg.com/n7/jfs/t1/61340/27/21524/56262/631163b9E79220167/692fd00671ea6e4d.jpg",
       "description": "偏强力和持久取向的膨胀油，适合需要明显软化和增弹的配置。",
       "tags": {
         "brand": [
@@ -11867,10 +11878,15 @@
         ]
       },
       "sources": [
-        "社区初始资料，待补充官网/店铺/评测来源"
+        "社区初始资料，待补充官网/店铺/评测来源",
+        "JD Haifu national black oil listing"
       ],
       "contributors": [
         "Codex seed data"
+      ],
+      "images": [
+        "https://img30.360buyimg.com/n7/jfs/t1/61340/27/21524/56262/631163b9E79220167/692fd00671ea6e4d.jpg",
+        "https://img30.360buyimg.com/n7/jfs/t1/92893/19/36732/46712/657c3babF8732f086/3e524f291b8b51a8.jpg"
       ]
     },
     {
@@ -11883,7 +11899,7 @@
       "priceMin": 60,
       "priceMax": 130,
       "currency": "CNY",
-      "image": "https://placehold.co/720x480/b45309/ffffff?text=Haifu%20%E6%B5%B7%E4%B8%8A%E6%98%8E%E6%9C%88%E7%99%BD%E6%B2%B9",
+      "image": "https://img30.360buyimg.com/n7/jfs/t1/139315/32/27930/43787/63313c75E3d85c6fc/4db74c5515df1c30.jpg",
       "description": "偏温和的海夫膨胀油版本，适合不想让套胶变化过大的用户。",
       "tags": {
         "brand": [
@@ -11911,10 +11927,15 @@
         ]
       },
       "sources": [
-        "社区初始资料，待补充官网/店铺/评测来源"
+        "社区初始资料，待补充官网/店铺/评测来源",
+        "JD Haifu national white oil listing"
       ],
       "contributors": [
         "Codex seed data"
+      ],
+      "images": [
+        "https://img30.360buyimg.com/n7/jfs/t1/139315/32/27930/43787/63313c75E3d85c6fc/4db74c5515df1c30.jpg",
+        "https://img30.360buyimg.com/n7/jfs/t1/351341/5/13461/35386/68f0ab47F17d8de7e/e70474808865bbfc.png"
       ]
     },
     {
@@ -12016,7 +12037,7 @@
       "priceMin": 105,
       "priceMax": 215,
       "currency": "CNY",
-      "image": "https://placehold.co/720x480/16a34a/ffffff?text=Falco%20Tempo%20Long%20Booster",
+      "image": "https://cdn.megaspin.net/store/images/products/zoom_falco-tempo-long-booster.jpg?v=4",
       "description": "海外常见长效膨胀油，主打较长持续时间和稳定膨胀效果。",
       "tags": {
         "brand": [
@@ -12044,10 +12065,15 @@
         ]
       },
       "sources": [
-        "Falco Tempo Long Booster product listings"
+        "Falco Tempo Long Booster product listings",
+        "Megaspin Falco Tempo Long Booster product page"
       ],
       "contributors": [
         "Codex seed data"
+      ],
+      "images": [
+        "https://cdn.megaspin.net/store/images/products/zoom_falco-tempo-long-booster.jpg?v=4",
+        "https://cdn.megaspin.net/store/images/products/zoom2_falco-tempo-long-booster.jpg?v=4"
       ]
     },
     {
@@ -12060,7 +12086,7 @@
       "priceMin": 125,
       "priceMax": 255,
       "currency": "CNY",
-      "image": "https://placehold.co/720x480/7c3aed/ffffff?text=Falco%20Tempo%20Platinum%20Booster",
+      "image": "https://stalotenisui.lt/image/cache/catalog/Falco/zoom2_falco-tempo-pt-850x850.jpg",
       "description": "Falco Tempo 系列高阶膨胀油，偏强力和长效取向。",
       "tags": {
         "brand": [
@@ -12088,10 +12114,16 @@
         ]
       },
       "sources": [
-        "Falco Tempo Platinum Booster product listings"
+        "Falco Tempo Platinum Booster product listings",
+        "Stalo Tenisas Falco Tempo Platinum product page",
+        "Megaspin Falco Tempo Platinum product image"
       ],
       "contributors": [
         "Codex seed data"
+      ],
+      "images": [
+        "https://stalotenisui.lt/image/cache/catalog/Falco/zoom2_falco-tempo-pt-850x850.jpg",
+        "https://cdn.megaspin.net/store/images/products/zoom_falco-tempo-pt.jpg?v=2"
       ]
     },
     {
@@ -12104,7 +12136,7 @@
       "priceMin": 140,
       "priceMax": 280,
       "currency": "CNY",
-      "image": "https://placehold.co/720x480/2563eb/ffffff?text=Falco%20Tempo%20Unlimited%20Booster",
+      "image": "https://falco.oneofakindtrading.com.au/images/falcospeedglue2.jpg",
       "description": "Tempo 系列更偏持久和高弹的版本，价格通常较高。",
       "tags": {
         "brand": [
@@ -12132,10 +12164,14 @@
         ]
       },
       "sources": [
-        "社区初始资料，待补充官网/店铺/评测来源"
+        "社区初始资料，待补充官网/店铺/评测来源",
+        "Falco official Tempo Unlimited product page"
       ],
       "contributors": [
         "Codex seed data"
+      ],
+      "images": [
+        "https://falco.oneofakindtrading.com.au/images/falcospeedglue2.jpg"
       ]
     },
     {
@@ -12148,7 +12184,7 @@
       "priceMin": 85,
       "priceMax": 175,
       "currency": "CNY",
-      "image": "https://placehold.co/720x480/0f766e/ffffff?text=Falco%20Life%20Expander",
+      "image": "https://cdn.megaspin.net/store/images/products/zoom_falco-life-expander.jpg",
       "description": "更偏胶皮活化和保养的油类产品，效果相对温和。",
       "tags": {
         "brand": [
@@ -12177,10 +12213,15 @@
         ]
       },
       "sources": [
-        "社区初始资料，待补充官网/店铺/评测来源"
+        "社区初始资料，待补充官网/店铺/评测来源",
+        "Megaspin Falco Life Expander product page"
       ],
       "contributors": [
         "Codex seed data"
+      ],
+      "images": [
+        "https://cdn.megaspin.net/store/images/products/zoom_falco-life-expander.jpg",
+        "https://cdn.megaspin.net/store/images/products/zoom2_falco-life-expander.jpg"
       ]
     },
     {
@@ -12193,7 +12234,7 @@
       "priceMin": 95,
       "priceMax": 205,
       "currency": "CNY",
-      "image": "https://placehold.co/720x480/be123c/ffffff?text=Revolution%20No.3%20No.3%20Booster",
+      "image": "https://cdn.quickbutik.com/images/28644m/products/62177b12e3fc8.png?format=webp",
       "description": "Revolution No.3 系列常见膨胀油，定位在性能和易用性之间。",
       "tags": {
         "brand": [
@@ -12221,10 +12262,16 @@
         ]
       },
       "sources": [
-        "社区初始资料，待补充官网/店铺/评测来源"
+        "社区初始资料，待补充官网/店铺/评测来源",
+        "CHTT Revolution X-Treme Power Booster product page"
       ],
       "contributors": [
         "Codex seed data"
+      ],
+      "images": [
+        "https://cdn.quickbutik.com/images/28644m/products/62177b12e3fc8.png?format=webp",
+        "https://cdn.quickbutik.com/images/28644m/products/6215d3a110ad5.jpeg?auto=format&fit=max&max-w=960&max-h=960&dpr=1&auto=format",
+        "https://cdn.quickbutik.com/images/28644m/products/627515e0bcfd9.png?auto=format&fit=max&max-w=960&max-h=960&dpr=1&auto=format"
       ]
     },
     {
@@ -12237,7 +12284,7 @@
       "priceMin": 110,
       "priceMax": 230,
       "currency": "CNY",
-      "image": "https://placehold.co/720x480/b45309/ffffff?text=Revolution%20No.3%20No.3%20Bio%20Booster",
+      "image": "https://www.pingpongholmi.hu/img/6676/21627/230x250/21627.jpg?time=1705223705",
       "description": "偏温和取向的 No.3 膨胀油版本，适合希望控制膨胀幅度的用户。",
       "tags": {
         "brand": [
@@ -12265,10 +12312,14 @@
         ]
       },
       "sources": [
-        "社区初始资料，待补充官网/店铺/评测来源"
+        "社区初始资料，待补充官网/店铺/评测来源",
+        "Pingpongholmi Revolution No.3 Bio Booster product page"
       ],
       "contributors": [
         "Codex seed data"
+      ],
+      "images": [
+        "https://www.pingpongholmi.hu/img/6676/21627/230x250/21627.jpg?time=1705223705"
       ]
     },
     {
@@ -12281,7 +12332,7 @@
       "priceMin": 45,
       "priceMax": 105,
       "currency": "CNY",
-      "image": "https://placehold.co/720x480/4f46e5/ffffff?text=Dianchi%20%E5%85%B8%E9%A9%B0%E8%86%A8%E8%83%80%E6%B2%B9",
+      "image": "https://img30.360buyimg.com/n7/jfs/t1/30243/8/7955/40275/5c9ae6ddEb2cb904b/0ea38fbd22b32713.jpg",
       "description": "国产常见膨胀油，价格亲民，常用于入门尝试和日常训练。",
       "tags": {
         "brand": [
@@ -12309,10 +12360,15 @@
         ]
       },
       "sources": [
-        "社区初始资料，待补充官网/店铺/评测来源"
+        "社区初始资料，待补充官网/店铺/评测来源",
+        "JD Dianchi booster listing"
       ],
       "contributors": [
         "Codex seed data"
+      ],
+      "images": [
+        "https://img30.360buyimg.com/n7/jfs/t1/30243/8/7955/40275/5c9ae6ddEb2cb904b/0ea38fbd22b32713.jpg",
+        "https://img30.360buyimg.com/n7/jfs/t1/441801/8/15156/35332/6a202a10F48597251/008332032006da88.jpg"
       ]
     },
     {
@@ -12415,7 +12471,7 @@
       "priceMin": 40,
       "priceMax": 90,
       "currency": "CNY",
-      "image": "https://placehold.co/720x480/7c3aed/ffffff?text=Kailin%20%E5%BC%80%E6%9E%97%E9%BB%84%E6%B2%B9",
+      "image": "https://img.dku51.com/upload/20241005/20241005031206704.jpg?x-oss-process=image/resize,m_pad,w_400,h_400,limit_0/auto-orient,1/quality,q_90",
       "description": "亲民价位国产膨胀油，常见于基础打底和练习配置。",
       "tags": {
         "brand": [
@@ -12443,10 +12499,16 @@
         ]
       },
       "sources": [
-        "社区初始资料，待补充官网/店铺/评测来源"
+        "社区初始资料，待补充官网/店铺/评测来源",
+        "DKU Kailin booster product page"
       ],
       "contributors": [
         "Codex seed data"
+      ],
+      "images": [
+        "https://img.dku51.com/upload/20241005/20241005031206704.jpg?x-oss-process=image/resize,m_pad,w_400,h_400,limit_0/auto-orient,1/quality,q_90",
+        "https://dku51.oss-cn-hangzhou.aliyuncs.com/upload/detail/20241005/20241005031307432.jpg",
+        "https://dku51.oss-cn-hangzhou.aliyuncs.com/upload/detail/20241005/20241005031318298.jpg"
       ]
     },
     {
@@ -12680,7 +12742,7 @@
       "priceMin": 55,
       "priceMax": 125,
       "currency": "CNY",
-      "image": "https://placehold.co/720x480/0f172a/ffffff?text=Flame%20%E9%BB%84%E9%87%91%E8%86%A8%E8%83%80%E6%B2%B9",
+      "image": "https://img30.360buyimg.com/n7/jfs/t1/415988/4/3978/53946/69d4ca3cF9463eeb4/008332032009e475.jpg",
       "description": "弗雷姆常见系列油之一，定位偏均衡，适合补充社区实测数据。",
       "tags": {
         "brand": [
@@ -12708,10 +12770,15 @@
         ]
       },
       "sources": [
-        "社区初始资料，待补充官网/店铺/评测来源"
+        "社区初始资料，待补充官网/店铺/评测来源",
+        "JD FLM Flame booster listing"
       ],
       "contributors": [
         "Codex seed data"
+      ],
+      "images": [
+        "https://img30.360buyimg.com/n7/jfs/t1/415988/4/3978/53946/69d4ca3cF9463eeb4/008332032009e475.jpg",
+        "https://img30.360buyimg.com/n7/jfs/t1/414745/32/11188/46391/69d5fbb9F85f69a4b/0083320320d182c9.jpg"
       ]
     },
     {
@@ -12812,7 +12879,7 @@
       "priceMin": 65,
       "priceMax": 145,
       "currency": "CNY",
-      "image": "https://placehold.co/720x480/2563eb/ffffff?text=Flame%20%E9%BB%91%E6%A0%87%E8%86%A8%E8%83%80%E6%B2%B9",
+      "image": "https://img30.360buyimg.com/n7/jfs/t1/414875/18/6429/63540/69d4ca3cFa36f0018/0083320320f9ceaf.jpg",
       "description": "弗雷姆黑标偏强力取向，适合追求明显形变和弹性的用户。",
       "tags": {
         "brand": [
@@ -12840,10 +12907,15 @@
         ]
       },
       "sources": [
-        "社区初始资料，待补充官网/店铺/评测来源"
+        "社区初始资料，待补充官网/店铺/评测来源",
+        "JD FLM Flame black booster listing"
       ],
       "contributors": [
         "Codex seed data"
+      ],
+      "images": [
+        "https://img30.360buyimg.com/n7/jfs/t1/414875/18/6429/63540/69d4ca3cFa36f0018/0083320320f9ceaf.jpg",
+        "https://img30.360buyimg.com/n7/jfs/t1/412583/37/21168/63540/69d4ca49Fcc27b14e/008332032085de78.jpg"
       ]
     },
     {
@@ -12900,7 +12972,7 @@
       "priceMin": 45,
       "priceMax": 105,
       "currency": "CNY",
-      "image": "https://placehold.co/720x480/be123c/ffffff?text=Taiji%20%E5%A4%AA%E6%9E%81%E9%BB%84%E6%B2%B9",
+      "image": "https://img30.360buyimg.com/n7/jfs/t1/127106/20/20690/298633/61ea73c3Ec47763cb/03cba2a3a2d7b2ae.png",
       "description": "太极平价黄油，适合训练和入门打底尝试。",
       "tags": {
         "brand": [
@@ -12928,10 +13000,14 @@
         ]
       },
       "sources": [
-        "社区初始资料，待补充官网/店铺/评测来源"
+        "社区初始资料，待补充官网/店铺/评测来源",
+        "JD Pingpangwang Taiji booster listing"
       ],
       "contributors": [
         "Codex seed data"
+      ],
+      "images": [
+        "https://img30.360buyimg.com/n7/jfs/t1/127106/20/20690/298633/61ea73c3Ec47763cb/03cba2a3a2d7b2ae.png"
       ]
     },
     {
