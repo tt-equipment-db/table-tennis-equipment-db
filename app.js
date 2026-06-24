@@ -163,7 +163,7 @@ const commentEditCooldownMs = 60 * 60 * 1000;
 const commentPostCooldownMs = 60 * 1000;
 const commentsPerPage = 10;
 const hotCommentsCount = 3;
-const assetVersion = "ratings-27";
+const assetVersion = "ratings-28";
 const languageStorageKey = "tt-equipment-language";
 
 const englishText = {
@@ -629,6 +629,33 @@ function toggleFilter(key, value) {
   }
 }
 
+const foreignBrandDisplayNames = {
+  butterfly: "Butterfly（蝴蝶）",
+  xiom: "XIOM（骄猛）",
+  joola: "JOOLA（优拉）",
+  stiga: "STIGA（斯帝卡）",
+  yasaka: "Yasaka（亚萨卡）",
+  nittaku: "Nittaku（尼塔库）",
+  victas: "VICTAS（维克塔斯）",
+  tibhar: "Tibhar（挺拔）",
+  donic: "DONIC（多尼克）",
+  andro: "andro（岸度）",
+  falco: "Falco（法尔克）",
+  flame: "Flame（弗雷姆）",
+  kokutaku: "Kokutaku（环球）",
+  "revolution no.3": "Revolution No.3"
+};
+
+function getBrandDisplay(product) {
+  const brandEn = String(product.brandEn || "").trim();
+  const key = brandEn.toLowerCase();
+  return foreignBrandDisplayNames[key] || product.brand || brandEn;
+}
+
+function getBrandLine(product) {
+  return [getBrandDisplay(product), product.series].filter(Boolean).join(" / ");
+}
+
 function renderProducts() {
   const products = getFilteredProducts();
   nodes.resultCount.textContent = products.length;
@@ -641,13 +668,14 @@ function renderProducts() {
 
   nodes.productGrid.innerHTML = products.map((product) => {
     const tags = flattenProductTags(product).slice(0, 7).map((tag) => `<span>${th(tag)}</span>`).join("");
+    const brandDisplay = getBrandDisplay(product);
     return `
-      <a class="product-card" href="#/equipment/${product.id}" aria-label="${th("查看")} ${escapeHtml(product.brand)} ${escapeHtml(product.name)}">
+      <a class="product-card" href="#/equipment/${product.id}" aria-label="${th("查看")} ${escapeHtml(brandDisplay)} ${escapeHtml(product.name)}">
         <div class="product-media">
-          <img src="${product.image}" alt="${escapeHtml(product.brand)} ${escapeHtml(product.name)}" loading="lazy">
+          <img src="${product.image}" alt="${escapeHtml(brandDisplay)} ${escapeHtml(product.name)}" loading="lazy">
         </div>
         <div class="product-body">
-          <div class="brand-line">${escapeHtml(product.brand)} / ${escapeHtml(product.brandEn || "")} / ${escapeHtml(product.series)}</div>
+          <div class="brand-line">${escapeHtml(getBrandLine(product))}</div>
           <h3>${escapeHtml(product.name)}</h3>
           <p>${escapeHtml(product.description)}</p>
           <div class="mini-tags">${tags}</div>
@@ -691,9 +719,10 @@ function renderRoute() {
 function renderDetail(product) {
   const ratingDimensions = getRatingDimensions(product);
   const images = getProductImages(product);
+  const brandDisplay = getBrandDisplay(product);
   const imageSlides = images.map((image, index) => `
     <figure class="detail-image-slide">
-      <img src="${escapeHtml(image)}" alt="${escapeHtml(product.brand)} ${escapeHtml(product.name)} ${th("图片")} ${index + 1}">
+      <img src="${escapeHtml(image)}" alt="${escapeHtml(brandDisplay)} ${escapeHtml(product.name)} ${th("图片")} ${index + 1}">
     </figure>
   `).join("");
   const imageDots = images.length > 1 ? `
@@ -722,7 +751,7 @@ function renderDetail(product) {
       </div>
       <div class="detail-copy">
         <div class="detail-summary">
-          <div class="brand-line">${escapeHtml(product.brand)} / ${escapeHtml(product.brandEn || "")} / ${escapeHtml(product.series)}</div>
+          <div class="brand-line">${escapeHtml(getBrandLine(product))}</div>
           <h2>${escapeHtml(product.name)}</h2>
           <p>${escapeHtml(product.description)}</p>
           <div class="detail-meta-row">
