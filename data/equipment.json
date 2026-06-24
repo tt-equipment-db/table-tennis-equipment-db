@@ -7106,6 +7106,185 @@
       "images": [
         "https://cdn.shopify.com/s/files/1/0685/6943/2278/files/600639_JOOLA_Trinity_Hugo_Calderano_Charged_01.png?v=1776803199"
       ]
+    },
+    {
+      "id": "xiom-omega-8-pro",
+      "name": "Omega 8 Pro",
+      "brand": "骄猛",
+      "brandEn": "XIOM",
+      "series": "Omega 8",
+      "price": 380,
+      "priceMin": 330,
+      "priceMax": 460,
+      "currency": "CNY",
+      "image": "https://cafe24.poxo.com/ec01/championtt/S6XixLXKQIBS6XUNf2tKGqxw8viyhByA2k8mnbd5P7BgwUMvjJrKXnH2YG2WJsCAYIA2mk4JhJ0+xujgi6CAWw==/_/web/product/big/202504/c1a189f67c0597fdefb1b313602a3923.jpg",
+      "images": [
+        "https://cafe24.poxo.com/ec01/championtt/S6XixLXKQIBS6XUNf2tKGqxw8viyhByA2k8mnbd5P7BgwUMvjJrKXnH2YG2WJsCAYIA2mk4JhJ0+xujgi6CAWw==/_/web/product/big/202504/c1a189f67c0597fdefb1b313602a3923.jpg",
+        "https://cafe24.poxo.com/ec01/championtt/S6XixLXKQIBS6XUNf2tKGqxw8viyhByA2k8mnbd5P7BgwUMvjJrKXnH2YG2WJsCAYIA2mk4JhJ0+xujgi6CAWw==/_/web/product/extra/big/202505/6e48bf58c10649976706978f8e692b3a.jpg",
+        "https://cafe24.poxo.com/ec01/championtt/S6XixLXKQIBS6XUNf2tKGqxw8viyhByA2k8mnbd5P7BgwUMvjJrKXnH2YG2WJsCAYIA2mk4JhJ0+xujgi6CAWw==/_/web/product/extra/big/202505/4c9b5dd5c8631d9f088fe49cde45bbd0.jpg",
+        "https://cafe24.poxo.com/ec01/championtt/S6XixLXKQIBS6XUNf2tKGqxw8viyhByA2k8mnbd5P7BgwUMvjJrKXnH2YG2WJsCAYIA2mk4JhJ0+xujgi6CAWw==/_/web/product/extra/big/202505/65a39742e0469a86e4c1d9a0723d9545.jpg"
+      ],
+      "description": "欧米茄 8 涩性高弹版，官方强调高喷弹、强上旋和轻量化。",
+      "tags": {
+        "brand": [
+          "骄猛",
+          "XIOM"
+        ],
+        "position": [
+          "正手",
+          "反手"
+        ],
+        "rubberType": [
+          "反胶",
+          "涩性胶面"
+        ],
+        "sponge": [
+          "NIF海绵",
+          "蛋糕海绵"
+        ],
+        "thickness": [
+          "2.1",
+          "Max"
+        ],
+        "style": [
+          "弧圈",
+          "快攻弧圈",
+          "连续进攻"
+        ],
+        "origin": [
+          "德国"
+        ],
+        "hardness": [
+          "硬"
+        ]
+      },
+      "sources": [
+        "XIOM Omega 8 Pro official product page",
+        "Dku51 Omega 8 article"
+      ],
+      "contributors": [
+        "Codex research"
+      ]
+    },
+    {
+      "id": "xiom-omega-8-hybrid",
+      "name": "Omega 8 Hybrid",
+      "brand": "骄猛",
+      "brandEn": "XIOM",
+      "series": "Omega 8",
+      "price": 390,
+      "priceMin": 340,
+      "priceMax": 480,
+      "currency": "CNY",
+      "image": "https://cafe24.poxo.com/ec01/championtt/S6XixLXKQIBS6XUNf2tKGqxw8viyhByA2k8mnbd5P7BgwUMvjJrKXnH2YG2WJsCAYIA2mk4JhJ0+xujgi6CAWw==/_/web/product/big/202504/633a610e8520b78c2a95309295477e0b.jpg",
+      "images": [
+        "https://cafe24.poxo.com/ec01/championtt/S6XixLXKQIBS6XUNf2tKGqxw8viyhByA2k8mnbd5P7BgwUMvjJrKXnH2YG2WJsCAYIA2mk4JhJ0+xujgi6CAWw==/_/web/product/big/202504/633a610e8520b78c2a95309295477e0b.jpg",
+        "https://cafe24.poxo.com/ec01/championtt/S6XixLXKQIBS6XUNf2tKGqxw8viyhByA2k8mnbd5P7BgwUMvjJrKXnH2YG2WJsCAYIA2mk4JhJ0+xujgi6CAWw==/_/web/product/extra/big/202505/b841a1a7b21a34f392a0547097fbdef2.jpg",
+        "https://cafe24.poxo.com/ec01/championtt/S6XixLXKQIBS6XUNf2tKGqxw8viyhByA2k8mnbd5P7BgwUMvjJrKXnH2YG2WJsCAYIA2mk4JhJ0+xujgi6CAWw==/_/web/product/extra/big/202505/70a7cf097e9b740d111dc83f04979a90.jpg",
+        "https://cafe24.poxo.com/ec01/championtt/S6XixLXKQIBS6XUNf2tKGqxw8viyhByA2k8mnbd5P7BgwUMvjJrKXnH2YG2WJsCAYIA2mk4JhJ0+xujgi6CAWw==/_/web/product/extra/big/202505/6f602ea4154043bbbf399f11db3f44de.jpg"
+      ],
+      "description": "欧米茄 8 混合型版本，官方定位为张力套胶和中国式粘性的结合，偏速度上旋和近台相持。",
+      "tags": {
+        "brand": [
+          "骄猛",
+          "XIOM"
+        ],
+        "position": [
+          "正手",
+          "反手"
+        ],
+        "rubberType": [
+          "反胶",
+          "微粘胶面",
+          "涩性胶面"
+        ],
+        "sponge": [
+          "NIF海绵",
+          "蛋糕海绵"
+        ],
+        "thickness": [
+          "2.1",
+          "Max"
+        ],
+        "style": [
+          "弧圈",
+          "快攻弧圈",
+          "前冲"
+        ],
+        "origin": [
+          "德国"
+        ],
+        "hardness": [
+          "中硬",
+          "硬"
+        ]
+      },
+      "sources": [
+        "XIOM Omega 8 Hybrid official product page"
+      ],
+      "contributors": [
+        "Codex research"
+      ]
+    },
+    {
+      "id": "xiom-omega-8-china",
+      "name": "Omega 8 China",
+      "brand": "骄猛",
+      "brandEn": "XIOM",
+      "series": "Omega 8",
+      "price": 380,
+      "priceMin": 330,
+      "priceMax": 460,
+      "currency": "CNY",
+      "image": "https://cafe24.poxo.com/ec01/championtt/S6XixLXKQIBS6XUNf2tKGqxw8viyhByA2k8mnbd5P7BgwUMvjJrKXnH2YG2WJsCAYIA2mk4JhJ0+xujgi6CAWw==/_/web/product/big/202504/a394b61204334eae01aff693a803a74f.jpg",
+      "images": [
+        "https://cafe24.poxo.com/ec01/championtt/S6XixLXKQIBS6XUNf2tKGqxw8viyhByA2k8mnbd5P7BgwUMvjJrKXnH2YG2WJsCAYIA2mk4JhJ0+xujgi6CAWw==/_/web/product/big/202504/a394b61204334eae01aff693a803a74f.jpg",
+        "https://cafe24.poxo.com/ec01/championtt/S6XixLXKQIBS6XUNf2tKGqxw8viyhByA2k8mnbd5P7BgwUMvjJrKXnH2YG2WJsCAYIA2mk4JhJ0+xujgi6CAWw==/_/web/product/extra/big/202505/52cb9e14ae8b6ae54e2b424d37727212.jpg",
+        "https://cafe24.poxo.com/ec01/championtt/S6XixLXKQIBS6XUNf2tKGqxw8viyhByA2k8mnbd5P7BgwUMvjJrKXnH2YG2WJsCAYIA2mk4JhJ0+xujgi6CAWw==/_/web/product/extra/big/202505/6a3d62614a8c9529e5c43a83b7c9ccc7.jpg",
+        "https://cafe24.poxo.com/ec01/championtt/S6XixLXKQIBS6XUNf2tKGqxw8viyhByA2k8mnbd5P7BgwUMvjJrKXnH2YG2WJsCAYIA2mk4JhJ0+xujgi6CAWw==/_/web/product/extra/big/202505/ca8b252f61ba0984101ee42ac371dc46.jpg"
+      ],
+      "description": "欧米茄 8 中国版，官方定位为 X FACTOR 粘性正手驱动套胶，兼顾粘性控制和 NIF 海绵弹性。",
+      "tags": {
+        "brand": [
+          "骄猛",
+          "XIOM"
+        ],
+        "position": [
+          "正手",
+          "反手"
+        ],
+        "rubberType": [
+          "反胶",
+          "粘性胶面",
+          "微粘胶面"
+        ],
+        "sponge": [
+          "NIF海绵",
+          "蛋糕海绵"
+        ],
+        "thickness": [
+          "2.1",
+          "Max"
+        ],
+        "style": [
+          "弧圈",
+          "发抢",
+          "前冲"
+        ],
+        "origin": [
+          "德国"
+        ],
+        "hardness": [
+          "硬"
+        ]
+      },
+      "sources": [
+        "XIOM Omega 8 China official product page",
+        "Dku51 Omega 8 article"
+      ],
+      "contributors": [
+        "Codex research"
+      ]
     }
   ],
   "blades": [
@@ -11729,6 +11908,514 @@
       "image": "https://revspin.net/assets/table-tennis-images/blades/loki-kirin-k7.jpg",
       "images": [
         "https://revspin.net/assets/table-tennis-images/blades/loki-kirin-k7.jpg"
+      ]
+    },
+    {
+      "currency": "CNY",
+      "contributors": [
+        "Codex research"
+      ],
+      "id": "joola-hugo-calderano-kl-c-inner",
+      "name": "Hugo Calderano KL-c Inner",
+      "brand": "优拉",
+      "brandEn": "JOOLA",
+      "series": "Hugo Calderano",
+      "price": 950,
+      "priceMin": 820,
+      "priceMax": 1100,
+      "image": "https://cdn.shopify.com/s/files/1/0685/6943/2278/files/p-7yANXE-CDC6C7C3-D5B4-4220-AF9C-FD2D0095CD7E.jpg?v=1777489974",
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0685/6943/2278/files/p-7yANXE-CDC6C7C3-D5B4-4220-AF9C-FD2D0095CD7E.jpg?v=1777489974",
+        "https://cdn.shopify.com/s/files/1/0685/6943/2278/files/p-k5cELX-333F4420-63BA-464C-8303-184BF4FE1CEB.jpg?v=1777489974",
+        "https://cdn.shopify.com/s/files/1/0685/6943/2278/files/p-vLk3eL-7A6F5EE3-6156-40E1-B59B-5CF3F13F87F3.jpg?v=1777489976",
+        "https://cdn.shopify.com/s/files/1/0685/6943/2278/files/601268_EN_XXX_PT02_Blade-Hugo-Calderano-KL-c-inner.webp?v=1774923890",
+        "https://cdn.shopify.com/s/files/1/0685/6943/2278/files/Calderano_Blade_Dimensions.png?v=1778076904"
+      ],
+      "description": "雨果系列内置 KL-c 芳碳底板，5+2 结构、淋巴面材和阿尤斯芯材，约 85g，偏控制的 OFF 进攻取向。",
+      "tags": {
+        "brand": [
+          "优拉",
+          "JOOLA"
+        ],
+        "structure": [
+          "内置纤维",
+          "5+2"
+        ],
+        "material": [
+          "KL-c",
+          "芳碳",
+          "淋巴面材"
+        ],
+        "position": [
+          "双面弧圈",
+          "快攻弧圈"
+        ],
+        "handle": [
+          "横板",
+          "直板",
+          "FL",
+          "ST",
+          "CS"
+        ],
+        "speed": [
+          "中快",
+          "快"
+        ],
+        "feel": [
+          "持球",
+          "中软",
+          "清晰"
+        ],
+        "weight": [
+          "80-85g",
+          "85-90g"
+        ],
+        "origin": [
+          "德国"
+        ]
+      },
+      "sources": [
+        "JOOLA Hugo Calderano KL-c Inner official product page",
+        "JOOLA Hugo Calderano collection page"
+      ]
+    },
+    {
+      "currency": "CNY",
+      "contributors": [
+        "Codex research"
+      ],
+      "id": "joola-hugo-calderano-aw-7",
+      "name": "Hugo Calderano AW-7",
+      "brand": "优拉",
+      "brandEn": "JOOLA",
+      "series": "Hugo Calderano",
+      "price": 580,
+      "priceMin": 500,
+      "priceMax": 720,
+      "image": "https://cdn.shopify.com/s/files/1/0685/6943/2278/files/AW.png",
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0685/6943/2278/files/AW.png",
+        "https://cdn.shopify.com/s/files/1/0685/6943/2278/files/A7406905_Com.jpg"
+      ],
+      "description": "雨果系列亲民 7 层纯木进攻底板，官方强调软触感、较长持球和高旋转潜力。",
+      "tags": {
+        "brand": [
+          "优拉",
+          "JOOLA"
+        ],
+        "structure": [
+          "纯木",
+          "7层"
+        ],
+        "material": [
+          "淋巴面材",
+          "阿尤斯"
+        ],
+        "position": [
+          "双面弧圈",
+          "控制"
+        ],
+        "handle": [
+          "横板",
+          "直板",
+          "FL",
+          "ST",
+          "CS"
+        ],
+        "speed": [
+          "中快"
+        ],
+        "feel": [
+          "持球",
+          "中软",
+          "清晰"
+        ],
+        "weight": [
+          "85-90g"
+        ],
+        "origin": [
+          "德国"
+        ]
+      },
+      "sources": [
+        "JOOLA Hugo Calderano collection page",
+        "JOOLA Hugo Calderano KL-c Inner product related products"
+      ]
+    },
+    {
+      "currency": "CNY",
+      "contributors": [
+        "Codex research"
+      ],
+      "id": "xiom-hugo-alx-pro",
+      "name": "Hugo ALX Pro",
+      "brand": "骄猛",
+      "brandEn": "XIOM",
+      "series": "Hugo Calderano",
+      "price": 1380,
+      "priceMin": 1100,
+      "priceMax": 1650,
+      "image": "https://cafe24.poxo.com/ec01/championtt/S6XixLXKQIBS6XUNf2tKGqxw8viyhByA2k8mnbd5P7BgwUMvjJrKXnH2YG2WJsCAYIA2mk4JhJ0+xujgi6CAWw==/_/web/product/big/202505/ddbace1d5ebcf6943bdadaec0159dedf.jpg",
+      "images": [
+        "https://cafe24.poxo.com/ec01/championtt/S6XixLXKQIBS6XUNf2tKGqxw8viyhByA2k8mnbd5P7BgwUMvjJrKXnH2YG2WJsCAYIA2mk4JhJ0+xujgi6CAWw==/_/web/product/big/202505/ddbace1d5ebcf6943bdadaec0159dedf.jpg",
+        "https://cafe24.poxo.com/ec01/championtt/S6XixLXKQIBS6XUNf2tKGqxw8viyhByA2k8mnbd5P7BgwUMvjJrKXnH2YG2WJsCAYIA2mk4JhJ0+xujgi6CAWw==/_/web/product/extra/big/202505/99a86dfaa6523ba29632e7f732eadce1.jpg",
+        "https://cafe24.poxo.com/ec01/championtt/S6XixLXKQIBS6XUNf2tKGqxw8viyhByA2k8mnbd5P7BgwUMvjJrKXnH2YG2WJsCAYIA2mk4JhJ0+xujgi6CAWw==/_/web/product/extra/big/202505/77bb549a930bf60d840c5c1c407055cd.jpg",
+        "https://cafe24.poxo.com/ec01/championtt/S6XixLXKQIBS6XUNf2tKGqxw8viyhByA2k8mnbd5P7BgwUMvjJrKXnH2YG2WJsCAYIA2mk4JhJ0+xujgi6CAWw==/_/web/product/extra/big/202506/c7f0bde352cf880f1a6ff7d32ac41d1b.jpg"
+      ],
+      "description": "雨果签名外置 ALX Pro Size 底板，官方定位为外置 Axylium Carbon，板面更大、出球清晰有力。",
+      "tags": {
+        "brand": [
+          "骄猛",
+          "XIOM"
+        ],
+        "structure": [
+          "外置纤维",
+          "5+2"
+        ],
+        "material": [
+          "Axylium Carbon",
+          "芳碳"
+        ],
+        "position": [
+          "快攻弧圈",
+          "双面弧圈"
+        ],
+        "handle": [
+          "横板",
+          "FL",
+          "ST"
+        ],
+        "speed": [
+          "快"
+        ],
+        "feel": [
+          "清晰",
+          "中硬"
+        ],
+        "weight": [
+          "85-90g"
+        ],
+        "origin": [
+          "韩国"
+        ]
+      },
+      "sources": [
+        "XIOM Hugo ALX Pro official product page",
+        "Bilibili/community search: Hugo ALX Pro discussions"
+      ]
+    },
+    {
+      "currency": "CNY",
+      "contributors": [
+        "Codex research"
+      ],
+      "id": "xiom-hugo-alxi-pro",
+      "name": "Hugo ALXi Pro",
+      "brand": "骄猛",
+      "brandEn": "XIOM",
+      "series": "Hugo Calderano",
+      "price": 1380,
+      "priceMin": 1100,
+      "priceMax": 1650,
+      "image": "https://cafe24.poxo.com/ec01/championtt/S6XixLXKQIBS6XUNf2tKGqxw8viyhByA2k8mnbd5P7BgwUMvjJrKXnH2YG2WJsCAYIA2mk4JhJ0+xujgi6CAWw==/_/web/product/big/202509/9f9960e0f151d392a5e5b93040062219.jpg",
+      "images": [
+        "https://cafe24.poxo.com/ec01/championtt/S6XixLXKQIBS6XUNf2tKGqxw8viyhByA2k8mnbd5P7BgwUMvjJrKXnH2YG2WJsCAYIA2mk4JhJ0+xujgi6CAWw==/_/web/product/big/202509/9f9960e0f151d392a5e5b93040062219.jpg",
+        "https://cafe24.poxo.com/ec01/championtt/S6XixLXKQIBS6XUNf2tKGqxw8viyhByA2k8mnbd5P7BgwUMvjJrKXnH2YG2WJsCAYIA2mk4JhJ0+xujgi6CAWw==/_/web/product/extra/big/202509/39c017816c2a1ac58e6ce9d7f4424e26.jpg",
+        "https://cafe24.poxo.com/ec01/championtt/S6XixLXKQIBS6XUNf2tKGqxw8viyhByA2k8mnbd5P7BgwUMvjJrKXnH2YG2WJsCAYIA2mk4JhJ0+xujgi6CAWw==/_/web/product/extra/big/202509/6a65641481f7e10d1599e5b0a097442c.jpg",
+        "https://cafe24.poxo.com/ec01/championtt/S6XixLXKQIBS6XUNf2tKGqxw8viyhByA2k8mnbd5P7BgwUMvjJrKXnH2YG2WJsCAYIA2mk4JhJ0+xujgi6CAWw==/_/web/product/extra/big/202506/c7f0bde352cf880f1a6ff7d32ac41d1b.jpg"
+      ],
+      "description": "雨果签名内置 ALX Pro Size 底板，官方强调比外置更深的持球和更扎实的触球感。",
+      "tags": {
+        "brand": [
+          "骄猛",
+          "XIOM"
+        ],
+        "structure": [
+          "内置纤维",
+          "5+2"
+        ],
+        "material": [
+          "Axylium Carbon",
+          "芳碳"
+        ],
+        "position": [
+          "双面弧圈",
+          "控制"
+        ],
+        "handle": [
+          "横板",
+          "FL",
+          "ST"
+        ],
+        "speed": [
+          "中快",
+          "快"
+        ],
+        "feel": [
+          "持球",
+          "清晰",
+          "中硬"
+        ],
+        "weight": [
+          "85-90g"
+        ],
+        "origin": [
+          "韩国"
+        ]
+      },
+      "sources": [
+        "XIOM Hugo ALXi Pro official product page",
+        "Bilibili/community search: Hugo ALXi discussions"
+      ]
+    },
+    {
+      "currency": "CNY",
+      "contributors": [
+        "Codex research"
+      ],
+      "id": "xiom-artemis-alx",
+      "name": "Artemis ALX",
+      "brand": "骄猛",
+      "brandEn": "XIOM",
+      "series": "Artemis",
+      "price": 1280,
+      "priceMin": 1000,
+      "priceMax": 1550,
+      "image": "https://cafe24.poxo.com/ec01/championtt/S6XixLXKQIBS6XUNf2tKGqxw8viyhByA2k8mnbd5P7BgwUMvjJrKXnH2YG2WJsCAYIA2mk4JhJ0+xujgi6CAWw==/_/web/product/big/202601/787b60c7a0eecd25414065d1e4e07a1e.jpg",
+      "images": [
+        "https://cafe24.poxo.com/ec01/championtt/S6XixLXKQIBS6XUNf2tKGqxw8viyhByA2k8mnbd5P7BgwUMvjJrKXnH2YG2WJsCAYIA2mk4JhJ0+xujgi6CAWw==/_/web/product/big/202601/787b60c7a0eecd25414065d1e4e07a1e.jpg",
+        "https://cafe24.poxo.com/ec01/championtt/S6XixLXKQIBS6XUNf2tKGqxw8viyhByA2k8mnbd5P7BgwUMvjJrKXnH2YG2WJsCAYIA2mk4JhJ0+xujgi6CAWw==/_/web/product/extra/big/202601/556d2d9984d7d6f3ae124ef268a7aba4.jpg",
+        "https://cafe24.poxo.com/ec01/championtt/S6XixLXKQIBS6XUNf2tKGqxw8viyhByA2k8mnbd5P7BgwUMvjJrKXnH2YG2WJsCAYIA2mk4JhJ0+xujgi6CAWw==/_/web/product/extra/big/202601/c6bde2d999ff87e40011d1689ca75983.jpg",
+        "https://cafe24.poxo.com/ec01/championtt/S6XixLXKQIBS6XUNf2tKGqxw8viyhByA2k8mnbd5P7BgwUMvjJrKXnH2YG2WJsCAYIA2mk4JhJ0+xujgi6CAWw==/_/web/product/extra/big/202601/e3b9a9cec1a6ccd52a5c69dbb7fd7d54.jpg"
+      ],
+      "description": "官方标注 2026 年 8 月后上市的外置 Axylium Carbon 新系列底板，速度和进攻取向，价格待国内铺货后校准。",
+      "tags": {
+        "brand": [
+          "骄猛",
+          "XIOM"
+        ],
+        "structure": [
+          "外置纤维",
+          "5+2"
+        ],
+        "material": [
+          "Axylium Carbon",
+          "芳碳"
+        ],
+        "position": [
+          "快攻弧圈",
+          "双面弧圈"
+        ],
+        "handle": [
+          "横板",
+          "FL",
+          "ST"
+        ],
+        "speed": [
+          "快"
+        ],
+        "feel": [
+          "清晰",
+          "中硬"
+        ],
+        "weight": [
+          "85-90g"
+        ],
+        "origin": [
+          "韩国"
+        ]
+      },
+      "sources": [
+        "XIOM Artemis ALX official product page"
+      ]
+    },
+    {
+      "currency": "CNY",
+      "contributors": [
+        "Codex research"
+      ],
+      "id": "xiom-artemis-alxi",
+      "name": "Artemis ALXi",
+      "brand": "骄猛",
+      "brandEn": "XIOM",
+      "series": "Artemis",
+      "price": 1280,
+      "priceMin": 1000,
+      "priceMax": 1550,
+      "image": "https://cafe24.poxo.com/ec01/championtt/S6XixLXKQIBS6XUNf2tKGqxw8viyhByA2k8mnbd5P7BgwUMvjJrKXnH2YG2WJsCAYIA2mk4JhJ0+xujgi6CAWw==/_/web/product/big/202601/e1ccceca5acf66a2b0d5ca40209b140f.jpg",
+      "images": [
+        "https://cafe24.poxo.com/ec01/championtt/S6XixLXKQIBS6XUNf2tKGqxw8viyhByA2k8mnbd5P7BgwUMvjJrKXnH2YG2WJsCAYIA2mk4JhJ0+xujgi6CAWw==/_/web/product/big/202601/e1ccceca5acf66a2b0d5ca40209b140f.jpg",
+        "https://cafe24.poxo.com/ec01/championtt/S6XixLXKQIBS6XUNf2tKGqxw8viyhByA2k8mnbd5P7BgwUMvjJrKXnH2YG2WJsCAYIA2mk4JhJ0+xujgi6CAWw==/_/web/product/extra/big/202601/6a3dce59556897a7aa3f3bc56339badc.jpg",
+        "https://cafe24.poxo.com/ec01/championtt/S6XixLXKQIBS6XUNf2tKGqxw8viyhByA2k8mnbd5P7BgwUMvjJrKXnH2YG2WJsCAYIA2mk4JhJ0+xujgi6CAWw==/_/web/product/extra/big/202601/d66484dac4f93b4bc16ef2d63d3c5de2.jpg",
+        "https://cafe24.poxo.com/ec01/championtt/S6XixLXKQIBS6XUNf2tKGqxw8viyhByA2k8mnbd5P7BgwUMvjJrKXnH2YG2WJsCAYIA2mk4JhJ0+xujgi6CAWw==/_/web/product/extra/big/202601/ed15d56cbcff8ad54c99fbd2b41fb12a.jpg"
+      ],
+      "description": "官方 2026 新品路线中的内置 Axylium Carbon 版本，偏更深持球和旋转驱动，价格待上市后校准。",
+      "tags": {
+        "brand": [
+          "骄猛",
+          "XIOM"
+        ],
+        "structure": [
+          "内置纤维",
+          "5+2"
+        ],
+        "material": [
+          "Axylium Carbon",
+          "芳碳"
+        ],
+        "position": [
+          "双面弧圈",
+          "控制"
+        ],
+        "handle": [
+          "横板",
+          "FL",
+          "ST"
+        ],
+        "speed": [
+          "中快",
+          "快"
+        ],
+        "feel": [
+          "持球",
+          "清晰"
+        ],
+        "weight": [
+          "85-90g"
+        ],
+        "origin": [
+          "韩国"
+        ]
+      },
+      "sources": [
+        "XIOM Artemis ALXi official product page"
+      ]
+    },
+    {
+      "currency": "CNY",
+      "contributors": [
+        "Codex research"
+      ],
+      "id": "xiom-tetra-tmx",
+      "name": "Tetra TMX",
+      "brand": "骄猛",
+      "brandEn": "XIOM",
+      "series": "Tetra",
+      "price": 1480,
+      "priceMin": 1150,
+      "priceMax": 1750,
+      "image": "https://cafe24.poxo.com/ec01/championtt/S6XixLXKQIBS6XUNf2tKGqxw8viyhByA2k8mnbd5P7BgwUMvjJrKXnH2YG2WJsCAYIA2mk4JhJ0+xujgi6CAWw==/_/web/product/big/202601/15149790a84f0c428249b8c9a754b5da.jpg",
+      "images": [
+        "https://cafe24.poxo.com/ec01/championtt/S6XixLXKQIBS6XUNf2tKGqxw8viyhByA2k8mnbd5P7BgwUMvjJrKXnH2YG2WJsCAYIA2mk4JhJ0+xujgi6CAWw==/_/web/product/big/202601/15149790a84f0c428249b8c9a754b5da.jpg",
+        "https://cafe24.poxo.com/ec01/championtt/S6XixLXKQIBS6XUNf2tKGqxw8viyhByA2k8mnbd5P7BgwUMvjJrKXnH2YG2WJsCAYIA2mk4JhJ0+xujgi6CAWw==/_/web/product/extra/big/202601/04531b67fee751832bbdfea7290da8c3.jpg",
+        "https://cafe24.poxo.com/ec01/championtt/S6XixLXKQIBS6XUNf2tKGqxw8viyhByA2k8mnbd5P7BgwUMvjJrKXnH2YG2WJsCAYIA2mk4JhJ0+xujgi6CAWw==/_/web/product/extra/big/202601/2f5311e43bb61b0c92d4da1d715c6108.jpg",
+        "https://cafe24.poxo.com/ec01/championtt/S6XixLXKQIBS6XUNf2tKGqxw8viyhByA2k8mnbd5P7BgwUMvjJrKXnH2YG2WJsCAYIA2mk4JhJ0+xujgi6CAWw==/_/web/product/extra/big/202601/ab589236985599b630721ea9021a6f1f.jpg"
+      ],
+      "description": "官方标注 2026 年 8 月后上市的外置 TRIMETRIX 底板，Axylium、Zephylium 与 Carbon 复合，强调进攻能量。",
+      "tags": {
+        "brand": [
+          "骄猛",
+          "XIOM"
+        ],
+        "structure": [
+          "外置纤维",
+          "5+2"
+        ],
+        "material": [
+          "TRIMETRIX",
+          "Axylium",
+          "Zephylium",
+          "碳素"
+        ],
+        "position": [
+          "快攻弧圈",
+          "双面弧圈"
+        ],
+        "handle": [
+          "横板",
+          "FL",
+          "ST"
+        ],
+        "speed": [
+          "快"
+        ],
+        "feel": [
+          "清晰",
+          "硬"
+        ],
+        "weight": [
+          "85-90g"
+        ],
+        "origin": [
+          "韩国"
+        ]
+      },
+      "sources": [
+        "XIOM Tetra TMX official product page"
+      ]
+    },
+    {
+      "currency": "CNY",
+      "contributors": [
+        "Codex research"
+      ],
+      "id": "xiom-tetra-tmxi",
+      "name": "Tetra TMXi",
+      "brand": "骄猛",
+      "brandEn": "XIOM",
+      "series": "Tetra",
+      "price": 1480,
+      "priceMin": 1150,
+      "priceMax": 1750,
+      "image": "https://cafe24.poxo.com/ec01/championtt/S6XixLXKQIBS6XUNf2tKGqxw8viyhByA2k8mnbd5P7BgwUMvjJrKXnH2YG2WJsCAYIA2mk4JhJ0+xujgi6CAWw==/_/web/product/big/202601/4a6e8096a875158dcbfe219be092d279.jpg",
+      "images": [
+        "https://cafe24.poxo.com/ec01/championtt/S6XixLXKQIBS6XUNf2tKGqxw8viyhByA2k8mnbd5P7BgwUMvjJrKXnH2YG2WJsCAYIA2mk4JhJ0+xujgi6CAWw==/_/web/product/big/202601/4a6e8096a875158dcbfe219be092d279.jpg",
+        "https://cafe24.poxo.com/ec01/championtt/S6XixLXKQIBS6XUNf2tKGqxw8viyhByA2k8mnbd5P7BgwUMvjJrKXnH2YG2WJsCAYIA2mk4JhJ0+xujgi6CAWw==/_/web/product/extra/big/202601/4fc6dd7053ff596a7aa707fca74768e3.jpg",
+        "https://cafe24.poxo.com/ec01/championtt/S6XixLXKQIBS6XUNf2tKGqxw8viyhByA2k8mnbd5P7BgwUMvjJrKXnH2YG2WJsCAYIA2mk4JhJ0+xujgi6CAWw==/_/web/product/extra/big/202601/322a31e524f1a170720419eda99bf575.jpg",
+        "https://cafe24.poxo.com/ec01/championtt/S6XixLXKQIBS6XUNf2tKGqxw8viyhByA2k8mnbd5P7BgwUMvjJrKXnH2YG2WJsCAYIA2mk4JhJ0+xujgi6CAWw==/_/web/product/extra/big/202601/23e9b4772e62b8df85b813735f2d8b28.jpg"
+      ],
+      "description": "Tetra 系列内置 TRIMETRIX 版本，官方 2026 新品路线，偏控制、持球和复合纤维支撑，价格待上市后校准。",
+      "tags": {
+        "brand": [
+          "骄猛",
+          "XIOM"
+        ],
+        "structure": [
+          "内置纤维",
+          "5+2"
+        ],
+        "material": [
+          "TRIMETRIX",
+          "Axylium",
+          "Zephylium",
+          "碳素"
+        ],
+        "position": [
+          "双面弧圈",
+          "控制"
+        ],
+        "handle": [
+          "横板",
+          "FL",
+          "ST"
+        ],
+        "speed": [
+          "中快",
+          "快"
+        ],
+        "feel": [
+          "持球",
+          "清晰"
+        ],
+        "weight": [
+          "85-90g"
+        ],
+        "origin": [
+          "韩国"
+        ]
+      },
+      "sources": [
+        "XIOM Tetra TMXi official product page"
       ]
     }
   ],
