@@ -7285,6 +7285,357 @@
       "contributors": [
         "Codex research"
       ]
+    },
+    {
+      "id": "butterfly-zyre-03",
+      "name": "Zyre 03",
+      "brand": "蝴蝶",
+      "brandEn": "Butterfly",
+      "series": "Zyre",
+      "price": 680,
+      "priceMin": 580,
+      "priceMax": 780,
+      "currency": "CNY",
+      "image": "https://www.butterfly-global.com/en/products/item/06140.jpg",
+      "images": [
+        "https://www.butterfly-global.com/en/products/item/06140.jpg"
+      ],
+      "description": "蝴蝶 2025/2026 新一代旗舰涩性反胶，Ricosheet 结合更厚的 Spring Sponge X，官方强调强力上旋和高弧线进攻。",
+      "tags": {
+        "brand": [
+          "蝴蝶",
+          "Butterfly"
+        ],
+        "position": [
+          "正手",
+          "反手"
+        ],
+        "rubberType": [
+          "反胶",
+          "涩性胶面"
+        ],
+        "sponge": [
+          "Spring Sponge X",
+          "高弹海绵"
+        ],
+        "thickness": [
+          "2.5",
+          "2.7"
+        ],
+        "hardness": [
+          "44度",
+          "硬"
+        ],
+        "style": [
+          "弧圈",
+          "相持",
+          "反拉"
+        ],
+        "origin": [
+          "日本"
+        ]
+      },
+      "sources": [
+        "Butterfly Zyre 03 official product page",
+        "WeChat article: ????Top 100???????? 1~25"
+      ],
+      "contributors": [
+        "Codex research"
+      ]
+    },
+    {
+      "id": "stiga-helix-platinum-xh",
+      "name": "Helix Platinum XH",
+      "brand": "斯帝卡",
+      "brandEn": "STIGA",
+      "series": "Helix Platinum",
+      "price": 560,
+      "priceMin": 480,
+      "priceMax": 680,
+      "currency": "CNY",
+      "image": "https://stigasports.centracdn.net/client/dynamic/images/5224_76e4af2482-stiga-table-tennis-rubber-helix-platinum-xh-square.jpg",
+      "images": [
+        "https://stigasports.centracdn.net/client/dynamic/images/5224_76e4af2482-stiga-table-tennis-rubber-helix-platinum-xh-square.jpg",
+        "https://stigasports.centracdn.net/client/dynamic/images/5224_76e4af2482-stiga-table-tennis-rubber-helix-platinum-xh-full.jpg",
+        "https://stigasports.centracdn.net/client/dynamic/images/5224_32824dd40e-stiga-table-tennis-helix-xh-black-rubber-full.jpg",
+        "https://stigasports.centracdn.net/client/dynamic/images/5224_b785edf579-stiga-table-tennis-rubber-helix-platinum-1-full.jpg"
+      ],
+      "description": "STIGA Helix Platinum 系列特硬版套胶，52.5° 海绵，官方定位为高速、高旋转、主动进攻型套胶。",
+      "tags": {
+        "brand": [
+          "斯帝卡",
+          "STIGA"
+        ],
+        "position": [
+          "正手",
+          "反手"
+        ],
+        "rubberType": [
+          "反胶",
+          "涩性胶面"
+        ],
+        "sponge": [
+          "蛋糕海绵",
+          "高弹海绵"
+        ],
+        "thickness": [
+          "2.2",
+          "Max"
+        ],
+        "hardness": [
+          "52.5度",
+          "特硬"
+        ],
+        "style": [
+          "弧圈",
+          "快攻弧圈",
+          "相持"
+        ],
+        "origin": [
+          "德国"
+        ]
+      },
+      "sources": [
+        "STIGA Helix Platinum XH official product page",
+        "WeChat article: ????Top 100???????? 1~25"
+      ],
+      "contributors": [
+        "Codex research"
+      ]
+    },
+    {
+      "id": "tibhar-hybrid-k3-pro",
+      "name": "Hybrid K3 Pro",
+      "brand": "挺拔",
+      "brandEn": "Tibhar",
+      "series": "Hybrid K",
+      "price": 460,
+      "priceMin": 380,
+      "priceMax": 560,
+      "currency": "CNY",
+      "image": "https://tibhar.info/wp-content/uploads/2024/06/Hybrid_K3_PRO.jpg",
+      "images": [
+        "https://tibhar.info/wp-content/uploads/2024/06/Hybrid_K3_PRO.jpg",
+        "https://tibhar.info/wp-content/uploads/2024/06/Hybrid_K3_PRO-1024x1024.jpg"
+      ],
+      "description": "挺拔 K3 系列更硬的 Pro 版，55° 海绵，官方强调开球上手、反拉和中远台进攻质量。",
+      "tags": {
+        "brand": [
+          "挺拔",
+          "Tibhar"
+        ],
+        "position": [
+          "正手",
+          "反手"
+        ],
+        "rubberType": [
+          "反胶",
+          "微粘胶面"
+        ],
+        "sponge": [
+          "蛋糕海绵",
+          "高弹海绵"
+        ],
+        "thickness": [
+          "2.0",
+          "Max"
+        ],
+        "hardness": [
+          "55度",
+          "特硬"
+        ],
+        "style": [
+          "弧圈",
+          "反拉",
+          "前冲"
+        ],
+        "origin": [
+          "德国"
+        ]
+      },
+      "sources": [
+        "TIBHAR Hybrid K3 Pro official product page",
+        "WeChat article: ????Top 100???????? 1~25"
+      ],
+      "contributors": [
+        "Codex research"
+      ]
+    },
+    {
+      "id": "tibhar-hybrid-k2",
+      "name": "Hybrid K2",
+      "brand": "挺拔",
+      "brandEn": "Tibhar",
+      "series": "Hybrid K",
+      "price": 280,
+      "priceMin": 220,
+      "priceMax": 380,
+      "currency": "CNY",
+      "image": "https://i0.wp.com/tokspin.com/wp-content/uploads/2024/07/beb3e6f20e2e88f8.jpg?w=800&ssl=1",
+      "images": [
+        "https://i0.wp.com/tokspin.com/wp-content/uploads/2024/07/beb3e6f20e2e88f8.jpg?w=800&ssl=1",
+        "https://i0.wp.com/tokspin.com/wp-content/uploads/2024/07/beb3e6f20e2e88f8.jpg?resize=768%2C768&ssl=1"
+      ],
+      "description": "挺拔德产粘性混合套胶，小孔径硬海绵结合粘性胶面，偏发抢、上手和前冲弧圈。",
+      "tags": {
+        "brand": [
+          "挺拔",
+          "Tibhar"
+        ],
+        "position": [
+          "正手"
+        ],
+        "rubberType": [
+          "反胶",
+          "粘性胶面"
+        ],
+        "sponge": [
+          "蛋糕海绵"
+        ],
+        "thickness": [
+          "2.0",
+          "Max"
+        ],
+        "hardness": [
+          "54度",
+          "特硬"
+        ],
+        "style": [
+          "弧圈",
+          "前冲",
+          "发抢"
+        ],
+        "origin": [
+          "德国"
+        ]
+      },
+      "sources": [
+        "TokSpin Tibhar Hybrid K2 product page",
+        "WeChat article: ????Top 100???????? 1~25"
+      ],
+      "contributors": [
+        "Codex research"
+      ]
+    },
+    {
+      "id": "tibhar-infinity-mxp",
+      "name": "Infinity MX-P",
+      "brand": "挺拔",
+      "brandEn": "Tibhar",
+      "series": "Infinity",
+      "price": 480,
+      "priceMin": 420,
+      "priceMax": 620,
+      "currency": "CNY",
+      "image": "https://www.contra.de/media/8b/b4/be/1776467563/11411_0.jpg",
+      "images": [
+        "https://www.contra.de/media/8b/b4/be/1776467563/11411_0.jpg",
+        "https://www.contra.de/thumbnail/8b/b4/be/1776467563/11411_0_800x800.jpg"
+      ],
+      "description": "TIBHAR 2026 新系列 Infinity MX-P，50° 海绵，RED POWER/RED ENERGY 海绵搭配 PRO TRACTION 胶面，定位高端进攻。",
+      "tags": {
+        "brand": [
+          "挺拔",
+          "Tibhar"
+        ],
+        "position": [
+          "正手",
+          "反手"
+        ],
+        "rubberType": [
+          "反胶",
+          "涩性胶面"
+        ],
+        "sponge": [
+          "RED ENERGY海绵",
+          "高弹海绵"
+        ],
+        "thickness": [
+          "2.0",
+          "2.3"
+        ],
+        "hardness": [
+          "50度",
+          "硬"
+        ],
+        "style": [
+          "弧圈",
+          "反拉",
+          "相持"
+        ],
+        "origin": [
+          "德国"
+        ]
+      },
+      "sources": [
+        "CONTRA Tibhar Infinity MX-P product page",
+        "TableTennisDaily Infinity MX-P release discussion",
+        "WeChat article: ????Top 100???????? 1~25"
+      ],
+      "contributors": [
+        "Codex research"
+      ]
+    },
+    {
+      "id": "andro-nuzn-55",
+      "name": "NUZN 55",
+      "brand": "岸度",
+      "brandEn": "andro",
+      "series": "NUZN",
+      "price": 560,
+      "priceMin": 470,
+      "priceMax": 650,
+      "currency": "CNY",
+      "image": "https://www.andro.de/sites/default/files/media_image/andro_NUZN55_614x614.jpg",
+      "images": [
+        "https://www.andro.de/sites/default/files/media_image/andro_NUZN55_614x614.jpg",
+        "https://www.andro.de/sites/default/files/media_image/NUZN55-Thumbnail-383x383.jpg",
+        "https://www.andro.de/sites/default/files/media_image/andro-rubber-NUZN55-red-110-021-102-1-mould-1267x614.jpg",
+        "https://www.andro.de/sites/default/files/media_image/andro-rubber-NUZN55-red-110-021-102-2-sponge-614x614.jpg"
+      ],
+      "description": "andro 数据驱动的 NUZN 系列 55° 硬海绵版，官方定位为超现代上旋进攻和高质量反拉。",
+      "tags": {
+        "brand": [
+          "岸度",
+          "andro"
+        ],
+        "position": [
+          "正手",
+          "反手"
+        ],
+        "rubberType": [
+          "反胶",
+          "涩性胶面",
+          "微粘胶面"
+        ],
+        "sponge": [
+          "Tensor海绵",
+          "高弹海绵"
+        ],
+        "thickness": [
+          "2.0",
+          "Max"
+        ],
+        "hardness": [
+          "55度",
+          "特硬"
+        ],
+        "style": [
+          "弧圈",
+          "反拉",
+          "快攻弧圈"
+        ],
+        "origin": [
+          "德国"
+        ]
+      },
+      "sources": [
+        "andro NUZN 55 official product page",
+        "WeChat article: ????Top 100???????? 1~25"
+      ],
+      "contributors": [
+        "Codex research"
+      ]
     }
   ],
   "blades": [
