@@ -163,7 +163,7 @@ const commentEditCooldownMs = 60 * 60 * 1000;
 const commentPostCooldownMs = 60 * 1000;
 const commentsPerPage = 10;
 const hotCommentsCount = 3;
-const assetVersion = "ratings-26";
+const assetVersion = "ratings-27";
 const languageStorageKey = "tt-equipment-language";
 
 const englishText = {
