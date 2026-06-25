@@ -7613,6 +7613,113 @@
       "contributors": [
         "Codex research"
       ]
+    },
+    {
+      "id": "yinhe-sun-max-tense",
+      "name": "太阳 Max Tense",
+      "brand": "银河",
+      "brandEn": "Yinhe",
+      "series": "太阳",
+      "price": 55,
+      "priceMin": 35,
+      "priceMax": 80,
+      "currency": "CNY",
+      "image": "https://images.nexusapp.co/assets/b5/2f/67/103803992.jpg",
+      "description": "银河太阳 Max Tense 是亲民速度型反胶，非强粘路线，偏弹性、击打和反手连续。",
+      "tags": {
+        "brand": [
+          "银河"
+        ],
+        "position": [
+          "反手",
+          "正手"
+        ],
+        "rubberType": [
+          "反胶",
+          "涩性胶面"
+        ],
+        "sponge": [
+          "高弹海绵"
+        ],
+        "thickness": [
+          "2.1",
+          "2.2",
+          "Max"
+        ],
+        "style": [
+          "快攻",
+          "连续进攻",
+          "反手"
+        ],
+        "origin": [
+          "中国"
+        ]
+      },
+      "sources": [
+        "https://skilltoyz.com/yinhe-sun-max-tense-table-tennis-rubbers-medium/",
+        "https://www.ebay.co.uk/itm/233203214945",
+        "https://de.vicedeal.com/products/original-yinhe-sun-max-angespannt-fabrik-abgestimmt-pips-im-tischtennis-gummi-mit-schwamm-fur-ping-pong-schlager-galaxy-sonne-gummi"
+      ],
+      "images": [
+        "https://images.nexusapp.co/assets/b5/2f/67/103803992.jpg",
+        "https://images.nexusapp.co/assets/ba/39/3b/189452453.jpg",
+        "https://images.nexusapp.co/assets/5f/95/de/189452452.jpg"
+      ],
+      "contributors": [
+        "Codex research"
+      ]
+    },
+    {
+      "id": "yinhe-9000e",
+      "name": "9000E",
+      "brand": "银河",
+      "brandEn": "Yinhe",
+      "series": "9000",
+      "price": 35,
+      "priceMin": 20,
+      "priceMax": 55,
+      "currency": "CNY",
+      "image": "https://i0.wp.com/tokspin.com/wp-content/uploads/2024/08/1-51.jpg?fit=800%2C800&ssl=1",
+      "description": "银河 9000E 是极低价高控制反胶，适合入门练习、成品拍升级或低成本试胶。",
+      "tags": {
+        "brand": [
+          "银河"
+        ],
+        "position": [
+          "正手",
+          "反手"
+        ],
+        "rubberType": [
+          "反胶",
+          "半粘胶面"
+        ],
+        "sponge": [
+          "软弹海绵"
+        ],
+        "thickness": [
+          "2.1",
+          "Max"
+        ],
+        "style": [
+          "控制",
+          "基础训练"
+        ],
+        "origin": [
+          "中国"
+        ]
+      },
+      "sources": [
+        "https://tokspin.com/product/yinhe-9000e-table-tennis-rubber/",
+        "https://www.tabletennisdaily.com/forum/topics/yinhe-mercury-2-vs-9000e.27127/"
+      ],
+      "images": [
+        "https://i0.wp.com/tokspin.com/wp-content/uploads/2024/08/1-51.jpg?fit=800%2C800&ssl=1",
+        "https://i0.wp.com/tokspin.com/wp-content/uploads/2024/08/3-49.jpg?fit=800%2C800&ssl=1",
+        "https://i0.wp.com/tokspin.com/wp-content/uploads/2024/08/5-49.jpg?fit=800%2C800&ssl=1"
+      ],
+      "contributors": [
+        "Codex research"
+      ]
     }
   ],
   "blades": [
@@ -12781,6 +12888,1231 @@
         "Butterfly Timo Boll ZLC official product page",
         "Megaspin Timo Boll ZLC product details",
         "Baidu Tieba indexed topics from 乒乓球吧: 张本ALC/咂语M/蓝K1Plus/波Z discussion snippets"
+      ],
+      "contributors": [
+        "Codex research"
+      ]
+    },
+    {
+      "id": "stiga-offensive-classic",
+      "name": "Offensive Classic（OC）",
+      "brand": "斯帝卡",
+      "brandEn": "STIGA",
+      "series": "Offensive Classic",
+      "price": 430,
+      "priceMin": 320,
+      "priceMax": 560,
+      "currency": "CNY",
+      "image": "https://cdn.shopify.com/s/files/1/0718/0805/7645/files/stiga-offensive-classic-blade-professional-offensive-table-tennis-paddle.jpg?crop=center&height=630&v=1760244688&width=1200",
+      "description": "斯帝卡经典五夹纯木 OC，轻快、清晰、容易上手，适合弧圈基本功和快攻弧圈。",
+      "tags": {
+        "brand": [
+          "STIGA（斯帝卡）"
+        ],
+        "structure": [
+          "五夹纯木"
+        ],
+        "material": [
+          "纯木",
+          "林巴面材"
+        ],
+        "position": [
+          "弧圈",
+          "快攻弧圈",
+          "基础训练"
+        ],
+        "handle": [
+          "横板",
+          "直板",
+          "FL",
+          "ST",
+          "CS"
+        ],
+        "speed": [
+          "OFF-"
+        ],
+        "feel": [
+          "清晰",
+          "持球",
+          "中等"
+        ],
+        "weight": [
+          "80-85g"
+        ],
+        "origin": [
+          "瑞典"
+        ]
+      },
+      "sources": [
+        "https://www.megaspin.net/store/default.asp?pid=s-offensive-classic",
+        "https://tabletennisstore.us/products/stiga-offensive-classic-blade-professional-offensive-table-tennis-paddle"
+      ],
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0718/0805/7645/files/stiga-offensive-classic-blade-professional-offensive-table-tennis-paddle.jpg?crop=center&height=630&v=1760244688&width=1200"
+      ],
+      "contributors": [
+        "Codex research"
+      ]
+    },
+    {
+      "id": "stiga-energy-wood-wrb-v2",
+      "name": "Energy Wood WRB V2（EG）",
+      "brand": "斯帝卡",
+      "brandEn": "STIGA",
+      "series": "Energy Wood",
+      "price": 520,
+      "priceMin": 390,
+      "priceMax": 680,
+      "currency": "CNY",
+      "image": "https://stigasports.centracdn.net/client/dynamic/images/4312_246c159ce9-1072xx-energy-wood-v2-1-square.jpg",
+      "description": "EG/能量木 V2 是偏均衡的五夹纯木，WRB 空心柄带来更灵敏的反馈和更快还原。",
+      "tags": {
+        "brand": [
+          "STIGA（斯帝卡）"
+        ],
+        "structure": [
+          "五夹纯木"
+        ],
+        "material": [
+          "纯木"
+        ],
+        "position": [
+          "弧圈",
+          "控制",
+          "基础训练"
+        ],
+        "handle": [
+          "横板",
+          "直板",
+          "FL",
+          "ST",
+          "CS",
+          "WRB"
+        ],
+        "speed": [
+          "OFF-",
+          "ALL+"
+        ],
+        "feel": [
+          "清晰",
+          "中等",
+          "持球"
+        ],
+        "weight": [
+          "80-85g",
+          "85-90g"
+        ],
+        "origin": [
+          "瑞典"
+        ]
+      },
+      "sources": [
+        "https://www.stigasports.com/en/product/energy-wood-wrb-v2",
+        "https://www.megaspin.net/store/default.asp?pid=s-energy-wood-wrb-v2"
+      ],
+      "images": [
+        "https://stigasports.centracdn.net/client/dynamic/images/4312_246c159ce9-1072xx-energy-wood-v2-1-square.jpg",
+        "https://stigasports.centracdn.net/client/dynamic/images/4312_246c159ce9-1072xx-energy-wood-v2-1-full.jpg"
+      ],
+      "contributors": [
+        "Codex research"
+      ]
+    },
+    {
+      "id": "dhs-hurricane-long-5x",
+      "name": "狂飙龙 5X",
+      "brand": "红双喜",
+      "brandEn": "DHS",
+      "series": "狂飙龙",
+      "price": 880,
+      "priceMin": 650,
+      "priceMax": 1200,
+      "currency": "CNY",
+      "image": "https://cdn.shopify.com/s/files/1/0750/6119/9067/files/00.png?v=1765322864",
+      "description": "龙 5X 在龙 5 基础上加厚大芯，整体更硬挺、更直接，适合力量型弧圈和连续进攻。",
+      "tags": {
+        "brand": [
+          "红双喜"
+        ],
+        "structure": [
+          "内置纤维",
+          "5+2"
+        ],
+        "material": [
+          "芳碳",
+          "黄芳碳"
+        ],
+        "position": [
+          "双面弧圈",
+          "快攻弧圈"
+        ],
+        "handle": [
+          "横板",
+          "直板",
+          "FL",
+          "CS"
+        ],
+        "speed": [
+          "快",
+          "OFF+"
+        ],
+        "feel": [
+          "中硬",
+          "支撑"
+        ],
+        "weight": [
+          "85-90g",
+          "90g以上"
+        ],
+        "origin": [
+          "中国"
+        ]
+      },
+      "sources": [
+        "https://dhssportsusa.com/products/dhs-hurricane-long-5x-table-tennis-blade",
+        "https://www.megaspin.net/store/default.asp?pid=dhs-hur-long-5x"
+      ],
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0750/6119/9067/files/00.png?v=1765322864",
+        "https://cdn.shopify.com/s/files/1/0750/6119/9067/files/v2_b95178ce2182c58616cd12348c5cc476_F94OGD9zte_top.png?v=1746209287&width=600"
+      ],
+      "contributors": [
+        "Codex research"
+      ]
+    },
+    {
+      "id": "dhs-hurricane-long-5-w968",
+      "name": "狂飙龙 5 W968",
+      "brand": "红双喜",
+      "brandEn": "DHS",
+      "series": "狂飙龙",
+      "price": 2600,
+      "priceMin": 1800,
+      "priceMax": 5000,
+      "currency": "CNY",
+      "image": "https://cdn.shopify.com/s/files/1/0750/6119/9067/files/5X-FL-2L.png?v=1751472471",
+      "description": "W968 是龙 5 体系中的高阶/特制版本俗称，常和“字母、数字、国手版”等说法一起出现。",
+      "tags": {
+        "brand": [
+          "红双喜"
+        ],
+        "structure": [
+          "内置纤维",
+          "5+2"
+        ],
+        "material": [
+          "芳碳",
+          "黄芳碳"
+        ],
+        "position": [
+          "双面弧圈",
+          "高端配置"
+        ],
+        "handle": [
+          "横板",
+          "直板",
+          "FL",
+          "CS"
+        ],
+        "speed": [
+          "快",
+          "OFF+"
+        ],
+        "feel": [
+          "持球",
+          "支撑",
+          "中硬"
+        ],
+        "weight": [
+          "85-90g",
+          "90g以上"
+        ],
+        "origin": [
+          "中国"
+        ]
+      },
+      "sources": [
+        "https://dhssportsusa.com/products/dhs-hurricane-long-5-w968-table-tennis-blade",
+        "https://ttgearlab.com/2023/08/19/dhs-new-hurricane-long-5-my-2022-lab-test-field-test-report/"
+      ],
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0750/6119/9067/files/5X-FL-2L.png?v=1751472471"
+      ],
+      "contributors": [
+        "Codex research"
+      ]
+    },
+    {
+      "id": "yinhe-u1",
+      "name": "U1（Uranus 1）",
+      "brand": "银河",
+      "brandEn": "Yinhe",
+      "series": "Uranus",
+      "price": 160,
+      "priceMin": 100,
+      "priceMax": 230,
+      "currency": "CNY",
+      "image": "https://i0.wp.com/tokspin.com/wp-content/uploads/2024/09/1-124.jpg?fit=800%2C800&ssl=1",
+      "description": "银河 U1 是亲民七夹纯木，表层偏硬，常被用于快攻、颗粒或低弧线主动进攻配置。",
+      "tags": {
+        "brand": [
+          "银河"
+        ],
+        "structure": [
+          "七夹纯木"
+        ],
+        "material": [
+          "纯木"
+        ],
+        "position": [
+          "快攻",
+          "颗粒打法",
+          "近台进攻"
+        ],
+        "handle": [
+          "横板",
+          "直板",
+          "FL",
+          "CS"
+        ],
+        "speed": [
+          "中快",
+          "OFF"
+        ],
+        "feel": [
+          "硬挺",
+          "清晰"
+        ],
+        "weight": [
+          "85-90g"
+        ],
+        "origin": [
+          "中国"
+        ]
+      },
+      "sources": [
+        "https://tokspin.com/product/yinhe-uranus-1-table-tennis-blade/",
+        "https://www.spphoneix.com/collections/galaxy-yinhe-blade"
+      ],
+      "images": [
+        "https://i0.wp.com/tokspin.com/wp-content/uploads/2024/09/1-124.jpg?fit=800%2C800&ssl=1",
+        "https://i0.wp.com/tokspin.com/wp-content/uploads/2024/09/3-82.jpg?fit=800%2C800&ssl=1",
+        "https://i0.wp.com/tokspin.com/wp-content/uploads/2024/09/2-81.jpg?fit=800%2C800&ssl=1"
+      ],
+      "contributors": [
+        "Codex research"
+      ]
+    },
+    {
+      "id": "yinhe-437s-pro",
+      "name": "437S Pro",
+      "brand": "银河",
+      "brandEn": "Yinhe",
+      "series": "紫龙/437",
+      "price": 190,
+      "priceMin": 130,
+      "priceMax": 280,
+      "currency": "CNY",
+      "image": "https://i0.wp.com/tokspin.com/wp-content/uploads/2024/07/455cd61c38f7d6ff.jpg?fit=800%2C800&ssl=1",
+      "description": "银河 437S Pro 是 Clipper 风格七夹纯木，偏快攻弧圈，价格亲民，适合预算型七夹选择。",
+      "tags": {
+        "brand": [
+          "银河"
+        ],
+        "structure": [
+          "七夹纯木"
+        ],
+        "material": [
+          "纯木",
+          "林巴面材"
+        ],
+        "position": [
+          "快攻弧圈",
+          "近台进攻"
+        ],
+        "handle": [
+          "横板",
+          "直板",
+          "FL",
+          "CS"
+        ],
+        "speed": [
+          "中快",
+          "OFF"
+        ],
+        "feel": [
+          "清晰",
+          "中硬"
+        ],
+        "weight": [
+          "85-90g"
+        ],
+        "origin": [
+          "中国"
+        ]
+      },
+      "sources": [
+        "https://tokspin.com/product/yinhe-437s-pro-table-tennis-blade-clipper-cl/",
+        "https://www.spphoneix.com/products/yinhe-437s-pro-provincial-7-ply-wood-table-tennis-blade"
+      ],
+      "images": [
+        "https://i0.wp.com/tokspin.com/wp-content/uploads/2024/07/455cd61c38f7d6ff.jpg?fit=800%2C800&ssl=1",
+        "https://i0.wp.com/tokspin.com/wp-content/uploads/2024/07/f686a9f58d985e41-1.jpg?fit=800%2C800&ssl=1",
+        "https://i0.wp.com/tokspin.com/wp-content/uploads/2024/07/4a055481fd64dcfa.jpg?fit=800%2C800&ssl=1"
+      ],
+      "contributors": [
+        "Codex research"
+      ]
+    },
+    {
+      "id": "yinhe-537s-pro",
+      "name": "537S Pro",
+      "brand": "银河",
+      "brandEn": "Yinhe",
+      "series": "紫龙/537",
+      "price": 210,
+      "priceMin": 150,
+      "priceMax": 310,
+      "currency": "CNY",
+      "image": "https://i0.wp.com/tokspin.com/wp-content/uploads/2024/07/5d541d06a2478f51.jpg?fit=800%2C800&ssl=1",
+      "description": "银河 537S Pro 是七夹纯木，胡桃木面材让一速和击打感更直接，适合快攻和借力。",
+      "tags": {
+        "brand": [
+          "银河"
+        ],
+        "structure": [
+          "七夹纯木"
+        ],
+        "material": [
+          "纯木",
+          "胡桃木面材"
+        ],
+        "position": [
+          "快攻",
+          "快攻弧圈",
+          "近台进攻"
+        ],
+        "handle": [
+          "横板",
+          "直板",
+          "FL",
+          "CS"
+        ],
+        "speed": [
+          "快",
+          "OFF"
+        ],
+        "feel": [
+          "硬挺",
+          "清晰"
+        ],
+        "weight": [
+          "85-90g"
+        ],
+        "origin": [
+          "中国"
+        ]
+      },
+      "sources": [
+        "https://tokspin.com/product/yinhe-537-s-pro-table-tennis-blade-clipper-cl/",
+        "https://www.joom.com/en/products/64a90cfe2d807501842a2e9f"
+      ],
+      "images": [
+        "https://i0.wp.com/tokspin.com/wp-content/uploads/2024/07/5d541d06a2478f51.jpg?fit=800%2C800&ssl=1",
+        "https://i0.wp.com/tokspin.com/wp-content/uploads/2024/07/d.jpg?fit=800%2C800&ssl=1",
+        "https://i0.wp.com/tokspin.com/wp-content/uploads/2024/07/642b2000aabcc8db.jpg?fit=800%2C800&ssl=1"
+      ],
+      "contributors": [
+        "Codex research"
+      ]
+    },
+    {
+      "id": "yinhe-d-m6-red-black-carbon-king",
+      "name": "D-M6 红黑碳王",
+      "brand": "银河",
+      "brandEn": "Yinhe",
+      "series": "红黑碳王",
+      "price": 260,
+      "priceMin": 180,
+      "priceMax": 380,
+      "currency": "CNY",
+      "image": "https://images.nexusapp.co/assets/58/7e/fd/659995410.jpg",
+      "description": "银河红黑碳王/DM6 是红黑碳王概念的国产亲民碳板，偏快攻和击打支撑。",
+      "tags": {
+        "brand": [
+          "银河"
+        ],
+        "structure": [
+          "碳素",
+          "多层结构"
+        ],
+        "material": [
+          "碳素",
+          "纯木"
+        ],
+        "position": [
+          "快攻",
+          "近台进攻"
+        ],
+        "handle": [
+          "横板",
+          "直板",
+          "FL",
+          "CS"
+        ],
+        "speed": [
+          "快"
+        ],
+        "feel": [
+          "硬挺",
+          "支撑"
+        ],
+        "weight": [
+          "85-90g",
+          "90g以上"
+        ],
+        "origin": [
+          "中国"
+        ]
+      },
+      "sources": [
+        "https://www.deplus-sport.com/products/??-d-m6-????-??????-fl-cn-",
+        "JD/Yinhe Red Black Carbon King listings",
+        "https://irl.grandado.com/products/original-yinhe-d-m6-pure-wood-with-carbon-table-tennis-blade-red-black-carbon-fast-attack-with-loop"
+      ],
+      "images": [
+        "https://images.nexusapp.co/assets/58/7e/fd/659995410.jpg",
+        "https://images.nexusapp.co/assets/2f/db/29/401876136.jpg",
+        "https://images.nexusapp.co/assets/05/fd/a5/401876135.jpg"
+      ],
+      "contributors": [
+        "Codex research"
+      ]
+    },
+    {
+      "id": "stiga-carbo-76-wrb",
+      "name": "Carbo 7.6 WRB（红黑碳王 7.6）",
+      "brand": "斯帝卡",
+      "brandEn": "STIGA",
+      "series": "Carbo",
+      "price": 780,
+      "priceMin": 580,
+      "priceMax": 980,
+      "currency": "CNY",
+      "image": "https://cdn.shopify.com/s/files/1/0718/0805/7645/products/stiga-carbo-7_6-wrb-shakehand-blade.jpg?crop=center&height=630&v=1740297624&width=1200",
+      "description": "斯帝卡红黑碳王 7.6，7 木 + 6 微碳层结构，速度快但保留一定木板形变。",
+      "tags": {
+        "brand": [
+          "STIGA（斯帝卡）"
+        ],
+        "structure": [
+          "碳素",
+          "13层",
+          "7木6碳"
+        ],
+        "material": [
+          "碳素",
+          "纯木"
+        ],
+        "position": [
+          "快攻",
+          "快攻弧圈"
+        ],
+        "handle": [
+          "横板",
+          "直板",
+          "FL",
+          "ST",
+          "CS",
+          "WRB"
+        ],
+        "speed": [
+          "快",
+          "OFF+"
+        ],
+        "feel": [
+          "硬挺",
+          "清晰"
+        ],
+        "weight": [
+          "85-90g",
+          "90g以上"
+        ],
+        "origin": [
+          "瑞典"
+        ]
+      },
+      "sources": [
+        "https://www.megaspin.net/store/default.asp?pid=s-carbo-76-wrb-cs",
+        "https://tabletennisstore.us/products/stiga-carbo-7-6-wrb-shakehand-blade"
+      ],
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0718/0805/7645/products/stiga-carbo-7_6-wrb-shakehand-blade.jpg?crop=center&height=630&v=1740297624&width=1200",
+        "https://pic.vcp.tw/upload/stiga/product/pic_list_out_54.jpg?1658391853"
+      ],
+      "contributors": [
+        "Codex research"
+      ]
+    },
+    {
+      "id": "stiga-dynasty-carbon-xu-xin",
+      "name": "Dynasty Carbon Xu Xin（许昕蓝标）",
+      "brand": "斯帝卡",
+      "brandEn": "STIGA",
+      "series": "Dynasty",
+      "price": 1800,
+      "priceMin": 1300,
+      "priceMax": 2300,
+      "currency": "CNY",
+      "image": "https://stigasports.centracdn.net/client/dynamic/images/4313_65b9496d57-1076-xx-dynasty-carbon-xu-xin-edition-2-square.jpg",
+      "description": "许昕蓝标/王朝碳素，5+2 TeXtreme+ 结构，偏高端弧圈进攻，持球和支撑兼顾。",
+      "tags": {
+        "brand": [
+          "STIGA（斯帝卡）"
+        ],
+        "structure": [
+          "内置纤维",
+          "5+2"
+        ],
+        "material": [
+          "TeXtreme碳素",
+          "寇头面材"
+        ],
+        "position": [
+          "双面弧圈",
+          "高端配置"
+        ],
+        "handle": [
+          "横板",
+          "直板",
+          "FL",
+          "ST",
+          "CS"
+        ],
+        "speed": [
+          "快",
+          "OFF+"
+        ],
+        "feel": [
+          "持球",
+          "支撑",
+          "中硬"
+        ],
+        "weight": [
+          "85-90g",
+          "90g以上"
+        ],
+        "origin": [
+          "瑞典"
+        ]
+      },
+      "sources": [
+        "https://www.stigasports.com/en/product/dynasty-carbon-xu-xin",
+        "https://ttgearlab.com/2019/12/30/stiga-dynasty-carbon-lab-test/"
+      ],
+      "images": [
+        "https://stigasports.centracdn.net/client/dynamic/images/4313_65b9496d57-1076-xx-dynasty-carbon-xu-xin-edition-2-square.jpg"
+      ],
+      "contributors": [
+        "Codex research"
+      ]
+    },
+    {
+      "id": "butterfly-primorac-carbon",
+      "name": "Primorac Carbon（蝴蝶王/普碳）",
+      "brand": "蝴蝶",
+      "brandEn": "Butterfly",
+      "series": "Primorac",
+      "price": 980,
+      "priceMin": 760,
+      "priceMax": 1280,
+      "currency": "CNY",
+      "image": "https://cdn.megaspin.net/store/images/products/zoom_b-prim-carb.jpg",
+      "description": "国内常称“蝴蝶王/普碳”，3 木 + 2 TAMCA 5000 碳素，速度非常快，适合快攻和强支撑打法。",
+      "tags": {
+        "brand": [
+          "Butterfly（蝴蝶）"
+        ],
+        "structure": [
+          "外置纤维",
+          "3+2"
+        ],
+        "material": [
+          "TAMCA 5000",
+          "碳素",
+          "桧木"
+        ],
+        "position": [
+          "快攻",
+          "高端配置"
+        ],
+        "handle": [
+          "横板",
+          "FL",
+          "ST",
+          "AN"
+        ],
+        "speed": [
+          "很快",
+          "OFF+"
+        ],
+        "feel": [
+          "硬挺",
+          "直接"
+        ],
+        "weight": [
+          "85-90g",
+          "90g以上"
+        ],
+        "origin": [
+          "日本"
+        ]
+      },
+      "sources": [
+        "https://www.megaspin.net/store/default.asp?pid=b-prim-carb",
+        "https://ttgearlab.com/2020/12/14/how-different-is-butterfly-primorac-carbon-from-other-fiber-blades-lab-test/"
+      ],
+      "images": [
+        "https://cdn.megaspin.net/store/images/products/zoom_b-prim-carb.jpg",
+        "https://cdn.megaspin.net/store/images/products/zoom2_b-prim-carb.jpg"
+      ],
+      "contributors": [
+        "Codex research"
+      ]
+    },
+    {
+      "id": "butterfly-taksim-cs",
+      "name": "Taksim CS（泰克西姆）",
+      "brand": "蝴蝶",
+      "brandEn": "Butterfly",
+      "series": "Taksim",
+      "price": 1500,
+      "priceMin": 1000,
+      "priceMax": 2200,
+      "currency": "CNY",
+      "image": "https://www.prott.vip/Upload/Product/1/TAKSIMCS_l.jpg?nocach=379",
+      "description": "泰克西姆是蝴蝶经典直板芳碳底板，5 木 + 2 ALC，直板圈常见高端选择之一。",
+      "tags": {
+        "brand": [
+          "Butterfly（蝴蝶）"
+        ],
+        "structure": [
+          "外置纤维",
+          "5+2"
+        ],
+        "material": [
+          "芳碳",
+          "ALC"
+        ],
+        "position": [
+          "直板横打",
+          "快攻弧圈"
+        ],
+        "handle": [
+          "直板",
+          "CS"
+        ],
+        "speed": [
+          "快"
+        ],
+        "feel": [
+          "中硬",
+          "清晰"
+        ],
+        "weight": [
+          "85-90g"
+        ],
+        "origin": [
+          "日本"
+        ]
+      },
+      "sources": [
+        "https://www.prott.vip/Product-Details.aspx?productcode=TAKSIMCS"
+      ],
+      "images": [
+        "https://www.prott.vip/Upload/Product/1/TAKSIMCS_l.jpg?nocach=379",
+        "https://www.prott.vip/Upload/Product/2/TAKSIMCS_s.jpg?nocach=379",
+        "https://www.prott.vip/Upload/Product/3/TAKSIMCS_s.jpg?nocach=379"
+      ],
+      "contributors": [
+        "Codex research"
+      ]
+    },
+    {
+      "id": "butterfly-kong-linghui",
+      "name": "Kong Linghui（孔令辉/绿豆款）",
+      "brand": "蝴蝶",
+      "brandEn": "Butterfly",
+      "series": "Kong Linghui",
+      "price": 780,
+      "priceMin": 520,
+      "priceMax": 1200,
+      "currency": "CNY",
+      "image": "https://cdn.shopify.com/s/files/1/0718/0805/7645/files/butterfly-kong-linghui-blade.jpg?crop=center&height=630&v=1776819177&width=1200",
+      "description": "孔令辉系列老款纯木进攻底板，国内常用“绿豆款”等俗称讨论，偏控制和稳定进攻。",
+      "tags": {
+        "brand": [
+          "Butterfly（蝴蝶）"
+        ],
+        "structure": [
+          "五夹纯木"
+        ],
+        "material": [
+          "纯木"
+        ],
+        "position": [
+          "控制",
+          "快攻弧圈"
+        ],
+        "handle": [
+          "横板",
+          "FL"
+        ],
+        "speed": [
+          "中快",
+          "OFF"
+        ],
+        "feel": [
+          "清晰",
+          "中等"
+        ],
+        "weight": [
+          "85-90g"
+        ],
+        "origin": [
+          "日本"
+        ]
+      },
+      "sources": [
+        "https://tabletennisstore.us/products/butterfly-kong-linghui-blade",
+        "https://www.target.com/p/butterfly-kong-linghui-fl-blade/-/A-1000782648"
+      ],
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0718/0805/7645/files/butterfly-kong-linghui-blade.jpg?crop=center&height=630&v=1776819177&width=1200"
+      ],
+      "contributors": [
+        "Codex research"
+      ]
+    },
+    {
+      "id": "butterfly-zhang-jike-zlc",
+      "name": "Zhang Jike ZLC（张继科 ZLC）",
+      "brand": "蝴蝶",
+      "brandEn": "Butterfly",
+      "series": "Zhang Jike",
+      "price": 1450,
+      "priceMin": 1050,
+      "priceMax": 1900,
+      "currency": "CNY",
+      "image": "https://prott.vip/Upload/Product/1/ZJKZLC_l.jpg?nocach=572",
+      "description": "张继科 ZLC 使用 ZL-Carbon，弹性和持球感兼顾，适合中近台双面弧圈进攻。",
+      "tags": {
+        "brand": [
+          "Butterfly（蝴蝶）"
+        ],
+        "structure": [
+          "外置纤维",
+          "5+2"
+        ],
+        "material": [
+          "ZL碳素",
+          "ZL-Carbon"
+        ],
+        "position": [
+          "双面弧圈",
+          "快攻弧圈"
+        ],
+        "handle": [
+          "横板",
+          "FL",
+          "ST"
+        ],
+        "speed": [
+          "快"
+        ],
+        "feel": [
+          "持球",
+          "中硬"
+        ],
+        "weight": [
+          "85-90g"
+        ],
+        "origin": [
+          "日本"
+        ]
+      },
+      "sources": [
+        "https://prott.vip/Product-Details.aspx?productcode=ZJKZLC",
+        "https://revspin.net/blade/butterfly-zhang-jike-zlc.html"
+      ],
+      "images": [
+        "https://prott.vip/Upload/Product/1/ZJKZLC_l.jpg?nocach=572",
+        "http://www.prott.vip/upload/editor/month_1611/201611301106069804.jpg"
+      ],
+      "contributors": [
+        "Codex research"
+      ]
+    },
+    {
+      "id": "butterfly-lin-gaoyuan-zlc",
+      "name": "Lin Gaoyuan ZLC（林高远 ZLC）",
+      "brand": "蝴蝶",
+      "brandEn": "Butterfly",
+      "series": "Lin Gaoyuan",
+      "price": 1600,
+      "priceMin": 1200,
+      "priceMax": 2100,
+      "currency": "CNY",
+      "image": "https://www.ttshop.cn/images/202009/goods_img/4817_P_1600964877537.jpg",
+      "description": "林高远 ZLC 是蝴蝶林高远系列 ZL-Carbon 进攻底板，定位接近张继科 ZLC 的高弹进攻配置。",
+      "tags": {
+        "brand": [
+          "Butterfly（蝴蝶）"
+        ],
+        "structure": [
+          "外置纤维",
+          "5+2"
+        ],
+        "material": [
+          "ZL碳素",
+          "ZL-Carbon"
+        ],
+        "position": [
+          "双面弧圈",
+          "高端配置"
+        ],
+        "handle": [
+          "横板",
+          "直板",
+          "FL",
+          "ST",
+          "CS"
+        ],
+        "speed": [
+          "快"
+        ],
+        "feel": [
+          "清晰",
+          "中硬"
+        ],
+        "weight": [
+          "85-90g"
+        ],
+        "origin": [
+          "日本"
+        ]
+      },
+      "sources": [
+        "https://www.tabletennisdaily.com/forum/topics/butterfly-introduces-lin-gaoyuan-zlc-and-szlc-blades.24069/",
+        "https://www.ttshop.cn/goods.php?id=4817"
+      ],
+      "images": [
+        "https://www.ttshop.cn/images/202009/goods_img/4817_P_1600964877537.jpg",
+        "https://www.ttshop.cn/images/202009/thumb_img/4817_thumb_P_1600964877404.jpg"
+      ],
+      "contributors": [
+        "Codex research"
+      ]
+    },
+    {
+      "id": "butterfly-lin-yun-ju-super-zlc",
+      "name": "Lin Yun-Ju Super ZLC（林昀儒 Super ZLC）",
+      "brand": "蝴蝶",
+      "brandEn": "Butterfly",
+      "series": "Lin Yun-Ju",
+      "price": 2300,
+      "priceMin": 1750,
+      "priceMax": 2800,
+      "currency": "CNY",
+      "image": "https://shop.butterflyonline.com/Item%20Images/1254.media.01.jpg?resizeid=5&resizeh=1200&resizew=1200",
+      "description": "林昀儒 Super ZLC 是高密度 Super ZL-Carbon 底板，甜区大、弹性强，适合近中台快节奏进攻。",
+      "tags": {
+        "brand": [
+          "Butterfly（蝴蝶）"
+        ],
+        "structure": [
+          "外置纤维",
+          "5+2"
+        ],
+        "material": [
+          "Super ZL碳素",
+          "Super ZLC"
+        ],
+        "position": [
+          "快攻弧圈",
+          "高端配置"
+        ],
+        "handle": [
+          "横板",
+          "FL",
+          "ST",
+          "AN"
+        ],
+        "speed": [
+          "很快",
+          "OFF+"
+        ],
+        "feel": [
+          "清晰",
+          "支撑"
+        ],
+        "weight": [
+          "80-85g",
+          "85-90g"
+        ],
+        "origin": [
+          "日本"
+        ]
+      },
+      "sources": [
+        "https://www.butterfly-global.com/en/products/detail/37131.html",
+        "https://shop.butterflyonline.com/Lin-Yun-Ju-Super-ZLC-Blade-1254"
+      ],
+      "images": [
+        "https://shop.butterflyonline.com/Item%20Images/1254.media.01.jpg?resizeid=5&resizeh=1200&resizew=1200",
+        "https://shop.butterflyonline.com/Item%20Images/1254.media.02.jpg?resizeid=5&resizeh=1200&resizew=1200",
+        "https://shop.butterflyonline.com/Item%20Images/1254.media.FL.01.jpg?resizeid=5&resizeh=1200&resizew=1200"
+      ],
+      "contributors": [
+        "Codex research"
+      ]
+    },
+    {
+      "id": "butterfly-mizutani-jun-zlc",
+      "name": "Mizutani Jun ZLC（水谷隼 ZLC）",
+      "brand": "蝴蝶",
+      "brandEn": "Butterfly",
+      "series": "Mizutani Jun",
+      "price": 1700,
+      "priceMin": 1250,
+      "priceMax": 2200,
+      "currency": "CNY",
+      "image": "https://cdn.megaspin.net/store/images/products/zoom_b-mizutani-j-zlc.jpg",
+      "description": "水谷隼 ZLC 是 5 木 + 2 ZL-Carbon 进攻底板，重量相对不夸张，反馈清晰，适合可变进攻。",
+      "tags": {
+        "brand": [
+          "Butterfly（蝴蝶）"
+        ],
+        "structure": [
+          "外置纤维",
+          "5+2"
+        ],
+        "material": [
+          "ZL碳素",
+          "ZL-Carbon"
+        ],
+        "position": [
+          "双面弧圈",
+          "快攻弧圈"
+        ],
+        "handle": [
+          "横板",
+          "FL",
+          "ST",
+          "AN"
+        ],
+        "speed": [
+          "快"
+        ],
+        "feel": [
+          "清晰",
+          "持球"
+        ],
+        "weight": [
+          "85-90g"
+        ],
+        "origin": [
+          "日本"
+        ]
+      },
+      "sources": [
+        "https://shop.butterflyonline.com/mizutani-jun-zlc",
+        "https://www.megaspin.net/store/default.asp?pid=b-mizutani-j-zlc"
+      ],
+      "images": [
+        "https://cdn.megaspin.net/store/images/products/zoom_b-mizutani-j-zlc.jpg",
+        "https://cdn.megaspin.net/store/images/products/zoom2_b-mizutani-j-zlc.jpg"
+      ],
+      "contributors": [
+        "Codex research"
+      ]
+    },
+    {
+      "id": "nexy-joo-sae-hyuk",
+      "name": "Joo Sae Hyuk（朱世赫）",
+      "brand": "尼西",
+      "brandEn": "Nexy",
+      "series": "Joo Sae Hyuk",
+      "price": 720,
+      "priceMin": 520,
+      "priceMax": 980,
+      "currency": "CNY",
+      "image": "https://www.ttmode.com/image/cache/catalog/products_2025/nexy-joo-sae-hyuk-600x600.jpg",
+      "description": "朱世赫系列防守底板，七夹纯木，面向削中反攻和中远台防守反击。",
+      "tags": {
+        "brand": [
+          "Nexy（尼西）"
+        ],
+        "structure": [
+          "七夹纯木"
+        ],
+        "material": [
+          "纯木"
+        ],
+        "position": [
+          "防守",
+          "削中反攻",
+          "控制"
+        ],
+        "handle": [
+          "横板",
+          "FL",
+          "ST"
+        ],
+        "speed": [
+          "ALL+",
+          "中等"
+        ],
+        "feel": [
+          "稳定",
+          "清晰"
+        ],
+        "weight": [
+          "90g以上"
+        ],
+        "origin": [
+          "韩国"
+        ]
+      },
+      "sources": [
+        "https://tabletennis11.com/et/nexy-joo-sae-hyuk",
+        "https://www.ttmode.com/nexy-joo-sae-hyuk",
+        "https://www.ttmode.com/nexy-joo-sae-hyuk"
+      ],
+      "images": [
+        "https://www.ttmode.com/image/cache/catalog/products_2025/nexy-joo-sae-hyuk-600x600.jpg"
+      ],
+      "contributors": [
+        "Codex research"
+      ]
+    },
+    {
+      "id": "xiom-hugo-hal",
+      "name": "Hugo Calderano HAL",
+      "brand": "骄猛",
+      "brandEn": "XIOM",
+      "series": "Hugo Calderano",
+      "price": 980,
+      "priceMin": 760,
+      "priceMax": 1300,
+      "currency": "CNY",
+      "image": "https://cdn.megaspin.net/store/images/products/zoom_xiom-hugo-hal.jpg",
+      "description": "雨果 HAL 采用 5+2 Hyper Axylium 结构，偏持球、控制和稳定发力，属于雨果系列中更柔和的方向。",
+      "tags": {
+        "brand": [
+          "XIOM（骄猛）"
+        ],
+        "structure": [
+          "外置纤维",
+          "5+2"
+        ],
+        "material": [
+          "Hyper Axylium",
+          "寇头面材"
+        ],
+        "position": [
+          "弧圈",
+          "控制",
+          "快攻弧圈"
+        ],
+        "handle": [
+          "横板",
+          "FL"
+        ],
+        "speed": [
+          "中快",
+          "OFF-"
+        ],
+        "feel": [
+          "持球",
+          "清晰",
+          "中等"
+        ],
+        "weight": [
+          "80-85g",
+          "85-90g"
+        ],
+        "origin": [
+          "韩国"
+        ]
+      },
+      "sources": [
+        "https://www.xiom.eu/hugo-calderano-hal",
+        "https://tabletennis11.com/en/blog/post/xiom-hugo-calderano-hal-blade",
+        "https://www.megaspin.net/store/default.asp?pid=xiom-hugo-hal"
+      ],
+      "images": [
+        "https://cdn.megaspin.net/store/images/products/zoom_xiom-hugo-hal.jpg",
+        "https://cdn.megaspin.net/store/images/products/zoom2_xiom-hugo-hal.jpg"
+      ],
+      "contributors": [
+        "Codex research"
+      ]
+    },
+    {
+      "id": "joola-viking",
+      "name": "Viking（维京）",
+      "brand": "优拉",
+      "brandEn": "JOOLA",
+      "series": "Viking",
+      "price": 520,
+      "priceMin": 360,
+      "priceMax": 700,
+      "currency": "CNY",
+      "image": "https://cdn.shopify.com/s/files/1/0165/8526/1156/products/bladeviking_Flared-02-1_1200x1200.jpg?v=1611121508",
+      "description": "JOOLA Viking 是瑞典制造的经典七夹纯木，反馈清晰，偏快攻弧圈和稳定进攻。",
+      "tags": {
+        "brand": [
+          "JOOLA（优拉）"
+        ],
+        "structure": [
+          "七夹纯木"
+        ],
+        "material": [
+          "纯木"
+        ],
+        "position": [
+          "快攻弧圈",
+          "控制"
+        ],
+        "handle": [
+          "横板",
+          "直板",
+          "FL",
+          "ST",
+          "CS"
+        ],
+        "speed": [
+          "中快",
+          "OFF"
+        ],
+        "feel": [
+          "清晰",
+          "中硬"
+        ],
+        "weight": [
+          "85-90g"
+        ],
+        "origin": [
+          "瑞典"
+        ]
+      },
+      "sources": [
+        "https://tabletennis-reference.com/racket/detail/832",
+        "https://www.greenpaddle.com/products/joola-viking"
+      ],
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0165/8526/1156/products/bladeviking_Flared-02-1_1200x1200.jpg?v=1611121508"
       ],
       "contributors": [
         "Codex research"
