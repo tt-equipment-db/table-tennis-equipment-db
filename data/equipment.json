@@ -333,6 +333,9 @@
         ],
         "origin": [
           "中国"
+        ],
+        "package": [
+          "水怪套餐"
         ]
       },
       "sources": [
@@ -1434,6 +1437,9 @@
         ],
         "origin": [
           "中国"
+        ],
+        "package": [
+          "水怪套餐"
         ]
       },
       "sources": [
@@ -1587,6 +1593,9 @@
         ],
         "origin": [
           "中国"
+        ],
+        "package": [
+          "水怪套餐"
         ]
       },
       "sources": [
@@ -1632,6 +1641,9 @@
         ],
         "origin": [
           "中国"
+        ],
+        "package": [
+          "水怪套餐"
         ]
       },
       "sources": [
@@ -3964,6 +3976,9 @@
         ],
         "origin": [
           "中国"
+        ],
+        "package": [
+          "水怪套餐"
         ]
       },
       "sources": [
@@ -7720,6 +7735,469 @@
       "contributors": [
         "Codex research"
       ]
+    },
+    {
+      "id": "loki-rxton-3-pro",
+      "name": "Rxton 3 Pro",
+      "brand": "雷神",
+      "brandEn": "Loki",
+      "series": "Rxton",
+      "price": 68,
+      "priceMin": 43,
+      "priceMax": 103,
+      "image": "https://revspin.net/assets/table-tennis-images/rubbers/loki-rxton-3.jpg",
+      "description": "雷神锐龙 3 Pro 是锐龙 3 的进阶版本，偏国产粘性正手，强调性价比和发力后支撑。",
+      "tags": {
+        "brand": [
+          "雷神"
+        ],
+        "position": [
+          "正手",
+          "反手"
+        ],
+        "rubberType": [
+          "反胶",
+          "粘性胶面"
+        ],
+        "sponge": [
+          "高密海绵"
+        ],
+        "thickness": [
+          "2.1",
+          "2.2",
+          "Max"
+        ],
+        "style": [
+          "弧圈",
+          "快攻弧圈",
+          "水怪套餐"
+        ],
+        "origin": [
+          "中国"
+        ],
+        "price": [
+          "80左右"
+        ],
+        "package": [
+          "水怪套餐"
+        ]
+      },
+      "sources": [
+        "社区清单初始补全；套胶体感和硬度需后续由球友继续校准",
+        "Loki Rxton 3 Pro market listings",
+        "https://revspin.net/rubber/loki-rxton-3.html"
+      ],
+      "currency": "CNY",
+      "contributors": [
+        "Codex research"
+      ],
+      "images": [
+        "https://revspin.net/assets/table-tennis-images/rubbers/loki-rxton-3.jpg"
+      ]
+    },
+    {
+      "id": "loki-arthur-china-pro",
+      "name": "Arthur China Pro",
+      "brand": "雷神",
+      "brandEn": "Loki",
+      "series": "Arthur",
+      "price": 135,
+      "priceMin": 110,
+      "priceMax": 170,
+      "image": "https://revspin.net/assets/table-tennis-images/rubbers/loki-arthur-china.jpg",
+      "description": "亚瑟中国 Pro 是亚瑟中国的进阶版本，偏粘性、支撑和正手进攻。",
+      "tags": {
+        "brand": [
+          "雷神"
+        ],
+        "position": [
+          "正手",
+          "反手"
+        ],
+        "rubberType": [
+          "反胶",
+          "粘性胶面"
+        ],
+        "sponge": [
+          "高密海绵"
+        ],
+        "thickness": [
+          "2.1",
+          "2.2",
+          "Max"
+        ],
+        "style": [
+          "弧圈",
+          "快攻弧圈",
+          "水怪套餐"
+        ],
+        "origin": [
+          "中国"
+        ],
+        "price": [
+          "百元左右"
+        ],
+        "package": [
+          "水怪套餐"
+        ]
+      },
+      "sources": [
+        "社区清单初始补全；套胶体感和硬度需后续由球友继续校准",
+        "Loki Arthur China Pro market listings",
+        "https://revspin.net/rubber/loki-arthur-china.html"
+      ],
+      "currency": "CNY",
+      "contributors": [
+        "Codex research"
+      ],
+      "images": [
+        "https://revspin.net/assets/table-tennis-images/rubbers/loki-arthur-china.jpg"
+      ]
+    },
+    {
+      "id": "loki-arthur-asia",
+      "name": "Arthur Asia",
+      "brand": "雷神",
+      "brandEn": "Loki",
+      "series": "Arthur",
+      "price": 115,
+      "priceMin": 90,
+      "priceMax": 150,
+      "image": "https://revspin.net/assets/table-tennis-images/rubbers/loki-arthur-china.jpg",
+      "description": "亚瑟亚洲是雷神亚瑟系列面向亚洲打法的粘性套胶，兼顾摩擦和速度。",
+      "tags": {
+        "brand": [
+          "雷神"
+        ],
+        "position": [
+          "正手",
+          "反手"
+        ],
+        "rubberType": [
+          "反胶",
+          "粘性胶面"
+        ],
+        "sponge": [
+          "高密海绵"
+        ],
+        "thickness": [
+          "2.1",
+          "2.2",
+          "Max"
+        ],
+        "style": [
+          "弧圈",
+          "快攻弧圈",
+          "水怪套餐"
+        ],
+        "origin": [
+          "中国"
+        ],
+        "price": [
+          "百元左右"
+        ],
+        "package": [
+          "水怪套餐"
+        ]
+      },
+      "sources": [
+        "社区清单初始补全；套胶体感和硬度需后续由球友继续校准",
+        "Loki Arthur Asia market listings",
+        "https://revspin.net/rubber/loki-arthur-china.html"
+      ],
+      "currency": "CNY",
+      "contributors": [
+        "Codex research"
+      ],
+      "images": [
+        "https://revspin.net/assets/table-tennis-images/rubbers/loki-arthur-china.jpg"
+      ]
+    },
+    {
+      "id": "loki-kirin-k1-rubber",
+      "name": "麒麟 K1（套胶）",
+      "brand": "雷神",
+      "brandEn": "Loki",
+      "series": "Kirin",
+      "price": 85,
+      "priceMin": 60,
+      "priceMax": 120,
+      "image": "https://placehold.co/720x720/581c87/ffffff?text=Loki%20%E9%BA%92%E9%BA%9F%20K1%EF%BC%88%E5%A5%97%E8%83%B6%EF%BC%89",
+      "description": "雷神麒麟 K1 套胶偏亲民正手/反手配置，适合水怪套餐和国产底板搭配。",
+      "tags": {
+        "brand": [
+          "雷神"
+        ],
+        "position": [
+          "正手",
+          "反手"
+        ],
+        "rubberType": [
+          "反胶",
+          "粘性胶面"
+        ],
+        "sponge": [
+          "高密海绵"
+        ],
+        "thickness": [
+          "2.1",
+          "2.2",
+          "Max"
+        ],
+        "style": [
+          "弧圈",
+          "快攻弧圈",
+          "水怪套餐"
+        ],
+        "origin": [
+          "中国"
+        ],
+        "price": [
+          "百元左右"
+        ],
+        "package": [
+          "水怪套餐"
+        ]
+      },
+      "sources": [
+        "社区清单初始补全；套胶体感和硬度需后续由球友继续校准",
+        "Loki 麒麟 K1（套胶） market listings"
+      ],
+      "currency": "CNY",
+      "contributors": [
+        "Codex research"
+      ],
+      "images": [
+        "https://placehold.co/720x720/581c87/ffffff?text=Loki%20%E9%BA%92%E9%BA%9F%20K1%EF%BC%88%E5%A5%97%E8%83%B6%EF%BC%89"
+      ]
+    },
+    {
+      "id": "loki-kirin-k5-rubber",
+      "name": "麒麟 K5（套胶）",
+      "brand": "雷神",
+      "brandEn": "Loki",
+      "series": "Kirin",
+      "price": 105,
+      "priceMin": 80,
+      "priceMax": 140,
+      "image": "https://placehold.co/720x720/581c87/ffffff?text=Loki%20%E9%BA%92%E9%BA%9F%20K5%EF%BC%88%E5%A5%97%E8%83%B6%EF%BC%89",
+      "description": "雷神麒麟 K5 套胶定位高于 K1，偏进攻和发力支撑。",
+      "tags": {
+        "brand": [
+          "雷神"
+        ],
+        "position": [
+          "正手",
+          "反手"
+        ],
+        "rubberType": [
+          "反胶",
+          "粘性胶面"
+        ],
+        "sponge": [
+          "高密海绵"
+        ],
+        "thickness": [
+          "2.1",
+          "2.2",
+          "Max"
+        ],
+        "style": [
+          "弧圈",
+          "快攻弧圈",
+          "水怪套餐"
+        ],
+        "origin": [
+          "中国"
+        ],
+        "price": [
+          "百元左右"
+        ],
+        "package": [
+          "水怪套餐"
+        ]
+      },
+      "sources": [
+        "社区清单初始补全；套胶体感和硬度需后续由球友继续校准",
+        "Loki 麒麟 K5（套胶） market listings"
+      ],
+      "currency": "CNY",
+      "contributors": [
+        "Codex research"
+      ],
+      "images": [
+        "https://placehold.co/720x720/581c87/ffffff?text=Loki%20%E9%BA%92%E9%BA%9F%20K5%EF%BC%88%E5%A5%97%E8%83%B6%EF%BC%89"
+      ]
+    },
+    {
+      "id": "sword-ruigan-rg",
+      "name": "锐感 RG",
+      "brand": "世奥得",
+      "brandEn": "Sword",
+      "series": "锐感",
+      "price": 95,
+      "priceMin": 70,
+      "priceMax": 125,
+      "image": "https://placehold.co/720x720/7c2d12/ffffff?text=Sword%20Ruigan%20RG",
+      "description": "世奥得锐感 RG 是国产亲民套胶，适合预算型正反手配置和水怪套餐搭配。",
+      "tags": {
+        "brand": [
+          "世奥得"
+        ],
+        "position": [
+          "正手",
+          "反手"
+        ],
+        "rubberType": [
+          "反胶"
+        ],
+        "sponge": [
+          "高弹海绵"
+        ],
+        "thickness": [
+          "2.1",
+          "2.2"
+        ],
+        "style": [
+          "控制",
+          "快攻弧圈",
+          "水怪套餐"
+        ],
+        "origin": [
+          "中国"
+        ],
+        "price": [
+          "百元左右"
+        ],
+        "package": [
+          "水怪套餐"
+        ]
+      },
+      "sources": [
+        "社区清单初始补全；套胶体感和硬度需后续由球友继续校准",
+        "Sword Ruigan RG market listings"
+      ],
+      "currency": "CNY",
+      "contributors": [
+        "Codex research"
+      ],
+      "images": [
+        "https://placehold.co/720x720/7c2d12/ffffff?text=Sword%20Ruigan%20RG"
+      ]
+    },
+    {
+      "id": "sanwei-target-3-pro",
+      "name": "标靶 3 专业版",
+      "brand": "三维",
+      "brandEn": "Sanwei",
+      "series": "标靶",
+      "price": 95,
+      "priceMin": 70,
+      "priceMax": 135,
+      "image": "https://revspin.net/assets/table-tennis-images/rubbers/sanwei-target-national.jpg",
+      "description": "三维标靶 3 专业版是国产粘性套胶，偏正手弧圈，常用于性价比配置。",
+      "tags": {
+        "brand": [
+          "三维"
+        ],
+        "position": [
+          "正手"
+        ],
+        "rubberType": [
+          "反胶",
+          "粘性胶面"
+        ],
+        "sponge": [
+          "高密海绵"
+        ],
+        "thickness": [
+          "2.1",
+          "2.2"
+        ],
+        "style": [
+          "弧圈",
+          "发抢",
+          "水怪套餐"
+        ],
+        "origin": [
+          "中国"
+        ],
+        "price": [
+          "百元左右"
+        ],
+        "package": [
+          "水怪套餐"
+        ]
+      },
+      "sources": [
+        "社区清单初始补全；套胶体感和硬度需后续由球友继续校准",
+        "Sanwei Target 3 Pro market listings",
+        "https://revspin.net/rubber/sanwei-target-national.html"
+      ],
+      "currency": "CNY",
+      "contributors": [
+        "Codex research"
+      ],
+      "images": [
+        "https://revspin.net/assets/table-tennis-images/rubbers/sanwei-target-national.jpg"
+      ]
+    },
+    {
+      "id": "friendship-729-kirin-flash",
+      "name": "麒麟闪现",
+      "brand": "729",
+      "brandEn": "Friendship 729",
+      "series": "麒麟",
+      "price": 90,
+      "priceMin": 65,
+      "priceMax": 120,
+      "image": "https://placehold.co/720x720/a16207/ffffff?text=729%20Kirin%20Flash",
+      "description": "729 麒麟闪现是国产性价比套胶，适合普通爱好者预算配置和水怪套餐。",
+      "tags": {
+        "brand": [
+          "729"
+        ],
+        "position": [
+          "正手",
+          "反手"
+        ],
+        "rubberType": [
+          "反胶",
+          "粘性胶面"
+        ],
+        "sponge": [
+          "高弹海绵"
+        ],
+        "thickness": [
+          "2.1",
+          "2.2"
+        ],
+        "style": [
+          "弧圈",
+          "快攻弧圈",
+          "水怪套餐"
+        ],
+        "origin": [
+          "中国"
+        ],
+        "price": [
+          "百元左右"
+        ],
+        "package": [
+          "水怪套餐"
+        ]
+      },
+      "sources": [
+        "社区清单初始补全；套胶体感和硬度需后续由球友继续校准",
+        "Friendship 729 Kirin Flash market listings"
+      ],
+      "currency": "CNY",
+      "contributors": [
+        "Codex research"
+      ],
+      "images": [
+        "https://placehold.co/720x720/a16207/ffffff?text=729%20Kirin%20Flash"
+      ]
     }
   ],
   "blades": [
@@ -11199,9 +11677,9 @@
       "brandEn": "Yinhe",
       "series": "Y",
       "price": 95,
-      "priceMin": 70,
-      "priceMax": 140,
-      "description": "银河低价纯木板之一，适合入门和训练搭配。",
+      "priceMin": 35,
+      "priceMax": 70,
+      "description": "银河 Y-4 是 50 元左右的入门训练底板，常见包装自带约 6g 护膜；挑重量时建议把护膜重量扣除后再比较裸板。",
       "tags": {
         "brand": [
           "银河"
@@ -11225,11 +11703,18 @@
         ],
         "origin": [
           "中国"
+        ],
+        "price": [
+          "50左右"
+        ],
+        "weight": [
+          "需扣护膜"
         ]
       },
       "sources": [
         "Yinhe Y-4 blade listings",
-        "beginner gear discussions"
+        "beginner gear discussions",
+        "社区反馈：Y-4 自带约 6g 护膜，挑重量需扣除"
       ],
       "color": "854d0e",
       "image": "https://placehold.co/720x480/854d0e/ffffff?text=Yinhe%20Y-4",
@@ -14116,6 +14601,1521 @@
       ],
       "contributors": [
         "Codex research"
+      ]
+    },
+    {
+      "id": "sanwei-nordic-7",
+      "name": "北欧 7",
+      "brand": "三维",
+      "brandEn": "Sanwei",
+      "series": "北欧",
+      "price": 85,
+      "priceMin": 60,
+      "priceMax": 100,
+      "image": "https://placehold.co/720x720/1e40af/ffffff?text=Sanwei%20Nordic%207",
+      "description": "三维北欧 7 是百元内七夹纯木，定位训练和快攻弧圈，适合预算型七夹入门。",
+      "tags": {
+        "brand": [
+          "三维"
+        ],
+        "structure": [
+          "七夹纯木"
+        ],
+        "material": [
+          "纯木"
+        ],
+        "position": [
+          "快攻弧圈",
+          "训练"
+        ],
+        "handle": [
+          "横板",
+          "直板",
+          "FL",
+          "CS"
+        ],
+        "speed": [
+          "中快"
+        ],
+        "feel": [
+          "扎实",
+          "中硬"
+        ],
+        "weight": [
+          "常规"
+        ],
+        "origin": [
+          "中国"
+        ],
+        "price": [
+          "100以内"
+        ]
+      },
+      "sources": [
+        "社区清单初始补全；规格和价格带需后续由球友继续校准",
+        "Sanwei Nordic 7 market listings"
+      ],
+      "currency": "CNY",
+      "contributors": [
+        "Codex research"
+      ],
+      "images": [
+        "https://placehold.co/720x720/1e40af/ffffff?text=Sanwei%20Nordic%207"
+      ]
+    },
+    {
+      "id": "friendship-729-green-devil-7",
+      "name": "绿魔 7",
+      "brand": "729",
+      "brandEn": "Friendship 729",
+      "series": "绿魔",
+      "price": 90,
+      "priceMin": 65,
+      "priceMax": 110,
+      "image": "https://placehold.co/720x720/166534/ffffff?text=729%20Green%20Devil%207",
+      "description": "729 绿魔 7 是百元内国产七夹底板，偏快攻和借力，适合低成本练习配置。",
+      "tags": {
+        "brand": [
+          "729"
+        ],
+        "structure": [
+          "七夹纯木"
+        ],
+        "material": [
+          "纯木"
+        ],
+        "position": [
+          "快攻",
+          "近台进攻"
+        ],
+        "handle": [
+          "横板",
+          "直板",
+          "FL",
+          "CS"
+        ],
+        "speed": [
+          "中快"
+        ],
+        "feel": [
+          "硬挺",
+          "清晰"
+        ],
+        "weight": [
+          "常规"
+        ],
+        "origin": [
+          "中国"
+        ],
+        "price": [
+          "100以内"
+        ]
+      },
+      "sources": [
+        "社区清单初始补全；规格和价格带需后续由球友继续校准",
+        "Friendship 729 Green Devil 7 market listings"
+      ],
+      "currency": "CNY",
+      "contributors": [
+        "Codex research"
+      ],
+      "images": [
+        "https://placehold.co/720x720/166534/ffffff?text=729%20Green%20Devil%207"
+      ]
+    },
+    {
+      "id": "reactor-yujian",
+      "name": "驭剑",
+      "brand": "锐科特",
+      "brandEn": "Reactor",
+      "series": "驭剑",
+      "price": 130,
+      "priceMin": 100,
+      "priceMax": 150,
+      "image": "https://placehold.co/720x720/7f1d1d/ffffff?text=Reactor%20Yujian",
+      "description": "锐科特驭剑是 100-150 元价位的国产底板，定位均衡训练和弧圈快攻。",
+      "tags": {
+        "brand": [
+          "锐科特"
+        ],
+        "structure": [
+          "纯木"
+        ],
+        "material": [
+          "纯木"
+        ],
+        "position": [
+          "弧圈",
+          "训练"
+        ],
+        "handle": [
+          "横板",
+          "直板",
+          "FL",
+          "CS"
+        ],
+        "speed": [
+          "中快"
+        ],
+        "feel": [
+          "中等",
+          "控制"
+        ],
+        "weight": [
+          "常规"
+        ],
+        "origin": [
+          "中国"
+        ],
+        "price": [
+          "100-150"
+        ]
+      },
+      "sources": [
+        "社区清单初始补全；规格和价格带需后续由球友继续校准",
+        "Reactor Yujian market listings"
+      ],
+      "currency": "CNY",
+      "contributors": [
+        "Codex research"
+      ],
+      "images": [
+        "https://placehold.co/720x720/7f1d1d/ffffff?text=Reactor%20Yujian"
+      ]
+    },
+    {
+      "id": "dhs-power-g12",
+      "name": "劲极 12",
+      "brand": "红双喜",
+      "brandEn": "DHS",
+      "series": "劲极",
+      "price": 135,
+      "priceMin": 100,
+      "priceMax": 180,
+      "image": "https://placehold.co/720x720/b91c1c/ffffff?text=DHS%20Power%20G12",
+      "description": "红双喜劲极 12 是劲极系列亲民底板，适合训练、快攻弧圈和国产套胶配置。",
+      "tags": {
+        "brand": [
+          "红双喜"
+        ],
+        "structure": [
+          "纯木"
+        ],
+        "material": [
+          "纯木"
+        ],
+        "position": [
+          "快攻弧圈",
+          "训练"
+        ],
+        "handle": [
+          "横板",
+          "直板",
+          "FL",
+          "CS"
+        ],
+        "speed": [
+          "中快"
+        ],
+        "feel": [
+          "扎实",
+          "中等"
+        ],
+        "weight": [
+          "常规"
+        ],
+        "origin": [
+          "中国"
+        ],
+        "price": [
+          "100-150"
+        ]
+      },
+      "sources": [
+        "社区清单初始补全；规格和价格带需后续由球友继续校准",
+        "DHS Power G12 market listings"
+      ],
+      "currency": "CNY",
+      "contributors": [
+        "Codex research"
+      ],
+      "images": [
+        "https://placehold.co/720x720/b91c1c/ffffff?text=DHS%20Power%20G12"
+      ]
+    },
+    {
+      "id": "dhs-power-g15",
+      "name": "劲极 15",
+      "brand": "红双喜",
+      "brandEn": "DHS",
+      "series": "劲极",
+      "price": 145,
+      "priceMin": 110,
+      "priceMax": 190,
+      "image": "https://placehold.co/720x720/b91c1c/ffffff?text=DHS%20Power%20G15",
+      "description": "红双喜劲极 15 是劲极系列亲民底板，适合训练、快攻弧圈和国产套胶配置。",
+      "tags": {
+        "brand": [
+          "红双喜"
+        ],
+        "structure": [
+          "纯木"
+        ],
+        "material": [
+          "纯木"
+        ],
+        "position": [
+          "快攻弧圈",
+          "训练"
+        ],
+        "handle": [
+          "横板",
+          "直板",
+          "FL",
+          "CS"
+        ],
+        "speed": [
+          "中快"
+        ],
+        "feel": [
+          "扎实",
+          "中等"
+        ],
+        "weight": [
+          "常规"
+        ],
+        "origin": [
+          "中国"
+        ],
+        "price": [
+          "100-150"
+        ]
+      },
+      "sources": [
+        "社区清单初始补全；规格和价格带需后续由球友继续校准",
+        "DHS Power G15 market listings"
+      ],
+      "currency": "CNY",
+      "contributors": [
+        "Codex research"
+      ],
+      "images": [
+        "https://placehold.co/720x720/b91c1c/ffffff?text=DHS%20Power%20G15"
+      ]
+    },
+    {
+      "id": "dhs-power-g6a",
+      "name": "劲极 6A",
+      "brand": "红双喜",
+      "brandEn": "DHS",
+      "series": "劲极",
+      "price": 175,
+      "priceMin": 140,
+      "priceMax": 220,
+      "image": "https://placehold.co/720x720/b91c1c/ffffff?text=DHS%20Power%20G6A",
+      "description": "红双喜劲极 6A 是劲极系列亲民底板，适合训练、快攻弧圈和国产套胶配置。",
+      "tags": {
+        "brand": [
+          "红双喜"
+        ],
+        "structure": [
+          "纯木"
+        ],
+        "material": [
+          "纯木"
+        ],
+        "position": [
+          "快攻弧圈",
+          "训练"
+        ],
+        "handle": [
+          "横板",
+          "直板",
+          "FL",
+          "CS"
+        ],
+        "speed": [
+          "中快"
+        ],
+        "feel": [
+          "扎实",
+          "中等"
+        ],
+        "weight": [
+          "常规"
+        ],
+        "origin": [
+          "中国"
+        ],
+        "price": [
+          "150-200"
+        ]
+      },
+      "sources": [
+        "社区清单初始补全；规格和价格带需后续由球友继续校准",
+        "DHS Power G6A market listings"
+      ],
+      "currency": "CNY",
+      "contributors": [
+        "Codex research"
+      ],
+      "images": [
+        "https://placehold.co/720x720/b91c1c/ffffff?text=DHS%20Power%20G6A"
+      ]
+    },
+    {
+      "id": "dhs-power-g3z",
+      "name": "劲极 3Z",
+      "brand": "红双喜",
+      "brandEn": "DHS",
+      "series": "劲极",
+      "price": 175,
+      "priceMin": 140,
+      "priceMax": 220,
+      "image": "https://placehold.co/720x720/b91c1c/ffffff?text=DHS%20Power%20G3Z",
+      "description": "红双喜劲极 3Z 是劲极系列亲民底板，适合训练、快攻弧圈和国产套胶配置。",
+      "tags": {
+        "brand": [
+          "红双喜"
+        ],
+        "structure": [
+          "纯木"
+        ],
+        "material": [
+          "纯木"
+        ],
+        "position": [
+          "快攻弧圈",
+          "训练"
+        ],
+        "handle": [
+          "横板",
+          "直板",
+          "FL",
+          "CS"
+        ],
+        "speed": [
+          "中快"
+        ],
+        "feel": [
+          "扎实",
+          "中等"
+        ],
+        "weight": [
+          "常规"
+        ],
+        "origin": [
+          "中国"
+        ],
+        "price": [
+          "150-200"
+        ]
+      },
+      "sources": [
+        "社区清单初始补全；规格和价格带需后续由球友继续校准",
+        "DHS Power G3Z market listings"
+      ],
+      "currency": "CNY",
+      "contributors": [
+        "Codex research"
+      ],
+      "images": [
+        "https://placehold.co/720x720/b91c1c/ffffff?text=DHS%20Power%20G3Z"
+      ]
+    },
+    {
+      "id": "sword-yokohama-yue",
+      "name": "横滨悦",
+      "brand": "世奥得",
+      "brandEn": "Sword",
+      "series": "横滨",
+      "price": 135,
+      "priceMin": 105,
+      "priceMax": 160,
+      "image": "https://placehold.co/720x720/7c2d12/ffffff?text=Sword%20Yokohama%20Yue",
+      "description": "世奥得横滨悦是百元级国产底板，偏均衡控制和训练，适合作为进阶前的练习配置。",
+      "tags": {
+        "brand": [
+          "世奥得"
+        ],
+        "structure": [
+          "纯木"
+        ],
+        "material": [
+          "纯木"
+        ],
+        "position": [
+          "控制",
+          "训练"
+        ],
+        "handle": [
+          "横板",
+          "直板",
+          "FL",
+          "CS"
+        ],
+        "speed": [
+          "中等"
+        ],
+        "feel": [
+          "控制",
+          "中等"
+        ],
+        "weight": [
+          "常规"
+        ],
+        "origin": [
+          "中国"
+        ],
+        "price": [
+          "100-150"
+        ]
+      },
+      "sources": [
+        "社区清单初始补全；规格和价格带需后续由球友继续校准",
+        "Sword Yokohama Yue market listings"
+      ],
+      "currency": "CNY",
+      "contributors": [
+        "Codex research"
+      ],
+      "images": [
+        "https://placehold.co/720x720/7c2d12/ffffff?text=Sword%20Yokohama%20Yue"
+      ]
+    },
+    {
+      "id": "loki-sting-cnf",
+      "name": "毒刺 CNF",
+      "brand": "雷神",
+      "brandEn": "Loki",
+      "series": "毒刺",
+      "price": 145,
+      "priceMin": 75,
+      "priceMax": 245,
+      "image": "https://placehold.co/720x720/4c1d95/ffffff?text=Loki%20%E6%AF%92%E5%88%BA%20CNF",
+      "description": "雷神毒刺 CNF 是国产性能向底板，定位偏进攻，适合搭配国产粘套和快攻弧圈打法。",
+      "tags": {
+        "brand": [
+          "雷神"
+        ],
+        "structure": [
+          "纤维",
+          "5+2"
+        ],
+        "material": [
+          "CNF纤维"
+        ],
+        "position": [
+          "快攻弧圈",
+          "弧圈"
+        ],
+        "handle": [
+          "横板",
+          "直板",
+          "FL",
+          "CS"
+        ],
+        "speed": [
+          "快"
+        ],
+        "feel": [
+          "支撑",
+          "中硬"
+        ],
+        "weight": [
+          "常规"
+        ],
+        "origin": [
+          "中国"
+        ],
+        "price": [
+          "100-150"
+        ]
+      },
+      "sources": [
+        "社区清单初始补全；规格和价格带需后续由球友继续校准",
+        "Loki 毒刺 CNF market listings"
+      ],
+      "currency": "CNY",
+      "contributors": [
+        "Codex research"
+      ],
+      "images": [
+        "https://placehold.co/720x720/4c1d95/ffffff?text=Loki%20%E6%AF%92%E5%88%BA%20CNF"
+      ]
+    },
+    {
+      "id": "loki-sting-power",
+      "name": "毒刺 Power",
+      "brand": "雷神",
+      "brandEn": "Loki",
+      "series": "毒刺",
+      "price": 145,
+      "priceMin": 75,
+      "priceMax": 245,
+      "image": "https://placehold.co/720x720/4c1d95/ffffff?text=Loki%20%E6%AF%92%E5%88%BA%20Power",
+      "description": "雷神毒刺 Power 是国产性能向底板，定位偏进攻，适合搭配国产粘套和快攻弧圈打法。",
+      "tags": {
+        "brand": [
+          "雷神"
+        ],
+        "structure": [
+          "纤维",
+          "5+2"
+        ],
+        "material": [
+          "纤维"
+        ],
+        "position": [
+          "快攻弧圈",
+          "弧圈"
+        ],
+        "handle": [
+          "横板",
+          "直板",
+          "FL",
+          "CS"
+        ],
+        "speed": [
+          "快"
+        ],
+        "feel": [
+          "支撑",
+          "中硬"
+        ],
+        "weight": [
+          "常规"
+        ],
+        "origin": [
+          "中国"
+        ],
+        "price": [
+          "100-150"
+        ]
+      },
+      "sources": [
+        "社区清单初始补全；规格和价格带需后续由球友继续校准",
+        "Loki 毒刺 Power market listings"
+      ],
+      "currency": "CNY",
+      "contributors": [
+        "Codex research"
+      ],
+      "images": [
+        "https://placehold.co/720x720/4c1d95/ffffff?text=Loki%20%E6%AF%92%E5%88%BA%20Power"
+      ]
+    },
+    {
+      "id": "loki-w81-outer-athlete-special",
+      "name": "W81 外置运动员特注",
+      "brand": "雷神",
+      "brandEn": "Loki",
+      "series": "W81",
+      "price": 420,
+      "priceMin": 350,
+      "priceMax": 520,
+      "image": "https://placehold.co/720x720/4c1d95/ffffff?text=Loki%20W81%20%E5%A4%96%E7%BD%AE%E8%BF%90%E5%8A%A8%E5%91%98%E7%89%B9%E6%B3%A8",
+      "description": "雷神W81 外置运动员特注 是国产性能向底板，定位偏进攻，适合搭配国产粘套和快攻弧圈打法。",
+      "tags": {
+        "brand": [
+          "雷神"
+        ],
+        "structure": [
+          "纤维",
+          "5+2"
+        ],
+        "material": [
+          "外置纤维"
+        ],
+        "position": [
+          "快攻弧圈",
+          "弧圈"
+        ],
+        "handle": [
+          "横板",
+          "直板",
+          "FL",
+          "CS"
+        ],
+        "speed": [
+          "快"
+        ],
+        "feel": [
+          "支撑",
+          "中硬"
+        ],
+        "weight": [
+          "常规"
+        ],
+        "origin": [
+          "中国"
+        ],
+        "price": [
+          "300-500"
+        ]
+      },
+      "sources": [
+        "社区清单初始补全；规格和价格带需后续由球友继续校准",
+        "Loki W81 外置运动员特注 market listings"
+      ],
+      "currency": "CNY",
+      "contributors": [
+        "Codex research"
+      ],
+      "images": [
+        "https://placehold.co/720x720/4c1d95/ffffff?text=Loki%20W81%20%E5%A4%96%E7%BD%AE%E8%BF%90%E5%8A%A8%E5%91%98%E7%89%B9%E6%B3%A8"
+      ]
+    },
+    {
+      "id": "dhs-hurricane-301h",
+      "name": "狂飙 301H",
+      "brand": "红双喜",
+      "brandEn": "DHS",
+      "series": "狂飙 301",
+      "price": 285,
+      "priceMin": 225,
+      "priceMax": 365,
+      "image": "https://cdn.shopify.com/s/files/1/0602/9125/2458/products/DHSHURRICANE301.webp?v=1673242717",
+      "description": "红双喜狂飙 301H 是 200-300 元价位常见底板，定位进阶训练和弧圈进攻。",
+      "tags": {
+        "brand": [
+          "红双喜"
+        ],
+        "structure": [
+          "内置纤维"
+        ],
+        "material": [
+          "纤维"
+        ],
+        "position": [
+          "弧圈",
+          "快攻弧圈"
+        ],
+        "handle": [
+          "横板",
+          "直板",
+          "FL",
+          "CS"
+        ],
+        "speed": [
+          "中快",
+          "快"
+        ],
+        "feel": [
+          "支撑",
+          "中等"
+        ],
+        "weight": [
+          "常规"
+        ],
+        "origin": [
+          "中国"
+        ],
+        "price": [
+          "200-300"
+        ]
+      },
+      "sources": [
+        "社区清单初始补全；规格和价格带需后续由球友继续校准",
+        "DHS 狂飙 301H market listings",
+        "https://komann.com.hk/en/products/dhs-hurricane-h301-%E7%B4%85%E9%9B%99%E5%96%9C%E7%8B%82%E9%A3%9Ah301"
+      ],
+      "currency": "CNY",
+      "contributors": [
+        "Codex research"
+      ],
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0602/9125/2458/products/DHSHURRICANE301.webp?v=1673242717"
+      ]
+    },
+    {
+      "id": "dhs-506a",
+      "name": "506A",
+      "brand": "红双喜",
+      "brandEn": "DHS",
+      "series": "506",
+      "price": 260,
+      "priceMin": 200,
+      "priceMax": 340,
+      "image": "https://placehold.co/720x720/991b1b/ffffff?text=DHS%20506A",
+      "description": "红双喜506A 是 200-300 元价位常见底板，定位进阶训练和弧圈进攻。",
+      "tags": {
+        "brand": [
+          "红双喜"
+        ],
+        "structure": [
+          "纯木"
+        ],
+        "material": [
+          "纯木"
+        ],
+        "position": [
+          "弧圈",
+          "快攻弧圈"
+        ],
+        "handle": [
+          "横板",
+          "直板",
+          "FL",
+          "CS"
+        ],
+        "speed": [
+          "中快",
+          "快"
+        ],
+        "feel": [
+          "支撑",
+          "中等"
+        ],
+        "weight": [
+          "常规"
+        ],
+        "origin": [
+          "中国"
+        ],
+        "price": [
+          "200-300"
+        ]
+      },
+      "sources": [
+        "社区清单初始补全；规格和价格带需后续由球友继续校准",
+        "DHS 506A market listings"
+      ],
+      "currency": "CNY",
+      "contributors": [
+        "Codex research"
+      ],
+      "images": [
+        "https://placehold.co/720x720/991b1b/ffffff?text=DHS%20506A"
+      ]
+    },
+    {
+      "id": "yinhe-m101",
+      "name": "M101",
+      "brand": "银河",
+      "brandEn": "Yinhe",
+      "series": "M",
+      "price": 240,
+      "priceMin": 180,
+      "priceMax": 320,
+      "image": "https://placehold.co/720x720/1e3a8a/ffffff?text=Yinhe%20M101",
+      "description": "银河M101 是 200-300 元价位常见底板，定位进阶训练和弧圈进攻。",
+      "tags": {
+        "brand": [
+          "银河"
+        ],
+        "structure": [
+          "纤维"
+        ],
+        "material": [
+          "纤维"
+        ],
+        "position": [
+          "弧圈",
+          "快攻弧圈"
+        ],
+        "handle": [
+          "横板",
+          "直板",
+          "FL",
+          "CS"
+        ],
+        "speed": [
+          "中快",
+          "快"
+        ],
+        "feel": [
+          "支撑",
+          "中等"
+        ],
+        "weight": [
+          "常规"
+        ],
+        "origin": [
+          "中国"
+        ],
+        "price": [
+          "200-300"
+        ]
+      },
+      "sources": [
+        "社区清单初始补全；规格和价格带需后续由球友继续校准",
+        "Yinhe M101 market listings"
+      ],
+      "currency": "CNY",
+      "contributors": [
+        "Codex research"
+      ],
+      "images": [
+        "https://placehold.co/720x720/1e3a8a/ffffff?text=Yinhe%20M101"
+      ]
+    },
+    {
+      "id": "yinhe-m102",
+      "name": "M102",
+      "brand": "银河",
+      "brandEn": "Yinhe",
+      "series": "M",
+      "price": 250,
+      "priceMin": 190,
+      "priceMax": 330,
+      "image": "https://placehold.co/720x720/1e3a8a/ffffff?text=Yinhe%20M102",
+      "description": "银河M102 是 200-300 元价位常见底板，定位进阶训练和弧圈进攻。",
+      "tags": {
+        "brand": [
+          "银河"
+        ],
+        "structure": [
+          "纤维"
+        ],
+        "material": [
+          "纤维"
+        ],
+        "position": [
+          "弧圈",
+          "快攻弧圈"
+        ],
+        "handle": [
+          "横板",
+          "直板",
+          "FL",
+          "CS"
+        ],
+        "speed": [
+          "中快",
+          "快"
+        ],
+        "feel": [
+          "支撑",
+          "中等"
+        ],
+        "weight": [
+          "常规"
+        ],
+        "origin": [
+          "中国"
+        ],
+        "price": [
+          "200-300"
+        ]
+      },
+      "sources": [
+        "社区清单初始补全；规格和价格带需后续由球友继续校准",
+        "Yinhe M102 market listings"
+      ],
+      "currency": "CNY",
+      "contributors": [
+        "Codex research"
+      ],
+      "images": [
+        "https://placehold.co/720x720/1e3a8a/ffffff?text=Yinhe%20M102"
+      ]
+    },
+    {
+      "id": "victas-swat",
+      "name": "SWAT",
+      "brand": "维克塔斯",
+      "brandEn": "VICTAS",
+      "series": "SWAT",
+      "price": 260,
+      "priceMin": 210,
+      "priceMax": 330,
+      "image": "https://revspin.net/assets/table-tennis-images/blades/victas-swat.jpg",
+      "images": [
+        "https://revspin.net/assets/table-tennis-images/blades/victas-swat.jpg"
+      ],
+      "description": "VICTAS SWAT 是经典七夹纯木，不带后缀版本偏均衡，常见于快攻弧圈和训练配置。",
+      "tags": {
+        "brand": [
+          "VICTAS（维克塔斯）"
+        ],
+        "structure": [
+          "七夹纯木"
+        ],
+        "material": [
+          "纯木"
+        ],
+        "position": [
+          "快攻弧圈",
+          "控制"
+        ],
+        "handle": [
+          "横板",
+          "FL",
+          "ST"
+        ],
+        "speed": [
+          "中快",
+          "OFF-"
+        ],
+        "feel": [
+          "清晰",
+          "中硬"
+        ],
+        "weight": [
+          "80-85g",
+          "85-90g"
+        ],
+        "origin": [
+          "日本"
+        ],
+        "price": [
+          "200-300"
+        ]
+      },
+      "sources": [
+        "https://revspin.net/blade/victas-swat.html",
+        "VICTAS SWAT product listings"
+      ],
+      "currency": "CNY",
+      "contributors": [
+        "Codex research"
+      ]
+    },
+    {
+      "id": "banda-off",
+      "name": "OFF",
+      "brand": "颁达",
+      "brandEn": "Banda",
+      "series": "OFF",
+      "price": 280,
+      "priceMin": 220,
+      "priceMax": 340,
+      "image": "https://placehold.co/720x720/0f766e/ffffff?text=Banda%20OFF",
+      "description": "颁达 OFF 是进攻型底板，价格带约 200-300 元，适合快攻弧圈和日常训练。",
+      "tags": {
+        "brand": [
+          "Banda（颁达）"
+        ],
+        "structure": [
+          "纯木"
+        ],
+        "material": [
+          "纯木"
+        ],
+        "position": [
+          "快攻弧圈",
+          "训练"
+        ],
+        "handle": [
+          "横板",
+          "FL"
+        ],
+        "speed": [
+          "中快"
+        ],
+        "feel": [
+          "清晰",
+          "中等"
+        ],
+        "weight": [
+          "常规"
+        ],
+        "origin": [
+          "瑞典"
+        ],
+        "price": [
+          "200-300"
+        ]
+      },
+      "sources": [
+        "社区清单初始补全；规格和价格带需后续由球友继续校准",
+        "Banda OFF blade listings"
+      ],
+      "currency": "CNY",
+      "contributors": [
+        "Codex research"
+      ],
+      "images": [
+        "https://placehold.co/720x720/0f766e/ffffff?text=Banda%20OFF"
+      ]
+    },
+    {
+      "id": "dhs-hurricane-king-acb",
+      "name": "狂飚王 ACB",
+      "brand": "红双喜",
+      "brandEn": "DHS",
+      "series": "狂飚王",
+      "price": 380,
+      "priceMin": 300,
+      "priceMax": 500,
+      "image": "https://placehold.co/720x720/7f1d1d/ffffff?text=DHS%20%E7%8B%82%E9%A3%9A%E7%8E%8B%20ACB",
+      "description": "红双喜狂飚王 ACB 是狂飚王系列进攻底板，适合国产正手弧圈和中近台相持。",
+      "tags": {
+        "brand": [
+          "红双喜"
+        ],
+        "structure": [
+          "纤维"
+        ],
+        "material": [
+          "纤维"
+        ],
+        "position": [
+          "弧圈",
+          "快攻弧圈"
+        ],
+        "handle": [
+          "横板",
+          "直板",
+          "FL",
+          "ST",
+          "CS"
+        ],
+        "speed": [
+          "快"
+        ],
+        "feel": [
+          "清晰",
+          "支撑"
+        ],
+        "weight": [
+          "常规"
+        ],
+        "origin": [
+          "中国"
+        ],
+        "price": [
+          "300-500"
+        ]
+      },
+      "sources": [
+        "社区清单初始补全；规格和价格带需后续由球友继续校准",
+        "DHS 狂飚王 ACB product or market listings"
+      ],
+      "currency": "CNY",
+      "contributors": [
+        "Codex research"
+      ],
+      "images": [
+        "https://placehold.co/720x720/7f1d1d/ffffff?text=DHS%20%E7%8B%82%E9%A3%9A%E7%8E%8B%20ACB"
+      ]
+    },
+    {
+      "id": "stiga-cybershape-cl",
+      "name": "Cybershape CL（赛博 CL）",
+      "brand": "斯帝卡",
+      "brandEn": "STIGA",
+      "series": "Cybershape",
+      "price": 420,
+      "priceMin": 300,
+      "priceMax": 500,
+      "image": "https://placehold.co/720x720/111827/ffffff?text=STIGA%20Cybershape%20CL%EF%BC%88%E8%B5%9B%E5%8D%9A%20CL%EF%BC%89",
+      "description": "斯帝卡赛博 CL 是 Cybershape 外形的纯木/CL 取向底板，强调经典手感和新拍形甜区。",
+      "tags": {
+        "brand": [
+          "STIGA（斯帝卡）"
+        ],
+        "structure": [
+          "纯木"
+        ],
+        "material": [
+          "纯木"
+        ],
+        "position": [
+          "弧圈",
+          "快攻弧圈"
+        ],
+        "handle": [
+          "横板",
+          "直板",
+          "FL",
+          "ST",
+          "CS"
+        ],
+        "speed": [
+          "快"
+        ],
+        "feel": [
+          "清晰",
+          "支撑"
+        ],
+        "weight": [
+          "常规"
+        ],
+        "origin": [
+          "瑞典"
+        ],
+        "price": [
+          "300-500"
+        ]
+      },
+      "sources": [
+        "社区清单初始补全；规格和价格带需后续由球友继续校准",
+        "STIGA Cybershape CL（赛博 CL） product or market listings"
+      ],
+      "currency": "CNY",
+      "contributors": [
+        "Codex research"
+      ],
+      "images": [
+        "https://placehold.co/720x720/111827/ffffff?text=STIGA%20Cybershape%20CL%EF%BC%88%E8%B5%9B%E5%8D%9A%20CL%EF%BC%89"
+      ]
+    },
+    {
+      "id": "stiga-legend-offensive-classic",
+      "name": "Legend Offensive Classic（传奇 OC）",
+      "brand": "斯帝卡",
+      "brandEn": "STIGA",
+      "series": "Offensive Classic",
+      "price": 420,
+      "priceMin": 300,
+      "priceMax": 500,
+      "image": "https://placehold.co/720x720/111827/ffffff?text=STIGA%20Legend%20Offensive%20Classic%EF%BC%88%E4%BC%A0%E5%A5%87%20OC%EF%BC%89",
+      "description": "斯帝卡传奇 OC 是 OC 系列的纪念/高阶版本，延续五夹纯木控制和弧圈手感。",
+      "tags": {
+        "brand": [
+          "STIGA（斯帝卡）"
+        ],
+        "structure": [
+          "五夹纯木"
+        ],
+        "material": [
+          "纯木"
+        ],
+        "position": [
+          "弧圈",
+          "快攻弧圈"
+        ],
+        "handle": [
+          "横板",
+          "直板",
+          "FL",
+          "ST",
+          "CS"
+        ],
+        "speed": [
+          "快"
+        ],
+        "feel": [
+          "清晰",
+          "支撑"
+        ],
+        "weight": [
+          "常规"
+        ],
+        "origin": [
+          "瑞典"
+        ],
+        "price": [
+          "300-500"
+        ]
+      },
+      "sources": [
+        "社区清单初始补全；规格和价格带需后续由球友继续校准",
+        "STIGA Legend Offensive Classic（传奇 OC） product or market listings"
+      ],
+      "currency": "CNY",
+      "contributors": [
+        "Codex research"
+      ],
+      "images": [
+        "https://placehold.co/720x720/111827/ffffff?text=STIGA%20Legend%20Offensive%20Classic%EF%BC%88%E4%BC%A0%E5%A5%87%20OC%EF%BC%89"
+      ]
+    },
+    {
+      "id": "stiga-wavy",
+      "name": "Wavy",
+      "brand": "斯帝卡",
+      "brandEn": "STIGA",
+      "series": "Wavy",
+      "price": 420,
+      "priceMin": 300,
+      "priceMax": 500,
+      "image": "https://placehold.co/720x720/111827/ffffff?text=STIGA%20Wavy",
+      "description": "斯帝卡 Wavy 是 STIGA 近年话题底板，定位控制和弧圈进攻。",
+      "tags": {
+        "brand": [
+          "STIGA（斯帝卡）"
+        ],
+        "structure": [
+          "纯木"
+        ],
+        "material": [
+          "纯木"
+        ],
+        "position": [
+          "弧圈",
+          "快攻弧圈"
+        ],
+        "handle": [
+          "横板",
+          "直板",
+          "FL",
+          "ST",
+          "CS"
+        ],
+        "speed": [
+          "快"
+        ],
+        "feel": [
+          "清晰",
+          "支撑"
+        ],
+        "weight": [
+          "常规"
+        ],
+        "origin": [
+          "瑞典"
+        ],
+        "price": [
+          "300-500"
+        ]
+      },
+      "sources": [
+        "社区清单初始补全；规格和价格带需后续由球友继续校准",
+        "STIGA Wavy product or market listings"
+      ],
+      "currency": "CNY",
+      "contributors": [
+        "Codex research"
+      ],
+      "images": [
+        "https://placehold.co/720x720/111827/ffffff?text=STIGA%20Wavy"
+      ]
+    },
+    {
+      "id": "stiga-walnut-ccf",
+      "name": "Walnut CCF（胡桃 CCF）",
+      "brand": "斯帝卡",
+      "brandEn": "STIGA",
+      "series": "CCF",
+      "price": 420,
+      "priceMin": 300,
+      "priceMax": 500,
+      "image": "https://placehold.co/720x720/111827/ffffff?text=STIGA%20Walnut%20CCF%EF%BC%88%E8%83%A1%E6%A1%83%20CCF%EF%BC%89",
+      "description": "斯帝卡胡桃 CCF 以胡桃面材搭配纤维结构，击打更直接，适合进攻型打法。",
+      "tags": {
+        "brand": [
+          "STIGA（斯帝卡）"
+        ],
+        "structure": [
+          "纤维"
+        ],
+        "material": [
+          "纤维"
+        ],
+        "position": [
+          "弧圈",
+          "快攻弧圈"
+        ],
+        "handle": [
+          "横板",
+          "直板",
+          "FL",
+          "ST",
+          "CS"
+        ],
+        "speed": [
+          "快"
+        ],
+        "feel": [
+          "清晰",
+          "支撑"
+        ],
+        "weight": [
+          "常规"
+        ],
+        "origin": [
+          "瑞典"
+        ],
+        "price": [
+          "300-500"
+        ]
+      },
+      "sources": [
+        "社区清单初始补全；规格和价格带需后续由球友继续校准",
+        "STIGA Walnut CCF（胡桃 CCF） product or market listings"
+      ],
+      "currency": "CNY",
+      "contributors": [
+        "Codex research"
+      ],
+      "images": [
+        "https://placehold.co/720x720/111827/ffffff?text=STIGA%20Walnut%20CCF%EF%BC%88%E8%83%A1%E6%A1%83%20CCF%EF%BC%89"
+      ]
+    },
+    {
+      "id": "sword-weixuan",
+      "name": "威炫",
+      "brand": "世奥得",
+      "brandEn": "Sword",
+      "series": "威",
+      "price": 420,
+      "priceMin": 300,
+      "priceMax": 500,
+      "image": "https://placehold.co/720x720/7f1d1d/ffffff?text=Sword%20%E5%A8%81%E7%82%AB",
+      "description": "世奥得威炫是国产性能向底板，适合弧圈快攻和预算型纤维配置。",
+      "tags": {
+        "brand": [
+          "世奥得"
+        ],
+        "structure": [
+          "纤维"
+        ],
+        "material": [
+          "纤维"
+        ],
+        "position": [
+          "弧圈",
+          "快攻弧圈"
+        ],
+        "handle": [
+          "横板",
+          "直板",
+          "FL",
+          "ST",
+          "CS"
+        ],
+        "speed": [
+          "快"
+        ],
+        "feel": [
+          "清晰",
+          "支撑"
+        ],
+        "weight": [
+          "常规"
+        ],
+        "origin": [
+          "中国"
+        ],
+        "price": [
+          "300-500"
+        ]
+      },
+      "sources": [
+        "社区清单初始补全；规格和价格带需后续由球友继续校准",
+        "Sword 威炫 product or market listings"
+      ],
+      "currency": "CNY",
+      "contributors": [
+        "Codex research"
+      ],
+      "images": [
+        "https://placehold.co/720x720/7f1d1d/ffffff?text=Sword%20%E5%A8%81%E7%82%AB"
+      ]
+    },
+    {
+      "id": "sword-weisheng",
+      "name": "威胜",
+      "brand": "世奥得",
+      "brandEn": "Sword",
+      "series": "威",
+      "price": 420,
+      "priceMin": 300,
+      "priceMax": 500,
+      "image": "https://placehold.co/720x720/7f1d1d/ffffff?text=Sword%20%E5%A8%81%E8%83%9C",
+      "description": "世奥得威胜是国产纤维底板，定位进攻和稳定支撑。",
+      "tags": {
+        "brand": [
+          "世奥得"
+        ],
+        "structure": [
+          "纤维"
+        ],
+        "material": [
+          "纤维"
+        ],
+        "position": [
+          "弧圈",
+          "快攻弧圈"
+        ],
+        "handle": [
+          "横板",
+          "直板",
+          "FL",
+          "ST",
+          "CS"
+        ],
+        "speed": [
+          "快"
+        ],
+        "feel": [
+          "清晰",
+          "支撑"
+        ],
+        "weight": [
+          "常规"
+        ],
+        "origin": [
+          "中国"
+        ],
+        "price": [
+          "300-500"
+        ]
+      },
+      "sources": [
+        "社区清单初始补全；规格和价格带需后续由球友继续校准",
+        "Sword 威胜 product or market listings"
+      ],
+      "currency": "CNY",
+      "contributors": [
+        "Codex research"
+      ],
+      "images": [
+        "https://placehold.co/720x720/7f1d1d/ffffff?text=Sword%20%E5%A8%81%E8%83%9C"
+      ]
+    },
+    {
+      "id": "donic-linde",
+      "name": "Linde（林德）",
+      "brand": "多尼克",
+      "brandEn": "DONIC",
+      "series": "Linde",
+      "price": 420,
+      "priceMin": 300,
+      "priceMax": 500,
+      "image": "https://placehold.co/720x720/111827/ffffff?text=DONIC%20Linde%EF%BC%88%E6%9E%97%E5%BE%B7%EF%BC%89",
+      "description": "多尼克林德是 DONIC 以职业球员命名的进攻底板，偏现代弧圈和连续相持。",
+      "tags": {
+        "brand": [
+          "DONIC（多尼克）"
+        ],
+        "structure": [
+          "纤维"
+        ],
+        "material": [
+          "纤维"
+        ],
+        "position": [
+          "弧圈",
+          "快攻弧圈"
+        ],
+        "handle": [
+          "横板",
+          "直板",
+          "FL",
+          "ST",
+          "CS"
+        ],
+        "speed": [
+          "快"
+        ],
+        "feel": [
+          "清晰",
+          "支撑"
+        ],
+        "weight": [
+          "常规"
+        ],
+        "origin": [
+          "德国"
+        ],
+        "price": [
+          "300-500"
+        ]
+      },
+      "sources": [
+        "社区清单初始补全；规格和价格带需后续由球友继续校准",
+        "DONIC Linde（林德） product or market listings"
+      ],
+      "currency": "CNY",
+      "contributors": [
+        "Codex research"
+      ],
+      "images": [
+        "https://placehold.co/720x720/111827/ffffff?text=DONIC%20Linde%EF%BC%88%E6%9E%97%E5%BE%B7%EF%BC%89"
       ]
     }
   ],

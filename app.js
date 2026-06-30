@@ -6,6 +6,7 @@ const filterConfig = {
     { key: "sponge", label: "海绵", color: "amber" },
     { key: "thickness", label: "厚度", color: "teal" },
     { key: "style", label: "打法", color: "blue" },
+    { key: "package", label: "套餐", color: "purple" },
     { key: "origin", label: "产地", color: "green" },
     { key: "price", label: "价格带", color: "rose", values: ["50内", "80内", "百元左右", "150左右", "200左右", "300左右", "300以上"] }
   ],
@@ -81,6 +82,7 @@ const fieldLabels = {
   thickness: "厚度",
   hardness: "硬度",
   style: "打法",
+  package: "套餐",
   origin: "产地",
   bladeType: "类型",
   structure: "结构",
@@ -163,7 +165,7 @@ const commentEditCooldownMs = 60 * 60 * 1000;
 const commentPostCooldownMs = 60 * 1000;
 const commentsPerPage = 10;
 const hotCommentsCount = 3;
-const assetVersion = "ratings-29";
+const assetVersion = "ratings-30";
 const languageStorageKey = "tt-equipment-language";
 
 const englishText = {
@@ -559,7 +561,7 @@ function renderFilters() {
     const expandable = values.length > 8;
     const tags = values.map((value) => {
       const active = state.selected[group.key]?.has(value) ? " is-active" : "";
-      return `<button class="tag${active}" data-key="${group.key}" data-value="${escapeHtml(value)}" data-color="${group.color}" type="button">${th(value)}</button>`;
+      return `<button class="tag${active}${getSpecialTagClass(value)}" data-key="${group.key}" data-value="${escapeHtml(value)}" data-color="${group.color}" type="button">${th(value)}</button>`;
     }).join("");
 
     return `
@@ -667,7 +669,7 @@ function renderProducts() {
   }
 
   nodes.productGrid.innerHTML = products.map((product) => {
-    const tags = flattenProductTags(product).slice(0, 7).map((tag) => `<span>${th(tag)}</span>`).join("");
+    const tags = flattenProductTags(product).slice(0, 7).map((tag) => `<span class="${getSpecialTagClass(tag).trim()}">${th(tag)}</span>`).join("");
     const brandDisplay = getBrandDisplay(product);
     return `
       <a class="product-card" href="#/equipment/${product.id}" aria-label="${th("查看")} ${escapeHtml(brandDisplay)} ${escapeHtml(product.name)}">
@@ -733,7 +735,7 @@ function renderDetail(product) {
   const tagRows = Object.entries(product.tags).map(([key, values]) => `
     <div class="detail-tag-row">
       <div class="detail-tag-label">${th(fieldLabels[key] || key)}</div>
-      <div class="detail-tag-list">${values.map((value) => `<span>${th(value)}</span>`).join("")}</div>
+      <div class="detail-tag-list">${values.map((value) => `<span class="${getSpecialTagClass(value).trim()}">${th(value)}</span>`).join("")}</div>
     </div>
   `).join("");
 
@@ -2026,6 +2028,10 @@ function renderActiveFilters() {
 
 function flattenProductTags(product) {
   return Object.values(product.tags).flat();
+}
+
+function getSpecialTagClass(value) {
+  return value === "水怪套餐" ? " tag-water-monster" : "";
 }
 
 function escapeHtml(value) {

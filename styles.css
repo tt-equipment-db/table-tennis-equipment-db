@@ -276,6 +276,10 @@ h1 {
   color: #0f766e;
   background: #ccfbf1;
 }
+.tag[data-color="purple"] {
+  color: #6d28d9;
+  background: #ede9fe;
+}
 .tag[data-color="slate"] {
   color: #334155;
   background: #e2e8f0;
@@ -291,8 +295,33 @@ h1 {
 .tag.is-active[data-color="rose"] { background: var(--rose); }
 .tag.is-active[data-color="amber"] { background: var(--amber); }
 .tag.is-active[data-color="teal"] { background: var(--teal); }
+.tag.is-active[data-color="purple"] { background: #7c3aed; }
 .tag.is-active[data-color="slate"] { background: #334155; }
 .tag.is-active[data-color] { color: #fff; }
+
+.tag-water-monster {
+  position: relative;
+  overflow: hidden;
+  border-color: rgba(250, 204, 21, 0.72) !important;
+  color: #fff7ad !important;
+  background:
+    radial-gradient(circle at 50% 42%, rgba(255, 231, 111, 0.38), transparent 48%),
+    linear-gradient(135deg, #4c1d95 0%, #7e22ce 46%, #312e81 100%) !important;
+  box-shadow:
+    inset 0 0 0 1px rgba(255, 236, 153, 0.62),
+    0 0 0 1px rgba(124, 58, 237, 0.2),
+    0 5px 16px rgba(91, 33, 182, 0.22);
+  text-shadow: 0 1px 4px rgba(88, 28, 135, 0.75);
+}
+
+.tag-water-monster::after {
+  content: "";
+  position: absolute;
+  inset: 2px;
+  border-radius: inherit;
+  border: 1px solid rgba(253, 224, 71, 0.78);
+  pointer-events: none;
+}
 
 .results-head {
   display: flex;
