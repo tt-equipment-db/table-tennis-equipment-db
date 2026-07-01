@@ -6,7 +6,6 @@ const filterConfig = {
     { key: "sponge", label: "海绵", color: "amber" },
     { key: "thickness", label: "厚度", color: "teal" },
     { key: "style", label: "特色", color: "blue" },
-    { key: "package", label: "套餐", color: "purple" },
     { key: "origin", label: "产地", color: "green" },
     { key: "price", label: "价格带", color: "rose", values: ["50内", "80内", "百元左右", "150左右", "200左右", "300左右", "300以上"] }
   ],
@@ -83,7 +82,6 @@ const fieldLabels = {
   hardness: "硬度",
   style: "特色",
   spongeDetail: "海绵细节",
-  package: "套餐",
   origin: "产地",
   bladeType: "类型",
   structure: "结构",
@@ -166,7 +164,7 @@ const commentEditCooldownMs = 60 * 60 * 1000;
 const commentPostCooldownMs = 60 * 1000;
 const commentsPerPage = 10;
 const hotCommentsCount = 3;
-const assetVersion = "ratings-31";
+const assetVersion = "ratings-32";
 const languageStorageKey = "tt-equipment-language";
 
 const englishText = {
@@ -2033,7 +2031,7 @@ function flattenProductTags(product) {
 }
 
 function getCardTags(product) {
-  const priorityKeys = ["package", "style", "position", "rubberType", "structure", "material", "sponge", "price", "origin"];
+  const priorityKeys = ["style", "position", "rubberType", "structure", "material", "sponge", "price", "origin"];
   const picked = [];
   const push = (value) => {
     if (value && !picked.includes(value)) {
