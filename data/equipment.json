@@ -219,7 +219,7 @@
         ],
         "sponge": [
           "蛋糕海绵",
-          "软弹海绵"
+          "高弹海绵"
         ],
         "thickness": [
           "1.9",
@@ -236,6 +236,9 @@
         ],
         "origin": [
           "日本"
+        ],
+        "spongeDetail": [
+          "软弹海绵"
         ]
       },
       "sources": [
@@ -254,7 +257,7 @@
       "series": "狂飙",
       "price": 95,
       "currency": "CNY",
-      "image": "https://placehold.co/720x480/334155/ffffff?text=DHS%20%E7%8B%82%E9%A3%99%203%20Neo",
+      "image": "https://revspin.net/assets/table-tennis-images/rubbers/dhs-neo-hurricane-3.jpg",
       "description": "经典粘性正手套胶，发力后弧线强，适合弧圈结合快攻。",
       "tags": {
         "brand": [
@@ -268,8 +271,7 @@
           "粘性胶面"
         ],
         "sponge": [
-          "高密海绵",
-          "硬质海绵"
+          "高密海绵"
         ],
         "thickness": [
           "2.1",
@@ -286,10 +288,17 @@
         ],
         "origin": [
           "中国"
+        ],
+        "spongeDetail": [
+          "硬质海绵"
         ]
       },
       "sources": [
-        "DHS Hurricane rubber line"
+        "DHS Hurricane rubber line",
+        "https://revspin.net/rubber/dhs-neo-hurricane-3.html"
+      ],
+      "images": [
+        "https://revspin.net/assets/table-tennis-images/rubbers/dhs-neo-hurricane-3.jpg"
       ]
     },
     {
@@ -368,8 +377,7 @@
           "粘性胶面"
         ],
         "sponge": [
-          "高密海绵",
-          "硬质海绵"
+          "高密海绵"
         ],
         "thickness": [
           "2.1",
@@ -385,6 +393,9 @@
         ],
         "origin": [
           "中国"
+        ],
+        "spongeDetail": [
+          "硬质海绵"
         ]
       },
       "sources": [
@@ -403,7 +414,7 @@
       "series": "金弓",
       "price": 180,
       "currency": "CNY",
-      "image": "https://placehold.co/720x480/f59e0b/111827?text=DHS%20Goldarc%208",
+      "image": "https://revspin.net/assets/table-tennis-images/rubbers/dhs-gold-arc-8.jpg",
       "description": "涩性内能套胶，速度和支撑不错，常见于反手或速度型正手。",
       "tags": {
         "brand": [
@@ -438,7 +449,11 @@
         ]
       },
       "sources": [
-        "DHS Goldarc rubber line"
+        "DHS Goldarc rubber line",
+        "https://revspin.net/rubber/dhs-gold-arc-8.html"
+      ],
+      "images": [
+        "https://revspin.net/assets/table-tennis-images/rubbers/dhs-gold-arc-8.jpg"
       ]
     },
     {
@@ -914,7 +929,7 @@
         ],
         "sponge": [
           "蛋糕海绵",
-          "软弹海绵"
+          "高弹海绵"
         ],
         "thickness": [
           "1.8",
@@ -931,6 +946,9 @@
         ],
         "origin": [
           "德国"
+        ],
+        "spongeDetail": [
+          "软弹海绵"
         ]
       },
       "sources": [
@@ -1419,8 +1437,7 @@
           "粘性胶面"
         ],
         "sponge": [
-          "高密海绵",
-          "硬质海绵"
+          "高密海绵"
         ],
         "thickness": [
           "2.1",
@@ -1440,6 +1457,9 @@
         ],
         "package": [
           "水怪套餐"
+        ],
+        "spongeDetail": [
+          "硬质海绵"
         ]
       },
       "sources": [
@@ -1526,7 +1546,7 @@
         ],
         "sponge": [
           "蛋糕海绵",
-          "软弹海绵"
+          "高弹海绵"
         ],
         "thickness": [
           "2.1",
@@ -1542,6 +1562,9 @@
         ],
         "origin": [
           "中国"
+        ],
+        "spongeDetail": [
+          "软弹海绵"
         ]
       },
       "sources": [
@@ -1624,8 +1647,7 @@
           "粘性胶面"
         ],
         "sponge": [
-          "高密海绵",
-          "硬质海绵"
+          "高密海绵"
         ],
         "thickness": [
           "2.1",
@@ -1644,6 +1666,9 @@
         ],
         "package": [
           "水怪套餐"
+        ],
+        "spongeDetail": [
+          "硬质海绵"
         ]
       },
       "sources": [
@@ -1673,7 +1698,7 @@
           "涩性胶面"
         ],
         "sponge": [
-          "软弹海绵",
+          "高弹海绵",
           "蛋糕海绵"
         ],
         "thickness": [
@@ -1690,6 +1715,9 @@
         ],
         "origin": [
           "中国"
+        ],
+        "spongeDetail": [
+          "软弹海绵"
         ]
       },
       "sources": [
@@ -1771,7 +1799,7 @@
           "涩性胶面"
         ],
         "sponge": [
-          "软弹海绵",
+          "高弹海绵",
           "蛋糕海绵"
         ],
         "thickness": [
@@ -1788,6 +1816,9 @@
         ],
         "origin": [
           "中国"
+        ],
+        "spongeDetail": [
+          "软弹海绵"
         ]
       },
       "sources": [
@@ -1820,8 +1851,7 @@
           "粘性胶面"
         ],
         "sponge": [
-          "高密海绵",
-          "硬质海绵"
+          "高密海绵"
         ],
         "thickness": [
           "2.1",
@@ -1837,6 +1867,9 @@
         ],
         "origin": [
           "中国"
+        ],
+        "spongeDetail": [
+          "硬质海绵"
         ]
       },
       "sources": [
@@ -1869,8 +1902,7 @@
           "粘性胶面"
         ],
         "sponge": [
-          "高密海绵",
-          "硬质海绵"
+          "高密海绵"
         ],
         "thickness": [
           "2.1",
@@ -1888,6 +1920,9 @@
         ],
         "origin": [
           "中国"
+        ],
+        "spongeDetail": [
+          "硬质海绵"
         ]
       },
       "sources": [
@@ -1918,7 +1953,7 @@
           "粘性胶面"
         ],
         "sponge": [
-          "软弹海绵",
+          "高弹海绵",
           "蛋糕海绵"
         ],
         "thickness": [
@@ -1938,6 +1973,9 @@
         ],
         "origin": [
           "中国"
+        ],
+        "spongeDetail": [
+          "软弹海绵"
         ]
       },
       "sources": [
@@ -1957,7 +1995,7 @@
       "series": "PF",
       "price": 35,
       "currency": "CNY",
-      "image": "https://placehold.co/720x480/b91c1c/ffffff?text=DHS%20PF4",
+      "image": "https://revspin.net/assets/table-tennis-images/rubbers/dhs-pf4.jpg",
       "description": "经典低价粘性反胶，控制扎实，适合传统快攻弧圈、入门训练和多球练习。",
       "tags": {
         "brand": [
@@ -1973,7 +2011,7 @@
         ],
         "sponge": [
           "传统海绵",
-          "硬质海绵"
+          "高密海绵"
         ],
         "thickness": [
           "1.8",
@@ -1991,11 +2029,18 @@
         ],
         "origin": [
           "中国"
+        ],
+        "spongeDetail": [
+          "硬质海绵"
         ]
       },
       "sources": [
         "DHS PF4 product listings",
-        "retailer product listings"
+        "retailer product listings",
+        "https://revspin.net/rubber/dhs-pf4.html"
+      ],
+      "images": [
+        "https://revspin.net/assets/table-tennis-images/rubbers/dhs-pf4.jpg"
       ]
     },
     {
@@ -2071,8 +2116,7 @@
           "粘性胶面"
         ],
         "sponge": [
-          "高密海绵",
-          "硬质海绵"
+          "高密海绵"
         ],
         "thickness": [
           "2.1",
@@ -2089,6 +2133,9 @@
         ],
         "origin": [
           "中国"
+        ],
+        "spongeDetail": [
+          "硬质海绵"
         ]
       },
       "sources": [
@@ -2124,7 +2171,7 @@
         ],
         "sponge": [
           "蛋糕海绵",
-          "软弹海绵"
+          "高弹海绵"
         ],
         "thickness": [
           "2.1",
@@ -2140,6 +2187,9 @@
         ],
         "origin": [
           "中国"
+        ],
+        "spongeDetail": [
+          "软弹海绵"
         ]
       },
       "sources": [
@@ -2174,7 +2224,7 @@
         ],
         "sponge": [
           "传统海绵",
-          "软弹海绵"
+          "高弹海绵"
         ],
         "thickness": [
           "1.8",
@@ -2192,6 +2242,9 @@
         ],
         "origin": [
           "中国"
+        ],
+        "spongeDetail": [
+          "软弹海绵"
         ]
       },
       "sources": [
@@ -2227,7 +2280,7 @@
         ],
         "sponge": [
           "传统海绵",
-          "软弹海绵"
+          "高弹海绵"
         ],
         "thickness": [
           "2.0",
@@ -2246,6 +2299,9 @@
         ],
         "origin": [
           "中国"
+        ],
+        "spongeDetail": [
+          "软弹海绵"
         ]
       },
       "sources": [
@@ -2281,7 +2337,7 @@
         ],
         "sponge": [
           "蛋糕海绵",
-          "软弹海绵"
+          "高弹海绵"
         ],
         "thickness": [
           "2.0",
@@ -2299,6 +2355,9 @@
         ],
         "origin": [
           "中国"
+        ],
+        "spongeDetail": [
+          "软弹海绵"
         ]
       },
       "sources": [
@@ -2381,8 +2440,7 @@
           "粘性胶面"
         ],
         "sponge": [
-          "高密海绵",
-          "硬质海绵"
+          "高密海绵"
         ],
         "thickness": [
           "2.1",
@@ -2398,6 +2456,9 @@
         ],
         "origin": [
           "中国"
+        ],
+        "spongeDetail": [
+          "硬质海绵"
         ]
       },
       "sources": [
@@ -2416,7 +2477,7 @@
       "series": "Rxton",
       "price": 120,
       "currency": "CNY",
-      "image": "https://placehold.co/720x480/14532d/ffffff?text=Loki%20Rxton%209",
+      "image": "https://cdn.shopify.com/s/files/1/1965/1397/files/LOKI-RXTON-9-Table-Tennis-Rubber-National-Blue-Sponge_1200x1200.jpg?v=1744315119",
       "description": "雷神 Rxton 系列高阶型号，仍保持较高性价比，适合预算内追求正手上限。",
       "tags": {
         "brand": [
@@ -2430,8 +2491,7 @@
           "粘性胶面"
         ],
         "sponge": [
-          "高密海绵",
-          "硬质海绵"
+          "高密海绵"
         ],
         "thickness": [
           "2.1",
@@ -2447,10 +2507,19 @@
         ],
         "origin": [
           "中国"
+        ],
+        "spongeDetail": [
+          "硬质海绵"
         ]
       },
       "sources": [
-        "Loki Rxton product listings"
+        "Loki Rxton product listings",
+        "https://www.tabletennishub.net/products/loki-rxton-ix-9-original-table-tennis-rubber-national-sticky-ping-pong-rubber-sheet-blue-sponge-ittf-approved-tension-energy"
+      ],
+      "images": [
+        "https://cdn.shopify.com/s/files/1/1965/1397/files/LOKI-RXTON-9-Table-Tennis-Rubber-National-Blue-Sponge_1200x1200.jpg?v=1744315119",
+        "https://cdn.shopify.com/s/files/1/1965/1397/files/LOKI-RXTON-9-Table-Tennis-Rubber-National-Blue-Sponge-2_1024x1024.jpg?v=1744315122",
+        "https://cdn.shopify.com/s/files/1/1965/1397/files/LOKI-RXTON-9-Table-Tennis-Rubber-National-Blue-Sponge-3_1024x1024.jpg?v=1744315126"
       ]
     },
     {
@@ -2477,7 +2546,7 @@
         ],
         "sponge": [
           "蛋糕海绵",
-          "软弹海绵"
+          "高弹海绵"
         ],
         "thickness": [
           "2.0",
@@ -2493,6 +2562,9 @@
         ],
         "origin": [
           "中国"
+        ],
+        "spongeDetail": [
+          "软弹海绵"
         ]
       },
       "sources": [
@@ -2839,7 +2911,7 @@
       "contributors": [
         "Codex research"
       ],
-      "image": "https://placehold.co/720x480/f59e0b/ffffff?text=DHS%20%E9%87%91%E5%BC%93%205",
+      "image": "https://cdn.megaspin.net/store/images/products/zoom_d-gold-arc-5.jpg",
       "description": "德国制造涩性套胶，控制和速度均衡，适合反手连续和中等发力。",
       "tags": {
         "brand": [
@@ -2875,7 +2947,12 @@
       },
       "sources": [
         "DHS Goldarc product line",
-        "Revspin Goldarc 5 listing"
+        "Revspin Goldarc 5 listing",
+        "https://www.megaspin.net/store/default.asp?pid=d-gold-arc-5"
+      ],
+      "images": [
+        "https://cdn.megaspin.net/store/images/products/zoom_d-gold-arc-5.jpg",
+        "https://cdn.megaspin.net/store/images/products/zoom2_d-gold-arc-5.jpg"
       ]
     },
     {
@@ -3337,7 +3414,7 @@
       "contributors": [
         "Codex research"
       ],
-      "image": "https://placehold.co/720x480/312e81/ffffff?text=XIOM%20Jekyll%20%26%20Hyde%20V52.5",
+      "image": "https://cdn.store-assets.com/s/713163/i/88981001.jpeg",
       "description": "高硬度高弹涩套，上限高，适合发力充分的正手和强相持。",
       "tags": {
         "brand": [
@@ -3372,7 +3449,14 @@
       },
       "sources": [
         "XIOM Jekyll & Hyde product listings",
-        "Revspin Jekyll & Hyde listing"
+        "Revspin Jekyll & Hyde listing",
+        "https://www.tabletennis.my/products/xiom-jekyll-hyde-v52-5"
+      ],
+      "images": [
+        "https://cdn.store-assets.com/s/713163/i/88981001.jpeg",
+        "https://cdn.store-assets.com/s/713163/i/88981000.jpeg",
+        "https://cdn.store-assets.com/s/713163/i/88980998.jpeg",
+        "https://cdn.store-assets.com/s/713163/i/88980995.jpeg"
       ]
     },
     {
@@ -3680,8 +3764,7 @@
           "粘性胶面"
         ],
         "sponge": [
-          "高密海绵",
-          "硬质海绵"
+          "高密海绵"
         ],
         "thickness": [
           "2.1",
@@ -3698,6 +3781,9 @@
         ],
         "origin": [
           "中国"
+        ],
+        "spongeDetail": [
+          "硬质海绵"
         ]
       },
       "sources": [
@@ -3959,8 +4045,7 @@
           "粘性胶面"
         ],
         "sponge": [
-          "高密海绵",
-          "硬质海绵"
+          "高密海绵"
         ],
         "thickness": [
           "2.1",
@@ -3979,6 +4064,9 @@
         ],
         "package": [
           "水怪套餐"
+        ],
+        "spongeDetail": [
+          "硬质海绵"
         ]
       },
       "sources": [
@@ -4016,8 +4104,7 @@
           "粘性胶面"
         ],
         "sponge": [
-          "高密海绵",
-          "硬质海绵"
+          "高密海绵"
         ],
         "thickness": [
           "2.1",
@@ -4035,6 +4122,9 @@
         ],
         "origin": [
           "中国"
+        ],
+        "spongeDetail": [
+          "硬质海绵"
         ]
       },
       "sources": [
@@ -4075,8 +4165,7 @@
           "粘性胶面"
         ],
         "sponge": [
-          "高密海绵",
-          "硬质海绵"
+          "高密海绵"
         ],
         "thickness": [
           "2.1",
@@ -4092,6 +4181,9 @@
         ],
         "origin": [
           "中国"
+        ],
+        "spongeDetail": [
+          "硬质海绵"
         ]
       },
       "sources": [
@@ -4131,8 +4223,7 @@
           "粘性胶面"
         ],
         "sponge": [
-          "高密海绵",
-          "硬质海绵"
+          "高密海绵"
         ],
         "thickness": [
           "2.1",
@@ -4150,6 +4241,9 @@
         ],
         "origin": [
           "中国"
+        ],
+        "spongeDetail": [
+          "硬质海绵"
         ]
       },
       "sources": [
@@ -4189,7 +4283,6 @@
           "粘性胶面"
         ],
         "sponge": [
-          "蓝海绵",
           "高密海绵"
         ],
         "thickness": [
@@ -4208,14 +4301,23 @@
         ],
         "origin": [
           "中国"
+        ],
+        "spongeDetail": [
+          "蓝海绵"
         ]
       },
       "sources": [
         "DHS Hurricane 3 blue sponge listings",
-        "player forum discussions"
+        "player forum discussions",
+        "https://tonystt.co.za/product/dhs-hurricane-3-neo-blue-sponge-provincial-rubber/"
       ],
       "color": "1d4ed8",
-      "image": "https://placehold.co/720x480/1d4ed8/ffffff?text=DHS%20%E7%8B%82%E9%A3%99%203%20%E7%9C%81%E5%A5%97%20%E8%93%9D%E6%B5%B7%E7%BB%B5"
+      "image": "https://tonystt.co.za/wp-content/uploads/2024/02/H3-Neo-BS-Provincial.jpg",
+      "images": [
+        "https://tonystt.co.za/wp-content/uploads/2024/02/H3-Neo-BS-Provincial.jpg",
+        "https://tonystt.co.za/wp-content/uploads/2024/02/H3-Neo-BS-Provincial-500x500.jpg",
+        "https://tonystt.co.za/wp-content/uploads/2024/02/H3-Neo-BS-Provincial-300x300.jpg"
+      ]
     },
     {
       "currency": "CNY",
@@ -4243,7 +4345,6 @@
           "粘性胶面"
         ],
         "sponge": [
-          "蓝海绵",
           "高密海绵"
         ],
         "thickness": [
@@ -4262,6 +4363,9 @@
         ],
         "origin": [
           "中国"
+        ],
+        "spongeDetail": [
+          "蓝海绵"
         ]
       },
       "sources": [
@@ -4358,7 +4462,7 @@
           "粘性胶面"
         ],
         "sponge": [
-          "软弹海绵"
+          "高弹海绵"
         ],
         "thickness": [
           "2.0",
@@ -4374,6 +4478,9 @@
         ],
         "origin": [
           "中国"
+        ],
+        "spongeDetail": [
+          "软弹海绵"
         ]
       },
       "sources": [
@@ -4434,10 +4541,16 @@
       },
       "sources": [
         "DHS C8 product listings",
-        "player forum discussions"
+        "player forum discussions",
+        "https://doublehappinessusa.com/products/dhs-c8"
       ],
       "color": "64748b",
-      "image": "https://placehold.co/720x480/64748b/ffffff?text=DHS%20C8%20%E9%95%BF%E8%83%B6"
+      "image": "https://cdn.shopify.com/s/files/1/0490/9524/5989/products/C8Black_1200x1270.jpg?v=1615416097",
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0490/9524/5989/products/C8Black_1200x1270.jpg?v=1615416097",
+        "https://cdn.shopify.com/s/files/1/0490/9524/5989/products/C8Black_1200x1200_crop_center.jpg?v=1615416097",
+        "https://cdn.shopify.com/s/files/1/0490/9524/5989/products/C8.png?v=1615416097"
+      ]
     },
     {
       "currency": "CNY",
@@ -4486,10 +4599,15 @@
       },
       "sources": [
         "DHS Cloud & Fog product listings",
-        "player forum discussions"
+        "player forum discussions",
+        "https://tabletennisstore.us/products/dhs-cloud-fog-iii-long-pips-table-tennis-rubber"
       ],
       "color": "475569",
-      "image": "https://placehold.co/720x480/475569/ffffff?text=DHS%20%E4%BA%91%E9%9B%BE%203%20%E9%95%BF%E8%83%B6"
+      "image": "https://cdn.shopify.com/s/files/1/0718/0805/7645/products/dhs-cloud-fog-iii-long-pips.jpg?v=1772782482",
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0718/0805/7645/products/dhs-cloud-fog-iii-long-pips.jpg?v=1772782482",
+        "https://cdn.shopify.com/s/files/1/0718/0805/7645/products/dhs-cloud-fog-iii-long-pips.jpg?crop=center&height=630&v=1772782482&width=1200"
+      ]
     },
     {
       "currency": "CNY",
@@ -4517,8 +4635,7 @@
           "粘性胶面"
         ],
         "sponge": [
-          "高密海绵",
-          "硬质海绵"
+          "高密海绵"
         ],
         "thickness": [
           "2.1",
@@ -4535,6 +4652,9 @@
         ],
         "origin": [
           "中国"
+        ],
+        "spongeDetail": [
+          "硬质海绵"
         ]
       },
       "sources": [
@@ -4707,10 +4827,16 @@
       },
       "sources": [
         "银河 MOON 月球 product listings",
-        "player forum discussions"
+        "player forum discussions",
+        "https://www.greenpaddle.com/products/yinhe-moon-pro"
       ],
       "color": "2563eb",
-      "image": "https://placehold.co/720x480/2563eb/ffffff?text=Yinhe%20%E6%9C%88%E7%90%83%20Pro"
+      "image": "https://cdn.shopify.com/s/files/1/0165/8526/1156/products/yinhe_moon_pro_1200x1250.jpg?v=1553503950",
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0165/8526/1156/products/yinhe_moon_pro_1200x1250.jpg?v=1553503950",
+        "https://cdn.shopify.com/s/files/1/0165/8526/1156/products/yinhe_moon_pro_1200x1200_crop_center.jpg?v=1553503950",
+        "https://cdn.shopify.com/s/files/1/0165/8526/1156/products/yinhe_moon_pro_1800x1800.jpg?v=1553503950"
+      ]
     },
     {
       "currency": "CNY",
@@ -4907,8 +5033,7 @@
           "粘性胶面"
         ],
         "sponge": [
-          "高密海绵",
-          "硬质海绵"
+          "高密海绵"
         ],
         "thickness": [
           "2.1",
@@ -4924,6 +5049,9 @@
         ],
         "origin": [
           "中国"
+        ],
+        "spongeDetail": [
+          "硬质海绵"
         ]
       },
       "sources": [
@@ -5038,10 +5166,14 @@
       },
       "sources": [
         "729 Focus product listings",
-        "price recommendation articles"
+        "price recommendation articles",
+        "https://revspin.net/rubber/729-focus-2.html"
       ],
       "color": "16a34a",
-      "image": "https://placehold.co/720x480/334155/ffffff?text=Friendship%20729%20%E7%84%A6%E7%82%B9%202"
+      "image": "https://revspin.net/assets/table-tennis-images/rubbers/729-focus-2.jpg",
+      "images": [
+        "https://revspin.net/assets/table-tennis-images/rubbers/729-focus-2.jpg"
+      ]
     },
     {
       "currency": "CNY",
@@ -5181,7 +5313,7 @@
         ],
         "sponge": [
           "薄海绵",
-          "软弹海绵"
+          "高弹海绵"
         ],
         "thickness": [
           "2.0"
@@ -5196,6 +5328,9 @@
         ],
         "origin": [
           "中国"
+        ],
+        "spongeDetail": [
+          "软弹海绵"
         ]
       },
       "sources": [
@@ -5256,10 +5391,16 @@
       },
       "sources": [
         "729 802-40 product listings",
-        "player forum discussions"
+        "player forum discussions",
+        "https://www.tabletennis.my/products/729-802-40"
       ],
       "color": "4ade80",
-      "image": "https://placehold.co/720x480/4ade80/ffffff?text=Friendship%20729%20802-40%20%E6%AD%A3%E8%83%B6"
+      "image": "https://cdn.store-assets.com/s/713163/i/21422538.jpg",
+      "images": [
+        "https://cdn.store-assets.com/s/713163/i/21422538.jpg",
+        "https://cdn.store-assets.com/s/713163/i/21422540.jpg",
+        "https://cdn.store-assets.com/s/713163/i/21422541.jpg"
+      ]
     },
     {
       "currency": "CNY",
@@ -5308,10 +5449,16 @@
       },
       "sources": [
         "729 563 product listings",
-        "player forum discussions"
+        "player forum discussions",
+        "https://au.vicedeal.com/products/friendship-729-563-pips-out-table-tennis-rubber-ox-without-sponge-ping-pong-rubber-1"
       ],
       "color": "22c55e",
-      "image": "https://placehold.co/720x480/22c55e/ffffff?text=Friendship%20729%20563%20%E7%94%9F%E8%83%B6"
+      "image": "https://images.nexusapp.co/assets/ab/41/76/189284248.jpg",
+      "images": [
+        "https://images.nexusapp.co/assets/ab/41/76/189284248.jpg",
+        "https://images.nexusapp.co/assets/03/01/d4/181058918.jpg",
+        "https://images.nexusapp.co/assets/43/7e/79/189284252.jpg"
+      ]
     },
     {
       "currency": "CNY",
@@ -5360,10 +5507,16 @@
       },
       "sources": [
         "729 755 product listings",
-        "player forum discussions"
+        "player forum discussions",
+        "https://www.tabletennis.my/products/729-755-ox"
       ],
       "color": "166534",
-      "image": "https://placehold.co/720x480/166534/ffffff?text=Friendship%20729%20755%20%E9%95%BF%E8%83%B6"
+      "image": "https://cdn.store-assets.com/s/713163/i/21423337.jpg",
+      "images": [
+        "https://cdn.store-assets.com/s/713163/i/21423337.jpg",
+        "https://cdn.store-assets.com/s/713163/i/21423338.jpg",
+        "https://cdn.store-assets.com/s/713163/i/21423339.jpg"
+      ]
     },
     {
       "currency": "CNY",
@@ -5412,10 +5565,16 @@
       },
       "sources": [
         "Dawei 388D-1 product listings",
-        "player forum discussions"
+        "player forum discussions",
+        "https://aus.grandado.com/products/original-dawei-388d-1-table-tennis-rubber-strange-long-pimples-table-tennis-rackets-racquet-sports"
       ],
       "color": "475569",
-      "image": "https://placehold.co/720x480/475569/ffffff?text=Dawei%20388D-1%20%E9%95%BF%E8%83%B6"
+      "image": "https://images.nexusapp.co/assets/ae/d8/75/48802166.jpg",
+      "images": [
+        "https://images.nexusapp.co/assets/ae/d8/75/48802166.jpg",
+        "https://images.nexusapp.co/assets/d2/89/ac/48781713.jpg",
+        "https://images.nexusapp.co/assets/84/d0/33/48802169.jpg"
+      ]
     },
     {
       "currency": "CNY",
@@ -5464,10 +5623,16 @@
       },
       "sources": [
         "Dawei 388C-1 product listings",
-        "player forum discussions"
+        "player forum discussions",
+        "https://aus.grandado.com/products/dawei-388c-1-388c-1-medium-pips-out-table-tennis-pingpong-rubber-with-sponge-2"
       ],
       "color": "64748b",
-      "image": "https://placehold.co/720x480/64748b/ffffff?text=Dawei%20388C-1%20%E7%94%9F%E8%83%B6"
+      "image": "https://images.nexusapp.co/assets/67/b9/bc/150106559.jpg",
+      "images": [
+        "https://images.nexusapp.co/assets/67/b9/bc/150106559.jpg",
+        "https://images.nexusapp.co/assets/0b/17/49/121092363.jpg",
+        "https://images.nexusapp.co/assets/15/9a/e9/150106570.jpg"
+      ]
     },
     {
       "currency": "CNY",
@@ -5572,10 +5737,14 @@
       },
       "sources": [
         "Giant Dragon Dragon Talon listings",
-        "player forum discussions"
+        "player forum discussions",
+        "https://tt-maximum.com/en/shop/rubbers/giant-dragon-dragon-talon"
       ],
       "color": "0f766e",
-      "image": "https://placehold.co/720x480/0f766e/ffffff?text=Giant%20Dragon%20Dragon%20Talon%20%E9%95%BF%E8%83%B6"
+      "image": "https://tt-maximum.com/Data/Products/giant-dragon/large_giant-dragon-dragon-talon.jpg",
+      "images": [
+        "https://tt-maximum.com/Data/Products/giant-dragon/large_giant-dragon-dragon-talon.jpg"
+      ]
     },
     {
       "currency": "CNY",
@@ -5603,7 +5772,7 @@
           "粘性胶面"
         ],
         "sponge": [
-          "蓝海绵",
+          "高密海绵",
           "传统海绵"
         ],
         "thickness": [
@@ -5620,6 +5789,9 @@
         ],
         "origin": [
           "中国"
+        ],
+        "spongeDetail": [
+          "蓝海绵"
         ]
       },
       "sources": [
@@ -5711,8 +5883,7 @@
           "粘性胶面"
         ],
         "sponge": [
-          "高密海绵",
-          "蓝海绵"
+          "高密海绵"
         ],
         "thickness": [
           "2.1",
@@ -5730,6 +5901,9 @@
         ],
         "origin": [
           "中国"
+        ],
+        "spongeDetail": [
+          "蓝海绵"
         ]
       },
       "sources": [
@@ -5846,12 +6020,18 @@
       },
       "sources": [
         "Friendship 729 Bloom Spin listings",
-        "player forum discussions"
+        "player forum discussions",
+        "https://www.tabletennis.my/products/friendship-729-bloom-spin"
       ],
       "color": "9333ea",
-      "image": "https://placehold.co/720x480/9333ea/ffffff?text=Friendship%20729%20%E7%BB%BD%E6%94%BE%20Spin",
+      "image": "https://cdn.store-assets.com/s/713163/i/44468945.jpg",
       "contributors": [
         "Codex research"
+      ],
+      "images": [
+        "https://cdn.store-assets.com/s/713163/i/44468945.jpg",
+        "https://cdn.store-assets.com/s/713163/i/44468947.jpg",
+        "https://cdn.store-assets.com/s/713163/i/44468956.jpg"
       ]
     },
     {
@@ -5954,12 +6134,16 @@
       },
       "sources": [
         "Friendship 729 Super FX listings",
-        "classic rubber discussions"
+        "classic rubber discussions",
+        "https://revspin.net/rubber/729-super-fx.html"
       ],
       "color": "f97316",
-      "image": "https://placehold.co/720x480/334155/ffffff?text=Friendship%20729%20729%20Super%20FX",
+      "image": "https://revspin.net/assets/table-tennis-images/rubbers/729-super-fx.jpg",
       "contributors": [
         "Codex research"
+      ],
+      "images": [
+        "https://revspin.net/assets/table-tennis-images/rubbers/729-super-fx.jpg"
       ]
     },
     {
@@ -6041,7 +6225,7 @@
           "微粘胶面"
         ],
         "sponge": [
-          "软弹海绵"
+          "高弹海绵"
         ],
         "thickness": [
           "2.1",
@@ -6057,6 +6241,9 @@
         ],
         "origin": [
           "中国"
+        ],
+        "spongeDetail": [
+          "软弹海绵"
         ]
       },
       "sources": [
@@ -6117,12 +6304,16 @@
       },
       "sources": [
         "Yinhe Mercury II listings",
-        "player forum discussions"
+        "player forum discussions",
+        "https://www.greenpaddle.com/products/yinhe-mercury-2"
       ],
       "color": "0891b2",
-      "image": "https://placehold.co/720x480/0891b2/ffffff?text=Yinhe%20%E6%B0%B4%E6%98%9F%202%20%E4%B8%AD%E7%A1%AC",
+      "image": "https://cdn.shopify.com/s/files/1/0165/8526/1156/products/Yinhe_Mercury_2_512x512.png?v=1547622049",
       "contributors": [
         "Codex research"
+      ],
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0165/8526/1156/products/Yinhe_Mercury_2_512x512.png?v=1547622049"
       ]
     },
     {
@@ -6147,7 +6338,7 @@
           "微粘胶面"
         ],
         "sponge": [
-          "硬质海绵"
+          "高密海绵"
         ],
         "thickness": [
           "2.1",
@@ -6162,16 +6353,23 @@
         ],
         "origin": [
           "中国"
+        ],
+        "spongeDetail": [
+          "硬质海绵"
         ]
       },
       "sources": [
         "Yinhe Mercury II listings",
-        "player forum discussions"
+        "player forum discussions",
+        "https://www.greenpaddle.com/products/yinhe-mercury-2"
       ],
       "color": "155e75",
-      "image": "https://placehold.co/720x480/155e75/ffffff?text=Yinhe%20%E6%B0%B4%E6%98%9F%202%20%E7%A1%AC",
+      "image": "https://cdn.shopify.com/s/files/1/0165/8526/1156/products/Yinhe_Mercury_2_512x512.png?v=1547622049",
       "contributors": [
         "Codex research"
+      ],
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0165/8526/1156/products/Yinhe_Mercury_2_512x512.png?v=1547622049"
       ]
     },
     {
@@ -6217,12 +6415,19 @@
       },
       "sources": [
         "Yinhe Big Dipper listings",
-        "player forum discussions"
+        "player forum discussions",
+        "https://www.tabletennis.my/products/yinhe-rubber-yinhe-big-dipper-ii-big-dipper-2-sticky-elastic-rubber-table-tennis-rubber-getah-ping-pong-rubber-ittf",
+        "https://www.tt-maximum.com/shop/index.php?sesq=rubbers%2Fyinhe-milkyway-big-dipper-ii"
       ],
       "color": "0f766e",
-      "image": "https://placehold.co/720x480/0f766e/ffffff?text=Yinhe%20%E5%8C%97%E6%96%97%202",
+      "image": "https://cdn.store-assets.com/s/713163/i/94470913.jpeg",
       "contributors": [
         "Codex research"
+      ],
+      "images": [
+        "https://cdn.store-assets.com/s/713163/i/94470913.jpeg",
+        "https://cdn.store-assets.com/s/713163/i/26793747.jpg",
+        "https://tt-maximum.com/Data/Products/yinhe-milkyway/large_yinhe-milkyway-big-dipper-ii.jpg"
       ]
     },
     {
@@ -6268,12 +6473,18 @@
       },
       "sources": [
         "Yinhe Neptune listings",
-        "long pips discussions"
+        "long pips discussions",
+        "https://rodneystabletennis.co.nz/products/yinhe-neptune-long-pimple-7mm-rubber"
       ],
       "color": "0f172a",
-      "image": "https://placehold.co/720x480/0f172a/ffffff?text=Yinhe%20%E6%B5%B7%E7%8E%8B%E6%98%9F%20%E9%95%BF%E8%83%B6",
+      "image": "https://cdn.shopify.com/s/files/1/0014/4772/3120/files/large_yinhe-milkyway-neptune_1200x1200.jpg?v=1717973874",
       "contributors": [
         "Codex research"
+      ],
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0014/4772/3120/files/large_yinhe-milkyway-neptune_1200x1200.jpg?v=1717973874",
+        "https://cdn.shopify.com/s/files/1/0014/4772/3120/files/L_63d238d68a078_1200x1200.jpg?v=1717973094",
+        "https://cdn.shopify.com/s/files/1/0014/4772/3120/files/L_63d2392d1e990_1200x1200.jpg?v=1717973128"
       ]
     },
     {
@@ -6321,12 +6532,17 @@
       },
       "sources": [
         "Yinhe Pluto listings",
-        "short pips discussions"
+        "short pips discussions",
+        "https://www.greenpaddle.com/products/yinhe-pluto"
       ],
       "color": "111827",
-      "image": "https://placehold.co/720x480/111827/ffffff?text=Yinhe%20%E5%86%A5%E7%8E%8B%E6%98%9F%20%E7%94%9F%E8%83%B6",
+      "image": "https://cdn.shopify.com/s/files/1/0165/8526/1156/products/Yinhe_Pluto_1200x1200.png?v=1547621872",
       "contributors": [
         "Codex research"
+      ],
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0165/8526/1156/products/Yinhe_Pluto_1200x1200.png?v=1547621872",
+        "https://cdn.shopify.com/s/files/1/0165/8526/1156/products/Yinhe_Pluto_1200x1200_crop_center.png?v=1547621872"
       ]
     },
     {
@@ -6428,12 +6644,18 @@
       },
       "sources": [
         "Loki Arthur Europe listings",
-        "retailer product listings"
+        "retailer product listings",
+        "https://www.tabletennishub.net/products/original-loki-arthur-europe-asia-china-table-tennis-rubber-sticky-offensive-ping-pong-rubber-with-hard-cake-sponge"
       ],
       "color": "2563eb",
-      "image": "https://placehold.co/720x480/2563eb/ffffff?text=Loki%20Arthur%20Europe",
+      "image": "https://cdn.shopify.com/s/files/1/1965/1397/files/LOKI-ARTHUR-EuropeAsia-China-Table-Tennis-Rubber_1200x1200.webp?v=1744315149",
       "contributors": [
         "Codex research"
+      ],
+      "images": [
+        "https://cdn.shopify.com/s/files/1/1965/1397/files/LOKI-ARTHUR-EuropeAsia-China-Table-Tennis-Rubber_1200x1200.webp?v=1744315149",
+        "https://cdn.shopify.com/s/files/1/1965/1397/files/LOKI-ARTHUR-EuropeAsia-China-Table-Tennis-Rubber-2_1024x1024.webp?v=1744315154",
+        "https://cdn.shopify.com/s/files/1/1965/1397/files/LOKI-ARTHUR-EuropeAsia-China-Table-Tennis-Rubber-3_1024x1024.webp?v=1744315159"
       ]
     },
     {
@@ -6810,12 +7032,17 @@
       },
       "sources": [
         "Dawei Inspirit Quattro Ultralight listings",
-        "player forum discussions"
+        "player forum discussions",
+        "https://www.greenpaddle.com/products/dawei-inspirit-quattro-ul"
       ],
       "color": "64748b",
-      "image": "https://placehold.co/720x480/64748b/ffffff?text=Dawei%20Inspirit%20Quattro%20Ultralight",
+      "image": "https://cdn.shopify.com/s/files/1/0165/8526/1156/products/dawei-inspirit-quattro_1200x1200.jpg?v=1658799689",
       "contributors": [
         "Codex research"
+      ],
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0165/8526/1156/products/dawei-inspirit-quattro_1200x1200.jpg?v=1658799689",
+        "https://cdn.shopify.com/s/files/1/0165/8526/1156/products/dawei-inspirit-quattro_1200x1200_crop_center.jpg?v=1658799689"
       ]
     },
     {
@@ -7021,7 +7248,7 @@
           "涩性胶面"
         ],
         "sponge": [
-          "NIF海绵",
+          "高弹海绵",
           "蛋糕海绵"
         ],
         "thickness": [
@@ -7038,6 +7265,9 @@
         ],
         "hardness": [
           "硬"
+        ],
+        "spongeDetail": [
+          "NIF海绵"
         ]
       },
       "sources": [
@@ -7080,7 +7310,7 @@
           "涩性胶面"
         ],
         "sponge": [
-          "NIF海绵",
+          "高弹海绵",
           "蛋糕海绵"
         ],
         "thickness": [
@@ -7098,6 +7328,9 @@
         "hardness": [
           "中硬",
           "硬"
+        ],
+        "spongeDetail": [
+          "NIF海绵"
         ]
       },
       "sources": [
@@ -7139,7 +7372,7 @@
           "微粘胶面"
         ],
         "sponge": [
-          "NIF海绵",
+          "高弹海绵",
           "蛋糕海绵"
         ],
         "thickness": [
@@ -7156,6 +7389,9 @@
         ],
         "hardness": [
           "硬"
+        ],
+        "spongeDetail": [
+          "NIF海绵"
         ]
       },
       "sources": [
@@ -7194,7 +7430,7 @@
           "涩性胶面"
         ],
         "sponge": [
-          "Spring Sponge X",
+          "蛋糕海绵",
           "高弹海绵"
         ],
         "thickness": [
@@ -7212,6 +7448,9 @@
         ],
         "origin": [
           "日本"
+        ],
+        "spongeDetail": [
+          "Spring Sponge X"
         ]
       },
       "sources": [
@@ -7422,7 +7661,7 @@
           "涩性胶面"
         ],
         "sponge": [
-          "RED ENERGY海绵",
+          "蛋糕海绵",
           "高弹海绵"
         ],
         "thickness": [
@@ -7440,6 +7679,9 @@
         ],
         "origin": [
           "德国"
+        ],
+        "spongeDetail": [
+          "RED ENERGY海绵"
         ]
       },
       "sources": [
@@ -7483,7 +7725,7 @@
           "微粘胶面"
         ],
         "sponge": [
-          "Tensor海绵",
+          "蛋糕海绵",
           "高弹海绵"
         ],
         "thickness": [
@@ -7501,6 +7743,9 @@
         ],
         "origin": [
           "德国"
+        ],
+        "spongeDetail": [
+          "Tensor海绵"
         ]
       },
       "sources": [
@@ -7709,7 +7954,7 @@
           "半粘胶面"
         ],
         "sponge": [
-          "软弹海绵"
+          "高弹海绵"
         ],
         "thickness": [
           "2.1",
@@ -7721,6 +7966,9 @@
         ],
         "origin": [
           "中国"
+        ],
+        "spongeDetail": [
+          "软弹海绵"
         ]
       },
       "sources": [
@@ -7769,8 +8017,7 @@
         ],
         "style": [
           "弧圈",
-          "快攻弧圈",
-          "水怪套餐"
+          "快攻弧圈"
         ],
         "origin": [
           "中国"
@@ -7828,8 +8075,7 @@
         ],
         "style": [
           "弧圈",
-          "快攻弧圈",
-          "水怪套餐"
+          "快攻弧圈"
         ],
         "origin": [
           "中国"
@@ -7887,8 +8133,7 @@
         ],
         "style": [
           "弧圈",
-          "快攻弧圈",
-          "水怪套餐"
+          "快攻弧圈"
         ],
         "origin": [
           "中国"
@@ -7922,7 +8167,7 @@
       "price": 85,
       "priceMin": 60,
       "priceMax": 120,
-      "image": "https://placehold.co/720x720/581c87/ffffff?text=Loki%20%E9%BA%92%E9%BA%9F%20K1%EF%BC%88%E5%A5%97%E8%83%B6%EF%BC%89",
+      "image": "https://revspin.net/assets/table-tennis-images/rubbers/loki-kirin-k1.jpg",
       "description": "雷神麒麟 K1 套胶偏亲民正手/反手配置，适合水怪套餐和国产底板搭配。",
       "tags": {
         "brand": [
@@ -7946,8 +8191,7 @@
         ],
         "style": [
           "弧圈",
-          "快攻弧圈",
-          "水怪套餐"
+          "快攻弧圈"
         ],
         "origin": [
           "中国"
@@ -7961,14 +8205,15 @@
       },
       "sources": [
         "社区清单初始补全；套胶体感和硬度需后续由球友继续校准",
-        "Loki 麒麟 K1（套胶） market listings"
+        "Loki 麒麟 K1（套胶） market listings",
+        "https://revspin.net/rubber/loki-kirin-k1.html"
       ],
       "currency": "CNY",
       "contributors": [
         "Codex research"
       ],
       "images": [
-        "https://placehold.co/720x720/581c87/ffffff?text=Loki%20%E9%BA%92%E9%BA%9F%20K1%EF%BC%88%E5%A5%97%E8%83%B6%EF%BC%89"
+        "https://revspin.net/assets/table-tennis-images/rubbers/loki-kirin-k1.jpg"
       ]
     },
     {
@@ -7980,7 +8225,7 @@
       "price": 105,
       "priceMin": 80,
       "priceMax": 140,
-      "image": "https://placehold.co/720x720/581c87/ffffff?text=Loki%20%E9%BA%92%E9%BA%9F%20K5%EF%BC%88%E5%A5%97%E8%83%B6%EF%BC%89",
+      "image": "https://revspin.net/assets/table-tennis-images/rubbers/loki-kirin-k5.jpg",
       "description": "雷神麒麟 K5 套胶定位高于 K1，偏进攻和发力支撑。",
       "tags": {
         "brand": [
@@ -8004,8 +8249,7 @@
         ],
         "style": [
           "弧圈",
-          "快攻弧圈",
-          "水怪套餐"
+          "快攻弧圈"
         ],
         "origin": [
           "中国"
@@ -8019,14 +8263,15 @@
       },
       "sources": [
         "社区清单初始补全；套胶体感和硬度需后续由球友继续校准",
-        "Loki 麒麟 K5（套胶） market listings"
+        "Loki 麒麟 K5（套胶） market listings",
+        "https://revspin.net/rubber/loki-kirin-k5.html"
       ],
       "currency": "CNY",
       "contributors": [
         "Codex research"
       ],
       "images": [
-        "https://placehold.co/720x720/581c87/ffffff?text=Loki%20%E9%BA%92%E9%BA%9F%20K5%EF%BC%88%E5%A5%97%E8%83%B6%EF%BC%89"
+        "https://revspin.net/assets/table-tennis-images/rubbers/loki-kirin-k5.jpg"
       ]
     },
     {
@@ -8038,7 +8283,7 @@
       "price": 95,
       "priceMin": 70,
       "priceMax": 125,
-      "image": "https://placehold.co/720x720/7c2d12/ffffff?text=Sword%20Ruigan%20RG",
+      "image": "https://www.swordtt.com/uploadfiles/image/20251027/1761533396531443.png",
       "description": "世奥得锐感 RG 是国产亲民套胶，适合预算型正反手配置和水怪套餐搭配。",
       "tags": {
         "brand": [
@@ -8060,8 +8305,7 @@
         ],
         "style": [
           "控制",
-          "快攻弧圈",
-          "水怪套餐"
+          "快攻弧圈"
         ],
         "origin": [
           "中国"
@@ -8075,14 +8319,19 @@
       },
       "sources": [
         "社区清单初始补全；套胶体感和硬度需后续由球友继续校准",
-        "Sword Ruigan RG market listings"
+        "Sword Ruigan RG market listings",
+        "https://www.swordtt.com/goods/490.html"
       ],
       "currency": "CNY",
       "contributors": [
         "Codex research"
       ],
       "images": [
-        "https://placehold.co/720x720/7c2d12/ffffff?text=Sword%20Ruigan%20RG"
+        "https://www.swordtt.com/uploadfiles/image/20251027/1761533396531443.png",
+        "https://www.swordtt.com/uploadfiles/image/20251027/1761533396867522.png",
+        "https://www.swordtt.com/uploadfiles/image/20251027/1761533396793660.png",
+        "https://www.swordtt.com/uploadfiles/image/20251027/1761533396559104.png",
+        "https://www.swordtt.com/uploadfiles/image/20251027/1761533396468494.png"
       ]
     },
     {
@@ -8116,8 +8365,7 @@
         ],
         "style": [
           "弧圈",
-          "发抢",
-          "水怪套餐"
+          "发抢"
         ],
         "origin": [
           "中国"
@@ -8151,7 +8399,7 @@
       "price": 90,
       "priceMin": 65,
       "priceMax": 120,
-      "image": "https://placehold.co/720x720/a16207/ffffff?text=729%20Kirin%20Flash",
+      "image": "https://dku51.oss-cn-hangzhou.aliyuncs.com/upload/20260410/20260410114621480.jpg",
       "description": "729 麒麟闪现是国产性价比套胶，适合普通爱好者预算配置和水怪套餐。",
       "tags": {
         "brand": [
@@ -8174,8 +8422,7 @@
         ],
         "style": [
           "弧圈",
-          "快攻弧圈",
-          "水怪套餐"
+          "快攻弧圈"
         ],
         "origin": [
           "中国"
@@ -8189,14 +8436,20 @@
       },
       "sources": [
         "社区清单初始补全；套胶体感和硬度需后续由球友继续校准",
-        "Friendship 729 Kirin Flash market listings"
+        "Friendship 729 Kirin Flash market listings",
+        "https://www.dku51.com/goods-5156.html",
+        "https://www.729sports.com/product/9.html"
       ],
       "currency": "CNY",
       "contributors": [
         "Codex research"
       ],
       "images": [
-        "https://placehold.co/720x720/a16207/ffffff?text=729%20Kirin%20Flash"
+        "https://dku51.oss-cn-hangzhou.aliyuncs.com/upload/20260410/20260410114621480.jpg",
+        "https://dku51.oss-cn-hangzhou.aliyuncs.com/upload/detail/20260410/20260410115142269.jpg",
+        "https://dku51.oss-cn-hangzhou.aliyuncs.com/upload/detail/20260410/20260410114949852.jpg",
+        "https://dku51.oss-cn-hangzhou.aliyuncs.com/upload/detail/20260410/20260410115152148.jpg",
+        "https://dku51.oss-cn-hangzhou.aliyuncs.com/upload/detail/20260410/20260410115159837.jpg"
       ]
     }
   ],
@@ -8365,7 +8618,7 @@
       "series": "National",
       "price": 2200,
       "currency": "CNY",
-      "image": "https://placehold.co/720x480/7f1d1d/ffffff?text=DHS%20W968",
+      "image": "https://cdn.shopify.com/s/files/1/0750/6119/9067/files/1_a8589423-2d90-42c4-99a6-2a386fa72c72.png?v=1768843458",
       "description": "高端内置纤维底板，持球与底劲突出，常被视作狂飙龙 5 高阶版本。",
       "tags": {
         "brand": [
@@ -8403,7 +8656,13 @@
         ]
       },
       "sources": [
-        "DHS W series blade references"
+        "DHS W series blade references",
+        "https://dhssportsusa.com/products/dhs-6-gold-w968-hurricane-long-5-table-tennis-blade"
+      ],
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0750/6119/9067/files/1_a8589423-2d90-42c4-99a6-2a386fa72c72.png?v=1768843458",
+        "https://cdn.shopify.com/s/files/1/0750/6119/9067/files/0_6bba021f-6d20-4a0e-ab2b-ea2de242a371.png?v=1768843458",
+        "https://cdn.shopify.com/s/files/1/0750/6119/9067/files/6goldsq.png?v=1770415319"
       ]
     },
     {
@@ -8686,7 +8945,7 @@
       "series": "36.5",
       "price": 560,
       "currency": "CNY",
-      "image": "https://placehold.co/720x480/1d4ed8/ffffff?text=XIOM%2036.5%20ALX",
+      "image": "https://www.contra.de/media/8f/d8/03/1686870063/10134_0.jpg",
       "description": "外置纤维底板，出球干脆，适合主动进攻。",
       "tags": {
         "brand": [
@@ -8723,7 +8982,12 @@
         ]
       },
       "sources": [
-        "XIOM 36.5 blade line"
+        "XIOM 36.5 blade line",
+        "https://www.contra.de/en/xiom-blade-36.5-alx/"
+      ],
+      "images": [
+        "https://www.contra.de/media/8f/d8/03/1686870063/10134_0.jpg",
+        "https://www.contra.de/thumbnail/8f/d8/03/1686870063/10134_0_1920x1920.jpg"
       ]
     },
     {
@@ -8948,7 +9212,7 @@
       "series": "U",
       "price": 115,
       "currency": "CNY",
-      "image": "https://placehold.co/720x480/0284c7/ffffff?text=Yinhe%20U2",
+      "image": "https://cdn.store-assets.com/s/713163/i/89529596.jpeg",
       "description": "预算七夹纯木底板，出球扎实，适合近台快攻弧圈和力量型入门配置。",
       "tags": {
         "brand": [
@@ -8989,7 +9253,15 @@
       },
       "sources": [
         "Yinhe U2 product listings",
-        "retailer product listings"
+        "retailer product listings",
+        "https://www.tabletennis.my/products/yinhe-blade-uranus-2-u-2-all-wood-blade-table-tennis-blade-bat-racket-paddle-7-ply-raket-ping-pong-tenis-meja-1"
+      ],
+      "images": [
+        "https://cdn.store-assets.com/s/713163/i/89529596.jpeg",
+        "https://cdn.store-assets.com/s/713163/i/89529599.jpeg",
+        "https://cdn.store-assets.com/s/713163/i/89529598.jpeg",
+        "https://cdn.store-assets.com/s/713163/i/89529602.jpeg",
+        "https://cdn.store-assets.com/s/713163/i/89529601.jpeg"
       ]
     },
     {
@@ -10045,7 +10317,7 @@
       "contributors": [
         "Codex research"
       ],
-      "image": "https://placehold.co/720x480/0284c7/ffffff?text=Yinhe%20Pro-01",
+      "image": "https://revspin.net/assets/table-tennis-images/blades/galaxy-yinhe-pro-01.jpg",
       "description": "高性价比外置纤维底板，常被球友作为 Vis 结构平替选择。",
       "tags": {
         "brand": [
@@ -10086,7 +10358,11 @@
       "sources": [
         "Yinhe Pro-01 product listings",
         "Revspin Pro-01 listing",
-        "Tieba user discussions"
+        "Tieba user discussions",
+        "https://revspin.net/blade/galaxy-yinhe-pro-01.html"
+      ],
+      "images": [
+        "https://revspin.net/assets/table-tennis-images/blades/galaxy-yinhe-pro-01.jpg"
       ]
     },
     {
@@ -10102,7 +10378,7 @@
       "contributors": [
         "Codex research"
       ],
-      "image": "https://placehold.co/720x480/0ea5e9/ffffff?text=Yinhe%20V14%20Pro",
+      "image": "https://cdn.store-assets.com/s/713163/i/69142666.jpeg",
       "description": "亲民外置纤维底板，速度和支撑较强，适合入门进阶纤维板。",
       "tags": {
         "brand": [
@@ -10142,7 +10418,15 @@
       },
       "sources": [
         "Yinhe V14 Pro product listings",
-        "Tieba user discussions"
+        "Tieba user discussions",
+        "https://www.tabletennis.my/products/yinhe-v-14-pro-fl"
+      ],
+      "images": [
+        "https://cdn.store-assets.com/s/713163/i/69142666.jpeg",
+        "https://cdn.store-assets.com/s/713163/i/69142667.jpeg",
+        "https://cdn.store-assets.com/s/713163/i/69142668.jpeg",
+        "https://cdn.store-assets.com/s/713163/i/69142672.jpeg",
+        "https://cdn.store-assets.com/s/713163/i/69142669.jpeg"
       ]
     },
     {
@@ -10606,10 +10890,14 @@
       },
       "sources": [
         "Yinhe MC-2 Pro product listings",
-        "player forum discussions"
+        "player forum discussions",
+        "https://revspin.net/blade/galaxy-yinhe-mc-2-pro.html"
       ],
       "color": "0369a1",
-      "image": "https://placehold.co/720x480/0369a1/ffffff?text=Yinhe%20MC-2%20Pro"
+      "image": "https://revspin.net/assets/table-tennis-images/blades/galaxy-yinhe-mc-2-pro.jpg",
+      "images": [
+        "https://revspin.net/assets/table-tennis-images/blades/galaxy-yinhe-mc-2-pro.jpg"
+      ]
     },
     {
       "currency": "CNY",
@@ -10835,10 +11123,14 @@
       },
       "sources": [
         "Yinhe Pro blade listings",
-        "player forum discussions"
+        "player forum discussions",
+        "https://revspin.net/blade/yinhe-pro-05.html"
       ],
       "color": "1d4ed8",
-      "image": "https://placehold.co/720x480/1d4ed8/ffffff?text=Yinhe%20Pro-05"
+      "image": "https://revspin.net/assets/table-tennis-images/blades/yinhe-pro-05.jpg",
+      "images": [
+        "https://revspin.net/assets/table-tennis-images/blades/yinhe-pro-05.jpg"
+      ]
     },
     {
       "currency": "CNY",
@@ -14672,7 +14964,7 @@
       "price": 90,
       "priceMin": 65,
       "priceMax": 110,
-      "image": "https://placehold.co/720x720/166534/ffffff?text=729%20Green%20Devil%207",
+      "image": "https://dku51.oss-cn-hangzhou.aliyuncs.com/upload/20260508/20260508053548363.jpg",
       "description": "729 绿魔 7 是百元内国产七夹底板，偏快攻和借力，适合低成本练习配置。",
       "tags": {
         "brand": [
@@ -14713,14 +15005,20 @@
       },
       "sources": [
         "社区清单初始补全；规格和价格带需后续由球友继续校准",
-        "Friendship 729 Green Devil 7 market listings"
+        "Friendship 729 Green Devil 7 market listings",
+        "https://www.dku51.com/goods-5161.html",
+        "https://www.729sports.com/product/29.html"
       ],
       "currency": "CNY",
       "contributors": [
         "Codex research"
       ],
       "images": [
-        "https://placehold.co/720x720/166534/ffffff?text=729%20Green%20Devil%207"
+        "https://dku51.oss-cn-hangzhou.aliyuncs.com/upload/20260508/20260508053548363.jpg",
+        "https://dku51.oss-cn-hangzhou.aliyuncs.com/upload/detail/20260512/20260512042303351.jpg",
+        "https://dku51.oss-cn-hangzhou.aliyuncs.com/upload/detail/20260512/20260512042314931.jpg",
+        "https://dku51.oss-cn-hangzhou.aliyuncs.com/upload/detail/20260512/20260512042347130.jpg",
+        "https://dku51.oss-cn-hangzhou.aliyuncs.com/upload/detail/20260512/20260512042356396.jpg"
       ]
     },
     {
@@ -15032,7 +15330,7 @@
       "price": 135,
       "priceMin": 105,
       "priceMax": 160,
-      "image": "https://placehold.co/720x720/7c2d12/ffffff?text=Sword%20Yokohama%20Yue",
+      "image": "https://revspin.net/assets/table-tennis-images/blades/sword-yokohama-yue.jpg",
       "description": "世奥得横滨悦是百元级国产底板，偏均衡控制和训练，适合作为进阶前的练习配置。",
       "tags": {
         "brand": [
@@ -15073,13 +15371,15 @@
       },
       "sources": [
         "社区清单初始补全；规格和价格带需后续由球友继续校准",
-        "Sword Yokohama Yue market listings"
+        "Sword Yokohama Yue market listings",
+        "https://revspin.net/blade/sword-yokohama-yue.html"
       ],
       "currency": "CNY",
       "contributors": [
         "Codex research"
       ],
       "images": [
+        "https://revspin.net/assets/table-tennis-images/blades/sword-yokohama-yue.jpg",
         "https://placehold.co/720x720/7c2d12/ffffff?text=Sword%20Yokohama%20Yue"
       ]
     },
@@ -15337,7 +15637,7 @@
       "price": 260,
       "priceMin": 200,
       "priceMax": 340,
-      "image": "https://placehold.co/720x720/991b1b/ffffff?text=DHS%20506A",
+      "image": "https://dku51.oss-cn-hangzhou.aliyuncs.com/upload/20230315/20230315122910644.jpg",
       "description": "红双喜506A 是 200-300 元价位常见底板，定位进阶训练和弧圈进攻。",
       "tags": {
         "brand": [
@@ -15379,14 +15679,20 @@
       },
       "sources": [
         "社区清单初始补全；规格和价格带需后续由球友继续校准",
-        "DHS 506A market listings"
+        "DHS 506A market listings",
+        "https://www.dku51.com/goods-4403.html",
+        "https://www.ttshop.cn/goods.php?id=5495"
       ],
       "currency": "CNY",
       "contributors": [
         "Codex research"
       ],
       "images": [
-        "https://placehold.co/720x720/991b1b/ffffff?text=DHS%20506A"
+        "https://dku51.oss-cn-hangzhou.aliyuncs.com/upload/20230315/20230315122910644.jpg",
+        "https://dku51.oss-cn-hangzhou.aliyuncs.com/upload/20220914/20220914104642140.jpg",
+        "https://dku51.oss-cn-hangzhou.aliyuncs.com/upload/20230315/20230315122915858.jpg",
+        "https://dku51.oss-cn-hangzhou.aliyuncs.com/upload/20230315/20230315122918799.jpg",
+        "https://img01.yzcdn.cn/upload_files/2023/04/11/FqsLZR_t2FktH1LJse8-lNREQaHp.jpg"
       ]
     },
     {
@@ -15398,7 +15704,7 @@
       "price": 240,
       "priceMin": 180,
       "priceMax": 320,
-      "image": "https://placehold.co/720x720/1e3a8a/ffffff?text=Yinhe%20M101",
+      "image": "https://revspin.net/assets/table-tennis-images/blades/galaxy-yinhe-m101.jpg",
       "description": "银河M101 是 200-300 元价位常见底板，定位进阶训练和弧圈进攻。",
       "tags": {
         "brand": [
@@ -15440,13 +15746,15 @@
       },
       "sources": [
         "社区清单初始补全；规格和价格带需后续由球友继续校准",
-        "Yinhe M101 market listings"
+        "Yinhe M101 market listings",
+        "https://revspin.net/blade/galaxy-yinhe-m101.html"
       ],
       "currency": "CNY",
       "contributors": [
         "Codex research"
       ],
       "images": [
+        "https://revspin.net/assets/table-tennis-images/blades/galaxy-yinhe-m101.jpg",
         "https://placehold.co/720x720/1e3a8a/ffffff?text=Yinhe%20M101"
       ]
     },
@@ -15459,7 +15767,7 @@
       "price": 250,
       "priceMin": 190,
       "priceMax": 330,
-      "image": "https://placehold.co/720x720/1e3a8a/ffffff?text=Yinhe%20M102",
+      "image": "https://revspin.net/assets/table-tennis-images/blades/yinhe-m102.jpg",
       "description": "银河M102 是 200-300 元价位常见底板，定位进阶训练和弧圈进攻。",
       "tags": {
         "brand": [
@@ -15501,13 +15809,15 @@
       },
       "sources": [
         "社区清单初始补全；规格和价格带需后续由球友继续校准",
-        "Yinhe M102 market listings"
+        "Yinhe M102 market listings",
+        "https://revspin.net/blade/yinhe-m102.html"
       ],
       "currency": "CNY",
       "contributors": [
         "Codex research"
       ],
       "images": [
+        "https://revspin.net/assets/table-tennis-images/blades/yinhe-m102.jpg",
         "https://placehold.co/720x720/1e3a8a/ffffff?text=Yinhe%20M102"
       ]
     },
@@ -15639,7 +15949,7 @@
       "price": 380,
       "priceMin": 300,
       "priceMax": 500,
-      "image": "https://placehold.co/720x720/7f1d1d/ffffff?text=DHS%20%E7%8B%82%E9%A3%9A%E7%8E%8B%20ACB",
+      "image": "https://revspin.net/assets/table-tennis-images/blades/dhs-hurricane-king-acb.jpg",
       "description": "红双喜狂飚王 ACB 是狂飚王系列进攻底板，适合国产正手弧圈和中近台相持。",
       "tags": {
         "brand": [
@@ -15681,13 +15991,15 @@
       },
       "sources": [
         "社区清单初始补全；规格和价格带需后续由球友继续校准",
-        "DHS 狂飚王 ACB product or market listings"
+        "DHS 狂飚王 ACB product or market listings",
+        "https://revspin.net/blade/dhs-hurricane-king-acb.html"
       ],
       "currency": "CNY",
       "contributors": [
         "Codex research"
       ],
       "images": [
+        "https://revspin.net/assets/table-tennis-images/blades/dhs-hurricane-king-acb.jpg",
         "https://placehold.co/720x720/7f1d1d/ffffff?text=DHS%20%E7%8B%82%E9%A3%9A%E7%8E%8B%20ACB"
       ]
     },

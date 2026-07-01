@@ -5,7 +5,7 @@ const filterConfig = {
     { key: "rubberType", label: "胶面", color: "rose" },
     { key: "sponge", label: "海绵", color: "amber" },
     { key: "thickness", label: "厚度", color: "teal" },
-    { key: "style", label: "打法", color: "blue" },
+    { key: "style", label: "特色", color: "blue" },
     { key: "package", label: "套餐", color: "purple" },
     { key: "origin", label: "产地", color: "green" },
     { key: "price", label: "价格带", color: "rose", values: ["50内", "80内", "百元左右", "150左右", "200左右", "300左右", "300以上"] }
@@ -14,7 +14,7 @@ const filterConfig = {
     { key: "brand", label: "品牌", color: "blue" },
     { key: "structure", label: "结构", color: "green" },
     { key: "material", label: "材料", color: "rose" },
-    { key: "position", label: "打法", color: "amber" },
+    { key: "position", label: "特色", color: "amber" },
     { key: "handle", label: "手柄", color: "teal", values: ["横板", "直板", "FL", "ST", "CS"] },
     { key: "speed", label: "速度", color: "slate" },
     { key: "feel", label: "手感", color: "blue" },
@@ -76,12 +76,13 @@ const fuzzyRangeConfig = {
 
 const fieldLabels = {
   brand: "品牌",
-  position: "位置/打法",
+  position: "位置/特色",
   rubberType: "胶面",
   sponge: "海绵",
   thickness: "厚度",
   hardness: "硬度",
-  style: "打法",
+  style: "特色",
+  spongeDetail: "海绵细节",
   package: "套餐",
   origin: "产地",
   bladeType: "类型",
@@ -165,7 +166,7 @@ const commentEditCooldownMs = 60 * 60 * 1000;
 const commentPostCooldownMs = 60 * 1000;
 const commentsPerPage = 10;
 const hotCommentsCount = 3;
-const assetVersion = "ratings-30";
+const assetVersion = "ratings-31";
 const languageStorageKey = "tt-equipment-language";
 
 const englishText = {
@@ -190,12 +191,13 @@ const englishText = {
   "名称": "Name",
   "品牌": "Brand",
   "位置": "Position",
-  "位置/打法": "Position / style",
+  "位置/特色": "Position / feature",
   "胶面": "Rubber type",
   "海绵": "Sponge",
   "厚度": "Thickness",
   "硬度": "Hardness",
-  "打法": "Style",
+  "特色": "Feature",
+  "海绵细节": "Sponge details",
   "产地": "Origin",
   "价格带": "Price",
   "结构": "Structure",
@@ -669,7 +671,7 @@ function renderProducts() {
   }
 
   nodes.productGrid.innerHTML = products.map((product) => {
-    const tags = flattenProductTags(product).slice(0, 7).map((tag) => `<span class="${getSpecialTagClass(tag).trim()}">${th(tag)}</span>`).join("");
+    const tags = getCardTags(product).map((tag) => `<span class="mini-tag${getSpecialTagClass(tag)}">${th(tag)}</span>`).join("");
     const brandDisplay = getBrandDisplay(product);
     return `
       <a class="product-card" href="#/equipment/${product.id}" aria-label="${th("查看")} ${escapeHtml(brandDisplay)} ${escapeHtml(product.name)}">
@@ -2028,6 +2030,20 @@ function renderActiveFilters() {
 
 function flattenProductTags(product) {
   return Object.values(product.tags).flat();
+}
+
+function getCardTags(product) {
+  const priorityKeys = ["package", "style", "position", "rubberType", "structure", "material", "sponge", "price", "origin"];
+  const picked = [];
+  const push = (value) => {
+    if (value && !picked.includes(value)) {
+      picked.push(value);
+    }
+  };
+
+  priorityKeys.forEach((key) => (product.tags[key] || []).forEach(push));
+  flattenProductTags(product).forEach(push);
+  return picked.slice(0, 8);
 }
 
 function getSpecialTagClass(value) {
