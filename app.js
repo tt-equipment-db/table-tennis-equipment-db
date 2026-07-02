@@ -13,7 +13,7 @@ const filterConfig = {
     { key: "brand", label: "品牌", color: "blue" },
     { key: "structure", label: "结构", color: "green" },
     { key: "material", label: "材料", color: "rose" },
-    { key: "position", label: "用途", color: "amber" },
+    { key: "position", label: "打法", color: "amber" },
     { key: "handle", label: "手柄", color: "teal", values: ["横板", "直板", "FL", "ST", "CS"] },
     { key: "speed", label: "速度", color: "slate" },
     { key: "feel", label: "特色", color: "blue" },
@@ -75,7 +75,7 @@ const fuzzyRangeConfig = {
 
 const fieldLabels = {
   brand: "品牌",
-  position: "位置/用途",
+  position: "位置",
   rubberType: "胶面",
   sponge: "海绵",
   thickness: "厚度",
@@ -164,7 +164,7 @@ const commentEditCooldownMs = 60 * 60 * 1000;
 const commentPostCooldownMs = 60 * 1000;
 const commentsPerPage = 10;
 const hotCommentsCount = 3;
-const assetVersion = "ratings-33";
+const assetVersion = "ratings-34";
 const languageStorageKey = "tt-equipment-language";
 
 const englishText = {
@@ -189,7 +189,7 @@ const englishText = {
   "名称": "Name",
   "品牌": "Brand",
   "位置": "Position",
-  "位置/用途": "Position / use",
+  "打法": "Play style",
   "胶面": "Rubber type",
   "海绵": "Sponge",
   "厚度": "Thickness",
@@ -208,7 +208,6 @@ const englishText = {
   "持久时间": "Duration",
   "规格": "Size",
   "速度": "Speed",
-  "用途": "Use",
   "重量感": "Weight feel",
   "类型": "Type",
   "重量": "Weight",
@@ -633,6 +632,8 @@ function toggleFilter(key, value) {
 
 const foreignBrandDisplayNames = {
   butterfly: "Butterfly（蝴蝶）",
+  haifu: "Haifu（海夫）",
+  loki: "LOKI（雷神）",
   xiom: "XIOM（骄猛）",
   joola: "JOOLA（优拉）",
   stiga: "STIGA（斯帝卡）",
@@ -645,6 +646,15 @@ const foreignBrandDisplayNames = {
   falco: "Falco（法尔克）",
   flame: "Flame（弗雷姆）",
   kokutaku: "Kokutaku（环球）",
+  tuttle: "Tuttle（塔特尔）",
+  sanwei: "SANWEI（三维）",
+  yinhe: "Yinhe（银河）",
+  dhs: "DHS（红双喜）",
+  dianchi: "Dianchi（典驰）",
+  kailin: "Kailin（开林）",
+  lidu: "Lidu（李渡）",
+  taiji: "Taiji（太极）",
+  "friendship 729": "Friendship 729（729）",
   "revolution no.3": "Revolution No.3"
 };
 
@@ -655,6 +665,9 @@ function getBrandDisplay(product) {
 }
 
 function getBrandLine(product) {
+  if (getProductType(product) === "boosters") {
+    return getBrandDisplay(product);
+  }
   return [getBrandDisplay(product), product.series].filter(Boolean).join(" / ");
 }
 
@@ -734,7 +747,7 @@ function renderDetail(product) {
   ` : "";
   const tagRows = Object.entries(product.tags).map(([key, values]) => `
     <div class="detail-tag-row">
-      <div class="detail-tag-label">${th(fieldLabels[key] || key)}</div>
+      <div class="detail-tag-label">${th(getDetailFieldLabel(product, key))}</div>
       <div class="detail-tag-list">${values.map((value) => `<span class="${getSpecialTagClass(value).trim()}">${th(value)}</span>`).join("")}</div>
     </div>
   `).join("");
@@ -2042,6 +2055,13 @@ function getCardTags(product) {
   priorityKeys.forEach((key) => (product.tags[key] || []).forEach(push));
   flattenProductTags(product).forEach(push);
   return picked.slice(0, 8);
+}
+
+function getDetailFieldLabel(product, key) {
+  if (key === "position" && getProductType(product) === "blades") {
+    return "打法";
+  }
+  return fieldLabels[key] || key;
 }
 
 function getSpecialTagClass(value) {

@@ -16698,7 +16698,7 @@
       "priceMin": 55,
       "priceMax": 125,
       "currency": "CNY",
-      "image": "https://placehold.co/720x480/4f46e5/ffffff?text=Haifu%20%E8%93%9D%E9%B2%B8%E6%89%93%E5%BA%95%E6%B2%B9",
+      "image": "https://placehold.co/720x480/4f46e5/ffffff?text=Haifu%20Blue%20Whale%20Booster",
       "description": "蓝鲸系列相关打底油，常见于国产粘套打底讨论中。",
       "tags": {
         "brand": [
@@ -16730,6 +16730,9 @@
       ],
       "contributors": [
         "Codex seed data"
+      ],
+      "images": [
+        "https://placehold.co/720x480/4f46e5/ffffff?text=Haifu%20Blue%20Whale%20Booster"
       ]
     },
     {
@@ -16742,7 +16745,7 @@
       "priceMin": 40,
       "priceMax": 100,
       "currency": "CNY",
-      "image": "https://placehold.co/720x480/0f172a/ffffff?text=Haifu%20%E6%B5%B7%E5%A4%AB%E9%80%9F%E5%BA%A6%E6%B2%B9",
+      "image": "https://placehold.co/720x480/0f172a/ffffff?text=Haifu%20Speed%20Oil",
       "description": "偏入门和训练取向的速度油，适合低成本尝试打底。",
       "tags": {
         "brand": [
@@ -16773,6 +16776,9 @@
       ],
       "contributors": [
         "Codex seed data"
+      ],
+      "images": [
+        "https://placehold.co/720x480/0f172a/ffffff?text=Haifu%20Speed%20Oil"
       ]
     },
     {
@@ -17122,7 +17128,7 @@
       "priceMin": 60,
       "priceMax": 140,
       "currency": "CNY",
-      "image": "https://placehold.co/720x480/0f172a/ffffff?text=Dianchi%20%E5%85%B8%E9%A9%B0%E9%BB%91%E6%B2%B9",
+      "image": "https://cdn.shopify.com/s/files/1/0165/8526/1156/products/dianchi_booster_667x1000.jpg?v=1580957992",
       "description": "偏强力和持久的典驰油类版本，适合追求明显形变的套胶。",
       "tags": {
         "brand": [
@@ -17150,10 +17156,14 @@
         ]
       },
       "sources": [
-        "社区初始资料，待补充官网/店铺/评测来源"
+        "社区初始资料，待补充官网/店铺/评测来源",
+        "Green Paddle Dianchi Booster product page"
       ],
       "contributors": [
         "Codex seed data"
+      ],
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0165/8526/1156/products/dianchi_booster_667x1000.jpg?v=1580957992"
       ]
     },
     {
@@ -17166,7 +17176,7 @@
       "priceMin": 70,
       "priceMax": 160,
       "currency": "CNY",
-      "image": "https://placehold.co/720x480/16a34a/ffffff?text=Dianchi%20%E5%85%B8%E9%A9%B0%E5%9B%BD%E5%A5%97%E6%B2%B9",
+      "image": "https://cdn.shopify.com/s/files/1/0165/8526/1156/products/dianchi_booster_667x1000.jpg?v=1580957992",
       "description": "典驰偏高阶定位的打底油，适合国产粘套和需要更强支撑的配置。",
       "tags": {
         "brand": [
@@ -17194,10 +17204,14 @@
         ]
       },
       "sources": [
-        "社区初始资料，待补充官网/店铺/评测来源"
+        "社区初始资料，待补充官网/店铺/评测来源",
+        "Green Paddle Dianchi Booster product page"
       ],
       "contributors": [
         "Codex seed data"
+      ],
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0165/8526/1156/products/dianchi_booster_667x1000.jpg?v=1580957992"
       ]
     },
     {
@@ -17259,7 +17273,7 @@
       "priceMin": 50,
       "priceMax": 120,
       "currency": "CNY",
-      "image": "https://placehold.co/720x480/2563eb/ffffff?text=Kailin%20%E5%BC%80%E6%9E%97%E9%BB%91%E6%B2%B9",
+      "image": "https://www.prott.vip/Upload/Product/1/kailin150_l.jpg?nocach=168",
       "description": "开林偏强力的黑油版本，侧重增弹和较明显软化。",
       "tags": {
         "brand": [
@@ -17286,10 +17300,14 @@
         ]
       },
       "sources": [
-        "社区初始资料，待补充官网/店铺/评测来源"
+        "社区初始资料，待补充官网/店铺/评测来源",
+        "PROTT KaiLin Oil Booster 150ml product page"
       ],
       "contributors": [
         "Codex seed data"
+      ],
+      "images": [
+        "https://www.prott.vip/Upload/Product/1/kailin150_l.jpg?nocach=168"
       ]
     },
     {
@@ -17302,7 +17320,7 @@
       "priceMin": 50,
       "priceMax": 110,
       "currency": "CNY",
-      "image": "https://placehold.co/720x480/0f766e/ffffff?text=Kailin%20%E5%BC%80%E6%9E%97%E7%BA%A2%E6%B2%B9",
+      "image": "https://www.prott.vip/Upload/Product/1/kailin150_l.jpg?nocach=168",
       "description": "开林红油偏易用，适合希望晾干更快、变化不要过猛的用户。",
       "tags": {
         "brand": [
@@ -17329,10 +17347,14 @@
         ]
       },
       "sources": [
-        "社区初始资料，待补充官网/店铺/评测来源"
+        "社区初始资料，待补充官网/店铺/评测来源",
+        "PROTT KaiLin Oil Booster 150ml product page"
       ],
       "contributors": [
         "Codex seed data"
+      ],
+      "images": [
+        "https://www.prott.vip/Upload/Product/1/kailin150_l.jpg?nocach=168"
       ]
     },
     {
@@ -17345,7 +17367,7 @@
       "priceMin": 45,
       "priceMax": 105,
       "currency": "CNY",
-      "image": "https://placehold.co/720x480/be123c/ffffff?text=Lidu%20%E6%9D%8E%E6%B8%A1%E9%BB%84%E6%B2%B9",
+      "image": "https://placehold.co/720x480/be123c/ffffff?text=Lidu%20Yellow%20Oil",
       "description": "国产平价膨胀油之一，适合日常训练和低成本配置测试。",
       "tags": {
         "brand": [
@@ -17376,6 +17398,9 @@
       ],
       "contributors": [
         "Codex seed data"
+      ],
+      "images": [
+        "https://placehold.co/720x480/be123c/ffffff?text=Lidu%20Yellow%20Oil"
       ]
     },
     {
@@ -17388,7 +17413,7 @@
       "priceMin": 60,
       "priceMax": 130,
       "currency": "CNY",
-      "image": "https://placehold.co/720x480/b45309/ffffff?text=Lidu%20%E6%9D%8E%E6%B8%A1%E9%BB%91%E6%B2%B9",
+      "image": "https://placehold.co/720x480/b45309/ffffff?text=Lidu%20Black%20Oil",
       "description": "李渡偏强力版本，适合需要更明显支撑和持久效果的用户。",
       "tags": {
         "brand": [
@@ -17419,6 +17444,9 @@
       ],
       "contributors": [
         "Codex seed data"
+      ],
+      "images": [
+        "https://placehold.co/720x480/b45309/ffffff?text=Lidu%20Black%20Oil"
       ]
     },
     {
@@ -17431,7 +17459,7 @@
       "priceMin": 70,
       "priceMax": 160,
       "currency": "CNY",
-      "image": "https://placehold.co/720x480/4f46e5/ffffff?text=Lidu%20%E6%9D%8E%E6%B8%A1%E5%9B%BD%E5%A5%97%E6%B2%B9",
+      "image": "https://placehold.co/720x480/4f46e5/ffffff?text=Lidu%20National%20Booster",
       "description": "李渡高阶定位油类，常用于国产粘套打底和赛前维护讨论。",
       "tags": {
         "brand": [
@@ -17463,6 +17491,9 @@
       ],
       "contributors": [
         "Codex seed data"
+      ],
+      "images": [
+        "https://placehold.co/720x480/4f46e5/ffffff?text=Lidu%20National%20Booster"
       ]
     },
     {
@@ -17725,7 +17756,7 @@
       "priceMin": 60,
       "priceMax": 130,
       "currency": "CNY",
-      "image": "https://placehold.co/720x480/0f766e/ffffff?text=Taiji%20%E5%A4%AA%E6%9E%81%E9%BB%91%E6%B2%B9",
+      "image": "https://placehold.co/720x480/0f766e/ffffff?text=Taiji%20Black%20Oil",
       "description": "国产黑油类产品，偏明显增弹和较强软化效果。",
       "tags": {
         "brand": [
@@ -17756,6 +17787,9 @@
       ],
       "contributors": [
         "Codex seed data"
+      ],
+      "images": [
+        "https://placehold.co/720x480/0f766e/ffffff?text=Taiji%20Black%20Oil"
       ]
     },
     {
@@ -17815,7 +17849,7 @@
       "priceMin": 40,
       "priceMax": 100,
       "currency": "CNY",
-      "image": "https://placehold.co/720x480/b45309/ffffff?text=Loki%20Rxton%20%E8%86%A8%E8%83%80%E6%B2%B9",
+      "image": "https://placehold.co/720x480/b45309/ffffff?text=LOKI%20Rxton%20Booster",
       "description": "雷神 Rxton 系列相关膨胀油，适合雷神国产套胶搭配尝试。",
       "tags": {
         "brand": [
@@ -17846,6 +17880,9 @@
       ],
       "contributors": [
         "Codex seed data"
+      ],
+      "images": [
+        "https://placehold.co/720x480/b45309/ffffff?text=LOKI%20Rxton%20Booster"
       ]
     },
     {
@@ -17858,7 +17895,7 @@
       "priceMin": 55,
       "priceMax": 125,
       "currency": "CNY",
-      "image": "https://placehold.co/720x480/4f46e5/ffffff?text=Loki%20Arthur%20%E8%86%A8%E8%83%80%E6%B2%B9",
+      "image": "https://placehold.co/720x480/4f46e5/ffffff?text=LOKI%20Arthur%20Booster",
       "description": "雷神 Arthur 系列相关膨胀油，偏性能向配置。",
       "tags": {
         "brand": [
@@ -17889,23 +17926,26 @@
       ],
       "contributors": [
         "Codex seed data"
+      ],
+      "images": [
+        "https://placehold.co/720x480/4f46e5/ffffff?text=LOKI%20Arthur%20Booster"
       ]
     },
     {
       "id": "booster-030-tuttle-vip",
       "name": "VIP 膨胀油",
-      "brand": "挺拔兔",
+      "brand": "塔特尔",
       "brandEn": "Tuttle",
       "series": "VIP",
       "price": 80,
       "priceMin": 45,
       "priceMax": 115,
       "currency": "CNY",
-      "image": "https://placehold.co/720x480/0f172a/ffffff?text=Tuttle%20VIP%20%E8%86%A8%E8%83%80%E6%B2%B9",
+      "image": "https://placehold.co/720x480/0f172a/ffffff?text=Tuttle%20VIP%20Booster",
       "description": "Tuttle VIP 系列相关膨胀油，定位亲民，适合国产套胶打底。",
       "tags": {
         "brand": [
-          "挺拔兔"
+          "Tuttle（塔特尔）"
         ],
         "boosterType": [
           "膨胀油"
@@ -17928,10 +17968,14 @@
         ]
       },
       "sources": [
-        "社区初始资料，待补充官网/店铺/评测来源"
+        "社区初始资料，待补充官网/店铺/评测来源",
+        "Tuttle brand/product references; specific booster image pending community confirmation"
       ],
       "contributors": [
         "Codex seed data"
+      ],
+      "images": [
+        "https://placehold.co/720x480/0f172a/ffffff?text=Tuttle%20VIP%20Booster"
       ]
     },
     {
@@ -17944,7 +17988,7 @@
       "priceMin": 45,
       "priceMax": 105,
       "currency": "CNY",
-      "image": "https://placehold.co/720x480/16a34a/ffffff?text=Sanwei%20Target%20%E8%86%A8%E8%83%80%E6%B2%B9",
+      "image": "https://placehold.co/720x480/16a34a/ffffff?text=SANWEI%20Target%20Booster",
       "description": "三维 Target 系列相关打底油，适合三维国产粘套搭配。",
       "tags": {
         "brand": [
@@ -17975,6 +18019,9 @@
       ],
       "contributors": [
         "Codex seed data"
+      ],
+      "images": [
+        "https://placehold.co/720x480/16a34a/ffffff?text=SANWEI%20Target%20Booster"
       ]
     },
     {
@@ -17987,7 +18034,7 @@
       "priceMin": 40,
       "priceMax": 90,
       "currency": "CNY",
-      "image": "https://placehold.co/720x480/7c3aed/ffffff?text=Friendship%20729%20729%20%E8%86%A8%E8%83%80%E6%B2%B9",
+      "image": "https://placehold.co/720x480/7c3aed/ffffff?text=Friendship%20729%20Booster",
       "description": "729 平价膨胀油，适合搭配传统国产粘套和低成本训练。",
       "tags": {
         "brand": [
@@ -18018,6 +18065,9 @@
       ],
       "contributors": [
         "Codex seed data"
+      ],
+      "images": [
+        "https://placehold.co/720x480/7c3aed/ffffff?text=Friendship%20729%20Booster"
       ]
     },
     {
@@ -18030,7 +18080,7 @@
       "priceMin": 40,
       "priceMax": 100,
       "currency": "CNY",
-      "image": "https://placehold.co/720x480/2563eb/ffffff?text=Yinhe%20%E9%93%B6%E6%B2%B3%E8%86%A8%E8%83%80%E6%B2%B9",
+      "image": "https://placehold.co/720x480/2563eb/ffffff?text=Yinhe%20Booster",
       "description": "银河平价油类产品，适合搭配木星、月球等国产套胶进行打底尝试。",
       "tags": {
         "brand": [
@@ -18061,6 +18111,9 @@
       ],
       "contributors": [
         "Codex seed data"
+      ],
+      "images": [
+        "https://placehold.co/720x480/2563eb/ffffff?text=Yinhe%20Booster"
       ]
     },
     {
@@ -18073,7 +18126,7 @@
       "priceMin": 50,
       "priceMax": 120,
       "currency": "CNY",
-      "image": "https://placehold.co/720x480/0f766e/ffffff?text=DHS%20%E7%BA%A2%E5%8F%8C%E5%96%9C%E6%89%93%E5%BA%95%E6%B2%B9",
+      "image": "https://placehold.co/720x480/0f766e/ffffff?text=DHS%20Booster%20Oil",
       "description": "红双喜相关打底油条目，适合后续由社区补充具体版本和来源。",
       "tags": {
         "brand": [
@@ -18105,6 +18158,9 @@
       ],
       "contributors": [
         "Codex seed data"
+      ],
+      "images": [
+        "https://placehold.co/720x480/0f766e/ffffff?text=DHS%20Booster%20Oil"
       ]
     }
   ]
