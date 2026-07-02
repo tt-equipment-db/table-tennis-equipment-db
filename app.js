@@ -13,10 +13,10 @@ const filterConfig = {
     { key: "brand", label: "品牌", color: "blue" },
     { key: "structure", label: "结构", color: "green" },
     { key: "material", label: "材料", color: "rose" },
-    { key: "position", label: "特色", color: "amber" },
+    { key: "position", label: "用途", color: "amber" },
     { key: "handle", label: "手柄", color: "teal", values: ["横板", "直板", "FL", "ST", "CS"] },
     { key: "speed", label: "速度", color: "slate" },
-    { key: "feel", label: "手感", color: "blue" },
+    { key: "feel", label: "特色", color: "blue" },
     { key: "weight", label: "重量感", color: "green", values: ["偏轻", "常规", "偏重"] },
     { key: "origin", label: "产地", color: "rose" },
     { key: "price", label: "价格带", color: "amber", values: ["100内", "200内", "300左右", "500左右", "800左右", "千元左右", "千元以上"] }
@@ -75,7 +75,7 @@ const fuzzyRangeConfig = {
 
 const fieldLabels = {
   brand: "品牌",
-  position: "位置/特色",
+  position: "位置/用途",
   rubberType: "胶面",
   sponge: "海绵",
   thickness: "厚度",
@@ -88,7 +88,7 @@ const fieldLabels = {
   material: "材料",
   handle: "手柄",
   speed: "速度",
-  feel: "手感",
+  feel: "特色",
   weight: "重量",
   boosterType: "类型",
   effect: "主要效果",
@@ -164,7 +164,7 @@ const commentEditCooldownMs = 60 * 60 * 1000;
 const commentPostCooldownMs = 60 * 1000;
 const commentsPerPage = 10;
 const hotCommentsCount = 3;
-const assetVersion = "ratings-32";
+const assetVersion = "ratings-33";
 const languageStorageKey = "tt-equipment-language";
 
 const englishText = {
@@ -189,7 +189,7 @@ const englishText = {
   "名称": "Name",
   "品牌": "Brand",
   "位置": "Position",
-  "位置/特色": "Position / feature",
+  "位置/用途": "Position / use",
   "胶面": "Rubber type",
   "海绵": "Sponge",
   "厚度": "Thickness",
@@ -208,7 +208,7 @@ const englishText = {
   "持久时间": "Duration",
   "规格": "Size",
   "速度": "Speed",
-  "手感": "Feel",
+  "用途": "Use",
   "重量感": "Weight feel",
   "类型": "Type",
   "重量": "Weight",
@@ -2031,7 +2031,7 @@ function flattenProductTags(product) {
 }
 
 function getCardTags(product) {
-  const priorityKeys = ["style", "position", "rubberType", "structure", "material", "sponge", "price", "origin"];
+  const priorityKeys = ["style", "feel", "position", "rubberType", "structure", "material", "sponge", "price", "origin"];
   const picked = [];
   const push = (value) => {
     if (value && !picked.includes(value)) {
