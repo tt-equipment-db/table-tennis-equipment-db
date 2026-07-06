@@ -706,6 +706,117 @@
       ]
     },
     {
+      "id": "donic-bluestorm-z1-turbo",
+      "name": "Bluestorm Z1 Turbo",
+      "brand": "多尼克",
+      "brandEn": "DONIC",
+      "series": "Bluestorm",
+      "price": 260,
+      "currency": "CNY",
+      "image": "https://www.donic.com/media/f6/56/1d/1782221532/donic-rubber-bluestrom-z1-turbo-3d-diagonal.jpg?ts=1782221532",
+      "description": "Bluestorm 系列中更硬、更直接的高速涩性套胶，50 度海绵，适合主动发力和高速度相持。",
+      "tags": {
+        "brand": [
+          "DONIC（多尼克）"
+        ],
+        "position": [
+          "正手",
+          "反手"
+        ],
+        "rubberType": [
+          "反胶",
+          "涩性胶面"
+        ],
+        "sponge": [
+          "蛋糕海绵",
+          "高弹海绵"
+        ],
+        "thickness": [
+          "1.9",
+          "2.1",
+          "Max+"
+        ],
+        "hardness": [
+          "硬",
+          "50度"
+        ],
+        "style": [
+          "快攻弧圈",
+          "相持",
+          "主动发力"
+        ],
+        "origin": [
+          "德国"
+        ]
+      },
+      "sources": [
+        "https://www.donic.com/en/DONIC-BLUESTORM-Z1-TURBO/000269119",
+        "https://www.donic.com/en/donic-rubber-series-bluestorm"
+      ],
+      "images": [
+        "https://www.donic.com/media/f6/56/1d/1782221532/donic-rubber-bluestrom-z1-turbo-3d-diagonal.jpg?ts=1782221532"
+      ]
+    },
+    {
+      "id": "donic-bluegrip-c1",
+      "name": "BlueGrip C1",
+      "brand": "多尼克",
+      "brandEn": "DONIC",
+      "series": "BlueGrip",
+      "price": 300,
+      "priceMin": 250,
+      "priceMax": 360,
+      "currency": "CNY",
+      "image": "https://www.donic.com/media/be/e6/b7/1669040853/donic-rubber_bluegrip_c1-web.jpg?ts=1697464416",
+      "description": "DONIC BlueGrip 系列高硬度粘性反胶，官方定位为正手强旋转进攻套胶，60 度海绵，适合重旋转发抢和主动弧圈。",
+      "tags": {
+        "brand": [
+          "DONIC（多尼克）"
+        ],
+        "position": [
+          "正手"
+        ],
+        "rubberType": [
+          "反胶",
+          "粘性胶面"
+        ],
+        "sponge": [
+          "高密海绵",
+          "高弹海绵"
+        ],
+        "thickness": [
+          "2.0",
+          "Max"
+        ],
+        "hardness": [
+          "硬",
+          "60度"
+        ],
+        "style": [
+          "弧圈",
+          "发抢",
+          "主动发力"
+        ],
+        "origin": [
+          "德国"
+        ],
+        "price": [
+          "250-300",
+          "300-400"
+        ]
+      },
+      "sources": [
+        "https://www.donic.com/en/DONIC-BLUEGRIP-C1/000240120",
+        "https://www.donic.com/en/donic-rubber-series-bluegrip"
+      ],
+      "contributors": [
+        "Codex research"
+      ],
+      "images": [
+        "https://www.donic.com/media/be/e6/b7/1669040853/donic-rubber_bluegrip_c1-web.jpg?ts=1697464416"
+      ]
+    },
+    {
       "id": "joola-dynaryz-agr",
       "name": "Dynaryz AGR",
       "brand": "优拉",
@@ -855,15 +966,68 @@
       ]
     },
     {
-      "id": "stiga-mantra-pro-m",
-      "name": "Mantra Pro M",
+      "id": "stiga-dna-platinum-h",
+      "name": "DNA Platinum H",
+      "brand": "斯帝卡",
+      "brandEn": "STIGA",
+      "series": "DNA",
+      "price": 280,
+      "currency": "CNY",
+      "image": "https://www.stigasports.com/_next/image?q=75&url=https%3A%2F%2Fstigasports.centracdn.net%2Fclient%2Fdynamic%2Fimages%2F4375_d49523c727-dna-platinum-h-1-full.jpg&w=1920",
+      "description": "STIGA DNA Platinum 系列的硬海绵版本，50 度德系涩套，抓球强、弧线长，适合进攻型打法。",
+      "tags": {
+        "brand": [
+          "STIGA（斯帝卡）"
+        ],
+        "position": [
+          "正手",
+          "反手"
+        ],
+        "rubberType": [
+          "反胶",
+          "涩性胶面"
+        ],
+        "sponge": [
+          "高密海绵",
+          "高弹海绵"
+        ],
+        "thickness": [
+          "2.1",
+          "2.2",
+          "2.3"
+        ],
+        "hardness": [
+          "硬",
+          "50度"
+        ],
+        "style": [
+          "弧圈",
+          "相持",
+          "主动发力"
+        ],
+        "origin": [
+          "德国"
+        ]
+      },
+      "sources": [
+        "https://www.stigasports.com/en/product/dna-platinum-h"
+      ],
+      "images": [
+        "https://www.stigasports.com/_next/image?q=75&url=https%3A%2F%2Fstigasports.centracdn.net%2Fclient%2Fdynamic%2Fimages%2F4375_d49523c727-dna-platinum-h-1-full.jpg&w=1920"
+      ]
+    },
+    {
+      "id": "stiga-mantra-pro",
+      "name": "Mantra Pro（咒语 Pro）",
       "brand": "斯帝卡",
       "brandEn": "STIGA",
       "series": "Mantra",
-      "price": 220,
+      "price": 260,
+      "priceMin": 220,
+      "priceMax": 360,
       "currency": "CNY",
-      "image": "https://revspin.net/assets/table-tennis-images/rubbers/stiga-mantra-pro-m.jpg",
-      "description": "均衡型涩性套胶，兼顾控制、速度和连续性。",
+      "image": "https://stigasports.centracdn.net/client/dynamic/images/4849_6dabbbd2f9-mantra-pro-m-1-square.jpg",
+      "description": "STIGA 咒语 Pro 系列涩性反胶，官方提供 M、H、XH 三个硬度版本；采用 OCS 氧气胶囊海绵技术，日本制造，定位现代进攻型打法。",
       "tags": {
         "brand": [
           "STIGA（斯帝卡）"
@@ -878,30 +1042,95 @@
         ],
         "sponge": [
           "蛋糕海绵",
+          "OCS氧气胶囊海绵",
           "高弹海绵"
         ],
         "thickness": [
-          "2.0",
-          "Max"
+          "2.1"
         ],
         "hardness": [
-          "中硬"
+          "47.5度",
+          "50度",
+          "53度",
+          "M",
+          "H",
+          "XH"
         ],
         "style": [
-          "控制",
+          "弧圈",
+          "快攻弧圈",
           "连续进攻",
-          "弧圈"
+          "主动发力"
+        ],
+        "alias": [
+          "咒语 Pro M",
+          "咒语 Pro H",
+          "咒语 Pro XH",
+          "Mantra Pro M",
+          "Mantra Pro H",
+          "Mantra Pro XH",
+          "Mantra Pro HX"
         ],
         "origin": [
-          "德国"
+          "日本"
+        ],
+        "price": [
+          "200-300",
+          "300-500"
         ]
       },
+      "specs": {
+        "variants": [
+          {
+            "name": "Mantra Pro M",
+            "hardness": "47.5度",
+            "officialSpeed": 148,
+            "officialSpin": 135,
+            "officialControl": 82,
+            "articleNumber": "1712-140X-XX"
+          },
+          {
+            "name": "Mantra Pro H",
+            "hardness": "50度",
+            "officialSpeed": 152,
+            "officialSpin": 135,
+            "officialControl": 80,
+            "articleNumber": "1712-150X-XX"
+          },
+          {
+            "name": "Mantra Pro XH",
+            "hardness": "53度",
+            "officialSpeed": 156,
+            "officialSpin": 135,
+            "officialControl": 78,
+            "articleNumber": "1712-160X-XX"
+          }
+        ],
+        "colors": [
+          "红",
+          "黑"
+        ],
+        "thickness": [
+          "2.1"
+        ],
+        "madeIn": "Japan",
+        "designedIn": "Sweden"
+      },
       "sources": [
-        "STIGA Mantra product line",
-        "https://revspin.net/rubber/stiga-mantra-pro-m.html"
+        "https://www.stigasports.com/en/product/mantra-pro-m",
+        "https://www.stigasports.com/en/product/mantra-pro-h",
+        "https://www.stigasports.com/en/product/mantra-pro-xh",
+        "https://www.stigasports.com/en/explore-stiga-sports/guide-which-table-tennis-rubber-should-i-choose"
+      ],
+      "contributors": [
+        "Codex research"
       ],
       "images": [
-        "https://revspin.net/assets/table-tennis-images/rubbers/stiga-mantra-pro-m.jpg"
+        "https://stigasports.centracdn.net/client/dynamic/images/4849_6dabbbd2f9-mantra-pro-m-1-square.jpg",
+        "https://stigasports.centracdn.net/client/dynamic/images/4848_69be6e42db-mantra-pro-h-1-square.jpg",
+        "https://stigasports.centracdn.net/client/dynamic/images/4847_2e958741fc-mantra-pro-xh-1-square.jpg",
+        "https://stigasports.centracdn.net/client/dynamic/images/4849_6dabbbd2f9-mantra-pro-m-1-full.jpg",
+        "https://stigasports.centracdn.net/client/dynamic/images/4848_69be6e42db-mantra-pro-h-1-full.jpg"
       ]
     },
     {
@@ -2616,6 +2845,68 @@
       ]
     },
     {
+      "id": "palio-hk1997-gold",
+      "name": "HK1997 Gold（黄金正手）",
+      "brand": "拍里奥",
+      "brandEn": "Palio",
+      "series": "HK1997",
+      "price": 62,
+      "priceMin": 50,
+      "priceMax": 90,
+      "currency": "CNY",
+      "image": "https://revspin.net/assets/table-tennis-images/rubbers/palio-hk1997-gold.jpg",
+      "description": "拍里奥 HK1997 Gold，又称黄金正手，是面向 40+ 球的国产粘性反胶，常见 48-50 度黄海绵，定位低价正手弧圈快攻。",
+      "tags": {
+        "brand": [
+          "Palio（拍里奥）"
+        ],
+        "position": [
+          "正手"
+        ],
+        "rubberType": [
+          "反胶",
+          "粘性胶面"
+        ],
+        "sponge": [
+          "国产海绵",
+          "黄海绵"
+        ],
+        "thickness": [
+          "2.2",
+          "Max"
+        ],
+        "hardness": [
+          "中硬",
+          "48-50度"
+        ],
+        "style": [
+          "弧圈",
+          "快攻弧圈",
+          "训练"
+        ],
+        "origin": [
+          "中国"
+        ],
+        "price": [
+          "50-80",
+          "80-100"
+        ],
+        "feature": [
+          "水怪套餐"
+        ]
+      },
+      "sources": [
+        "https://www.dku51.com/goods-2935.html",
+        "https://revspin.net/rubber/palio-hk1997-gold.html"
+      ],
+      "contributors": [
+        "Codex research"
+      ],
+      "images": [
+        "https://revspin.net/assets/table-tennis-images/rubbers/palio-hk1997-gold.jpg"
+      ]
+    },
+    {
       "id": "butterfly-glayzer-09c",
       "name": "Glayzer 09C",
       "brand": "蝴蝶",
@@ -3898,6 +4189,77 @@
       ],
       "images": [
         "https://revspin.net/assets/table-tennis-images/rubbers/729-battle-3.jpg"
+      ]
+    },
+    {
+      "id": "friendship-729-battle-3-zidian",
+      "name": "奔腾 3 紫电",
+      "brand": "729",
+      "brandEn": "Friendship 729",
+      "series": "奔腾",
+      "price": 198,
+      "priceMin": 150,
+      "priceMax": 220,
+      "currency": "CNY",
+      "contributors": [
+        "Codex research"
+      ],
+      "image": "https://ttshop.cn/images/202601/goods_img/5994_P_1767550302755.jpg",
+      "description": "729 奔腾 3 的紫海绵预置内能升级款，定位粘性反胶和正手快攻弧圈，含常规硬度与刘炜珊、于何一明星款规格。",
+      "tags": {
+        "brand": [
+          "729",
+          "友谊729"
+        ],
+        "position": [
+          "正手"
+        ],
+        "rubberType": [
+          "反胶",
+          "粘性胶面"
+        ],
+        "sponge": [
+          "紫海绵",
+          "双孔径海绵",
+          "预置内能"
+        ],
+        "thickness": [
+          "2.1"
+        ],
+        "hardness": [
+          "39度",
+          "40度",
+          "41度",
+          "40.5度",
+          "41.5度"
+        ],
+        "style": [
+          "弧圈",
+          "快攻弧圈",
+          "免灌"
+        ],
+        "alias": [
+          "奔腾3紫电",
+          "Battle 3 Zidian",
+          "紫电",
+          "刘炜珊明星款",
+          "于何一明星款"
+        ],
+        "origin": [
+          "中国"
+        ]
+      },
+      "sources": [
+        "https://www.sohu.com/a/975637804_580074",
+        "https://ttshop.cn/goods.php?id=5994",
+        "https://www.jd.com/jiage/6728ac74fe28968b303f.html"
+      ],
+      "images": [
+        "https://ttshop.cn/images/202601/goods_img/5994_P_1767550302755.jpg",
+        "https://ttshop.cn/images/202601/thumb_img/5994_thumb_P_1767550302167.jpg",
+        "https://ttshop.cn/images/202601/thumb_img/5994_thumb_P_1767550363109.jpg",
+        "https://ttshop.cn/images/202601/thumb_img/5994_thumb_P_1767550362974.jpg",
+        "https://ttshop.cn/images/202601/thumb_img/5994_thumb_P_1767550362406.jpg"
       ]
     },
     {
@@ -7208,6 +7570,126 @@
       ]
     },
     {
+      "id": "victas-xegna",
+      "name": "XEGNA",
+      "brand": "维克塔斯",
+      "brandEn": "VICTAS",
+      "series": "XEGNA",
+      "price": 420,
+      "priceMin": 360,
+      "priceMax": 520,
+      "currency": "CNY",
+      "image": "https://victas.com/en_gb/assets/images/products/products_20260320_212056.jpg",
+      "description": "VICTAS XEGNA 是高抓力进攻反胶，官方列出中国制造、2.0/MAX 厚度和 47.5 度海绵，定位兼顾稳定与进攻力量。",
+      "tags": {
+        "brand": [
+          "VICTAS（维克塔斯）"
+        ],
+        "position": [
+          "正手",
+          "反手"
+        ],
+        "rubberType": [
+          "反胶",
+          "高抓力胶面"
+        ],
+        "sponge": [
+          "蛋糕海绵",
+          "高弹海绵"
+        ],
+        "thickness": [
+          "2.0",
+          "Max"
+        ],
+        "hardness": [
+          "47.5度",
+          "中硬"
+        ],
+        "style": [
+          "弧圈",
+          "快攻弧圈",
+          "控制"
+        ],
+        "origin": [
+          "中国"
+        ],
+        "price": [
+          "300-500",
+          "500左右"
+        ]
+      },
+      "sources": [
+        "https://victas.com/en_gb/products/detail.html?id=204",
+        "https://www.victas.com/en_gb/products/?cat=4"
+      ],
+      "contributors": [
+        "Codex research"
+      ],
+      "images": [
+        "https://victas.com/en_gb/assets/images/products/products_20260320_212056.jpg"
+      ]
+    },
+    {
+      "id": "victas-xegna-spin",
+      "name": "XEGNA SPIN",
+      "brand": "维克塔斯",
+      "brandEn": "VICTAS",
+      "series": "XEGNA",
+      "price": 440,
+      "priceMin": 380,
+      "priceMax": 540,
+      "currency": "CNY",
+      "image": "https://victas.com/en_gb/assets/images/products/products_20260320_212641.jpg",
+      "description": "VICTAS XEGNA SPIN 是 XEGNA 系列更硬的高抓力进攻反胶，官方列出 52.5 度海绵和 2.0/MAX 厚度，面向主动进攻。",
+      "tags": {
+        "brand": [
+          "VICTAS（维克塔斯）"
+        ],
+        "position": [
+          "正手"
+        ],
+        "rubberType": [
+          "反胶",
+          "高抓力胶面",
+          "粘性胶面"
+        ],
+        "sponge": [
+          "蛋糕海绵",
+          "高弹海绵"
+        ],
+        "thickness": [
+          "2.0",
+          "Max"
+        ],
+        "hardness": [
+          "52.5度",
+          "硬"
+        ],
+        "style": [
+          "弧圈",
+          "发抢",
+          "主动发力"
+        ],
+        "origin": [
+          "中国"
+        ],
+        "price": [
+          "300-500",
+          "500左右"
+        ]
+      },
+      "sources": [
+        "https://victas.com/en_gb/products/detail.html?id=205",
+        "https://www.victas.com/en_gb/products/?cat=4"
+      ],
+      "contributors": [
+        "Codex research"
+      ],
+      "images": [
+        "https://victas.com/en_gb/assets/images/products/products_20260320_212641.jpg"
+      ]
+    },
+    {
       "id": "xiom-omega-8-pro",
       "name": "Omega 8 Pro",
       "brand": "骄猛",
@@ -7261,8 +7743,8 @@
         ]
       },
       "sources": [
-        "XIOM Omega 8 Pro official product page",
-        "Dku51 Omega 8 article"
+        "https://xiom.tt/product/omega-8-pro/1129/",
+        "https://www.tt-shop.com/com_eng/xiom-omega-viii-pro.html"
       ],
       "contributors": [
         "Codex research"
@@ -8532,6 +9014,146 @@
       ]
     },
     {
+      "id": "butterfly-outerforce-alc",
+      "name": "Outerforce ALC",
+      "brand": "蝴蝶",
+      "brandEn": "Butterfly",
+      "series": "Outerforce",
+      "price": 1080,
+      "priceMin": 900,
+      "priceMax": 1300,
+      "currency": "CNY",
+      "image": "https://www.butterfly-global.com/en/products/item/37341.jpg",
+      "description": "Butterfly 2025 年 Outerforce 系列外置 ALC 底板，官方定位为中等弹性和优秀控制，适合想要外置芳碳手感但希望更易控的打法。",
+      "tags": {
+        "brand": [
+          "Butterfly（蝴蝶）"
+        ],
+        "structure": [
+          "外置纤维",
+          "5+2纤维"
+        ],
+        "material": [
+          "ALC",
+          "芳碳"
+        ],
+        "position": [
+          "弧圈",
+          "快攻弧圈",
+          "进攻"
+        ],
+        "handle": [
+          "横板",
+          "直板",
+          "FL",
+          "ST",
+          "AN",
+          "CS"
+        ],
+        "speed": [
+          "OFF",
+          "中快"
+        ],
+        "feel": [
+          "均衡",
+          "控制",
+          "中硬"
+        ],
+        "weight": [
+          "85-90g"
+        ],
+        "origin": [
+          "日本"
+        ],
+        "price": [
+          "900-1200",
+          "1200以上"
+        ]
+      },
+      "sources": [
+        "https://www.butterfly-global.com/en/products/detail/37341.html",
+        "https://www.butterfly-global.com/en/products/detail/24250.html"
+      ],
+      "contributors": [
+        "Codex research"
+      ],
+      "images": [
+        "https://www.butterfly-global.com/en/products/item/37341.jpg",
+        "https://www.butterfly-global.com/en/products/item/37341_01.jpg",
+        "https://www.butterfly-global.com/en/products/item/37341_02.jpg",
+        "https://www.butterfly-global.com/en/products/item/37341_03.jpg",
+        "https://www.butterfly-global.com/en/products/item/37341_04.jpg"
+      ]
+    },
+    {
+      "id": "butterfly-harimoto-innerforce-super-alc",
+      "name": "Harimoto Tomokazu Innerforce Super ALC（张本智和 Super ALC）",
+      "brand": "蝴蝶",
+      "brandEn": "Butterfly",
+      "series": "Harimoto Innerforce",
+      "price": 1680,
+      "priceMin": 1450,
+      "priceMax": 1900,
+      "currency": "CNY",
+      "image": "https://www.butterfly-global.com/en/products/item/37331.jpg",
+      "description": "张本智和系列内置 Super ALC 底板，官方定位为高速与稳定性的平衡，5 木 2 Super ALC 结构，适合中近台弧圈相持和反手体系。",
+      "tags": {
+        "brand": [
+          "Butterfly（蝴蝶）"
+        ],
+        "structure": [
+          "内置纤维",
+          "5+2纤维"
+        ],
+        "material": [
+          "Super ALC",
+          "芳碳"
+        ],
+        "position": [
+          "弧圈",
+          "相持",
+          "反手体系"
+        ],
+        "handle": [
+          "横板",
+          "FL",
+          "ST"
+        ],
+        "speed": [
+          "OFF",
+          "快"
+        ],
+        "feel": [
+          "持球",
+          "稳定",
+          "中硬"
+        ],
+        "weight": [
+          "85-90g"
+        ],
+        "origin": [
+          "日本"
+        ],
+        "price": [
+          "1200以上"
+        ]
+      },
+      "sources": [
+        "https://www.butterfly-global.com/en/products/detail/37331.html",
+        "https://shop.butterflyonline.com/harimoto-innerforce-super-alc-1268"
+      ],
+      "contributors": [
+        "Codex research"
+      ],
+      "images": [
+        "https://www.butterfly-global.com/en/products/item/37331.jpg",
+        "https://www.butterfly-global.com/en/products/item/37331_01.jpg",
+        "https://www.butterfly-global.com/en/products/item/37331_02.jpg",
+        "https://www.butterfly-global.com/en/products/item/37331_03.jpg",
+        "https://www.butterfly-global.com/en/products/item/37331_04_en.jpg"
+      ]
+    },
+    {
       "id": "dhs-hurricane-long-5",
       "name": "狂飙龙 5",
       "brand": "红双喜",
@@ -8582,6 +9204,73 @@
       ],
       "images": [
         "https://revspin.net/assets/table-tennis-images/blades/dhs-hurricane-long-5.jpg"
+      ]
+    },
+    {
+      "id": "dhs-hurricane-long-5h",
+      "name": "狂飙龙 5H",
+      "brand": "红双喜",
+      "brandEn": "DHS",
+      "series": "Hurricane Long",
+      "price": 980,
+      "priceMin": 850,
+      "priceMax": 1200,
+      "currency": "CNY",
+      "image": "https://pingpongshop.eu/image/catalog/external/dhs-hurricane-long-5h-23679.jpg",
+      "description": "红双喜狂飙龙 5H 是龙 5 的厚芯取向版本，定位为爆发力更强的内置纤维进攻底板，适合双面弧圈和中远台发力。",
+      "tags": {
+        "brand": [
+          "红双喜"
+        ],
+        "structure": [
+          "内置纤维",
+          "5+2纤维"
+        ],
+        "material": [
+          "芳碳",
+          "阿尤斯大芯"
+        ],
+        "position": [
+          "双面弧圈",
+          "进攻",
+          "相持"
+        ],
+        "handle": [
+          "横板",
+          "直板",
+          "FL",
+          "CS"
+        ],
+        "speed": [
+          "快",
+          "OFF+"
+        ],
+        "feel": [
+          "持球",
+          "底劲",
+          "中硬"
+        ],
+        "weight": [
+          "85-90g",
+          "90g以上"
+        ],
+        "origin": [
+          "中国"
+        ],
+        "price": [
+          "900-1200",
+          "1200以上"
+        ]
+      },
+      "sources": [
+        "https://pingpongshop.eu/dhs-hurricane-long-5h"
+      ],
+      "contributors": [
+        "Codex research"
+      ],
+      "images": [
+        "https://pingpongshop.eu/image/catalog/external/dhs-hurricane-long-5h-23679.jpg",
+        "https://pingpongshop.eu/image/cache/catalog/external/dhs-hurricane-long-5h-23679-400x400.jpg"
       ]
     },
     {
@@ -8745,6 +9434,82 @@
       ],
       "images": [
         "https://revspin.net/assets/table-tennis-images/blades/stiga-carbonado-45.jpg"
+      ]
+    },
+    {
+      "id": "stiga-ebenholz-nct-v",
+      "name": "Ebenholz NCT V（黑檀 5）",
+      "brand": "斯帝卡",
+      "brandEn": "STIGA",
+      "series": "Ebenholz",
+      "price": 900,
+      "priceMin": 750,
+      "priceMax": 1200,
+      "currency": "CNY",
+      "image": "https://pingpongshop.eu/image/catalog/external/stiga-ebenholz-nct-v-6168.jpg",
+      "description": "STIGA Ebenholz NCT V 是黑檀面材的五层纯木进攻底板，官方/零售资料定位为兼顾力量、控制和现代进攻策略的瑞典制造经典型号。",
+      "tags": {
+        "brand": [
+          "STIGA（斯帝卡）"
+        ],
+        "structure": [
+          "纯木",
+          "五夹纯木"
+        ],
+        "material": [
+          "黑檀面材",
+          "阿尤斯"
+        ],
+        "position": [
+          "弧圈",
+          "快攻弧圈",
+          "控制"
+        ],
+        "handle": [
+          "横板",
+          "直板",
+          "FL",
+          "ST",
+          "AN",
+          "CS"
+        ],
+        "speed": [
+          "OFF",
+          "中快"
+        ],
+        "feel": [
+          "清晰",
+          "硬挺",
+          "控制"
+        ],
+        "weight": [
+          "85-90g",
+          "90g以上"
+        ],
+        "alias": [
+          "黑檀五",
+          "Ebenholz 5",
+          "Ebenholz V"
+        ],
+        "origin": [
+          "瑞典"
+        ],
+        "price": [
+          "700-900",
+          "900-1200"
+        ]
+      },
+      "sources": [
+        "https://pingpongshop.eu/stiga-ebenholz-nct-v",
+        "https://revspin.net/blade/stiga-ebenholz-nct-v.html"
+      ],
+      "contributors": [
+        "Codex research"
+      ],
+      "images": [
+        "https://pingpongshop.eu/image/catalog/external/stiga-ebenholz-nct-v-6168.jpg",
+        "https://pingpongshop.eu/image/cache/catalog/external/stiga-ebenholz-nct-v-6168-400x400.jpg",
+        "https://pingpongshop.eu/image/cache/catalog/external/stiga-ebenholz-nct-v-6168-600x600.jpg"
       ]
     },
     {
@@ -10285,6 +11050,142 @@
       ],
       "images": [
         "https://revspin.net/assets/table-tennis-images/blades/victas-zx-gear-in.jpg"
+      ]
+    },
+    {
+      "id": "victas-zx-gear-out",
+      "name": "ZX-GEAR OUT",
+      "brand": "维克塔斯",
+      "brandEn": "VICTAS",
+      "series": "ZX-GEAR",
+      "price": 850,
+      "priceMin": 700,
+      "priceMax": 1000,
+      "currency": "CNY",
+      "image": "https://victas.com/en_gb/assets/images/products/products_20240729_193043.jpg",
+      "description": "VICTAS ZX-GEAR OUT 是日本制造的外置 Zexion 碳纤维进攻底板，官方定位为 Power Off，强调速度、甜区和稳定性。",
+      "tags": {
+        "brand": [
+          "VICTAS（维克塔斯）"
+        ],
+        "structure": [
+          "外置纤维",
+          "五木二纤"
+        ],
+        "material": [
+          "Zexion",
+          "碳纤维"
+        ],
+        "position": [
+          "弧圈",
+          "快攻弧圈",
+          "进攻"
+        ],
+        "handle": [
+          "横板",
+          "FL",
+          "ST"
+        ],
+        "speed": [
+          "OFF",
+          "快"
+        ],
+        "feel": [
+          "清晰",
+          "支撑",
+          "中硬"
+        ],
+        "weight": [
+          "85-90g"
+        ],
+        "origin": [
+          "日本"
+        ],
+        "price": [
+          "700-900",
+          "900-1200"
+        ]
+      },
+      "sources": [
+        "https://www.victas.com/en_gb/products/detail.html?id=118",
+        "https://ttgearlab.com/2023/12/05/victas-zx-gear-out-photos-information/"
+      ],
+      "contributors": [
+        "Codex research"
+      ],
+      "images": [
+        "https://victas.com/en_gb/assets/images/products/products_20240729_193043.jpg",
+        "https://victas.com/en_gb/assets/images/products/products_20240729_193109.jpg",
+        "https://victas.com/en_gb/assets/images/products/products_20240729_193120.jpg"
+      ]
+    },
+    {
+      "id": "victas-gladias-ar",
+      "name": "GLADIAS AR",
+      "brand": "维克塔斯",
+      "brandEn": "VICTAS",
+      "series": "GLADIAS",
+      "price": 780,
+      "priceMin": 650,
+      "priceMax": 950,
+      "currency": "CNY",
+      "image": "https://victas.com/en_gb/assets/images/products/products_20250321_142951.jpg",
+      "description": "VICTAS GLADIAS AR 是 5+2 结构的 AR Carbon 外置纤维进攻底板，官方定位为近台到中台的高弹性进攻板。",
+      "tags": {
+        "brand": [
+          "VICTAS（维克塔斯）"
+        ],
+        "structure": [
+          "外置纤维",
+          "五木二纤"
+        ],
+        "material": [
+          "AR Carbon",
+          "碳纤维"
+        ],
+        "position": [
+          "快攻弧圈",
+          "弧圈",
+          "进攻"
+        ],
+        "handle": [
+          "横板",
+          "直板",
+          "FL",
+          "ST",
+          "CS"
+        ],
+        "speed": [
+          "OFF",
+          "快"
+        ],
+        "feel": [
+          "弹性",
+          "清晰",
+          "支撑"
+        ],
+        "weight": [
+          "85-90g"
+        ],
+        "origin": [
+          "日本"
+        ],
+        "price": [
+          "700-900",
+          "900-1200"
+        ]
+      },
+      "sources": [
+        "https://victas.com/en_gb/products/detail.html?id=178",
+        "https://revspin.net/blade/victas-gladias-ar.html"
+      ],
+      "contributors": [
+        "Codex research"
+      ],
+      "images": [
+        "https://victas.com/en_gb/assets/images/products/products_20250321_142951.jpg",
+        "https://victas.com/en_gb/assets/images/products/products_20250321_142958.jpg",
+        "https://victas.com/en_gb/assets/images/products/products_20250321_143005.jpg"
       ]
     },
     {
@@ -13564,74 +14465,6 @@
       ]
     },
     {
-      "id": "butterfly-harimoto-innerforce-super-alc",
-      "name": "张本智和 Innerforce Super ALC",
-      "brand": "蝴蝶",
-      "brandEn": "Butterfly",
-      "series": "Harimoto Innerforce",
-      "price": 1780,
-      "priceMin": 1500,
-      "priceMax": 2200,
-      "currency": "CNY",
-      "image": "https://www.butterfly-global.com/en/products/item/37331.jpg",
-      "images": [
-        "https://www.butterfly-global.com/en/products/item/37331.jpg",
-        "https://www.butterfly-global.com/en/products/item/37331_01.jpg",
-        "https://www.butterfly-global.com/en/products/item/37331_02.jpg",
-        "https://www.butterfly-global.com/en/products/item/37331_03.jpg",
-        "https://www.butterfly-global.com/en/products/item/37331_04_en.jpg"
-      ],
-      "description": "张本智和/张本美和系列内置 Super ALC 底板，官方强调高反应、低振动和近台反攻稳定性。",
-      "tags": {
-        "brand": [
-          "Butterfly（蝴蝶）"
-        ],
-        "structure": [
-          "内置纤维",
-          "5+2"
-        ],
-        "material": [
-          "Super ALC",
-          "芳碳"
-        ],
-        "position": [
-          "双面弧圈",
-          "控制"
-        ],
-        "handle": [
-          "横板",
-          "直板",
-          "FL",
-          "ST",
-          "AN",
-          "CS"
-        ],
-        "speed": [
-          "中快",
-          "快"
-        ],
-        "feel": [
-          "持球",
-          "清晰",
-          "中硬"
-        ],
-        "weight": [
-          "85-90g",
-          "90g以上"
-        ],
-        "origin": [
-          "日本"
-        ]
-      },
-      "sources": [
-        "Butterfly Harimoto Innerforce Super ALC official product page",
-        "Baidu Tieba indexed topics from 乒乓球吧: 张本ALC/咂语M/蓝K1Plus/波Z discussion snippets"
-      ],
-      "contributors": [
-        "Codex research"
-      ]
-    },
-    {
       "id": "butterfly-timo-boll-zlc",
       "name": "Timo Boll ZLC",
       "brand": "蝴蝶",
@@ -14685,6 +15518,279 @@
       ]
     },
     {
+      "id": "butterfly-fan-zhendong-alc",
+      "name": "Fan Zhendong ALC（樊振东 ALC）",
+      "brand": "蝴蝶",
+      "brandEn": "Butterfly",
+      "series": "Fan Zhendong",
+      "price": 1380,
+      "priceMin": 1100,
+      "priceMax": 1700,
+      "currency": "CNY",
+      "image": "https://www.butterfly-global.com/en/products/item/37221_01.jpg",
+      "description": "樊振东 ALC 是蝴蝶签约选手系列外置 ALC 进攻底板，官方列出 5 层纯木 + 2 层 Arylate-Carbon 结构，定位为进攻横拍。",
+      "tags": {
+        "brand": [
+          "Butterfly（蝴蝶）"
+        ],
+        "structure": [
+          "外置纤维",
+          "5+2"
+        ],
+        "material": [
+          "ALC",
+          "Arylate-Carbon"
+        ],
+        "position": [
+          "快攻弧圈",
+          "进攻横拍"
+        ],
+        "handle": [
+          "横板",
+          "FL",
+          "ST"
+        ],
+        "speed": [
+          "快"
+        ],
+        "feel": [
+          "均衡",
+          "支撑"
+        ],
+        "weight": [
+          "85-90g",
+          "90g以上"
+        ],
+        "alias": [
+          "樊A",
+          "樊alc",
+          "樊振东ALC",
+          "FZD ALC"
+        ],
+        "origin": [
+          "日本"
+        ]
+      },
+      "sources": [
+        "https://www.butterfly-global.com/en/products/detail/37221.html"
+      ],
+      "images": [
+        "https://www.butterfly-global.com/en/products/item/37221_01.jpg",
+        "https://www.butterfly-global.com/en/products/item/37221_02.jpg",
+        "https://www.butterfly-global.com/en/products/item/37221_03.jpg",
+        "https://www.butterfly-global.com/en/products/item/37221_04.jpg",
+        "https://www.butterfly-global.com/en/products/item/37221_05.jpg"
+      ],
+      "contributors": [
+        "Codex research"
+      ]
+    },
+    {
+      "id": "butterfly-fan-zhendong-super-alc",
+      "name": "Fan Zhendong Super ALC（樊振东 Super ALC）",
+      "brand": "蝴蝶",
+      "brandEn": "Butterfly",
+      "series": "Fan Zhendong",
+      "price": 1780,
+      "priceMin": 1450,
+      "priceMax": 2300,
+      "currency": "CNY",
+      "image": "https://www.butterfly-global.com/en/products/item/37241_01.jpg",
+      "description": "樊振东 Super ALC 是蝴蝶签约选手系列外置 Super Arylate-Carbon 底板，官方列出 5 层纯木 + 2 层 Super ALC 结构。",
+      "tags": {
+        "brand": [
+          "Butterfly（蝴蝶）"
+        ],
+        "structure": [
+          "外置纤维",
+          "5+2"
+        ],
+        "material": [
+          "Super ALC",
+          "Super Arylate-Carbon"
+        ],
+        "position": [
+          "快攻弧圈",
+          "高端配置"
+        ],
+        "handle": [
+          "横板",
+          "FL",
+          "ST"
+        ],
+        "speed": [
+          "很快"
+        ],
+        "feel": [
+          "弹性",
+          "支撑"
+        ],
+        "weight": [
+          "85-90g",
+          "90g以上"
+        ],
+        "alias": [
+          "樊SA",
+          "樊salc",
+          "樊振东SALC",
+          "FZD SALC"
+        ],
+        "origin": [
+          "日本"
+        ]
+      },
+      "sources": [
+        "https://www.butterfly-global.com/en/products/detail/37241.html"
+      ],
+      "images": [
+        "https://www.butterfly-global.com/en/products/item/37241_01.jpg",
+        "https://www.butterfly-global.com/en/products/item/37241_02.jpg",
+        "https://www.butterfly-global.com/en/products/item/37241_03.jpg",
+        "https://www.butterfly-global.com/en/products/item/37241_04.jpg",
+        "https://www.butterfly-global.com/en/products/item/37241_05.jpg"
+      ],
+      "contributors": [
+        "Codex research"
+      ]
+    },
+    {
+      "id": "butterfly-fan-zhendong-zlc",
+      "name": "Fan Zhendong ZLC（樊振东 ZLC）",
+      "brand": "蝴蝶",
+      "brandEn": "Butterfly",
+      "series": "Fan Zhendong",
+      "price": 1880,
+      "priceMin": 1500,
+      "priceMax": 2450,
+      "currency": "CNY",
+      "image": "https://www.butterfly-global.com/en/products/item/37261_01.jpg",
+      "description": "樊振东 ZLC 是蝴蝶签约选手系列外置 ZL-Carbon 进攻底板，官方列出 5 层纯木 + 2 层 ZL-Carbon 结构。",
+      "tags": {
+        "brand": [
+          "Butterfly（蝴蝶）"
+        ],
+        "structure": [
+          "外置纤维",
+          "5+2"
+        ],
+        "material": [
+          "ZL碳素",
+          "ZLC"
+        ],
+        "position": [
+          "快攻弧圈",
+          "高端配置"
+        ],
+        "handle": [
+          "横板",
+          "FL",
+          "ST"
+        ],
+        "speed": [
+          "很快"
+        ],
+        "feel": [
+          "支撑",
+          "稳定"
+        ],
+        "weight": [
+          "85-90g",
+          "90g以上"
+        ],
+        "alias": [
+          "樊ZLC",
+          "樊zlc",
+          "樊振东ZLC",
+          "FZD ZLC"
+        ],
+        "origin": [
+          "日本"
+        ]
+      },
+      "sources": [
+        "https://www.butterfly-global.com/en/products/detail/37261.html"
+      ],
+      "images": [
+        "https://www.butterfly-global.com/en/products/item/37261_01.jpg",
+        "https://www.butterfly-global.com/en/products/item/37261_02.jpg",
+        "https://www.butterfly-global.com/en/products/item/37261_03.jpg",
+        "https://www.butterfly-global.com/en/products/item/37261_04.jpg",
+        "https://www.butterfly-global.com/en/products/item/37261_05.jpg"
+      ],
+      "contributors": [
+        "Codex research"
+      ]
+    },
+    {
+      "id": "butterfly-fan-zhendong-super-zlc",
+      "name": "Fan Zhendong Super ZLC（樊振东 Super ZLC）",
+      "brand": "蝴蝶",
+      "brandEn": "Butterfly",
+      "series": "Fan Zhendong",
+      "price": 2580,
+      "priceMin": 2100,
+      "priceMax": 3300,
+      "currency": "CNY",
+      "image": "https://www.butterfly-global.com/en/products/item/37251_01.jpg",
+      "description": "樊振东 Super ZLC 是蝴蝶签约选手系列外置 Super ZL-Carbon 底板，官方列出 5 层纯木 + 2 层 Super ZL-Carbon 结构。",
+      "tags": {
+        "brand": [
+          "Butterfly（蝴蝶）"
+        ],
+        "structure": [
+          "外置纤维",
+          "5+2"
+        ],
+        "material": [
+          "Super ZL碳素",
+          "Super ZLC"
+        ],
+        "position": [
+          "快攻弧圈",
+          "高端配置"
+        ],
+        "handle": [
+          "横板",
+          "FL",
+          "ST"
+        ],
+        "speed": [
+          "很快",
+          "OFF+"
+        ],
+        "feel": [
+          "支撑",
+          "高弹"
+        ],
+        "weight": [
+          "85-90g",
+          "90g以上"
+        ],
+        "alias": [
+          "樊SZLC",
+          "樊szlc",
+          "樊振东SZLC",
+          "FZD SZLC"
+        ],
+        "origin": [
+          "日本"
+        ]
+      },
+      "sources": [
+        "https://www.butterfly-global.com/en/products/detail/37251.html"
+      ],
+      "images": [
+        "https://www.butterfly-global.com/en/products/item/37251_01.jpg",
+        "https://www.butterfly-global.com/en/products/item/37251_02.jpg",
+        "https://www.butterfly-global.com/en/products/item/37251_03.jpg",
+        "https://www.butterfly-global.com/en/products/item/37251_04.jpg",
+        "https://www.butterfly-global.com/en/products/item/37251_05.jpg"
+      ],
+      "contributors": [
+        "Codex research"
+      ]
+    },
+    {
       "id": "butterfly-mizutani-jun-zlc",
       "name": "Mizutani Jun ZLC（水谷隼 ZLC）",
       "brand": "蝴蝶",
@@ -14792,9 +15898,8 @@
         ]
       },
       "sources": [
-        "https://tabletennis11.com/et/nexy-joo-sae-hyuk",
         "https://www.ttmode.com/nexy-joo-sae-hyuk",
-        "https://www.ttmode.com/nexy-joo-sae-hyuk"
+        "https://revspin.net/blade/nexy-joo-sae-hyuk.html"
       ],
       "images": [
         "https://www.ttmode.com/image/cache/catalog/products_2025/nexy-joo-sae-hyuk-600x600.jpg"
@@ -14855,7 +15960,7 @@
       },
       "sources": [
         "https://www.xiom.eu/hugo-calderano-hal",
-        "https://tabletennis11.com/en/blog/post/xiom-hugo-calderano-hal-blade",
+        "https://ttgearlab.com/2023/08/07/xiom-hugo-hal-lab-test-report/",
         "https://www.megaspin.net/store/default.asp?pid=xiom-hugo-hal"
       ],
       "images": [
@@ -15605,6 +16710,81 @@
       ],
       "images": [
         "https://placehold.co/720x720/4c1d95/ffffff?text=Loki%20W81%20%E5%A4%96%E7%BD%AE%E8%BF%90%E5%8A%A8%E5%91%98%E7%89%B9%E6%B3%A8"
+      ]
+    },
+    {
+      "id": "loki-w81-wei-shihao-arc",
+      "name": "W81 魏世皓 ARC",
+      "brand": "雷神",
+      "brandEn": "LOKI",
+      "series": "W81 魏世皓",
+      "price": 228,
+      "priceMin": 200,
+      "priceMax": 320,
+      "currency": "CNY",
+      "image": "http://dku51.oss-cn-hangzhou.aliyuncs.com/upload/detail/20260407/20260407021954376.jpg",
+      "description": "LOKI 雷神 W81 魏世皓 ARC 是 W81 魏世皓系列的外置 ARC/芳碳取向进攻底板，近期国产性价比底板讨论度较高，适合快攻弧圈和进阶练习。",
+      "tags": {
+        "brand": [
+          "LOKI（雷神）",
+          "雷神"
+        ],
+        "structure": [
+          "外置纤维",
+          "5+2纤维"
+        ],
+        "material": [
+          "ARC",
+          "芳碳",
+          "纤维"
+        ],
+        "position": [
+          "快攻弧圈",
+          "弧圈",
+          "进攻"
+        ],
+        "handle": [
+          "横板",
+          "直板",
+          "FL",
+          "CS"
+        ],
+        "speed": [
+          "OFF",
+          "快"
+        ],
+        "feel": [
+          "通透",
+          "支撑",
+          "中硬"
+        ],
+        "weight": [
+          "常规"
+        ],
+        "alias": [
+          "雷神魏世皓ARC",
+          "W81 ARC",
+          "Wei Shihao ARC"
+        ],
+        "origin": [
+          "中国"
+        ],
+        "price": [
+          "200-300",
+          "300-500"
+        ]
+      },
+      "sources": [
+        "https://www.dku51.com/article-15204.html",
+        "https://lokisports.en.alibaba.com/productgrouplist-819132638-6/LOKI_table_tennis_blade.html"
+      ],
+      "contributors": [
+        "Codex research"
+      ],
+      "images": [
+        "http://dku51.oss-cn-hangzhou.aliyuncs.com/upload/detail/20260407/20260407021954376.jpg",
+        "http://dku51.oss-cn-hangzhou.aliyuncs.com/upload/detail/20260407/20260407021935696.jpg",
+        "http://dku51.oss-cn-hangzhou.aliyuncs.com/upload/detail/20260407/20260407022011868.jpg"
       ]
     },
     {
@@ -16421,6 +17601,349 @@
       ],
       "images": [
         "https://placehold.co/720x720/7f1d1d/ffffff?text=Sword%20%E5%A8%81%E8%83%9C"
+      ]
+    },
+    {
+      "id": "sword-pojie-chanyi",
+      "name": "破界 蝉翼",
+      "brand": "世奥得",
+      "brandEn": "Sword",
+      "series": "破界",
+      "price": 888,
+      "priceMin": 780,
+      "priceMax": 1188,
+      "currency": "CNY",
+      "image": "https://www.swordtt.com/uploadfiles/image/20260602/1780362658496272.png",
+      "description": "世奥得 2026 年破界系列蝉翼底板，官方定位为超薄 5.0 厚度三核动力纤维板，提供直拍和横拍版本。",
+      "tags": {
+        "brand": [
+          "世奥得"
+        ],
+        "structure": [
+          "纤维",
+          "5+2纤维",
+          "外置纤维"
+        ],
+        "material": [
+          "纤维",
+          "三核动力纤维"
+        ],
+        "position": [
+          "弧圈",
+          "快攻弧圈",
+          "进攻"
+        ],
+        "handle": [
+          "横板",
+          "直板",
+          "FL",
+          "CS"
+        ],
+        "speed": [
+          "快"
+        ],
+        "feel": [
+          "超薄",
+          "轻灵",
+          "支撑"
+        ],
+        "weight": [
+          "超轻"
+        ],
+        "origin": [
+          "中国"
+        ],
+        "price": [
+          "700-900",
+          "800-1000"
+        ]
+      },
+      "sources": [
+        "https://www.swordtt.com/goods/501.html",
+        "https://www.ttshop.cn/goods.php?id=6069"
+      ],
+      "contributors": [
+        "Codex research"
+      ],
+      "images": [
+        "https://www.swordtt.com/uploadfiles/image/20260602/1780362658496272.png",
+        "https://www.swordtt.com/uploadfiles/image/20260602/1780362658241575.png",
+        "https://www.swordtt.com/uploadfiles/image/20260602/1780362658188421.png",
+        "https://www.swordtt.com/uploadfiles/image/20260602/1780362658418251.png",
+        "https://www.swordtt.com/uploadfiles/image/20260602/1780362658806399.png"
+      ]
+    },
+    {
+      "id": "sword-pojie-chanyi-m",
+      "name": "破界 蝉翼-M",
+      "brand": "世奥得",
+      "brandEn": "Sword",
+      "series": "破界",
+      "price": 788,
+      "priceMin": 700,
+      "priceMax": 1098,
+      "currency": "CNY",
+      "image": "https://www.swordtt.com/uploadfiles/image/20260602/1780362938503131.png",
+      "description": "世奥得 2026 年破界系列蝉翼-M 底板，官方定位为超薄三核动力纤维底板，提供直拍和横拍版本。",
+      "tags": {
+        "brand": [
+          "世奥得"
+        ],
+        "structure": [
+          "纤维",
+          "5+2纤维",
+          "外置纤维"
+        ],
+        "material": [
+          "纤维",
+          "三核动力纤维"
+        ],
+        "position": [
+          "弧圈",
+          "快攻弧圈",
+          "进攻"
+        ],
+        "handle": [
+          "横板",
+          "直板",
+          "FL",
+          "CS"
+        ],
+        "speed": [
+          "快"
+        ],
+        "feel": [
+          "超薄",
+          "轻灵",
+          "支撑"
+        ],
+        "weight": [
+          "超轻"
+        ],
+        "origin": [
+          "中国"
+        ],
+        "price": [
+          "700-900"
+        ]
+      },
+      "sources": [
+        "https://www.swordtt.com/goods/502.html",
+        "https://www.dku51.com/list-155.html?brand=34&by=asc&order=cpoint"
+      ],
+      "contributors": [
+        "Codex research"
+      ],
+      "images": [
+        "https://www.swordtt.com/uploadfiles/image/20260602/1780362938503131.png",
+        "https://www.swordtt.com/uploadfiles/image/20260602/1780362938789037.png",
+        "https://www.swordtt.com/uploadfiles/image/20260602/1780362938162209.png",
+        "https://www.swordtt.com/uploadfiles/image/20260602/1780362938438565.png",
+        "https://www.swordtt.com/uploadfiles/image/20260602/1780362938817156.png"
+      ]
+    },
+    {
+      "id": "zhuolong-idol-outer-zlc",
+      "name": "IDOL 外置 ZLC",
+      "brand": "卓隆",
+      "brandEn": "Zhuolong",
+      "series": "IDOL",
+      "price": 333,
+      "priceMin": 300,
+      "priceMax": 599,
+      "currency": "CNY",
+      "image": "https://ttshop.cn/images/202603/goods_img/6029_P_1773790842636.jpg",
+      "description": "卓隆&郗恩庭 IDOL 外置 ZLC 底板，精英乒乓商品页定位为快攻速度型，论坛中也以“爱豆”“紫豆”等俗称讨论。",
+      "tags": {
+        "brand": [
+          "卓隆",
+          "郗恩庭"
+        ],
+        "structure": [
+          "外置纤维",
+          "五木二纤"
+        ],
+        "material": [
+          "ZLC",
+          "纤维"
+        ],
+        "position": [
+          "快攻",
+          "快攻弧圈",
+          "进攻"
+        ],
+        "handle": [
+          "横板",
+          "FL"
+        ],
+        "speed": [
+          "快"
+        ],
+        "feel": [
+          "支撑",
+          "硬弹"
+        ],
+        "alias": [
+          "卓隆爱豆外置",
+          "IDOL OUT ZLC",
+          "紫豆",
+          "爱豆外置"
+        ],
+        "origin": [
+          "中国"
+        ],
+        "price": [
+          "300-500",
+          "500-700"
+        ]
+      },
+      "sources": [
+        "https://ttshop.cn/goods.php?id=6029",
+        "https://ttshop.cn/category.php?brand=185&filter=0&id=1&price_max=0&price_min=0"
+      ],
+      "contributors": [
+        "Codex research"
+      ],
+      "images": [
+        "https://ttshop.cn/images/202603/goods_img/6029_P_1773790842636.jpg",
+        "https://ttshop.cn/images/202603/thumb_img/6029_thumb_P_1773790842035.jpg",
+        "https://ttshop.cn/images/202603/thumb_img/6029_thumb_P_1773790855260.jpg",
+        "https://ttshop.cn/images/202603/thumb_img/6029_thumb_P_1773790855009.jpg",
+        "https://ttshop.cn/images/202603/thumb_img/6029_thumb_P_1773790855157.jpg"
+      ]
+    },
+    {
+      "id": "zhuolong-idol-inner-zlc",
+      "name": "IDOL 内置 ZLC",
+      "brand": "卓隆",
+      "brandEn": "Zhuolong",
+      "series": "IDOL",
+      "price": 333,
+      "priceMin": 300,
+      "priceMax": 599,
+      "currency": "CNY",
+      "image": "https://ttshop.cn/images/202603/goods_img/6028_P_1773790577873.jpg",
+      "description": "卓隆&郗恩庭 IDOL 内置 ZLC 底板，精英乒乓商品页定位为弧圈快攻型，与外置 ZLC 商品分开销售。",
+      "tags": {
+        "brand": [
+          "卓隆",
+          "郗恩庭"
+        ],
+        "structure": [
+          "内置纤维",
+          "五木二纤"
+        ],
+        "material": [
+          "ZLC",
+          "纤维"
+        ],
+        "position": [
+          "弧圈",
+          "快攻弧圈",
+          "进攻"
+        ],
+        "handle": [
+          "横板",
+          "FL"
+        ],
+        "speed": [
+          "快"
+        ],
+        "feel": [
+          "持球",
+          "支撑"
+        ],
+        "alias": [
+          "卓隆爱豆内置",
+          "IDOL INN ZLC",
+          "IDOL Inner ZLC",
+          "爱豆内置"
+        ],
+        "origin": [
+          "中国"
+        ],
+        "price": [
+          "300-500",
+          "500-700"
+        ]
+      },
+      "sources": [
+        "https://ttshop.cn/goods.php?id=6028",
+        "https://ttshop.cn/category.php?brand=185&filter=0&id=1&price_max=0&price_min=0"
+      ],
+      "contributors": [
+        "Codex research"
+      ],
+      "images": [
+        "https://ttshop.cn/images/202603/goods_img/6028_P_1773790577873.jpg",
+        "https://ttshop.cn/images/202603/thumb_img/6028_thumb_P_1773790577365.jpg",
+        "https://ttshop.cn/images/202603/thumb_img/6028_thumb_P_1773790603323.jpg",
+        "https://ttshop.cn/images/202603/thumb_img/6028_thumb_P_1773790603129.jpg",
+        "https://ttshop.cn/images/202603/thumb_img/6028_thumb_P_1773790604795.jpg"
+      ]
+    },
+    {
+      "id": "butterfly-garaydia-revolver",
+      "name": "Garaydia Revolver",
+      "brand": "蝴蝶",
+      "brandEn": "Butterfly",
+      "series": "Garaydia",
+      "price": 900,
+      "priceMin": 700,
+      "priceMax": 1300,
+      "currency": "CNY",
+      "image": "https://www.butterfly-global.com/en/products/item/23840_01.jpg",
+      "description": "蝴蝶 Garaydia Revolver 是反转日直进攻底板，官方列出 3 层木 + 2 层 Arylate-Carbon、6.4 mm 厚度和日本制造。",
+      "tags": {
+        "brand": [
+          "Butterfly（蝴蝶）"
+        ],
+        "structure": [
+          "3+2",
+          "外置纤维"
+        ],
+        "material": [
+          "ALC",
+          "Arylate-Carbon"
+        ],
+        "position": [
+          "日直",
+          "反转日直",
+          "近台攻防"
+        ],
+        "handle": [
+          "日直"
+        ],
+        "speed": [
+          "快"
+        ],
+        "feel": [
+          "桧木面材",
+          "低弧线"
+        ],
+        "alias": [
+          "Garaydia Revolver-R",
+          "Garaydia 反转日直",
+          "蝴蝶反转日直"
+        ],
+        "origin": [
+          "日本"
+        ],
+        "price": [
+          "700-900",
+          "900-1200"
+        ]
+      },
+      "sources": [
+        "https://www.butterfly-global.com/en/products/detail/23840.html"
+      ],
+      "contributors": [
+        "Codex research"
+      ],
+      "images": [
+        "https://www.butterfly-global.com/en/products/item/23840_01.jpg",
+        "https://www.butterfly-global.com/en/products/item/23840_02.jpg",
+        "https://www.butterfly-global.com/en/products/item/23840_03.jpg"
       ]
     },
     {
