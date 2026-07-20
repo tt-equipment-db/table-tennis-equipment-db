@@ -154,10 +154,10 @@ const bladeRatingDimensions = [
 ];
 
 const boosterRatingDimensions = [
-  { key: "softening", label: "软化", low: "弱", high: "强", centerLabel: "2.5", min: 0, max: 5, step: 1, defaultValue: 0, format: "level", optionalDb: true },
-  { key: "elasticity_boost", label: "增弹", low: "弱", high: "强", centerLabel: "2.5", min: 0, max: 5, step: 1, defaultValue: 0, format: "level", optionalDb: true },
-  { key: "drying_speed", label: "晾干速度", low: "慢", high: "快", centerLabel: "2.5", min: 0, max: 5, step: 1, defaultValue: 0, format: "level", optionalDb: true },
-  { key: "duration_score", label: "持久时间", low: "短", high: "长", centerLabel: "2.5", min: 0, max: 5, step: 1, defaultValue: 0, format: "level", optionalDb: true },
+  { key: "softening", label: "软化", low: "弱", high: "强", centerLabel: "", min: 0, max: 5, step: 1, defaultValue: 0, format: "level", optionalDb: true },
+  { key: "elasticity_boost", label: "增弹", low: "弱", high: "强", centerLabel: "", min: 0, max: 5, step: 1, defaultValue: 0, format: "level", optionalDb: true },
+  { key: "drying_speed", label: "晾干速度", low: "慢", high: "快", centerLabel: "", min: 0, max: 5, step: 1, defaultValue: 0, format: "level", optionalDb: true },
+  { key: "duration_score", label: "持久时间", low: "短", high: "长", centerLabel: "", min: 0, max: 5, step: 1, defaultValue: 0, format: "level", optionalDb: true },
   boosterPriceRatingDimension
 ];
 
@@ -203,7 +203,7 @@ const commentEditCooldownMs = 60 * 60 * 1000;
 const commentPostCooldownMs = 60 * 1000;
 const commentsPerPage = 10;
 const hotCommentsCount = 3;
-const assetVersion = "ratings-35";
+const assetVersion = "ratings-36";
 const languageStorageKey = "tt-equipment-language";
 
 const englishText = {
