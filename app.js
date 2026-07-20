@@ -98,20 +98,27 @@ const fieldLabels = {
 };
 
 const supabaseConfig = window.SUPABASE_CONFIG || {};
-const priceRatingDimension = {
-  key: "user_price",
-  label: "社区价格",
-  low: "0元",
-  high: "600元",
-  centerLabel: "300元",
-  min: 0,
-  max: 600,
-  step: 10,
-  defaultValue: 0,
-  format: "price",
-  wide: true,
-  optionalDb: true
+const priceRatingScales = {
+  rubbers: buildSteppedScale([
+    [0, 100, 10],
+    [120, 300, 20],
+    [350, 600, 50]
+  ]),
+  blades: buildSteppedScale([
+    [0, 100, 10],
+    [120, 300, 20],
+    [350, 1000, 50],
+    [1100, 2000, 100]
+  ]),
+  boosters: buildSteppedScale([
+    [0, 100, 10],
+    [120, 200, 20]
+  ])
 };
+
+const rubberPriceRatingDimension = createPriceRatingDimension("rubbers", "600元");
+const bladePriceRatingDimension = createPriceRatingDimension("blades", "2000元以上", true);
+const boosterPriceRatingDimension = createPriceRatingDimension("boosters", "200元");
 
 const rubberRatingDimensions = [
   { key: "weight", label: "重量", low: "偏轻", high: "偏重" },
@@ -127,7 +134,7 @@ const rubberRatingDimensions = [
   { key: "second_bounce", label: "二跳变速", low: "普通", high: "明显", highNote: "前冲、下扎" },
   { key: "topsheet_life", label: "胶面寿命", low: "短", high: "长", lowNote: "易起鳞、氧化" },
   { key: "sponge_life", label: "海绵寿命", low: "短", high: "长", lowNote: "易衰减" },
-  priceRatingDimension
+  rubberPriceRatingDimension
 ];
 
 const bladeRatingDimensions = [
@@ -143,7 +150,7 @@ const bladeRatingDimensions = [
   { key: "short_game", label: "台内小球", low: "容易冒高/出台", high: "舒适" },
   { key: "defense", label: "防守", low: "稳定卸力", high: "反弹借力" },
   { key: "balance", label: "重心", low: "靠柄", high: "拍头" },
-  priceRatingDimension
+  bladePriceRatingDimension
 ];
 
 const boosterRatingDimensions = [
@@ -151,8 +158,40 @@ const boosterRatingDimensions = [
   { key: "elasticity_boost", label: "增弹", low: "弱", high: "强", centerLabel: "2.5", min: 0, max: 5, step: 1, defaultValue: 0, format: "level", optionalDb: true },
   { key: "drying_speed", label: "晾干速度", low: "慢", high: "快", centerLabel: "2.5", min: 0, max: 5, step: 1, defaultValue: 0, format: "level", optionalDb: true },
   { key: "duration_score", label: "持久时间", low: "短", high: "长", centerLabel: "2.5", min: 0, max: 5, step: 1, defaultValue: 0, format: "level", optionalDb: true },
-  priceRatingDimension
+  boosterPriceRatingDimension
 ];
+
+function buildSteppedScale(segments) {
+  const values = [];
+  segments.forEach(([start, end, step]) => {
+    for (let value = start; value <= end; value += step) {
+      if (!values.includes(value)) {
+        values.push(value);
+      }
+    }
+  });
+  return values;
+}
+
+function createPriceRatingDimension(type, high, capAtMax = false) {
+  const scale = priceRatingScales[type];
+  const centerValue = scale[Math.floor(scale.length / 2)];
+  return {
+    key: "user_price",
+    label: "社区价格",
+    low: "0元",
+    high,
+    centerLabel: `${centerValue}元`,
+    min: scale[0],
+    max: scale[scale.length - 1],
+    scale,
+    defaultValue: 0,
+    format: "price",
+    capAtMax,
+    wide: true,
+    optionalDb: true
+  };
+}
 
 const ratingStorageKey = "tt-equipment-ratings";
 const clientStorageKey = "tt-equipment-client-id";
@@ -164,7 +203,7 @@ const commentEditCooldownMs = 60 * 60 * 1000;
 const commentPostCooldownMs = 60 * 1000;
 const commentsPerPage = 10;
 const hotCommentsCount = 3;
-const assetVersion = "ratings-34";
+const assetVersion = "ratings-35";
 const languageStorageKey = "tt-equipment-language";
 
 const englishText = {
@@ -226,6 +265,13 @@ const englishText = {
   "胶面寿命": "Top-sheet life",
   "海绵寿命": "Sponge life",
   "社区价格": "Community price",
+  "0元": "¥0",
+  "80元": "¥80",
+  "160元": "¥160",
+  "400元": "¥400",
+  "200元": "¥200",
+  "600元": "¥600",
+  "2000元以上": "¥2000+",
   "软化": "Softening",
   "增弹": "Elasticity boost",
   "手感反馈": "Feedback",
@@ -895,12 +941,13 @@ function renderRatingStatRow(item) {
 
 function renderRatingInput(item) {
   const centerValue = item.defaultValue ?? 0;
-  const min = item.min ?? -5;
-  const max = item.max ?? 5;
-  const step = item.step ?? 1;
+  const min = item.scale ? 0 : item.min ?? -5;
+  const max = item.scale ? item.scale.length - 1 : item.max ?? 5;
+  const step = item.scale ? 1 : item.step ?? 1;
+  const inputValue = getRatingInputPosition(item, centerValue);
   const centerLabel = item.centerLabel ?? "0";
   return `
-    <div class="rating-input-row${item.wide ? " is-wide" : ""} is-unrated" data-rating-input-row="${item.key}">
+    <div class="rating-input-row${item.wide ? " is-wide" : ""}${item.format === "price" ? " is-price" : ""} is-unrated" data-rating-input-row="${item.key}">
       <div class="rating-input-top">
         <span class="rating-input-label">${th(item.label)}</span>
         <button class="rating-toggle" type="button" data-rating-toggle="${item.key}" aria-pressed="false">${th("弃评")}</button>
@@ -912,7 +959,7 @@ function renderRatingInput(item) {
       </div>
       <div class="rating-input-control">
         <div class="rating-input-range">
-          <input name="${item.key}" type="range" min="${min}" max="${max}" step="${step}" value="${centerValue}">
+          <input name="${item.key}" type="range" min="${min}" max="${max}" step="${step}" value="${inputValue}">
         </div>
         <strong data-input-value="${item.key}">${formatRatingValue(centerValue, item)}</strong>
       </div>
@@ -958,9 +1005,10 @@ function initRatingPanel(product) {
   });
 
   inputs.forEach((input) => {
+    const item = ratingDimensions.find((dimension) => dimension.key === input.name);
     const hasSavedValue = isScoredValue(savedRating?.[input.name]);
     if (hasSavedValue) {
-      input.value = savedRating[input.name];
+      input.value = getRatingInputPosition(item, savedRating[input.name]);
     }
     updateRatingInputValue(input);
     setRatingInputActive(input.name, hasSavedValue);
@@ -1013,7 +1061,7 @@ function updateRatingInputValue(input) {
   if (output) {
     const product = findProduct(nodes.detailView.querySelector("#ratingPanel")?.dataset.equipmentId);
     const item = getRatingDimensions(product).find((dimension) => dimension.key === input.name);
-    output.textContent = formatRatingValue(input.value, item);
+    output.textContent = formatRatingValue(getRatingStoredValue(item, input.value), item);
   }
 }
 
@@ -1034,7 +1082,7 @@ function collectRatingFormValues(form, ratingDimensions) {
   return Object.fromEntries(ratingDimensions.map((item) => {
     const input = form.elements[item.key];
     const row = form.querySelector(`[data-rating-input-row="${item.key}"]`);
-    return [item.key, row?.dataset.rated === "true" ? Number(input.value) : null];
+    return [item.key, row?.dataset.rated === "true" ? getRatingStoredValue(item, input.value) : null];
   }));
 }
 
@@ -1206,7 +1254,46 @@ function isScoredValue(value) {
   return value !== null && value !== undefined && value !== "" && Number.isFinite(Number(value));
 }
 
+function getRatingInputPosition(item = {}, storedValue) {
+  if (!item.scale?.length) {
+    return Number(storedValue);
+  }
+  return Math.round(getScalePosition(item.scale, Number(storedValue)));
+}
+
+function getRatingStoredValue(item = {}, inputValue) {
+  if (!item.scale?.length) {
+    return Number(inputValue);
+  }
+  const index = Math.max(0, Math.min(item.scale.length - 1, Math.round(Number(inputValue))));
+  return item.scale[index];
+}
+
+function getScalePosition(scale, value) {
+  if (!scale.length || value <= scale[0]) {
+    return 0;
+  }
+  const lastIndex = scale.length - 1;
+  if (value >= scale[lastIndex]) {
+    return lastIndex;
+  }
+  for (let index = 1; index < scale.length; index += 1) {
+    if (value <= scale[index]) {
+      const lower = scale[index - 1];
+      const upper = scale[index];
+      return index - 1 + (value - lower) / (upper - lower);
+    }
+  }
+  return lastIndex;
+}
+
 function getRatingRange(item = {}) {
+  if (item.scale?.length) {
+    return {
+      min: item.scale[0],
+      max: item.scale[item.scale.length - 1]
+    };
+  }
   return {
     min: item.min ?? -5,
     max: item.max ?? 5
@@ -1214,6 +1301,9 @@ function getRatingRange(item = {}) {
 }
 
 function getRatingPercent(item, value) {
+  if (item.scale?.length) {
+    return getScalePosition(item.scale, Number(value)) / (item.scale.length - 1) * 100;
+  }
   const { min, max } = getRatingRange(item);
   if (max === min) {
     return 50;
@@ -1224,6 +1314,10 @@ function getRatingPercent(item, value) {
 function formatRatingValue(value, item = {}) {
   const number = Number(value);
   if (item.format === "price") {
+    const { max } = getRatingRange(item);
+    if (item.capAtMax && number >= max) {
+      return `¥${max}+`;
+    }
     return `¥${Math.round(number)}`;
   }
   if (item.format === "level") {

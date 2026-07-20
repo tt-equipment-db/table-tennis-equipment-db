@@ -33,7 +33,7 @@ drop constraint if exists equipment_ratings_duration_score_check;
 
 alter table public.equipment_ratings
 add constraint equipment_ratings_user_price_check
-check (user_price is null or user_price between 0 and 600);
+check (user_price is null or user_price between 0 and 2000);
 
 alter table public.equipment_ratings
 add constraint equipment_ratings_softening_check

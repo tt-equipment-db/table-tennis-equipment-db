@@ -997,6 +997,14 @@ h1 {
   align-items: center;
 }
 
+.rating-input-row.is-price .rating-input-control {
+  grid-template-columns: minmax(0, 1fr) 64px;
+}
+
+.rating-input-row.is-price strong {
+  min-width: 64px;
+}
+
 .rating-input-range {
   position: relative;
   min-width: 0;
