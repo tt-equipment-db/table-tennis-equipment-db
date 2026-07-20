@@ -49,6 +49,142 @@
       ]
     },
     {
+      "id": "butterfly-tenergy-05-hard",
+      "releaseDate": "2018-11-01",
+      "name": "Tenergy 05 Hard",
+      "brand": "蝴蝶",
+      "brandEn": "Butterfly",
+      "series": "Tenergy",
+      "price": 420,
+      "priceMin": 360,
+      "priceMax": 520,
+      "currency": "CNY",
+      "image": "https://www.butterfly-global.com/en/products/item/06030_01.jpg",
+      "description": "Tenergy 05 Hard 是 Butterfly 官方单独列出的 05 硬海绵版本，在保留 05 齿粒和 Spring Sponge 特性的基础上提高支撑和强冲威力。",
+      "tags": {
+        "brand": [
+          "Butterfly（蝴蝶）"
+        ],
+        "position": [
+          "正手",
+          "反手"
+        ],
+        "rubberType": [
+          "反胶",
+          "涩性胶面"
+        ],
+        "sponge": [
+          "Spring Sponge",
+          "硬海绵"
+        ],
+        "thickness": [
+          "1.9",
+          "2.1"
+        ],
+        "hardness": [
+          "硬",
+          "43度"
+        ],
+        "style": [
+          "弧圈",
+          "强冲",
+          "相持"
+        ],
+        "alias": [
+          "T05 Hard",
+          "T05H",
+          "t05hard",
+          "蝴蝶 T05 Hard"
+        ],
+        "origin": [
+          "日本"
+        ],
+        "price": [
+          "300-500",
+          "500以上"
+        ]
+      },
+      "sources": [
+        "乒乓球吧 2026-07-08 活跃帖「t05hard」",
+        "https://www.butterfly-global.com/en/products/detail/06030.html"
+      ],
+      "contributors": [
+        "Codex research"
+      ],
+      "images": [
+        "https://www.butterfly-global.com/en/products/item/06030_01.jpg",
+        "https://www.butterfly-global.com/en/products/item/06030_02.jpg"
+      ]
+    },
+    {
+      "id": "butterfly-tenergy-05-fx",
+      "releaseDate": "2010-07-01",
+      "name": "Tenergy 05 FX",
+      "brand": "蝴蝶",
+      "brandEn": "Butterfly",
+      "series": "Tenergy",
+      "price": 390,
+      "priceMin": 330,
+      "priceMax": 500,
+      "currency": "CNY",
+      "image": "https://www.butterfly-global.com/en/products/item/05900_01.jpg",
+      "description": "Tenergy 05 FX 是 Butterfly 官方单独列出的 05 软海绵版本，保留 05 齿粒和 Spring Sponge 特性，同时提升控制和持球感。",
+      "tags": {
+        "brand": [
+          "Butterfly（蝴蝶）"
+        ],
+        "position": [
+          "反手",
+          "正手"
+        ],
+        "rubberType": [
+          "反胶",
+          "涩性胶面"
+        ],
+        "sponge": [
+          "Spring Sponge",
+          "软海绵"
+        ],
+        "thickness": [
+          "1.7",
+          "1.9",
+          "2.1"
+        ],
+        "hardness": [
+          "中软",
+          "32度"
+        ],
+        "style": [
+          "弧圈",
+          "控制",
+          "相持"
+        ],
+        "alias": [
+          "T05 FX",
+          "T05FX",
+          "05FX",
+          "蝴蝶 05FX"
+        ],
+        "origin": [
+          "日本"
+        ],
+        "price": [
+          "300-500"
+        ]
+      },
+      "sources": [
+        "乒乓球吧 2026-07-09 活跃帖「想问问elp和mxp跟05和05fx硬度对比」",
+        "https://www.butterfly-global.com/en/products/detail/05900.html"
+      ],
+      "contributors": [
+        "Codex research"
+      ],
+      "images": [
+        "https://www.butterfly-global.com/en/products/item/05900_01.jpg",
+        "https://www.butterfly-global.com/en/products/item/05900_02.jpg"
+      ]
+    },
+    {
       "id": "butterfly-tenergy-64",
       "name": "Tenergy 64",
       "brand": "蝴蝶",
@@ -96,6 +232,73 @@
       ],
       "images": [
         "https://revspin.net/assets/table-tennis-images/rubbers/butterfly-tenergy-64.jpg"
+      ]
+    },
+    {
+      "id": "butterfly-tenergy-80",
+      "releaseDate": "2013-01-21",
+      "name": "Tenergy 80",
+      "brand": "蝴蝶",
+      "brandEn": "Butterfly",
+      "series": "Tenergy",
+      "price": 390,
+      "priceMin": 330,
+      "priceMax": 500,
+      "currency": "CNY",
+      "image": "https://www.butterfly-global.com/en/products/item/05930_01.jpg",
+      "description": "Tenergy 80 是 Butterfly 官方 Tenergy 系列中平衡旋转与速度的涩性反胶，采用 180 齿粒编号和 Spring Sponge，适合全能弧圈与攻防转换。",
+      "tags": {
+        "brand": [
+          "Butterfly（蝴蝶）"
+        ],
+        "position": [
+          "反手",
+          "正手"
+        ],
+        "rubberType": [
+          "反胶",
+          "涩性胶面"
+        ],
+        "sponge": [
+          "Spring Sponge",
+          "高弹海绵"
+        ],
+        "thickness": [
+          "1.7",
+          "1.9",
+          "2.1"
+        ],
+        "hardness": [
+          "中硬",
+          "36度"
+        ],
+        "style": [
+          "弧圈",
+          "快攻弧圈",
+          "相持"
+        ],
+        "alias": [
+          "T80",
+          "蝴蝶 T80",
+          "蝴蝶 80"
+        ],
+        "origin": [
+          "日本"
+        ],
+        "price": [
+          "300-500"
+        ]
+      },
+      "sources": [
+        "乒乓球吧 2026-07-09 活跃帖「蝴蝶外置底板配胶」",
+        "https://www.butterfly-global.com/en/products/detail/05930.html"
+      ],
+      "contributors": [
+        "Codex research"
+      ],
+      "images": [
+        "https://www.butterfly-global.com/en/products/item/05930_01.jpg",
+        "https://www.butterfly-global.com/en/products/item/05930_02.jpg"
       ]
     },
     {
@@ -817,6 +1020,138 @@
       ]
     },
     {
+      "id": "donic-bluegrip-j1",
+      "releaseYear": 2025,
+      "name": "BlueGrip J1",
+      "brand": "多尼克",
+      "brandEn": "DONIC",
+      "series": "BlueGrip",
+      "price": 360,
+      "priceMin": 320,
+      "priceMax": 480,
+      "currency": "CNY",
+      "image": "https://www.donic.com/media/a0/ee/ee/1782210027/donic-rubber-bluegrip-j1-3d-diagonal.jpg?ts=1782210027",
+      "description": "DONIC BlueGrip J1 是 BlueGrip J 系列中 55 度硬海绵版本，官方定位为微粘高摩擦反胶，面向主动进攻和强旋转打法。",
+      "tags": {
+        "brand": [
+          "DONIC（多尼克）"
+        ],
+        "position": [
+          "正手",
+          "反手"
+        ],
+        "rubberType": [
+          "反胶",
+          "微粘胶面",
+          "涩粘结合"
+        ],
+        "sponge": [
+          "高弹海绵",
+          "大孔径海绵"
+        ],
+        "thickness": [
+          "2.0",
+          "Max"
+        ],
+        "hardness": [
+          "硬",
+          "55度"
+        ],
+        "style": [
+          "弧圈",
+          "发抢",
+          "主动发力"
+        ],
+        "alias": [
+          "张继科 J1",
+          "多尼克 J1",
+          "Bluegrip J1",
+          "蓝色紧握 J1"
+        ],
+        "origin": [
+          "德国"
+        ],
+        "price": [
+          "300-500"
+        ]
+      },
+      "sources": [
+        "乒乓球吧 2026-07-10 活跃帖「正手德粘特制C1和J1选哪个」",
+        "https://www.donic.com/en/DONIC-BLUEGRIP-J1/000231220",
+        "https://www.donic.com/en/donic-rubber-series-bluegrip",
+        "https://www.megaspin.net/store/default.asp?pid=d-bluegrip-j1"
+      ],
+      "contributors": [
+        "Codex research"
+      ],
+      "images": [
+        "https://www.donic.com/media/a0/ee/ee/1782210027/donic-rubber-bluegrip-j1-3d-diagonal.jpg?ts=1782210027",
+        "https://www.donic.com/media/8e/80/62/1741083552/DONIC_BLUEGRIP-J1_Cover.jpg?ts=1741083552"
+      ]
+    },
+    {
+      "id": "double-fish-volant-phoenix-2",
+      "name": "Volant-Phoenix-2（展翅凤凰2）",
+      "brand": "双鱼",
+      "brandEn": "Double Fish",
+      "series": "展翅凤凰",
+      "price": 130,
+      "priceMin": 90,
+      "priceMax": 180,
+      "currency": "CNY",
+      "image": "https://pingpongshop.eu/image/catalog/external/double-fish-volant-phoenix-2-37-20133.jpg",
+      "description": "双鱼 Volant-Phoenix-2（展翅凤凰2）是公开商城列出的反胶套胶，35 度和 37 度等硬度版本常见，定位偏反手控制和弧圈快攻。",
+      "tags": {
+        "brand": [
+          "Double Fish（双鱼）"
+        ],
+        "position": [
+          "反手",
+          "正手"
+        ],
+        "rubberType": [
+          "反胶",
+          "涩性胶面"
+        ],
+        "thickness": [
+          "2.1"
+        ],
+        "hardness": [
+          "35度",
+          "37度"
+        ],
+        "style": [
+          "弧圈",
+          "快攻",
+          "控制"
+        ],
+        "alias": [
+          "双鱼展翅2",
+          "展翅凤凰2",
+          "Volant Phoenix 2",
+          "Volant-Phoenix II"
+        ],
+        "origin": [
+          "中国"
+        ],
+        "price": [
+          "100-200"
+        ]
+      },
+      "sources": [
+        "乒乓球吧 2026-07-10 新帖「双鱼展翅2红（35度）使用体验」",
+        "https://tabletennis11.com/en/double-fish-volant-phoenix-2-35",
+        "https://pingpongshop.eu/double-fish-volant-phoenix-2-37",
+        "https://www.daraz.lk/products/double-fish-volant-pheonix-table-tennis-rubber-for-loop-with-fast-attack-ping-pong-rubber-with-pre-set-sponge-i286362006.html"
+      ],
+      "contributors": [
+        "Codex research"
+      ],
+      "images": [
+        "https://pingpongshop.eu/image/catalog/external/double-fish-volant-phoenix-2-37-20133.jpg"
+      ]
+    },
+    {
       "id": "joola-dynaryz-agr",
       "name": "Dynaryz AGR",
       "brand": "优拉",
@@ -1014,6 +1349,88 @@
       ],
       "images": [
         "https://www.stigasports.com/_next/image?q=75&url=https%3A%2F%2Fstigasports.centracdn.net%2Fclient%2Fdynamic%2Fimages%2F4375_d49523c727-dna-platinum-h-1-full.jpg&w=1920"
+      ]
+    },
+    {
+      "id": "stiga-dna-platinum-m",
+      "releaseYear": 2021,
+      "name": "DNA Platinum M",
+      "brand": "斯帝卡",
+      "brandEn": "STIGA",
+      "series": "DNA Platinum",
+      "price": 320,
+      "priceMin": 260,
+      "priceMax": 420,
+      "currency": "CNY",
+      "image": "https://stigasports.centracdn.net/client/dynamic/images/4374_a2e0c8cf26-dna-paltinum-m-1-square.jpg",
+      "description": "STIGA DNA Platinum M 是 DNA Platinum 系列的中等硬度版本，官方列出 47.5 度海绵、Offensive+ 风格和 Power Sponge Cells，适合追求速度、旋转和连续进攻的正反手配置。",
+      "tags": {
+        "brand": [
+          "STIGA（斯帝卡）"
+        ],
+        "position": [
+          "正手",
+          "反手"
+        ],
+        "rubberType": [
+          "反胶",
+          "涩性胶面"
+        ],
+        "sponge": [
+          "蛋糕海绵",
+          "Power Sponge Cells",
+          "高弹海绵"
+        ],
+        "thickness": [
+          "2.1",
+          "2.2",
+          "2.3"
+        ],
+        "hardness": [
+          "中硬",
+          "47.5度",
+          "M"
+        ],
+        "style": [
+          "弧圈",
+          "相持",
+          "连续进攻",
+          "主动发力"
+        ],
+        "alias": [
+          "白金DNA M",
+          "白金 M",
+          "DNA白金M",
+          "STIGA DNA Platinum M"
+        ],
+        "origin": [
+          "德国"
+        ],
+        "features": [
+          "白金DNA"
+        ]
+      },
+      "specs": {
+        "officialSpeed": 160,
+        "officialSpin": 140,
+        "officialControl": 76,
+        "officialHardness": "47.5",
+        "officialStyle": "Offensive+",
+        "madeIn": "Germany",
+        "ittfApproved": true
+      },
+      "sources": [
+        "https://www.stigasports.com/en/product/dna-platinum-m"
+      ],
+      "images": [
+        "https://stigasports.centracdn.net/client/dynamic/images/4374_a2e0c8cf26-dna-paltinum-m-1-square.jpg",
+        "https://stigasports.centracdn.net/client/dynamic/images/4374_a2e0c8cf26-dna-paltinum-m-1.jpg",
+        "https://stigasports.centracdn.net/client/dynamic/images/4374_61ffaa89b6-dna-platinum-m-2.jpg",
+        "https://stigasports.centracdn.net/client/dynamic/images/4374_c3943cd0ab-dna_platinum_m_red.jpg",
+        "https://stigasports.centracdn.net/client/dynamic/images/4374_f8a5650c47-dna_platinum_m_black.jpg"
+      ],
+      "contributors": [
+        "Codex research"
       ]
     },
     {
@@ -3795,6 +4212,74 @@
       ],
       "images": [
         "https://revspin.net/assets/table-tennis-images/rubbers/yasaka-rakza-x.jpg"
+      ]
+    },
+    {
+      "id": "yasaka-rakza-xx",
+      "releaseYear": 2023,
+      "name": "Rakza XX",
+      "brand": "亚萨卡",
+      "brandEn": "Yasaka",
+      "series": "Rakza",
+      "price": 360,
+      "priceMin": 300,
+      "priceMax": 460,
+      "currency": "CNY",
+      "contributors": [
+        "Codex research"
+      ],
+      "image": "https://cdn.megaspin.net/store/images/products/zoom_y-rakza-xx.jpg",
+      "description": "Rakza XX 是 Rakza 系列中偏速度和高支撑的反胶套胶，公开商城资料将其定位为 Rakza X 后续高阶型号，面向进阶到专业进攻打法。",
+      "tags": {
+        "brand": [
+          "Yasaka（亚萨卡）"
+        ],
+        "position": [
+          "正手",
+          "反手"
+        ],
+        "rubberType": [
+          "反胶",
+          "涩性胶面"
+        ],
+        "sponge": [
+          "蛋糕海绵",
+          "大气孔海绵"
+        ],
+        "thickness": [
+          "2.0",
+          "Max"
+        ],
+        "hardness": [
+          "硬",
+          "约50度"
+        ],
+        "style": [
+          "弧圈",
+          "速度",
+          "相持"
+        ],
+        "alias": [
+          "RKXX",
+          "rkxx",
+          "亚萨卡 RKXX",
+          "亚萨卡 Rakza XX"
+        ],
+        "origin": [
+          "德国"
+        ],
+        "price": [
+          "300-500"
+        ]
+      },
+      "sources": [
+        "乒乓球吧 2026-07-08 新帖「骄猛的球拍确实有点东西」提及 rkxx",
+        "https://tabletennis11.com/en/yasaka-rakza-xx/",
+        "https://www.megaspin.net/store/default.asp?pid=y-rakza-xx"
+      ],
+      "images": [
+        "https://cdn.megaspin.net/store/images/products/zoom_y-rakza-xx.jpg",
+        "https://cdn.megaspin.net/store/images/products/zoom2_y-rakza-xx.jpg"
       ]
     },
     {
@@ -8907,6 +9392,119 @@
         "https://dku51.oss-cn-hangzhou.aliyuncs.com/upload/detail/20260410/20260410115152148.jpg",
         "https://dku51.oss-cn-hangzhou.aliyuncs.com/upload/detail/20260410/20260410115159837.jpg"
       ]
+    },
+    {
+      "id": "dr-neubauer-killer-extreme",
+      "releaseYear": 2021,
+      "name": "Killer Extreme",
+      "brand": "牛博士",
+      "brandEn": "Dr. Neubauer",
+      "series": "Killer",
+      "price": 450,
+      "priceMin": 380,
+      "priceMax": 550,
+      "currency": "CNY",
+      "image": "https://www.drneubauer.com/images/shared/thumbs/DrNeubauer%20KILLER%20EXTREME.jpg",
+      "description": "Dr. Neubauer Killer Extreme 是 Killer 系列短颗粒套胶，官方定位为更强干扰和近台压迫。",
+      "tags": {
+        "brand": [
+          "Dr. Neubauer（牛博士）"
+        ],
+        "position": [
+          "反手",
+          "近台"
+        ],
+        "rubberType": [
+          "短颗粒",
+          "生胶"
+        ],
+    "thickness": [
+      "1.3",
+      "1.5",
+      "1.8",
+      "2.0",
+      "MAX"
+        ],
+        "style": [
+          "弹击",
+          "近台快攻",
+          "干扰"
+        ],
+        "alias": [
+          "牛博士 Killer Extreme",
+          "KILLER EXTREME"
+        ],
+        "origin": [
+          "德国"
+        ],
+        "price": [
+          "300-500",
+          "500以上"
+        ]
+      },
+      "sources": [
+        "乒乓球吧 2026-07-07 近期帖子「推荐一个好用的生胶（或许算半长胶？）」",
+        "https://www.drneubauer.com/shop.php?cat=1&cat_s=5&lang=us&prod=154"
+      ],
+      "contributors": [
+        "Codex research"
+      ],
+      "images": [
+        "https://www.drneubauer.com/images/shared/thumbs/DrNeubauer%20KILLER%20EXTREME.jpg"
+      ]
+    },
+    {
+      "id": "juic-889-neo",
+      "releaseYear": 2009,
+      "name": "889 NEO",
+      "brand": "巨力克",
+      "brandEn": "JUIC",
+      "series": "889",
+      "price": 260,
+      "priceMin": 220,
+      "priceMax": 320,
+      "currency": "CNY",
+      "image": "https://www.pingpong777.com/images/product_images/info_images/Rubbers_Juic_889_Neo.jpg",
+      "description": "JUIC 889 NEO 是日本制造的短颗粒套胶，商家资料将其定位为快攻、快带和快速进攻打法。",
+      "tags": {
+        "brand": [
+          "JUIC（巨力克）"
+        ],
+        "position": [
+          "正手",
+          "反手"
+        ],
+        "rubberType": [
+          "短颗粒",
+          "生胶"
+        ],
+        "style": [
+          "快攻",
+          "弹击",
+          "直拍快攻"
+        ],
+        "alias": [
+          "巨力克 889",
+          "JUIC 889",
+          "JUIC 889 NEO"
+        ],
+        "origin": [
+          "日本"
+        ],
+        "price": [
+          "200-300"
+        ]
+      },
+      "sources": [
+        "乒乓球吧 2026-07-07 新帖「【测评预告】巨力克juic 889」",
+        "https://www.pingpong777.com/JUIC-889-NEO.html?language=En"
+      ],
+      "contributors": [
+        "Codex research"
+      ],
+      "images": [
+        "https://www.pingpong777.com/images/product_images/info_images/Rubbers_Juic_889_Neo.jpg"
+      ]
     }
   ],
   "blades": [
@@ -10458,6 +11056,81 @@
       ]
     },
     {
+      "id": "dhs-hurricane-301x",
+      "releaseYear": 2021,
+      "name": "狂飙 301X",
+      "brand": "红双喜",
+      "brandEn": "DHS",
+      "series": "狂飙 301",
+      "price": 300,
+      "priceMin": 250,
+      "priceMax": 380,
+      "currency": "CNY",
+      "image": "https://img.dku51.com/upload/20210602/20210602105856868.jpg",
+      "description": "红双喜狂飙 301X 是 301 系列的内置芳碳底板变体，公开商品页将其标注为 5 木 2 芳碳结构、厚芯方案，定位弧圈结合快攻。",
+      "tags": {
+        "brand": [
+          "红双喜"
+        ],
+        "structure": [
+          "内置纤维",
+          "五木二纤"
+        ],
+        "material": [
+          "芳碳",
+          "纤维"
+        ],
+        "position": [
+          "弧圈",
+          "快攻弧圈"
+        ],
+        "handle": [
+          "横板",
+          "直板",
+          "FL",
+          "CS"
+        ],
+        "speed": [
+          "OFF++",
+          "快"
+        ],
+        "feel": [
+          "持球",
+          "支撑",
+          "厚芯"
+        ],
+        "weight": [
+          "85-90g",
+          "90g以上"
+        ],
+        "alias": [
+          "H301X",
+          "Hurricane 301X",
+          "狂飚301X",
+          "红双喜 301X"
+        ],
+        "origin": [
+          "中国"
+        ],
+        "price": [
+          "200-300",
+          "300-500"
+        ]
+      },
+      "sources": [
+        "乒乓球吧 2026-07-09 活跃旧帖「求进阶的内置底板」",
+        "https://www.dku51.com/goods-3892.html",
+        "https://www.deplus-sport.com/products/%E7%B4%85%E9%9B%99%E5%96%9C-%E7%8B%82%E9%A3%86301x-%E8%8A%B3%E7%A2%B3-fl-cn"
+      ],
+      "contributors": [
+        "Codex research"
+      ],
+      "images": [
+        "https://img.dku51.com/upload/20210602/20210602105856868.jpg",
+        "https://dku51.oss-cn-hangzhou.aliyuncs.com/upload/detail/20210602/20210602105945683.jpg"
+      ]
+    },
+    {
       "id": "dhs-fang-bo-b2",
       "name": "方博 B2",
       "brand": "红双喜",
@@ -10811,6 +11484,80 @@
       ],
       "images": [
         "https://revspin.net/assets/table-tennis-images/blades/stiga-cybershape-carbon.jpg"
+      ]
+    },
+    {
+      "id": "stiga-cybershape-carbon-cwt-truls-edition",
+      "releaseYear": 2025,
+      "name": "Cybershape Carbon CWT Truls Edition（金标赛博6）",
+      "brand": "斯帝卡",
+      "brandEn": "STIGA",
+      "series": "Cybershape",
+      "price": 1650,
+      "priceMin": 1450,
+      "priceMax": 2200,
+      "currency": "CNY",
+      "contributors": [
+        "Codex research"
+      ],
+      "image": "https://stigasports.centracdn.net/client/dynamic/images/4918_00422e0b72-cs_truls_classic_5-1-square.jpg",
+      "description": "STIGA Cybershape Carbon CWT Truls Edition 是与 Truls Moregard 合作开发的 Cybershape Carbon CWT 版本，带 CWT 可调配重和金色 Truls 版外观。",
+      "tags": {
+        "brand": [
+          "STIGA（斯帝卡）"
+        ],
+        "structure": [
+          "5+2",
+          "内置纤维"
+        ],
+        "material": [
+          "碳纤维",
+          "CCF"
+        ],
+        "position": [
+          "弧圈",
+          "快攻弧圈",
+          "相持"
+        ],
+        "handle": [
+          "FL",
+          "ST",
+          "CS"
+        ],
+        "speed": [
+          "OFF",
+          "OFF+"
+        ],
+        "feel": [
+          "支撑",
+          "可调重心"
+        ],
+        "weight": [
+          "CWT配重",
+          "3g/6g/9g配重"
+        ],
+        "alias": [
+          "金标赛博6",
+          "金标赛博六",
+          "莫雷高德赛博6",
+          "Cybershape Carbon CWT",
+          "Cybershape Carbon CWT Truls"
+        ],
+        "origin": [
+          "瑞典"
+        ],
+        "price": [
+          "1000+"
+        ]
+      },
+      "sources": [
+        "乒乓球吧 2026-07-10 活跃帖「金标赛博6」",
+        "https://www.stigasports.com/en/product/cybershape-carbon-cwt-truls-edition",
+        "https://www.dku51.com/goods-4683.html",
+        "https://www.dku51.com/article-14428.html"
+      ],
+      "images": [
+        "https://stigasports.centracdn.net/client/dynamic/images/4918_00422e0b72-cs_truls_classic_5-1-square.jpg"
       ]
     },
     {
@@ -13969,13 +14716,205 @@
       "contributors": [
         "Codex research"
       ],
+      "id": "joola-hugo-calderano-ary-x",
+      "releaseDate": "2026-07-21",
+      "name": "Hugo Calderano ARY-X",
+      "brand": "优拉",
+      "brandEn": "JOOLA",
+      "series": "Hugo Calderano",
+      "price": 2099,
+      "priceMin": 1900,
+      "priceMax": 2200,
+      "image": "https://www.contra.de/thumbnail/29/63/66/1782206799/12271_0_1920x1920.jpg",
+      "images": [
+        "https://www.contra.de/thumbnail/29/63/66/1782206799/12271_0_1920x1920.jpg",
+        "https://www.contra.de/thumbnail/e6/ab/69/1782206800/12271_2_1920x1920.jpg",
+        "https://www.contra.de/thumbnail/cb/2d/2b/1782206800/12271_3_1920x1920.jpg"
+      ],
+      "description": "2026 年 7 月上市的雨果签名旗舰底板。5+2 外置 ARY-X 混编纤维不含碳，Koto 面材带来直接触球；板面约 157×152mm、板厚约 5.8mm、重量约 85g，官方定位为兼顾旋转、落点与稳定性的 OFF+ 进攻底板。",
+      "tags": {
+        "brand": [
+          "JOOLA（优拉）"
+        ],
+        "structure": [
+          "外置纤维",
+          "5+2"
+        ],
+        "material": [
+          "ARY-X",
+          "混编纤维",
+          "无碳纤维",
+          "Koto面材"
+        ],
+        "position": [
+          "快攻弧圈",
+          "双面弧圈"
+        ],
+        "handle": [
+          "横板",
+          "FL",
+          "ST"
+        ],
+        "speed": [
+          "快"
+        ],
+        "feel": [
+          "清晰",
+          "直接",
+          "减震"
+        ],
+        "weight": [
+          "80-85g",
+          "85-90g"
+        ],
+        "origin": [
+          "韩国"
+        ]
+      },
+      "sources": [
+        "https://www.contra.de/en/joola-blade-hugo-calderano-ary-x/",
+        "https://www.dku51.com/article-15169.html"
+      ]
+    },
+    {
+      "currency": "CNY",
+      "contributors": [
+        "Codex research"
+      ],
+      "id": "joola-hugo-calderano-ary-c",
+      "releaseDate": "2026-07-21",
+      "name": "Hugo Calderano ARY-C",
+      "brand": "优拉",
+      "brandEn": "JOOLA",
+      "series": "Hugo Calderano",
+      "price": 1599,
+      "priceMin": 1450,
+      "priceMax": 1750,
+      "image": "https://www.contra.de/thumbnail/c1/72/e3/1782206801/12272_0_1920x1920.jpg",
+      "images": [
+        "https://www.contra.de/thumbnail/c1/72/e3/1782206801/12272_0_1920x1920.jpg",
+        "https://www.contra.de/thumbnail/5e/db/bc/1782206801/12272_2_1920x1920.jpg",
+        "https://www.contra.de/thumbnail/a1/c1/20/1782206802/12272_3_1920x1920.jpg"
+      ],
+      "description": "2026 年 7 月上市的雨果签名内置底板。5+2 内置 ARY-C 配林巴面材，板面约 157×152mm、板厚约 6.0mm、重量约 88g，偏向持球、旋转变化与连续进攻。",
+      "tags": {
+        "brand": [
+          "JOOLA（优拉）"
+        ],
+        "structure": [
+          "内置纤维",
+          "5+2"
+        ],
+        "material": [
+          "ARY-C",
+          "芳碳",
+          "林巴面材"
+        ],
+        "position": [
+          "双面弧圈",
+          "快攻弧圈"
+        ],
+        "handle": [
+          "横板",
+          "FL",
+          "ST"
+        ],
+        "speed": [
+          "快"
+        ],
+        "feel": [
+          "持球",
+          "中软",
+          "清晰"
+        ],
+        "weight": [
+          "85-90g"
+        ],
+        "origin": [
+          "韩国"
+        ]
+      },
+      "sources": [
+        "https://www.contra.de/en/joola-blade-hugo-calderano-ary-c/",
+        "https://www.dku51.com/article-15169.html"
+      ]
+    },
+    {
+      "currency": "CNY",
+      "contributors": [
+        "Codex research"
+      ],
+      "id": "joola-hugo-calderano-kl-c-outer",
+      "releaseYear": 2026,
+      "name": "Hugo Calderano KL-c Outer",
+      "brand": "优拉",
+      "brandEn": "JOOLA",
+      "series": "Hugo Calderano",
+      "price": 799,
+      "priceMin": 700,
+      "priceMax": 900,
+      "image": "https://takkyu-navi.jp/images/racket/1530_1_450.jpg",
+      "images": [
+        "https://takkyu-navi.jp/images/racket/1530_1_450.jpg"
+      ],
+      "description": "雨果系列外置 KL-c 芳碳底板，5+2 结构、桐木芯材，板面约 157×152mm、板厚约 5.8mm。触球直接、减震稳定，适合快节奏驱动、反拉和中近台连续进攻；中国市场提供横板与直板柄型。",
+      "tags": {
+        "brand": [
+          "JOOLA（优拉）"
+        ],
+        "structure": [
+          "外置纤维",
+          "5+2"
+        ],
+        "material": [
+          "KL-c",
+          "芳碳",
+          "桐木芯"
+        ],
+        "position": [
+          "快攻弧圈",
+          "双面弧圈"
+        ],
+        "handle": [
+          "横板",
+          "直板",
+          "FL",
+          "ST",
+          "CS"
+        ],
+        "speed": [
+          "快"
+        ],
+        "feel": [
+          "直接",
+          "清晰",
+          "减震"
+        ],
+        "weight": [
+          "85-90g"
+        ],
+        "origin": [
+          "中国"
+        ]
+      },
+      "sources": [
+        "https://takkyu-navi.jp/racket/detail/1530",
+        "User-provided JOOLA China price list (2026-07-20)"
+      ]
+    },
+    {
+      "currency": "CNY",
+      "contributors": [
+        "Codex research"
+      ],
       "id": "joola-hugo-calderano-kl-c-inner",
+      "releaseYear": 2026,
       "name": "Hugo Calderano KL-c Inner",
       "brand": "优拉",
       "brandEn": "JOOLA",
       "series": "Hugo Calderano",
-      "price": 950,
-      "priceMin": 820,
+      "price": 999,
+      "priceMin": 900,
       "priceMax": 1100,
       "image": "https://cdn.shopify.com/s/files/1/0685/6943/2278/files/p-7yANXE-CDC6C7C3-D5B4-4220-AF9C-FD2D0095CD7E.jpg?v=1777489974",
       "images": [
@@ -13985,7 +14924,7 @@
         "https://cdn.shopify.com/s/files/1/0685/6943/2278/files/601268_EN_XXX_PT02_Blade-Hugo-Calderano-KL-c-inner.webp?v=1774923890",
         "https://cdn.shopify.com/s/files/1/0685/6943/2278/files/Calderano_Blade_Dimensions.png?v=1778076904"
       ],
-      "description": "雨果系列内置 KL-c 芳碳底板，5+2 结构、林巴面材和阿尤斯芯材，约 85g，偏控制的 OFF 进攻取向。",
+      "description": "雨果系列内置 KL-c 芳碳底板，5+2 结构、林巴面材，板面约 157×152mm、板厚约 6.0mm。官方参数为速度 8.5、控制 7.5，打感偏柔和持球，适合重视旋转、落点和连续性的进攻型选手；中国市场提供横板与直板柄型。",
       "tags": {
         "brand": [
           "JOOLA（优拉）"
@@ -14024,12 +14963,13 @@
           "85-90g"
         ],
         "origin": [
-          "德国"
+          "中国"
         ]
       },
       "sources": [
-        "JOOLA Hugo Calderano KL-c Inner official product page",
-        "JOOLA Hugo Calderano collection page"
+        "https://joola.com/collections/table-tennis/products/joola-hugo-calderano-kl-c-inner-table-tennis-blade",
+        "https://takkyu-navi.jp/racket/detail/1529",
+        "User-provided JOOLA China price list (2026-07-20)"
       ]
     },
     {
@@ -14038,19 +14978,20 @@
         "Codex research"
       ],
       "id": "joola-hugo-calderano-aw-7",
+      "releaseYear": 2026,
       "name": "Hugo Calderano AW-7",
       "brand": "优拉",
       "brandEn": "JOOLA",
       "series": "Hugo Calderano",
-      "price": 580,
+      "price": 559,
       "priceMin": 500,
-      "priceMax": 720,
+      "priceMax": 650,
       "image": "https://cdn.shopify.com/s/files/1/0685/6943/2278/files/AW.png",
       "images": [
         "https://cdn.shopify.com/s/files/1/0685/6943/2278/files/AW.png",
         "https://cdn.shopify.com/s/files/1/0685/6943/2278/files/A7406905_Com.jpg"
       ],
-      "description": "雨果系列亲民 7 层纯木进攻底板，官方强调软触感、较长持球和高旋转潜力。",
+      "description": "雨果系列亲民 7 层纯木进攻底板，林巴与阿尤斯结构，板面约 157×152mm、板厚约 6.8mm。官方参数为速度 8、控制 8，打感柔和、持球较长，适合强调旋转、落点和技术细腻度的弧圈打法；中国市场提供横板与直板柄型。",
       "tags": {
         "brand": [
           "JOOLA（优拉）"
@@ -14086,12 +15027,13 @@
           "85-90g"
         ],
         "origin": [
-          "德国"
+          "中国"
         ]
       },
       "sources": [
-        "JOOLA Hugo Calderano collection page",
-        "JOOLA Hugo Calderano KL-c Inner product related products"
+        "https://joola.com/collections/table-tennis/products/joola-hugo-calderano-aw-7-table-tennis-blade",
+        "https://takkyu-navi.jp/racket/detail/1528",
+        "User-provided JOOLA China price list (2026-07-20)"
       ]
     },
     {
@@ -18006,6 +18948,210 @@
       ],
       "images": [
         "https://placehold.co/720x720/111827/ffffff?text=DONIC%20Linde%EF%BC%88%E6%9E%97%E5%BE%B7%EF%BC%89"
+      ]
+    },
+    {
+      "id": "stiga-inspira-ccf",
+      "releaseYear": 2021,
+      "name": "Inspira CCF（灵感碳素）",
+      "brand": "斯帝卡",
+      "brandEn": "STIGA",
+      "series": "Inspira",
+      "price": 700,
+      "priceMin": 500,
+      "priceMax": 1100,
+      "currency": "CNY",
+      "image": "https://cdn.store-assets.com/s/357302/i/31774446.jpg",
+      "description": "STIGA Inspira CCF（灵感碳素）采用 5 木 + 2 碳的内置 CCF 结构，Koto 面材兼顾直接反馈与持球；官方标注重量约 90±5g、速度 8.9，并由瑞典埃斯基尔斯蒂纳工厂制造。",
+      "tags": {
+        "brand": [
+          "STIGA（斯帝卡）"
+        ],
+        "structure": [
+          "5+2",
+          "内置纤维"
+        ],
+        "material": [
+          "CCF",
+          "碳纤维",
+          "Koto面材"
+        ],
+        "position": [
+          "弧圈",
+          "快攻弧圈"
+        ],
+        "handle": [
+          "FL",
+          "ST",
+          "CS"
+        ],
+        "speed": [
+          "快"
+        ],
+        "feel": [
+          "清晰",
+          "支撑"
+        ],
+        "alias": [
+          "灵感碳素",
+          "灵感混碳",
+          "STIGA Inspira CCF"
+        ],
+        "origin": [
+          "瑞典"
+        ],
+        "price": [
+          "500以上"
+        ]
+      },
+      "sources": [
+        "乒乓球吧 2026-07-07 新帖「大神们，斯蒂卡的灵感混碳怎么配胶」",
+        "https://www.stigasports.com/en/product/inspira-ccf",
+        "https://www.deplus-sport.com/products/stiga-inspira-ccf-%E9%9D%88%E6%84%9F%E7%A2%B3%E7%B4%A0-5-2%E7%A2%B3%E5%85%A7%E7%BD%AE%E7%B5%90%E6%A7%8B-fl-st-cn-"
+      ],
+      "contributors": [
+        "Codex research"
+      ],
+      "images": [
+        "https://cdn.store-assets.com/s/357302/i/31774446.jpg",
+        "https://cdn.store-assets.com/s/357302/i/31774443.jpg",
+        "https://cdn.store-assets.com/s/357302/i/31774438.jpg"
+      ]
+    },
+    {
+      "id": "zhuolong-melody-spin-alc",
+      "releaseYear": 2026,
+      "name": "乐章旋转 SPIN",
+      "brand": "卓隆",
+      "brandEn": "Zhuolong",
+      "series": "乐章",
+      "price": 159,
+      "priceMin": 129,
+      "priceMax": 250,
+      "currency": "CNY",
+      "image": "https://www.ttshop.cn/images/202603/goods_img/6040_P_1774740651238.jpg",
+      "description": "卓隆/郗恩庭乐章旋转 SPIN 是外置蓝芳碳弧圈快攻底板，商城页列出外置 ALC、横板 FL 和直板版本。",
+      "tags": {
+        "brand": [
+          "卓隆",
+          "郗恩庭"
+        ],
+        "structure": [
+          "5+2",
+          "外置纤维"
+        ],
+        "material": [
+          "ALC",
+          "蓝芳碳"
+        ],
+        "position": [
+          "弧圈",
+          "快攻弧圈"
+        ],
+        "handle": [
+          "FL",
+          "CS"
+        ],
+        "speed": [
+          "快"
+        ],
+        "feel": [
+          "支撑",
+          "性价比"
+        ],
+        "alias": [
+          "卓隆旋转乐章",
+          "卓隆乐章 SPIN",
+          "郗恩庭乐章旋转",
+          "乐章SPIN"
+        ],
+        "origin": [
+          "中国"
+        ],
+        "price": [
+          "100-200",
+          "200-300"
+        ],
+        "features": [
+          "水怪套餐"
+        ]
+      },
+      "sources": [
+        "乒乓球吧 2026-07-07 活跃旧帖「（水）卓隆旋转乐章（外置蓝芳碳）第二弹」",
+        "https://www.ttshop.cn/goods.php?id=6040",
+        "https://liangxin-tw.gogoshopapp.com/products/%E3%80%90IDOL%E3%80%91%E5%8D%93%E9%9A%86%E9%83%97%E6%81%A9%E5%BA%AD%E6%A8%82%E7%AB%A0SPIN52%E5%A4%96%E7%BD%AE%E8%97%8D%E8%8A%B3%E7%A2%B3VIS%E7%B5%90%E6%A7%8B%E5%8F%B0%E7%81%A3%E5%85%AC%E5%8F%B8%E8%B2%A8-69ced607df0104aa.html"
+      ],
+      "contributors": [
+        "Codex research"
+      ],
+      "images": [
+        "https://www.ttshop.cn/images/202603/goods_img/6040_P_1774740651238.jpg",
+        "https://www.ttshop.cn/images/202603/thumb_img/6040_thumb_P_1774740651615.jpg"
+      ]
+    },
+    {
+      "id": "yasaka-atletico-power-pro",
+      "releaseYear": 2023,
+      "name": "Atletico Power Pro（竞技者 Power Pro）",
+      "brand": "亚萨卡",
+      "brandEn": "YASAKA",
+      "series": "Athlete",
+      "price": 600,
+      "priceMin": 500,
+      "priceMax": 700,
+      "currency": "CNY",
+      "image": "https://www.ttshop.cn/images/202309/goods_img/5548_P_1693594293474.jpg",
+      "description": "YASAKA Atletico Power Pro（竞技者 Power Pro）是中国市场销售的内置 5+2 纤维底板，板面印字明确为 Atletico Power Pro；商城资料列出约 6.0mm 厚度和芳碳混编纤维。",
+      "tags": {
+        "brand": [
+          "YASAKA（亚萨卡）"
+        ],
+        "structure": [
+          "5+2",
+          "内置纤维"
+        ],
+        "material": [
+          "芳碳混编纤维"
+        ],
+        "position": [
+          "弧圈",
+          "快攻弧圈"
+        ],
+        "handle": [
+          "FL",
+          "CS"
+        ],
+        "speed": [
+          "快"
+        ],
+        "feel": [
+          "支撑",
+          "升级款"
+        ],
+        "alias": [
+          "竞技者 Power Pro",
+          "竞技者powerpro",
+          "YASAKA Atletico Power Pro",
+          "Athlete Power Pro"
+        ],
+        "price": [
+          "500以上"
+        ]
+      },
+      "sources": [
+        "乒乓球吧 2026-07-07 活跃帖「竞技者powerpro两套方案」",
+        "https://www.ttshop.cn/goods.php?id=5548",
+        "https://www.jd.com/brand/1318135c3c7c9789963e.html"
+      ],
+      "contributors": [
+        "Codex research"
+      ],
+      "images": [
+        "https://www.ttshop.cn/images/202309/goods_img/5548_P_1693594293474.jpg",
+        "https://www.ttshop.cn/images/202309/thumb_img/5548_thumb_P_1693594293242.jpg",
+        "https://www.ttshop.cn/images/202306/thumb_img/5548_thumb_P_1687889751512.jpg",
+        "https://www.ttshop.cn/images/202306/thumb_img/5548_thumb_P_1687889766568.jpg",
+        "https://www.ttshop.cn/images/202306/thumb_img/5548_thumb_P_1687889766918.jpg"
       ]
     }
   ],

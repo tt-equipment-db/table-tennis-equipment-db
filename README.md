@@ -150,6 +150,7 @@ https://example.com/image2.jpg
   "brand": "中文品牌",
   "brandEn": "English Brand",
   "series": "系列",
+  "releaseDate": "2026-07-21",
   "price": 100,
   "priceMin": 80,
   "priceMax": 120,
@@ -184,6 +185,7 @@ https://example.com/image2.jpg
   "brand": "中文品牌",
   "brandEn": "English Brand",
   "series": "系列",
+  "releaseDate": "2026-07-21",
   "price": 300,
   "priceMin": 250,
   "priceMax": 360,
@@ -209,6 +211,8 @@ https://example.com/image2.jpg
   "contributors": ["你的名字或 GitHub ID"]
 }
 ```
+
+已知准确上市日期时用 `releaseDate`（`YYYY-MM-DD`）；只知道年份时可改用 `"releaseYear": 2026`。首页会优先展示较新的器材，不确定时请不要猜日期。
 
 ## 价格怎么写？
 

@@ -183,7 +183,7 @@ const englishText = {
   "同一项目可多选，不同项目会叠加筛选。": "Select multiple tags in one group; different groups narrow results together.",
   "清空筛选": "Clear",
   "排序": "Sort",
-  "默认": "Default",
+  "新品优先": "Newest first",
   "价格从低到高": "Price: low to high",
   "价格从高到低": "Price: high to low",
   "名称": "Name",
@@ -532,7 +532,7 @@ function applyLanguageChrome() {
   }
 
   const sortLabels = {
-    default: "默认",
+    default: "新品优先",
     "price-asc": "价格从低到高",
     "price-desc": "价格从高到低",
     name: "名称"
@@ -1906,7 +1906,15 @@ function sortProducts(products) {
   if (state.sort === "name") {
     return copy.sort((a, b) => a.name.localeCompare(b.name, "zh-Hans-CN"));
   }
-  return copy;
+  return copy.sort((a, b) => getReleaseTimestamp(b) - getReleaseTimestamp(a));
+}
+
+function getReleaseTimestamp(product) {
+  const value = product.releaseDate || product.releaseYear;
+  if (!value) return 0;
+
+  const timestamp = Date.parse(String(value));
+  return Number.isFinite(timestamp) ? timestamp : 0;
 }
 
 function priceMatches(price, range) {
