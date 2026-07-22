@@ -4748,6 +4748,74 @@
       ]
     },
     {
+      "id": "friendship-729-hunyuan",
+      "releaseDate": "2026-05-09",
+      "name": "混元",
+      "brand": "729",
+      "brandEn": "Friendship 729",
+      "series": "混元",
+      "price": 32,
+      "priceMin": 28,
+      "priceMax": 45,
+      "currency": "CNY",
+      "contributors": [
+        "Codex research",
+        "AI 话题巡检核验 2026-07-23"
+      ],
+      "image": "https://uf.yoger.com.cn/prdPic/product/120352/202605061705576117.jpg",
+      "description": "729 于 2026 年推出的亲民普及型反胶，采用半粘半涩胶面和黄金高密海绵，出球干脆、弧线稳定，提供中软与中硬两种选择，适合入门训练、反手借力及近台快攻快带。",
+      "tags": {
+        "brand": [
+          "729",
+          "友谊729"
+        ],
+        "position": [
+          "反手",
+          "正手"
+        ],
+        "rubberType": [
+          "反胶",
+          "半粘半涩胶面",
+          "涩性胶面"
+        ],
+        "sponge": [
+          "高密海绵",
+          "黄金高密海绵"
+        ],
+        "thickness": [
+          "2.1"
+        ],
+        "hardness": [
+          "中软",
+          "中硬"
+        ],
+        "style": [
+          "控制",
+          "快攻",
+          "连续进攻",
+          "训练"
+        ],
+        "alias": [
+          "混元战士",
+          "混元普及涩套",
+          "729混元",
+          "Hunyuan",
+          "Hunyuan Warrior"
+        ],
+        "origin": [
+          "中国"
+        ]
+      },
+      "sources": [
+        "https://www.yoger.com.cn/info-40622.html",
+        "https://news.10jqka.com.cn/20260610/c677362555.shtml",
+        "https://www.jd.com/hprm/1318159c33bde67884ff.html"
+      ],
+      "images": [
+        "https://uf.yoger.com.cn/prdPic/product/120352/202605061705576117.jpg"
+      ]
+    },
+    {
       "id": "palio-hadou-40-plus",
       "name": "Hadou 40+",
       "brand": "拍里奥",
