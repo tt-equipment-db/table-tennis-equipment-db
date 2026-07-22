@@ -8476,6 +8476,10 @@
         ],
         "spongeDetail": [
           "Spring Sponge X"
+        ],
+        "alias": [
+          "Z03",
+          "蝴蝶 Z03"
         ]
       },
       "sources": [
@@ -9572,6 +9576,135 @@
       ],
       "images": [
         "https://www.pingpong777.com/images/product_images/info_images/Rubbers_Juic_889_Neo.jpg"
+      ]
+    },
+    {
+      "id": "donic-bluegrip-c2",
+      "name": "BlueGrip C2",
+      "brand": "多尼克",
+      "brandEn": "DONIC",
+      "series": "BlueGrip",
+      "price": 330,
+      "priceMin": 280,
+      "priceMax": 400,
+      "currency": "CNY",
+      "image": "https://www.donic.com/media/b7/f1/c7/1669040852/donic-rubber_bluegrip_c2-web.jpg?ts=1697464416",
+      "description": "DONIC BlueGrip C2 是面向强旋转进攻的德系粘性套胶，采用 Full-Tension 海绵和粘性胶面；官方标注 55 度、2.0/Max，比 C1 稍软且更轻。",
+      "tags": {
+        "brand": [
+          "DONIC（多尼克）"
+        ],
+        "position": [
+          "正手"
+        ],
+        "rubberType": [
+          "反胶",
+          "粘性胶面"
+        ],
+        "sponge": [
+          "高弹海绵",
+          "硬质海绵"
+        ],
+        "thickness": [
+          "2.0",
+          "Max"
+        ],
+        "hardness": [
+          "硬",
+          "55度"
+        ],
+        "style": [
+          "弧圈",
+          "主动发力",
+          "强旋转"
+        ],
+        "origin": [
+          "德国"
+        ],
+        "alias": [
+          "多尼克 C2",
+          "蓝火 C2",
+          "BlueGrip C2"
+        ],
+        "price": [
+          "200-300",
+          "300-400"
+        ]
+      },
+      "sources": [
+        "乒乓球吧 2026-07-23 活跃帖「希德仁科的器材」",
+        "https://www.donic.com/DONIC-BLUEGRIP-C2/000241120"
+      ],
+      "contributors": [
+        "Codex research"
+      ],
+      "images": [
+        "https://www.donic.com/media/b7/f1/c7/1669040852/donic-rubber_bluegrip_c2-web.jpg?ts=1697464416"
+      ]
+    },
+    {
+      "id": "butterfly-feint-ag",
+      "name": "Feint AG",
+      "brand": "蝴蝶",
+      "brandEn": "Butterfly",
+      "series": "Feint",
+      "price": 300,
+      "priceMin": 230,
+      "priceMax": 380,
+      "currency": "CNY",
+      "image": "https://image1.shopserve.jp/shop.mingles.jp/pic-labo/llimg/666_000_00360.jpg",
+      "description": "Butterfly Feint AG 是偏进攻取向的高张力长颗粒套胶，强调近台攻击和制造下沉、飘忽变化；常见海绵厚度为 1.1、1.3 和 1.7mm。",
+      "tags": {
+        "brand": [
+          "Butterfly（蝴蝶）"
+        ],
+        "position": [
+          "反手",
+          "近台"
+        ],
+        "rubberType": [
+          "长颗粒",
+          "长胶"
+        ],
+        "sponge": [
+          "高张力海绵"
+        ],
+        "thickness": [
+          "1.1",
+          "1.3",
+          "1.7"
+        ],
+        "hardness": [
+          "软",
+          "28度"
+        ],
+        "style": [
+          "长胶进攻",
+          "近台弹击",
+          "变化"
+        ],
+        "origin": [
+          "日本"
+        ],
+        "alias": [
+          "蝴蝶 Feint AG",
+          "费因特 AG"
+        ],
+        "price": [
+          "200-300",
+          "300-400"
+        ]
+      },
+      "sources": [
+        "乒乓球吧 2026-07-23 活跃帖「倪夏莲配胶」",
+        "https://www.butterflyonline.com/Templates/2024_Butterfly_Table_Tennis_Catalog.pdf",
+        "https://shop.mingles.jp/SHOP/666.html"
+      ],
+      "contributors": [
+        "Codex research"
+      ],
+      "images": [
+        "https://image1.shopserve.jp/shop.mingles.jp/pic-labo/llimg/666_000_00360.jpg"
       ]
     }
   ],
@@ -18958,24 +19091,28 @@
     },
     {
       "id": "donic-linde",
-      "name": "Linde（林德）",
+      "name": "Anders Lind Hexa Carbon（林德碳素）",
       "brand": "多尼克",
       "brandEn": "DONIC",
-      "series": "Linde",
-      "price": 420,
-      "priceMin": 300,
-      "priceMax": 500,
-      "image": "https://placehold.co/720x720/111827/ffffff?text=DONIC%20Linde%EF%BC%88%E6%9E%97%E5%BE%B7%EF%BC%89",
-      "description": "多尼克林德是 DONIC 以职业球员命名的进攻底板，偏现代弧圈和连续相持。",
+      "series": "Anders Lind",
+      "price": 560,
+      "priceMin": 450,
+      "priceMax": 700,
+      "image": "https://www.donic.com/media/fe/93/98/1720519897/donic-blade-anders-lind-hexa-carbon-topview-concave-web.jpg?ts=1725545876",
+      "description": "DONIC Anders Lind Hexa Carbon 是安德斯·林德的 5木+2 Hexamid Carbon 进攻底板，Kiri 大芯外配 Limba、Koto，官方定位为速度快但仍易控制。",
       "tags": {
         "brand": [
           "DONIC（多尼克）"
         ],
         "structure": [
-          "纤维"
+          "5+2",
+          "内置纤维"
         ],
         "material": [
-          "纤维"
+          "Hexamid Carbon",
+          "Koto",
+          "Limba",
+          "Kiri"
         ],
         "position": [
           "弧圈",
@@ -18983,10 +19120,8 @@
         ],
         "handle": [
           "横板",
-          "直板",
           "FL",
-          "ST",
-          "CS"
+          "ST"
         ],
         "speed": [
           "快"
@@ -18994,7 +19129,7 @@
         "feel": [
           "清晰",
           "支撑",
-          "水怪套餐"
+          "稳定"
         ],
         "weight": [
           "常规"
@@ -19003,19 +19138,26 @@
           "德国"
         ],
         "price": [
-          "300-500"
+          "400-600",
+          "600-800"
+        ],
+        "alias": [
+          "林德碳素",
+          "林德 Hexa Carbon",
+          "Anders Lind Hexa Carbon",
+          "多尼克林德"
         ]
       },
       "sources": [
-        "社区清单初始补全；规格和价格带需后续由球友继续校准",
-        "DONIC Linde（林德） product or market listings"
+        "乒乓球吧 2026-07-23 活跃帖「林德碳素鉴赏」",
+        "https://www.donic.com/en/DONIC-ANDERS-LIND-HEXA-CARBON/110250020"
       ],
       "currency": "CNY",
       "contributors": [
         "Codex research"
       ],
       "images": [
-        "https://placehold.co/720x720/111827/ffffff?text=DONIC%20Linde%EF%BC%88%E6%9E%97%E5%BE%B7%EF%BC%89"
+        "https://www.donic.com/media/fe/93/98/1720519897/donic-blade-anders-lind-hexa-carbon-topview-concave-web.jpg?ts=1725545876"
       ]
     },
     {
@@ -19220,6 +19362,366 @@
         "https://www.ttshop.cn/images/202306/thumb_img/5548_thumb_P_1687889751512.jpg",
         "https://www.ttshop.cn/images/202306/thumb_img/5548_thumb_P_1687889766568.jpg",
         "https://www.ttshop.cn/images/202306/thumb_img/5548_thumb_P_1687889766918.jpg"
+      ]
+    },
+    {
+      "id": "butterfly-innerforce-layer-alc",
+      "name": "Innerforce Layer ALC",
+      "brand": "蝴蝶",
+      "brandEn": "Butterfly",
+      "series": "Innerforce Layer",
+      "price": 1050,
+      "priceMin": 850,
+      "priceMax": 1250,
+      "currency": "CNY",
+      "image": "https://www.butterfly-global.com/en/products/item/36701.jpg",
+      "description": "Butterfly Innerforce Layer ALC 采用 5木+2 ALC 内置结构，板厚 6.0mm；官方强调吃球感，并在弹性、力量与易用性之间保持平衡。",
+      "tags": {
+        "brand": [
+          "Butterfly（蝴蝶）"
+        ],
+        "structure": [
+          "5+2",
+          "内置纤维"
+        ],
+        "material": [
+          "ALC",
+          "芳碳"
+        ],
+        "position": [
+          "弧圈",
+          "控制",
+          "连续相持"
+        ],
+        "handle": [
+          "横板",
+          "直板",
+          "FL",
+          "ST",
+          "AN",
+          "CS"
+        ],
+        "speed": [
+          "中快"
+        ],
+        "feel": [
+          "持球",
+          "柔和",
+          "稳定"
+        ],
+        "weight": [
+          "常规"
+        ],
+        "origin": [
+          "日本"
+        ],
+        "alias": [
+          "内力 ALC",
+          "Innerforce ALC",
+          "蝴蝶内置 ALC"
+        ],
+        "price": [
+          "800-1000",
+          "1000-1200",
+          "1200-1500"
+        ]
+      },
+      "sources": [
+        "乒乓球吧 2026-07-23 活跃帖「我的蝴蝶innerforce layer alc」",
+        "https://www.butterfly-global.com/en/products/detail/36701.html"
+      ],
+      "contributors": [
+        "Codex research"
+      ],
+      "images": [
+        "https://www.butterfly-global.com/en/products/item/36701.jpg"
+      ]
+    },
+    {
+      "id": "donic-skachkov-carbon",
+      "name": "Skachkov Carbon（希德仁科碳素）",
+      "brand": "多尼克",
+      "brandEn": "DONIC",
+      "series": "Skachkov",
+      "price": 480,
+      "priceMin": 360,
+      "priceMax": 620,
+      "currency": "CNY",
+      "image": "https://www.donic.com/media/0e/a3/e7/1669040793/donic-blade_skachkov_carbon_diagonal.jpg?ts=1697464424",
+      "description": "DONIC Skachkov Carbon 是希德仁科使用的 7 层进攻底板，由 5 层木材和 2 层芳纶碳组成；官方定位 OFF-/OFF，突出力量、速度和清晰反馈。",
+      "tags": {
+        "brand": [
+          "DONIC（多尼克）"
+        ],
+        "structure": [
+          "5+2",
+          "纤维"
+        ],
+        "material": [
+          "Aramid Carbon",
+          "芳纶碳"
+        ],
+        "position": [
+          "弧圈",
+          "快攻弧圈",
+          "主动进攻"
+        ],
+        "handle": [
+          "横板",
+          "FL",
+          "ST",
+          "AN"
+        ],
+        "speed": [
+          "快"
+        ],
+        "feel": [
+          "清晰",
+          "支撑",
+          "力量感"
+        ],
+        "weight": [
+          "常规"
+        ],
+        "origin": [
+          "德国"
+        ],
+        "alias": [
+          "希德仁科碳素",
+          "斯卡奇科夫碳素",
+          "Skachkov Carbon"
+        ],
+        "price": [
+          "300-500",
+          "500-800"
+        ]
+      },
+      "sources": [
+        "乒乓球吧 2026-07-23 活跃帖「希德仁科的器材」",
+        "https://www.donic.com/en/DONIC-Skachkov-Carbon/110260020"
+      ],
+      "contributors": [
+        "Codex research"
+      ],
+      "images": [
+        "https://www.donic.com/media/0e/a3/e7/1669040793/donic-blade_skachkov_carbon_diagonal.jpg?ts=1697464424"
+      ]
+    },
+    {
+      "id": "butterfly-apolonia-zlc",
+      "name": "Apolonia ZLC（阿波罗尼亚 ZLC）",
+      "brand": "蝴蝶",
+      "brandEn": "Butterfly",
+      "series": "Apolonia",
+      "price": 1750,
+      "priceMin": 1450,
+      "priceMax": 2100,
+      "currency": "CNY",
+      "image": "https://www.butterfly-global.com/en/products/item/36831.jpg",
+      "description": "Butterfly Apolonia ZLC 是阿波罗尼亚选手款 5木+2 ZLC 内置底板，板厚 5.7mm；较软面材配合内置 ZLC，强调持球、旋转和被动控制。",
+      "tags": {
+        "brand": [
+          "Butterfly（蝴蝶）"
+        ],
+        "structure": [
+          "5+2",
+          "内置纤维"
+        ],
+        "material": [
+          "ZLC",
+          "ZL Carbon"
+        ],
+        "position": [
+          "弧圈",
+          "控制",
+          "连续相持"
+        ],
+        "handle": [
+          "横板",
+          "FL"
+        ],
+        "speed": [
+          "中快"
+        ],
+        "feel": [
+          "持球",
+          "柔和",
+          "精确"
+        ],
+        "weight": [
+          "常规"
+        ],
+        "origin": [
+          "日本"
+        ],
+        "alias": [
+          "阿波罗尼亚",
+          "阿波罗尼亚 ZLC",
+          "Apolonia ZLC"
+        ],
+        "price": [
+          "1200-1500",
+          "1500-2000",
+          "2000以上"
+        ]
+      },
+      "sources": [
+        "乒乓球吧 2026-07-23 活跃帖「蝴蝶阿波罗尼亚（1）」",
+        "https://www.butterfly-global.com/en/products/detail/36831.html"
+      ],
+      "contributors": [
+        "Codex research"
+      ],
+      "images": [
+        "https://www.butterfly-global.com/en/products/item/36831.jpg"
+      ]
+    },
+    {
+      "id": "butterfly-viscaria-super-alc",
+      "releaseYear": 2022,
+      "name": "Viscaria Super ALC（超级维斯卡利亚）",
+      "brand": "蝴蝶",
+      "brandEn": "Butterfly",
+      "series": "Viscaria",
+      "price": 1750,
+      "priceMin": 1450,
+      "priceMax": 2200,
+      "currency": "CNY",
+      "image": "https://www.butterfly-global.com/en/products/item/37191m-2.jpg",
+      "description": "Butterfly Viscaria Super ALC 以经典 Viscaria 木层结构为基础，换用 Super ALC 提高反弹而不过度增加震动；5木+2 外置 Super ALC，板厚 5.7mm。",
+      "tags": {
+        "brand": [
+          "Butterfly（蝴蝶）"
+        ],
+        "structure": [
+          "5+2",
+          "外置纤维"
+        ],
+        "material": [
+          "Super ALC",
+          "超级芳碳"
+        ],
+        "position": [
+          "弧圈",
+          "快攻弧圈",
+          "主动进攻"
+        ],
+        "handle": [
+          "横板",
+          "直板",
+          "FL",
+          "ST",
+          "CS"
+        ],
+        "speed": [
+          "快"
+        ],
+        "feel": [
+          "清晰",
+          "弹性",
+          "支撑"
+        ],
+        "weight": [
+          "常规"
+        ],
+        "origin": [
+          "日本"
+        ],
+        "alias": [
+          "超级维斯",
+          "Super Vis",
+          "Viscaria SALC",
+          "超级 Viscaria"
+        ],
+        "price": [
+          "1200-1500",
+          "1500-2000",
+          "2000以上"
+        ]
+      },
+      "sources": [
+        "乒乓球吧 2026-07-23 活跃帖「蝴蝶n码特注以及其他底板的测评」",
+        "https://www.butterfly-global.com/en/products/detail/37191.html"
+      ],
+      "contributors": [
+        "Codex research"
+      ],
+      "images": [
+        "https://www.butterfly-global.com/en/products/item/37191m-2.jpg"
+      ]
+    },
+    {
+      "id": "butterfly-amultart",
+      "name": "Amultart（阿姆塔特／月光女神）",
+      "brand": "蝴蝶",
+      "brandEn": "Butterfly",
+      "series": "Amultart",
+      "price": 1700,
+      "priceMin": 1200,
+      "priceMax": 2200,
+      "currency": "CNY",
+      "image": "https://www.settc.my/cdn/shop/products/AMULTART_1024x1024.jpg?v=1527261058",
+      "description": "Butterfly Amultart 是 3木+2 ZLC 的厚板进攻底板，板厚约 7.1mm、官方反弹特性 12.2；速度突出，同时利用 ZL Carbon 保留一定持球感。",
+      "tags": {
+        "brand": [
+          "Butterfly（蝴蝶）"
+        ],
+        "structure": [
+          "3+2",
+          "外置纤维"
+        ],
+        "material": [
+          "ZLC",
+          "ZL Carbon"
+        ],
+        "position": [
+          "快攻",
+          "前冲弧圈",
+          "主动进攻"
+        ],
+        "handle": [
+          "横板",
+          "直板",
+          "FL",
+          "ST",
+          "CS"
+        ],
+        "speed": [
+          "快"
+        ],
+        "feel": [
+          "硬挺",
+          "弹性",
+          "力量感"
+        ],
+        "weight": [
+          "常规"
+        ],
+        "origin": [
+          "日本"
+        ],
+        "alias": [
+          "阿姆塔特",
+          "月光女神",
+          "Amultart ZLC",
+          "阿莫勒挞"
+        ],
+        "price": [
+          "1200-1500",
+          "1500-2000",
+          "2000以上"
+        ]
+      },
+      "sources": [
+        "乒乓球吧 2026-07-23 活跃帖「阿姆塔特（月光女神）」",
+        "https://www.butterflyonline.com/Templates/ShakehandBladeMatrix%26SpecificationChart.pdf",
+        "https://www.settc.my/products/butterfly-amultart"
+      ],
+      "contributors": [
+        "Codex research"
+      ],
+      "images": [
+        "https://www.settc.my/cdn/shop/products/AMULTART_1024x1024.jpg?v=1527261058"
       ]
     }
   ],
