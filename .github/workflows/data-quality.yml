@@ -1,0 +1,24 @@
+name: Data quality
+
+on:
+  pull_request:
+    paths:
+      - "data/equipment.json"
+      - "scripts/audit-equipment.mjs"
+  push:
+    branches:
+      - main
+    paths:
+      - "data/equipment.json"
+      - "scripts/audit-equipment.mjs"
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Audit equipment data
+        run: node scripts/audit-equipment.mjs

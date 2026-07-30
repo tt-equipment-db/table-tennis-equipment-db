@@ -203,7 +203,7 @@ const commentEditCooldownMs = 60 * 60 * 1000;
 const commentPostCooldownMs = 60 * 1000;
 const commentsPerPage = 10;
 const hotCommentsCount = 3;
-const assetVersion = "equipment-39";
+const assetVersion = "equipment-41";
 const languageStorageKey = "tt-equipment-language";
 
 const englishText = {
@@ -676,38 +676,13 @@ function toggleFilter(key, value) {
   }
 }
 
-const foreignBrandDisplayNames = {
-  butterfly: "Butterfly（蝴蝶）",
-  haifu: "Haifu（海夫）",
-  loki: "LOKI（雷神）",
-  xiom: "XIOM（骄猛）",
-  joola: "JOOLA（优拉）",
-  stiga: "STIGA（斯帝卡）",
-  yasaka: "Yasaka（亚萨卡）",
-  nittaku: "Nittaku（尼塔库）",
-  victas: "VICTAS（维克塔斯）",
-  tibhar: "Tibhar（挺拔）",
-  donic: "DONIC（多尼克）",
-  andro: "andro（岸度）",
-  falco: "Falco（法尔克）",
-  flame: "Flame（弗雷姆）",
-  kokutaku: "Kokutaku（环球）",
-  tuttle: "Tuttle（塔特尔）",
-  sanwei: "SANWEI（三维）",
-  yinhe: "Yinhe（银河）",
-  dhs: "DHS（红双喜）",
-  dianchi: "Dianchi（典驰）",
-  kailin: "Kailin（开林）",
-  lidu: "Lidu（李渡）",
-  taiji: "Taiji（太极）",
-  "friendship 729": "Friendship 729（729）",
-  "revolution no.3": "Revolution No.3"
-};
-
 function getBrandDisplay(product) {
+  const brand = String(product.brand || "").trim();
   const brandEn = String(product.brandEn || "").trim();
-  const key = brandEn.toLowerCase();
-  return foreignBrandDisplayNames[key] || product.brand || brandEn;
+  if (brandEn && brand && brandEn.toLowerCase() !== brand.toLowerCase()) {
+    return `${brandEn}（${brand}）`;
+  }
+  return brandEn || brand;
 }
 
 function getBrandLine(product) {
