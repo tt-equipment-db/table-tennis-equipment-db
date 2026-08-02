@@ -166,6 +166,7 @@ https://example.com/image2.jpg
     "position": ["正手", "反手"],
     "rubberType": ["反胶", "粘性胶面"],
     "sponge": ["高密海绵"],
+    "spongeDetail": ["蓝海绵"],
     "thickness": ["2.1", "Max"],
     "hardness": ["商品内部标注的硬度，如 39度、40度、Max Medium"],
     "style": ["弧圈", "控制"],
@@ -199,7 +200,10 @@ https://example.com/image2.jpg
   "tags": {
     "brand": ["中文品牌", "English Brand"],
     "bladeType": ["纯木"],
-    "structure": ["五层纯木"],
+    "structure": ["五夹纯木"],
+    "material": ["纯木"],
+    "structureDetail": ["5层"],
+    "materialDetail": ["林巴面材", "阿尤斯芯材"],
     "speed": ["中等"],
     "feel": ["清晰", "中硬"],
     "style": ["弧圈", "控制"],
@@ -213,6 +217,16 @@ https://example.com/image2.jpg
 ```
 
 已知准确上市日期时用 `releaseDate`（`YYYY-MM-DD`）；只知道年份时可改用 `"releaseYear": 2026`。首页会优先展示较新的器材，不确定时请不要猜日期。
+
+## 分类标签怎么写？
+
+为了让筛选结果稳定，主分类只使用下面这些大众名称。商家的技术名、海绵颜色、木材名称和层数放进对应的 `Detail` 字段，不要另造主标签。
+
+- 海绵：`高密海绵`、`蛋糕海绵`、`传统海绵`、`薄海绵`、`单胶皮（OX）`、`海绵类型未明确`
+- 底板结构：`五夹纯木`、`七夹纯木`、`多层纯木`、`纯木（层数未明）`、`外置纤维`、`内置纤维`、`异质纤维`、`纤维位置未标明`
+- 底板材料：`纯木`、`芳碳（ALC）`、`超级芳碳（Super ALC）`、`ZLC`、`超级 ZLC`、`碳纤维`、`混编碳纤维`、`非碳复合纤维`、`其他复合纤维`
+
+例如 `Spring Sponge X` 应写入 `spongeDetail`，`Axylium Carbon` 和 `Koto 面材` 应写入 `materialDetail`。不确定海绵或纤维的具体类别时，宁可使用“类型未明确”，不要根据商品宣传词猜测。
 
 ## 价格怎么写？
 

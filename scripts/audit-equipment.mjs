@@ -64,6 +64,41 @@ const knownSeriesBrands = [
 ];
 
 const forbiddenBoosterNames = /\b(?:Rxton|Arthur|Target|VIP)\b/i;
+const tagTaxonomies = {
+  rubbers: {
+    sponge: new Set([
+      "高密海绵",
+      "蛋糕海绵",
+      "传统海绵",
+      "薄海绵",
+      "单胶皮（OX）",
+      "海绵类型未明确",
+    ]),
+  },
+  blades: {
+    structure: new Set([
+      "五夹纯木",
+      "七夹纯木",
+      "多层纯木",
+      "纯木（层数未明）",
+      "外置纤维",
+      "内置纤维",
+      "异质纤维",
+      "纤维位置未标明",
+    ]),
+    material: new Set([
+      "纯木",
+      "芳碳（ALC）",
+      "超级芳碳（Super ALC）",
+      "ZLC",
+      "超级 ZLC",
+      "碳纤维",
+      "混编碳纤维",
+      "非碳复合纤维",
+      "其他复合纤维",
+    ]),
+  },
+};
 const errors = [];
 const warnings = [];
 const seenIds = new Set();
@@ -126,6 +161,19 @@ for (const [category, items] of Object.entries(data)) {
 
     if (category === "boosters" && forbiddenBoosterNames.test(item.name)) {
       errors.push(`${label}: rubber-series name is not accepted as a booster product`);
+    }
+
+    for (const [tagKey, allowedValues] of Object.entries(tagTaxonomies[category] ?? {})) {
+      const values = item.tags?.[tagKey];
+      if (!Array.isArray(values) || values.length === 0) {
+        errors.push(`${label}: missing normalized tags.${tagKey}`);
+        continue;
+      }
+      for (const value of values) {
+        if (!allowedValues.has(value)) {
+          errors.push(`${label}: unsupported tags.${tagKey} value "${value}"`);
+        }
+      }
     }
 
     const images = [item.image, ...(item.images ?? [])].filter(Boolean);

@@ -12,7 +12,7 @@ const filterConfig = {
   blades: [
     { key: "brand", label: "品牌", color: "blue" },
     { key: "structure", label: "结构", color: "green" },
-    { key: "material", label: "材料", color: "rose" },
+    { key: "material", label: "纤维/材料", color: "rose" },
     { key: "position", label: "打法", color: "amber" },
     { key: "handle", label: "手柄", color: "teal", values: ["横板", "直板", "FL", "ST", "CS"] },
     { key: "speed", label: "速度", color: "slate" },
@@ -85,7 +85,9 @@ const fieldLabels = {
   origin: "产地",
   bladeType: "类型",
   structure: "结构",
-  material: "材料",
+  structureDetail: "结构细节",
+  material: "纤维/材料",
+  materialDetail: "材料细节",
   handle: "手柄",
   speed: "速度",
   feel: "特色",
@@ -203,7 +205,7 @@ const commentEditCooldownMs = 60 * 60 * 1000;
 const commentPostCooldownMs = 60 * 1000;
 const commentsPerPage = 10;
 const hotCommentsCount = 3;
-const assetVersion = "equipment-41";
+const assetVersion = "equipment-42";
 const languageStorageKey = "tt-equipment-language";
 
 const englishText = {
@@ -235,10 +237,35 @@ const englishText = {
   "硬度": "Hardness",
   "特色": "Feature",
   "海绵细节": "Sponge details",
+  "结构细节": "Structure details",
+  "材料细节": "Material details",
   "产地": "Origin",
   "价格带": "Price",
   "结构": "Structure",
   "材料": "Material",
+  "纤维/材料": "Fiber / material",
+  "高密海绵": "Dense sponge",
+  "蛋糕海绵": "Porous sponge",
+  "传统海绵": "Classic sponge",
+  "薄海绵": "Thin sponge",
+  "单胶皮（OX）": "OX (no sponge)",
+  "海绵类型未明确": "Sponge type unspecified",
+  "五夹纯木": "5-ply wood",
+  "七夹纯木": "7-ply wood",
+  "多层纯木": "Multi-ply wood",
+  "纯木（层数未明）": "All wood (plies unspecified)",
+  "外置纤维": "Outer fiber",
+  "内置纤维": "Inner fiber",
+  "异质纤维": "Asymmetric fiber",
+  "纤维位置未标明": "Fiber position unspecified",
+  "纯木": "All wood",
+  "芳碳（ALC）": "Arylate carbon (ALC)",
+  "超级芳碳（Super ALC）": "Super arylate carbon",
+  "超级 ZLC": "Super ZLC",
+  "碳纤维": "Carbon fiber",
+  "混编碳纤维": "Hybrid carbon fiber",
+  "非碳复合纤维": "Non-carbon composite",
+  "其他复合纤维": "Other composite fiber",
   "手柄": "Handle",
   "横板": "Shakehand",
   "直板": "Penhold",
