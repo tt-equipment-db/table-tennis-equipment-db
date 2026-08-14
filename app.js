@@ -1,32 +1,35 @@
 const filterConfig = {
   rubbers: [
     { key: "brand", label: "品牌", color: "blue" },
-    { key: "position", label: "位置", color: "green" },
-    { key: "rubberType", label: "胶面", color: "rose" },
-    { key: "sponge", label: "海绵", color: "amber" },
-    { key: "thickness", label: "厚度", color: "teal" },
-    { key: "style", label: "特色", color: "blue" },
+    { key: "position", label: "位置", color: "green", values: ["正手", "反手"] },
+    { key: "rubberType", label: "胶皮类型", color: "rose", values: ["反胶", "正胶", "生胶", "长胶"] },
+    { key: "surface", label: "胶面", color: "rose", values: ["粘性胶面", "微粘胶面", "半粘半涩胶面", "涩性胶面", "胶面属性未明确"] },
+    { key: "sponge", label: "海绵", color: "amber", values: ["高密海绵", "蛋糕海绵", "传统海绵", "薄海绵", "单胶皮（OX）", "海绵类型未明确"] },
+    { key: "thickness", label: "厚度", color: "teal", values: ["OX", "0.5", "0.6", "1.0", "1.1", "1.3", "1.5", "1.7", "1.8", "1.9", "2.0", "2.1", "2.15", "2.2", "2.3", "2.5", "2.7", "Max"] },
+    { key: "style", label: "特色", color: "blue", values: ["弧圈", "快攻", "快攻弧圈", "控制", "相持", "连续进攻", "主动进攻", "发抢", "反拉", "近台", "防守", "削球", "颗粒变化", "训练", "免灌", "弹击", "拧拉", "轻量", "水怪套餐"] },
     { key: "origin", label: "产地", color: "green" },
     { key: "price", label: "价格带", color: "rose", values: ["50内", "80内", "百元左右", "150左右", "200左右", "300左右", "300以上"] }
   ],
   blades: [
     { key: "brand", label: "品牌", color: "blue" },
-    { key: "structure", label: "结构", color: "green" },
-    { key: "material", label: "纤维/材料", color: "rose" },
-    { key: "position", label: "打法", color: "amber" },
-    { key: "handle", label: "手柄", color: "teal", values: ["横板", "直板", "FL", "ST", "CS"] },
-    { key: "speed", label: "速度", color: "slate" },
-    { key: "feel", label: "特色", color: "blue" },
+    { key: "structure", label: "结构", color: "green", values: ["五夹纯木", "七夹纯木", "多层纯木", "纯木（层数未明）", "外置纤维", "内置纤维", "异质纤维", "纤维位置未标明"] },
+    { key: "material", label: "纤维/材料", color: "rose", values: ["纯木", "芳碳（ALC）", "超级芳碳（Super ALC）", "ZLC", "超级 ZLC", "碳纤维", "混编碳纤维", "非碳复合纤维", "其他复合纤维"] },
+    { key: "position", label: "打法", color: "amber", values: ["快攻弧圈", "弧圈", "快攻", "控制", "相持", "主动进攻", "近台", "中远台", "训练", "防守", "削球", "颗粒打法", "直板横打"] },
+    { key: "bladeFormat", label: "板式", color: "teal", values: ["横板", "直板"] },
+    { key: "handle", label: "手柄", color: "teal", values: ["FL", "ST", "AN", "CS"] },
+    { key: "speed", label: "速度", color: "slate", values: ["ALL+", "OFF-", "OFF", "OFF+"] },
+    { key: "bladeHardness", label: "板身硬度", color: "slate", values: ["柔和", "中软", "中等", "中硬", "硬挺"] },
+    { key: "feel", label: "特色", color: "blue", values: ["持球", "清晰", "稳定", "直接", "支撑", "弹性", "形变", "减震", "扎实", "轻灵", "力量感", "纯木手感", "可调重心", "水怪套餐"] },
     { key: "weight", label: "重量感", color: "green", values: ["偏轻", "常规", "偏重"] },
     { key: "origin", label: "产地", color: "rose" },
     { key: "price", label: "价格带", color: "amber", values: ["100内", "200内", "300左右", "500左右", "800左右", "千元左右", "千元以上"] }
   ],
   boosters: [
     { key: "brand", label: "品牌", color: "blue" },
-    { key: "boosterType", label: "类型", color: "green" },
-    { key: "effect", label: "主要效果", color: "rose" },
-    { key: "drying", label: "晾干速度", color: "amber" },
-    { key: "duration", label: "持久时间", color: "teal" },
+    { key: "boosterType", label: "类型", color: "green", values: ["膨胀油", "打底油", "保养油"] },
+    { key: "effect", label: "主要效果", color: "rose", values: ["增弹", "软化", "持久", "温和", "强力"] },
+    { key: "drying", label: "晾干速度", color: "amber", values: ["快干", "中速", "慢干"] },
+    { key: "duration", label: "持久时间", color: "teal", values: ["中效", "长效"] },
     { key: "volume", label: "规格", color: "slate" },
     { key: "origin", label: "产地", color: "green" },
     { key: "price", label: "价格带", color: "rose", values: ["50内", "80内", "百元左右", "150左右", "200左右", "300左右"] }
@@ -76,11 +79,14 @@ const fuzzyRangeConfig = {
 const fieldLabels = {
   brand: "品牌",
   position: "位置",
-  rubberType: "胶面",
+  rubberType: "胶皮类型",
+  surface: "胶面",
   sponge: "海绵",
   thickness: "厚度",
   hardness: "硬度",
   style: "特色",
+  styleDetail: "特色细节",
+  thicknessDetail: "厚度细节",
   spongeDetail: "海绵细节",
   origin: "产地",
   bladeType: "类型",
@@ -88,12 +94,20 @@ const fieldLabels = {
   structureDetail: "结构细节",
   material: "纤维/材料",
   materialDetail: "材料细节",
+  bladeFormat: "板式",
   handle: "手柄",
   speed: "速度",
+  bladeHardness: "板身硬度",
   feel: "特色",
+  playStyleDetail: "打法细节",
   weight: "重量",
+  weightDetail: "重量细节",
+  handleDetail: "手柄细节",
+  feelDetail: "手感细节",
   boosterType: "类型",
   effect: "主要效果",
+  effectDetail: "效果细节",
+  usage: "适用场景",
   drying: "晾干速度",
   duration: "持久时间",
   volume: "规格"
@@ -231,6 +245,7 @@ const englishText = {
   "品牌": "Brand",
   "位置": "Position",
   "打法": "Play style",
+  "胶皮类型": "Rubber type",
   "胶面": "Rubber type",
   "海绵": "Sponge",
   "厚度": "Thickness",
@@ -267,6 +282,7 @@ const englishText = {
   "非碳复合纤维": "Non-carbon composite",
   "其他复合纤维": "Other composite fiber",
   "手柄": "Handle",
+  "板式": "Format",
   "横板": "Shakehand",
   "直板": "Penhold",
   "主要效果": "Main effect",
@@ -2086,6 +2102,9 @@ function formatPriceRange(product) {
 }
 
 function weightMatches(weightTags, range) {
+  if (weightTags.includes(range)) {
+    return true;
+  }
   const selectedRange = fuzzyRangeConfig.blades.weight[range];
   return weightTags.some((tag) => rangesOverlap(parseWeightTag(tag), selectedRange));
 }
@@ -2148,7 +2167,7 @@ function flattenProductTags(product) {
 }
 
 function getCardTags(product) {
-  const priorityKeys = ["style", "feel", "position", "rubberType", "structure", "material", "sponge", "price", "origin"];
+  const priorityKeys = ["style", "feel", "position", "rubberType", "surface", "bladeHardness", "bladeFormat", "structure", "material", "sponge", "price", "origin"];
   const picked = [];
   const push = (value) => {
     if (value && !picked.includes(value)) {

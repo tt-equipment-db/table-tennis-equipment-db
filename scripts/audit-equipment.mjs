@@ -17,6 +17,7 @@ const brandRegistry = new Map(
     ["Falco", "法尔克"],
     ["Flame", "弗雷姆"],
     ["Friendship 729", "友谊729"],
+    ["GEWO", "捷沃"],
     ["Giant Dragon", "巨龙"],
     ["Haifu", "海夫"],
     ["JOOLA", "优拉"],
@@ -55,6 +56,7 @@ const knownSeriesBrands = [
   [/\b(?:DNA|Mantra|Helix|Carbonado|Cybershape|Clipper|Wavy|Offensive Classic|Intense CCF)\b/i, "STIGA"],
   [/\b(?:Evolution|Hybrid K|Quantum|Infinity MX|Stratus Power Wood)\b/i, "TIBHAR"],
   [/\b(?:Dynaryz|Rhyzen|Trinity|Vyzaryz|Rosskopf)\b/i, "JOOLA"],
+  [/\b(?:Proton Neo|Nexxus|Codexx|Hype)\b/i, "GEWO"],
   [/\b(?:Ventus|XEGNA|ZX-GEAR|SWAT|Koki Niwa)\b|V>\d+/i, "VICTAS"],
   [/\b(?:Vega|Omega|Jekyll|Artemis|Tetra|Stradivarius)\b|\bHugo (?:ALX|ALXi|HAL)\b/i, "XIOM"],
   [/^(?:麒麟|梁靖崑|毒刺)|\b(?:Rxton|Arthur|W81)\b/i, "LOKI"],
@@ -66,6 +68,15 @@ const knownSeriesBrands = [
 const forbiddenBoosterNames = /\b(?:Rxton|Arthur|Target|VIP)\b/i;
 const tagTaxonomies = {
   rubbers: {
+    position: new Set(["正手", "反手"]),
+    rubberType: new Set(["反胶", "正胶", "生胶", "长胶"]),
+    surface: new Set([
+      "粘性胶面",
+      "微粘胶面",
+      "半粘半涩胶面",
+      "涩性胶面",
+      "胶面属性未明确",
+    ]),
     sponge: new Set([
       "高密海绵",
       "蛋糕海绵",
@@ -73,6 +84,47 @@ const tagTaxonomies = {
       "薄海绵",
       "单胶皮（OX）",
       "海绵类型未明确",
+    ]),
+    thickness: new Set([
+      "OX",
+      "0.5",
+      "0.6",
+      "1.0",
+      "1.1",
+      "1.3",
+      "1.5",
+      "1.7",
+      "1.8",
+      "1.9",
+      "2.0",
+      "2.1",
+      "2.15",
+      "2.2",
+      "2.3",
+      "2.5",
+      "2.7",
+      "Max",
+    ]),
+    style: new Set([
+      "弧圈",
+      "快攻",
+      "快攻弧圈",
+      "控制",
+      "相持",
+      "连续进攻",
+      "主动进攻",
+      "发抢",
+      "反拉",
+      "近台",
+      "防守",
+      "削球",
+      "颗粒变化",
+      "训练",
+      "免灌",
+      "弹击",
+      "拧拉",
+      "轻量",
+      "水怪套餐",
     ]),
   },
   blades: {
@@ -97,8 +149,59 @@ const tagTaxonomies = {
       "非碳复合纤维",
       "其他复合纤维",
     ]),
+    position: new Set([
+      "快攻弧圈",
+      "弧圈",
+      "快攻",
+      "控制",
+      "相持",
+      "主动进攻",
+      "近台",
+      "中远台",
+      "训练",
+      "防守",
+      "削球",
+      "颗粒打法",
+      "直板横打",
+    ]),
+    bladeFormat: new Set(["横板", "直板"]),
+    handle: new Set(["FL", "ST", "AN", "CS"]),
+    speed: new Set(["ALL+", "OFF-", "OFF", "OFF+"]),
+    bladeHardness: new Set(["柔和", "中软", "中等", "中硬", "硬挺"]),
+    feel: new Set([
+      "持球",
+      "清晰",
+      "稳定",
+      "直接",
+      "支撑",
+      "弹性",
+      "形变",
+      "减震",
+      "扎实",
+      "轻灵",
+      "力量感",
+      "纯木手感",
+      "可调重心",
+      "水怪套餐",
+    ]),
+    weight: new Set(["偏轻", "常规", "偏重"]),
+  },
+  boosters: {
+    boosterType: new Set(["膨胀油", "打底油", "保养油"]),
+    effect: new Set(["增弹", "软化", "持久", "温和", "强力"]),
+    drying: new Set(["快干", "中速", "慢干"]),
+    duration: new Set(["中效", "长效"]),
   },
 };
+const optionalTaxonomyFields = new Set([
+  "rubbers.thickness",
+  "rubbers.surface",
+  "blades.bladeFormat",
+  "blades.handle",
+  "blades.bladeHardness",
+  "blades.feel",
+  "blades.weight",
+]);
 const errors = [];
 const warnings = [];
 const seenIds = new Set();
@@ -166,7 +269,9 @@ for (const [category, items] of Object.entries(data)) {
     for (const [tagKey, allowedValues] of Object.entries(tagTaxonomies[category] ?? {})) {
       const values = item.tags?.[tagKey];
       if (!Array.isArray(values) || values.length === 0) {
-        errors.push(`${label}: missing normalized tags.${tagKey}`);
+        if (!optionalTaxonomyFields.has(`${category}.${tagKey}`)) {
+          errors.push(`${label}: missing normalized tags.${tagKey}`);
+        }
         continue;
       }
       for (const value of values) {
