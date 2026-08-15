@@ -1,6 +1,77 @@
 {
   "rubbers": [
     {
+      "id": "kokutaku-neon-730",
+      "releaseDate": "2026-08-15",
+      "name": "Neon 730 Tokyo（霓虹 730）",
+      "brand": "科库塔库",
+      "brandEn": "Kokutaku",
+      "series": "730",
+      "price": 69,
+      "priceMin": 40,
+      "priceMax": 110,
+      "currency": "CNY",
+      "image": "https://cdn.shopify.com/s/files/1/1965/1397/files/Kokutaku-Neon-730-Table-Tennis-Training-Rubber_1200x1200.jpg?v=1744312933",
+      "description": "彩色训练向半粘性反胶，搭配中软高密海绵，强调反手弧圈、控制和易上手。公开销售资料标注该彩色版本不属于 ITTF 认证比赛用胶，适合训练与娱乐使用。",
+      "tags": {
+        "brand": [
+          "Kokutaku（科库塔库）"
+        ],
+        "position": [
+          "反手"
+        ],
+        "rubberType": [
+          "反胶"
+        ],
+        "sponge": [
+          "高密海绵"
+        ],
+        "thickness": [
+          "2.0",
+          "2.1",
+          "2.2"
+        ],
+        "hardness": [
+          "软",
+          "中软"
+        ],
+        "style": [
+          "弧圈",
+          "控制",
+          "训练"
+        ],
+        "origin": [
+          "中国"
+        ],
+        "alias": [
+          "霓虹 730",
+          "Neon 730",
+          "730 Tokyo"
+        ],
+        "spongeDetail": [
+          "碳粒子海绵"
+        ],
+        "surface": [
+          "半粘半涩胶面"
+        ]
+      },
+      "sources": [
+        "https://www.tabletennishub.net/products/kokutaku-neon-730-table-tennis-training-rubber-enhance-your-game",
+        "https://spinlab.id/product/kokutaku-neon-730-color-table-tennis-rubber/",
+        "https://tabletennisplay.com/products/kokutaku-730",
+        "https://tieba.baidu.com/p/10940642915"
+      ],
+      "contributors": [
+        "Codex AI 巡检 2026-08-15"
+      ],
+      "images": [
+        "https://cdn.shopify.com/s/files/1/1965/1397/files/Kokutaku-Neon-730-Table-Tennis-Training-Rubber_1200x1200.jpg?v=1744312933",
+        "https://cdn.shopify.com/s/files/1/1965/1397/files/Kokutaku-Neon-730-Table-Tennis-Training-Rubber-2_1024x1024.jpg?v=1744312936",
+        "https://cdn.shopify.com/s/files/1/1965/1397/files/Kokutaku-Neon-730-Table-Tennis-Training-Rubber-3_1024x1024.jpg?v=1744312938",
+        "https://cdn.shopify.com/s/files/1/1965/1397/files/Kokutaku-Neon-730-Table-Tennis-Training-Rubber-4_1024x1024.jpg?v=1744312940"
+      ]
+    },
+    {
       "id": "victas-curl-p3v",
       "name": "CURL P3V",
       "brand": "维克塔斯",
@@ -9225,6 +9296,7 @@
     },
     {
       "id": "reactor-tornado-v5",
+      "releaseDate": "2026-08-15",
       "name": "Tornado V5",
       "brand": "锐科特",
       "brandEn": "Reactor",
@@ -9232,7 +9304,8 @@
       "price": 45,
       "priceMin": 30,
       "priceMax": 70,
-      "description": "锐科特常见低价反胶，适合预算配置和练习用胶。",
+      "currency": "CNY",
+      "description": "面向 40+ 塑料球的亲民粘性反胶，采用中硬、预处理米色海绵，定位弧圈结合快攻，也适合预算配置和日常训练。",
       "tags": {
         "brand": [
           "Reactor（锐科特）"
@@ -9248,16 +9321,14 @@
           "传统海绵"
         ],
         "thickness": [
-          "2.0",
-          "2.1",
           "Max"
         ],
         "hardness": [
-          "中硬",
-          "硬"
+          "中硬"
         ],
         "style": [
-          "控制",
+          "弧圈",
+          "快攻",
           "训练"
         ],
         "origin": [
@@ -9265,20 +9336,26 @@
         ],
         "surface": [
           "粘性胶面"
+        ],
+        "spongeDetail": [
+          "预膨胀米色海绵"
         ]
       },
       "sources": [
-        "Reactor Tornado V5 listings",
-        "budget rubber discussions",
-        "https://revspin.net/rubber/reactor-tornado-v5.html"
+        "https://ttnpp.com/store/reactor/949-reactor-tornado-v5-6.html",
+        "https://www.tabletennishub.net/products/reactor-tornado-v5",
+        "https://www.guoqiuhui.net/Home/Goods/details/goods_id/2828",
+        "https://tieba.baidu.com/p/10940642915"
       ],
       "color": "1f2937",
-      "image": "https://revspin.net/assets/table-tennis-images/rubbers/reactor-tornado-v5.jpg",
+      "image": "https://cdn.shopify.com/s/files/1/1965/1397/products/reactor-tornado-v5_1200x1200.jpg?v=1744305930",
       "contributors": [
-        "Codex research"
+        "Codex research",
+        "Codex AI 巡检 2026-08-15"
       ],
       "images": [
-        "https://revspin.net/assets/table-tennis-images/rubbers/reactor-tornado-v5.jpg"
+        "https://cdn.shopify.com/s/files/1/1965/1397/products/reactor-tornado-v5_1200x1200.jpg?v=1744305930",
+        "https://cdn.shopify.com/s/files/1/1965/1397/products/reactor-tornado-v5-2_1024x1024.jpg?v=1744305934"
       ]
     },
     {
@@ -11244,6 +11321,238 @@
     }
   ],
   "blades": [
+    {
+      "id": "victas-fire-fall-hc",
+      "releaseDate": "2026-08-15",
+      "name": "Fire Fall HC",
+      "brand": "维克塔斯",
+      "brandEn": "VICTAS",
+      "series": "Fire Fall",
+      "price": 800,
+      "priceMin": 650,
+      "priceMax": 950,
+      "currency": "CNY",
+      "image": "https://victas.com/en_gb/assets/images/products/products_20240730_104119.png",
+      "description": "Fire Fall 系列的 H-Carbon 内置进攻底板。官方标注约 89 g、6.2 mm、OFF+，六角编织高强度碳纤维强调速度、支撑和中远台连续上旋进攻。",
+      "tags": {
+        "brand": [
+          "VICTAS（维克塔斯）"
+        ],
+        "structure": [
+          "内置纤维"
+        ],
+        "material": [
+          "碳纤维"
+        ],
+        "position": [
+          "快攻弧圈",
+          "主动进攻",
+          "中远台"
+        ],
+        "handle": [
+          "FL",
+          "ST"
+        ],
+        "speed": [
+          "OFF+"
+        ],
+        "feel": [
+          "直接",
+          "支撑"
+        ],
+        "weight": [
+          "常规"
+        ],
+        "alias": [
+          "火瀑 HC",
+          "ファイヤーフォール HC"
+        ],
+        "structureDetail": [
+          "5 木 + 2 内置 H-Carbon"
+        ],
+        "materialDetail": [
+          "H-Carbon 六角编织高强度碳纤维"
+        ],
+        "weightDetail": [
+          "85-90g"
+        ],
+        "bladeFormat": [
+          "横板"
+        ],
+        "bladeHardness": [
+          "硬挺"
+        ]
+      },
+      "sources": [
+        "https://victas.com/en_gb/products/detail.html?id=156",
+        "https://www.victas.com/feature/items/content918.html",
+        "https://tieba.baidu.com/p/10931114912"
+      ],
+      "contributors": [
+        "Codex AI 巡检 2026-08-15"
+      ],
+      "images": [
+        "https://victas.com/en_gb/assets/images/products/products_20240730_104119.png"
+      ]
+    },
+    {
+      "id": "dhs-hurricane-h301z",
+      "releaseDate": "2026-08-15",
+      "name": "狂飙 H301Z",
+      "brand": "红双喜",
+      "brandEn": "DHS",
+      "series": "Hurricane 301",
+      "price": 329,
+      "priceMin": 280,
+      "priceMax": 450,
+      "currency": "CNY",
+      "image": "https://dku51.oss-cn-hangzhou.aliyuncs.com/upload/20221126/20221126112721327.jpg",
+      "description": "H301 系列的 Z 纤维内置底板，采用五木二纤结构和强化型芳纶复合纤维。公开参数标注约 5.9 mm、约 88 g，形变和持球感较明显，定位弧圈结合快攻。",
+      "tags": {
+        "brand": [
+          "DHS（红双喜）"
+        ],
+        "structure": [
+          "内置纤维"
+        ],
+        "material": [
+          "非碳复合纤维"
+        ],
+        "position": [
+          "快攻弧圈",
+          "主动进攻"
+        ],
+        "handle": [
+          "FL",
+          "CS"
+        ],
+        "speed": [
+          "OFF-"
+        ],
+        "feel": [
+          "持球",
+          "形变",
+          "稳定"
+        ],
+        "weight": [
+          "常规"
+        ],
+        "origin": [
+          "中国"
+        ],
+        "alias": [
+          "301Z",
+          "H301-Z",
+          "狂飙 301Z"
+        ],
+        "structureDetail": [
+          "5 木 + 2 内置 Z 纤维"
+        ],
+        "materialDetail": [
+          "Z 纤维",
+          "强化型芳纶"
+        ],
+        "weightDetail": [
+          "85-90g"
+        ],
+        "bladeFormat": [
+          "横板",
+          "直板"
+        ],
+        "bladeHardness": [
+          "中软"
+        ]
+      },
+      "sources": [
+        "https://www.dku51.com/goods-4453.html",
+        "https://www.ttline.cn/diban/14453.html",
+        "https://post.smzdm.com/p/agop794m/",
+        "https://tieba.baidu.com/p/10946235124"
+      ],
+      "contributors": [
+        "Codex AI 巡检 2026-08-15"
+      ],
+      "images": [
+        "https://dku51.oss-cn-hangzhou.aliyuncs.com/upload/20221126/20221126112721327.jpg",
+        "https://dku51.oss-cn-hangzhou.aliyuncs.com/upload/detail/20221126/20221126113030242.jpg",
+        "https://dku51.oss-cn-hangzhou.aliyuncs.com/upload/detail/20221126/20221126113038865.jpg",
+        "https://dku51.oss-cn-hangzhou.aliyuncs.com/upload/detail/20221126/20221126113048381.jpg"
+      ]
+    },
+    {
+      "id": "loki-yuan-licen-arc-special",
+      "releaseDate": "2026-08-15",
+      "name": "袁励岑 ARC 特注",
+      "brand": "雷神",
+      "brandEn": "LOKI",
+      "series": "Top Player",
+      "price": 780,
+      "priceMin": 650,
+      "priceMax": 1000,
+      "currency": "CNY",
+      "image": "https://aimg8.dlssyht.cn/u/2257697/product/12009/24017501_1778644751.jpg",
+      "description": "雷神运动员特注手板系列的外置 ARC 底板，采用五木二聚芳酯碳纤维结构。品牌资料强调快速形变、较快出球、持球感和正手进攻/反手防守的稳定性。",
+      "tags": {
+        "brand": [
+          "LOKI（雷神）"
+        ],
+        "structure": [
+          "外置纤维"
+        ],
+        "material": [
+          "芳碳（ALC）"
+        ],
+        "position": [
+          "快攻弧圈",
+          "主动进攻",
+          "近台"
+        ],
+        "handle": [
+          "FL"
+        ],
+        "speed": [
+          "OFF"
+        ],
+        "feel": [
+          "持球",
+          "形变",
+          "稳定"
+        ],
+        "origin": [
+          "中国"
+        ],
+        "alias": [
+          "袁励岑 ARC",
+          "Yuan Licen ARC",
+          "袁励岑特注"
+        ],
+        "structureDetail": [
+          "5 木 + 2 外置聚芳酯碳纤维"
+        ],
+        "materialDetail": [
+          "聚芳酯碳纤维"
+        ],
+        "bladeFormat": [
+          "横板"
+        ]
+      },
+      "sources": [
+        "https://www.lokisport.com/pro_58993082.html",
+        "https://www.lokisport.com/",
+        "https://www.tt-mori.com/shopbrand/loki/",
+        "https://tieba.baidu.com/p/10945605229"
+      ],
+      "contributors": [
+        "Codex AI 巡检 2026-08-15"
+      ],
+      "images": [
+        "https://aimg8.dlssyht.cn/u/2257697/product/12009/24017501_1778644751.jpg",
+        "https://aimg8.dlssyht.cn/u/2257697/product/12009/24017503_1778644753.jpg",
+        "https://aimg8.dlssyht.cn/u/2257697/product/12009/24017491_1778644729.jpg",
+        "https://aimg8.dlssyht.cn/u/2257697/product/12009/24017494_1778644734.jpg",
+        "https://aimg8.dlssyht.cn/u/2257697/ueditor/image/1129/2257697/1778644832219911.jpg"
+      ]
+    },
     {
       "id": "tibhar-felix-lebrun-hyper-carbon",
       "releaseDate": "2026-08-05",
