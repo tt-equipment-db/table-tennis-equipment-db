@@ -13912,16 +13912,16 @@
     },
     {
       "id": "butterfly-harimoto-innerforce-super-alc",
-      "name": "Harimoto Tomokazu Innerforce Super ALC（张本智和 Super ALC）",
+      "name": "张本智和 Innerforce Super ALC",
       "brand": "蝴蝶",
       "brandEn": "Butterfly",
       "series": "Harimoto Innerforce",
-      "price": 1680,
-      "priceMin": 1450,
-      "priceMax": 1900,
+      "price": 1750,
+      "priceMin": 1500,
+      "priceMax": 2100,
       "currency": "CNY",
-      "image": "https://www.butterfly-global.com/en/products/item/37331.jpg",
-      "description": "张本智和系列内置 Super ALC 底板，官方定位为高速与稳定性的平衡，5 木 2 Super ALC 结构，适合中近台弧圈相持和反手体系。",
+      "image": "https://www.butterfly.co.jp/product/harimoto_super_alc/images/mv_racket.png",
+      "description": "张本智和与张本美和使用系列的内置 Super ALC 进攻底板。官方标注五木二纤、5.9 mm、约 87 g，稍大的 158×152 mm 板面兼顾持球、稳定和近台反击时的速度。",
       "tags": {
         "brand": [
           "Butterfly（蝴蝶）"
@@ -13933,19 +13933,23 @@
           "超级芳碳（Super ALC）"
         ],
         "position": [
-          "弧圈",
-          "相持"
+          "快攻弧圈",
+          "主动进攻",
+          "近台"
         ],
         "handle": [
           "FL",
-          "ST"
+          "ST",
+          "AN",
+          "CS"
         ],
         "speed": [
           "OFF"
         ],
         "feel": [
           "持球",
-          "稳定"
+          "稳定",
+          "支撑"
         ],
         "weight": [
           "常规"
@@ -13953,35 +13957,43 @@
         "origin": [
           "日本"
         ],
+        "alias": [
+          "张本 SALC",
+          "张本智和内置超级芳碳",
+          "Harimoto Innerforce Super ALC"
+        ],
         "structureDetail": [
-          "5+2纤维"
+          "5 木 + 2 内置 Super ALC"
         ],
         "materialDetail": [
-          "Super ALC"
+          "Super Arylate-Carbon"
         ],
         "weightDetail": [
           "85-90g"
         ],
         "bladeFormat": [
-          "横板"
+          "横板",
+          "直板"
         ],
         "bladeHardness": [
           "中硬"
         ]
       },
       "sources": [
-        "https://www.butterfly-global.com/en/products/detail/37331.html",
-        "https://shop.butterflyonline.com/harimoto-innerforce-super-alc-1268"
+        "https://www.butterfly.co.jp/product/harimoto_super_alc/",
+        "https://ifiwereabutterfly.com/37331.html",
+        "https://www.butterflyonline.com/butterfly-blade-specifications/",
+        "https://tieba.baidu.com/p/10950352800"
       ],
       "contributors": [
-        "Codex research"
+        "Codex research",
+        "Codex AI 巡检 2026-08-17"
       ],
       "images": [
-        "https://www.butterfly-global.com/en/products/item/37331.jpg",
-        "https://www.butterfly-global.com/en/products/item/37331_01.jpg",
-        "https://www.butterfly-global.com/en/products/item/37331_02.jpg",
-        "https://www.butterfly-global.com/en/products/item/37331_03.jpg",
-        "https://www.butterfly-global.com/en/products/item/37331_04_en.jpg"
+        "https://www.butterfly.co.jp/product/harimoto_super_alc/images/mv_racket.png",
+        "https://www.butterfly.co.jp/product/harimoto_super_alc/images/super-alc_racket.png",
+        "https://www.butterfly.co.jp/product/harimoto_super_alc/images/super-alc_racket_structure.png",
+        "https://shop.butterflyonline.com/Item%20Images/1268.media.01.jpg?resizeid=3&resizeh=600&resizew=600"
       ]
     },
     {
