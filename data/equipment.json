@@ -11322,6 +11322,174 @@
   ],
   "blades": [
     {
+      "id": "sanwei-even-981",
+      "releaseDate": "2026-08-23",
+      "name": "匀 981",
+      "brand": "三维",
+      "brandEn": "Sanwei",
+      "series": "Even",
+      "price": 1099,
+      "priceMin": 900,
+      "priceMax": 1300,
+      "currency": "CNY",
+      "image": "https://sanweisport.com/wp-content/uploads/2026/07/Even-981-1-1024x1024.jpg",
+      "description": "三维匀结构系列的多层软碳底板。官方标注为 9 木 + 8 层 Soft Carbon、厚约 6.0 mm、重约 90 g，速度 OFF，强调台内控制、稳定弧圈与中远台连续进攻。",
+      "tags": {
+        "brand": [
+          "Sanwei（三维）"
+        ],
+        "structure": [
+          "纤维位置未标明"
+        ],
+        "material": [
+          "碳纤维"
+        ],
+        "position": [
+          "弧圈",
+          "控制",
+          "相持",
+          "中远台"
+        ],
+        "handle": [
+          "FL",
+          "ST",
+          "CS"
+        ],
+        "speed": [
+          "OFF"
+        ],
+        "feel": [
+          "稳定",
+          "清晰",
+          "支撑"
+        ],
+        "weight": [
+          "常规"
+        ],
+        "origin": [
+          "中国"
+        ],
+        "alias": [
+          "Even 981",
+          "三维 981",
+          "三维匀981"
+        ],
+        "structureDetail": [
+          "9 木 + 8 层软碳"
+        ],
+        "materialDetail": [
+          "Soft Carbon"
+        ],
+        "weightDetail": [
+          "85-90g",
+          "90-95g"
+        ],
+        "bladeFormat": [
+          "横板",
+          "直板"
+        ],
+        "bladeHardness": [
+          "中硬"
+        ]
+      },
+      "sources": [
+        "https://sanweisport.com/en/product/blade/multilayer/even-981/",
+        "https://tieba.baidu.com/p/10879930936"
+      ],
+      "contributors": [
+        "Codex AI 巡检 2026-08-23"
+      ],
+      "images": [
+        "https://sanweisport.com/wp-content/uploads/2026/07/Even-981-1-1024x1024.jpg",
+        "https://sanweisport.com/wp-content/uploads/2026/07/Even-981-2-1024x1024.jpg",
+        "https://sanweisport.com/wp-content/uploads/2026/07/Even-981-3-1024x1024.jpg",
+        "https://sanweisport.com/wp-content/uploads/2026/07/Even-981-4-1024x1024.jpg",
+        "https://sanweisport.com/wp-content/uploads/2026/07/Even-981-6-1024x1024.jpg"
+      ]
+    },
+    {
+      "id": "xiom-an-jaehyun-tmxi",
+      "releaseDate": "2026-08-23",
+      "name": "安宰贤 TMXi",
+      "brand": "骄猛",
+      "brandEn": "XIOM",
+      "series": "An Jaehyun",
+      "price": 699,
+      "priceMin": 450,
+      "priceMax": 1400,
+      "currency": "CNY",
+      "image": "https://cdn.shopify.com/s/files/1/0548/6713/2573/products/Xiom_Xiom_frame_TMXi_1.jpg?v=1651613996",
+      "description": "XIOM 为安宰贤开发的内置 TMX 纤维底板。官方标注 5 木 + 2 TMXi、厚约 5.8 mm、重约 90 g，TMX 由 Axylium、Zephylium 与 X-Carbon 复合，速度定位 OFF。",
+      "tags": {
+        "brand": [
+          "XIOM（骄猛）"
+        ],
+        "structure": [
+          "内置纤维"
+        ],
+        "material": [
+          "混编碳纤维"
+        ],
+        "position": [
+          "快攻弧圈",
+          "弧圈",
+          "相持",
+          "主动进攻"
+        ],
+        "handle": [
+          "FL",
+          "ST"
+        ],
+        "speed": [
+          "OFF"
+        ],
+        "feel": [
+          "持球",
+          "稳定",
+          "支撑"
+        ],
+        "weight": [
+          "常规"
+        ],
+        "origin": [
+          "韩国"
+        ],
+        "alias": [
+          "AJH TMXi",
+          "An Jaehyun TMXi",
+          "安宰贤 TMX Inner"
+        ],
+        "structureDetail": [
+          "5 木 + 2 内置 TMX"
+        ],
+        "materialDetail": [
+          "TMX（Axylium + Zephylium + X-Carbon）"
+        ],
+        "weightDetail": [
+          "85-90g",
+          "90-95g"
+        ],
+        "bladeFormat": [
+          "横板"
+        ],
+        "bladeHardness": [
+          "中硬"
+        ]
+      },
+      "sources": [
+        "https://xiom.shop/products/copy-of-36-5-alxi",
+        "https://xiom.tt/blade_materials.html",
+        "https://ttgearlab.com/2023/10/23/xiom-an-jaehyun-tmx-an-jaehyun-tmxi-lab-test-report/comment-page-1/",
+        "https://tieba.baidu.com/p/10964334200"
+      ],
+      "contributors": [
+        "Codex AI 巡检 2026-08-23"
+      ],
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0548/6713/2573/products/Xiom_Xiom_frame_TMXi_1.jpg?v=1651613996"
+      ]
+    },
+    {
       "id": "victas-fire-fall-hc",
       "releaseDate": "2026-08-15",
       "name": "Fire Fall HC",
