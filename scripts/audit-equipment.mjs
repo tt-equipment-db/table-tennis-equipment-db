@@ -26,6 +26,7 @@ const brandRegistry = new Map(
     ["Kokutaku", "科库塔库"],
     ["Lidu", "力度"],
     ["LOKI", "雷神"],
+    ["Meteor", "流星"],
     ["Nexy", "尼西"],
     ["Nittaku", "尼塔库"],
     ["Palio", "拍里奥"],

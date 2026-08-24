@@ -1,6 +1,44 @@
 {
   "rubbers": [
     {
+      "id": "meteor-845",
+      "releaseDate": "2026-08-24",
+      "name": "845 正胶",
+      "brand": "流星",
+      "brandEn": "Meteor",
+      "series": "845",
+      "price": 49,
+      "priceMin": 35,
+      "priceMax": 70,
+      "currency": "CNY",
+      "image": "https://www.ttshop.cn/images/202207/source_img/5318_P_1658173233881.jpg",
+      "description": "流星 845 彩色正胶套胶，公开销售规格包括蓝色胶面、白色海绵以及 2.0 mm、2.1 mm 厚度，定位近台快攻、弹击和颗粒变化。",
+      "tags": {
+        "brand": ["Meteor（流星）"],
+        "position": ["正手", "反手"],
+        "rubberType": ["正胶"],
+        "sponge": ["传统海绵"],
+        "thickness": ["2.0", "2.1"],
+        "hardness": ["正胶"],
+        "style": ["快攻", "近台", "颗粒变化", "弹击"],
+        "origin": ["中国"],
+        "alias": ["流星 845", "Liuxing 845", "Meteor 845"]
+      },
+      "sources": [
+        "https://www.ttshop.cn/goods.php?id=5318",
+        "https://www.ping92.com/index.php/docman/sportif/3088-liste-des-revetements-autorises-26-01-26/file",
+        "https://tieba.baidu.com/p/10963882780"
+      ],
+      "contributors": ["Codex AI 巡检 2026-08-24"],
+      "images": [
+        "https://www.ttshop.cn/images/202207/source_img/5318_P_1658173233881.jpg",
+        "https://www.ttshop.cn/images/202207/source_img/5318_P_1658173259103.jpg",
+        "https://www.ttshop.cn/images/202207/source_img/5318_P_1658173259616.jpg",
+        "https://www.ttshop.cn/images/202207/source_img/5318_P_1658173259702.jpg",
+        "https://www.ttshop.cn/images/202207/source_img/5318_P_1658173259962.jpg"
+      ]
+    },
+    {
       "id": "kokutaku-neon-730",
       "releaseDate": "2026-08-15",
       "name": "Neon 730 Tokyo（霓虹 730）",
@@ -11321,6 +11359,51 @@
     }
   ],
   "blades": [
+    {
+      "id": "tibhar-szocs-signature-1",
+      "releaseDate": "2026-08-24",
+      "name": "Szöcs Signature 1（斯佐科斯 Signature 1）",
+      "brand": "挺拔",
+      "brandEn": "TIBHAR",
+      "series": "Szöcs Signature",
+      "price": 420,
+      "priceMin": 350,
+      "priceMax": 550,
+      "currency": "CNY",
+      "image": "https://cdn.store-assets.com/s/357302/i/19173480.jpg",
+      "description": "TIBHAR 为伯纳黛特·斯佐科斯推出的七夹纯木进攻底板。官方目录标注约 85 g、OFF-，较硬的内层与较柔和的外层兼顾近台主动进攻和中台速度控制。",
+      "tags": {
+        "brand": ["TIBHAR（挺拔）"],
+        "structure": ["七夹纯木"],
+        "material": ["纯木"],
+        "position": ["快攻", "主动进攻", "近台", "中远台"],
+        "handle": ["FL", "ST", "AN"],
+        "speed": ["OFF-"],
+        "feel": ["持球", "稳定", "力量感", "纯木手感"],
+        "weight": ["常规"],
+        "origin": ["德国"],
+        "alias": ["Bernadette Szöcs Signature 1", "Szocs Signature 1", "斯佐科斯底板"],
+        "structureDetail": ["7 层纯木"],
+        "materialDetail": ["较硬内层 + 柔和外层"],
+        "weightDetail": ["80-85g", "85-90g"],
+        "bladeFormat": ["横板"],
+        "bladeHardness": ["中等"]
+      },
+      "sources": [
+        "https://www.tibhar.info/Katalog/webpdf/TIBHAR_Catalogue_25_EN_web.pdf",
+        "https://www.tibhar.com.br/produtos/raquete-tibhar-szocs-signature-com-7-folhas-e-cabo-fl/",
+        "https://deplus-sport.com/products/tibhar-szocs-signature-1-fl-st-%E6%A1%8C%E7%90%83%E6%8B%8D",
+        "https://tieba.baidu.com/p/10616940426"
+      ],
+      "contributors": ["Codex AI 巡检 2026-08-24"],
+      "images": [
+        "https://cdn.store-assets.com/s/357302/i/19173480.jpg",
+        "https://cdn.store-assets.com/s/357302/i/19173481.jpg",
+        "https://cdn.store-assets.com/s/357302/i/19173482.png",
+        "https://cdn.store-assets.com/s/357302/i/19173483.jpg",
+        "https://cdn.store-assets.com/s/357302/i/19173484.jpg"
+      ]
+    },
     {
       "id": "sanwei-even-981",
       "releaseDate": "2026-08-23",
