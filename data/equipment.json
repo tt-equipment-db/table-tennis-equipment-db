@@ -11360,6 +11360,49 @@
   ],
   "blades": [
     {
+      "id": "andro-gauzy-hl-co-off",
+      "releaseDate": "2026-08-25",
+      "name": "Gauzy HL CO OFF（西蒙·高茨 HL CO）",
+      "brand": "岸度",
+      "brandEn": "andro",
+      "series": "Gauzy",
+      "price": 480,
+      "priceMin": 380,
+      "priceMax": 650,
+      "currency": "CNY",
+      "image": "https://storeassets.im-cdn.com/media-manager/topspindia/CTwkY2N3RAeEXiiKdS9F_sss-crop-c0-5__0-5-750x750.jpg",
+      "description": "andro 与西蒙·高茨共同开发的瑞典制造外置 KVL Carbon 底板。官方目录标注 5 木 + 2 纤维、约 90 g、厚约 5.6 mm、OFF，强调减震、持球感以及旋转与控制的平衡。",
+      "tags": {
+        "brand": ["andro（岸度）"],
+        "structure": ["外置纤维"],
+        "material": ["混编碳纤维"],
+        "position": ["快攻弧圈", "弧圈", "控制", "相持", "主动进攻"],
+        "handle": ["FL", "ST", "AN"],
+        "speed": ["OFF"],
+        "feel": ["持球", "清晰", "稳定", "减震"],
+        "weight": ["常规"],
+        "origin": ["瑞典"],
+        "alias": ["Andro Gauzy HL CO OFF", "西蒙高茨 HL CO", "高茨 HL CO"],
+        "structureDetail": ["5 木 + 2 外置 KVL Carbon"],
+        "materialDetail": ["KVL Carbon（芳纶/碳混编）"],
+        "weightDetail": ["85-90g", "90-95g"],
+        "bladeFormat": ["横板"],
+        "bladeHardness": ["中等"]
+      },
+      "sources": [
+        "https://cdn.andro.de/andro_workbook_2020_2021_EN/",
+        "https://www.megaspin.net/store/default.asp?pid=andro-gauzy-hl-co-off",
+        "https://www.topspin.in/product/andro-gauzy-hl-co-off-table-tennis-blade/",
+        "https://tieba.baidu.com/p/10890772974"
+      ],
+      "contributors": ["Codex AI 巡检 2026-08-25"],
+      "images": [
+        "https://storeassets.im-cdn.com/media-manager/topspindia/CTwkY2N3RAeEXiiKdS9F_sss-crop-c0-5__0-5-750x750.jpg",
+        "https://cdn.megaspin.net/store/images/products/zoom_andro-gauzy-hl-co-off.jpg",
+        "https://cdn.megaspin.net/store/images/products/zoom2_andro-gauzy-hl-co-off.jpg"
+      ]
+    },
+    {
       "id": "tibhar-szocs-signature-1",
       "releaseDate": "2026-08-24",
       "name": "Szöcs Signature 1（斯佐科斯 Signature 1）",
