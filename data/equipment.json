@@ -11360,6 +11360,88 @@
   ],
   "blades": [
     {
+      "id": "victas-koki-niwa-zf-blue-edge-10th",
+      "releaseDate": "2026-08-26",
+      "name": "丹羽孝希 ZF BLUE EDGE 10th Limited Edition",
+      "brand": "维克塔斯",
+      "brandEn": "VICTAS",
+      "series": "Koki Niwa BLUE EDGE 10th",
+      "price": 1800,
+      "priceMin": 1500,
+      "priceMax": 2200,
+      "currency": "CNY",
+      "image": "https://victas.com/assets/images/products/products_20260225_144203.jpg",
+      "description": "VICTAS 品牌 15 周年及签约丹羽孝希 10 周年的限量 ZF 底板。官方标注 5 木 + 2 层 Z Fiber、外置纤维、6.0 mm、约 89 g、OFF+，使用桧木面材并强调持球、弹性与攻守平衡。",
+      "tags": {
+        "brand": ["VICTAS（维克塔斯）"],
+        "structure": ["外置纤维"],
+        "material": ["其他复合纤维"],
+        "position": ["快攻弧圈", "相持", "主动进攻", "近台", "中远台"],
+        "handle": ["FL"],
+        "speed": ["OFF+"],
+        "feel": ["持球", "稳定", "弹性", "支撑"],
+        "weight": ["常规"],
+        "origin": ["日本"],
+        "alias": ["KOKI NIWA ZF Blue Edge 10th", "丹羽孝希 ZF 十周年", "丹羽孝希十周年 ZF"],
+        "structureDetail": ["5 木 + 2 外置 Z Fiber"],
+        "materialDetail": ["Zexion Z Fiber", "桧木面材"],
+        "weightDetail": ["85-90g"],
+        "bladeFormat": ["横板"]
+      },
+      "sources": [
+        "https://www.victas.com/feature/special/content1408.html",
+        "https://www.victas.com/products/detail.html?id=829",
+        "https://www.victas.com/de_de/products/detail.html?id=197",
+        "https://tieba.baidu.com/p/10784894884"
+      ],
+      "contributors": ["Codex AI 巡检 2026-08-26"],
+      "images": ["https://victas.com/assets/images/products/products_20260225_144203.jpg"]
+    },
+    {
+      "id": "friendship-729-yellow-alc-ad",
+      "releaseDate": "2026-08-26",
+      "name": "AD 黄芳碳",
+      "brand": "友谊729",
+      "brandEn": "Friendship 729",
+      "series": "AD 芳碳",
+      "price": 198,
+      "priceMin": 160,
+      "priceMax": 260,
+      "currency": "CNY",
+      "image": "https://www.ttshop.cn/images/202311/source_img/5660_P_1698881350319.jpg",
+      "description": "友谊 729 的 AD 黄芳碳内置底板。公开产品规格为 5 木 + 2 芳碳、厚约 6.0 mm、重约 87 g，提供横板 FL 与直板版本，定位亲民的进攻训练底板。",
+      "tags": {
+        "brand": ["Friendship 729（友谊729）"],
+        "structure": ["内置纤维"],
+        "material": ["芳碳（ALC）"],
+        "position": ["快攻弧圈", "弧圈", "训练"],
+        "handle": ["FL", "CS"],
+        "speed": ["OFF-"],
+        "feel": ["持球", "稳定"],
+        "weight": ["常规"],
+        "origin": ["中国"],
+        "alias": ["729 黄芳碳 AD", "AD 黄芳碳底板", "友谊黄芳碳 AD"],
+        "structureDetail": ["5 木 + 2 内置黄芳碳"],
+        "materialDetail": ["黄色芳纶碳纤维"],
+        "weightDetail": ["85-90g"],
+        "bladeFormat": ["横板", "直板"]
+      },
+      "sources": [
+        "https://www.ttshop.cn/goods.php?id=5660",
+        "https://www.jd.com/jiage/13185141674c29741127.html",
+        "https://tieba.baidu.com/p/8962638064",
+        "https://tieba.baidu.com/p/10973386650"
+      ],
+      "contributors": ["Codex AI 巡检 2026-08-26"],
+      "images": [
+        "https://www.ttshop.cn/images/202311/source_img/5660_P_1698881350319.jpg",
+        "https://www.ttshop.cn/images/202311/source_img/5660_P_1698881374285.jpg",
+        "https://www.ttshop.cn/images/202311/source_img/5660_P_1698881374468.jpg",
+        "https://www.ttshop.cn/images/202311/source_img/5660_P_1698881374508.jpg",
+        "https://www.ttshop.cn/images/202311/source_img/5660_P_1698881374715.jpg"
+      ]
+    },
+    {
       "id": "andro-gauzy-hl-co-off",
       "releaseDate": "2026-08-25",
       "name": "Gauzy HL CO OFF（西蒙·高茨 HL CO）",
