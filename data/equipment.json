@@ -11360,6 +11360,44 @@
   ],
   "blades": [
     {
+      "id": "donic-zhang-jike-true-carbon",
+      "releaseDate": "2026-09-01",
+      "name": "ZHANG JIKE TRUE CARBON（张继科 TRUE CARBON）",
+      "brand": "多尼克",
+      "brandEn": "DONIC",
+      "series": "Zhang Jike",
+      "price": 1700,
+      "priceMin": 1500,
+      "priceMax": 2000,
+      "currency": "CNY",
+      "image": "https://www.donic.com/media/1c/b0/dc/1781085653/donic-blade-zhang-jike-true-carbon-front.jpg?ts=1781085653",
+      "description": "DONIC 2026/27 张继科签名底板。官方标注德国制造，5 木 + 2 层内置 STC Carbon（TeXtreme+ 展开碳纤维），桐木大芯与林巴面材，约 85-90 g，定位 OFF-/OFF，强调大甜区、动力、反馈与控制的平衡。",
+      "tags": {
+        "brand": ["DONIC（多尼克）"],
+        "structure": ["内置纤维"],
+        "material": ["碳纤维"],
+        "position": ["快攻弧圈", "弧圈", "相持", "主动进攻"],
+        "handle": ["FL", "ST"],
+        "speed": ["OFF-", "OFF"],
+        "feel": ["清晰", "稳定", "弹性", "支撑"],
+        "weight": ["常规"],
+        "origin": ["德国"],
+        "alias": ["DONIC Zhang Jike True Carbon", "多尼克张继科 True Carbon", "张继科真碳"],
+        "structureDetail": ["5 木 + 2 内置 STC Carbon"],
+        "materialDetail": ["STC Carbon（TeXtreme+ 展开碳纤维）", "林巴面材", "桐木大芯"],
+        "weightDetail": ["85-90g"],
+        "bladeFormat": ["横板"],
+        "bladeHardness": ["中硬"]
+      },
+      "sources": [
+        "https://www.donic.com/en/DONIC-ZHANG-JIKE-TRUE-CARBON/110296010",
+        "https://www.donic.com/media/Blaetterkataloge/NEWS_2026/EN/blaetterkatalog/pdf/complete.pdf",
+        "https://tieba.baidu.com/p/10984862502"
+      ],
+      "contributors": ["Codex AI 巡检 2026-09-01"],
+      "images": ["https://www.donic.com/media/1c/b0/dc/1781085653/donic-blade-zhang-jike-true-carbon-front.jpg?ts=1781085653"]
+    },
+    {
       "id": "victas-koki-niwa-zf-blue-edge-10th",
       "releaseDate": "2026-08-26",
       "name": "丹羽孝希 ZF BLUE EDGE 10th Limited Edition",
