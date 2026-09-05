@@ -1,6 +1,73 @@
 {
   "rubbers": [
     {
+      "id": "victas-vj-07-stiff",
+      "name": "VJ>07 Stiff",
+      "brand": "维克塔斯",
+      "brandEn": "VICTAS",
+      "series": "VJ>07",
+      "price": 180,
+      "priceMin": 140,
+      "priceMax": 230,
+      "currency": "CNY",
+      "image": "https://www.victas.com/en_gb/assets/images/products/products_20240729_105509.jpg",
+      "description": "VICTAS 日本制造的中硬度旋转型涩性反胶。官方规格为 45±3 度、1.8/2.0/MAX，采用开放式气孔张力海绵，定位 OFF，强调速度、旋转、控制的均衡以及正反手弧圈的易用性。",
+      "tags": {
+        "brand": ["VICTAS（维克塔斯）"],
+        "position": ["正手", "反手"],
+        "rubberType": ["反胶"],
+        "sponge": ["蛋糕海绵"],
+        "thickness": ["1.8", "2.0", "Max"],
+        "hardness": ["中硬"],
+        "style": ["弧圈", "相持", "连续进攻", "控制"],
+        "origin": ["日本"],
+        "alias": ["VJ07 Stiff", "VJ 07 Stiff", "VJ>07 斯蒂夫"],
+        "spongeDetail": ["45±3 度开放式气孔张力海绵"],
+        "surface": ["涩性胶面"]
+      },
+      "sources": [
+        "https://www.victas.com/en_gb/products/detail.html?id=20",
+        "https://www.victas.com/feature/items/content574.html",
+        "https://tieba.baidu.com/p/10995670931"
+      ],
+      "contributors": ["Codex AI 巡检 2026-09-06"],
+      "images": ["https://www.victas.com/en_gb/assets/images/products/products_20240729_105509.jpg"]
+    },
+    {
+      "id": "victas-v-11-extra",
+      "name": "V>11 Extra",
+      "brand": "维克塔斯",
+      "brandEn": "VICTAS",
+      "series": "V>11",
+      "price": 220,
+      "priceMin": 180,
+      "priceMax": 280,
+      "currency": "CNY",
+      "image": "https://victas.com/en_gb/assets/images/products/products_20240729_104906.jpg",
+      "description": "VICTAS 德国制造的轻量化高性能涩性反胶。官方规格为 47.5±3 度、2.0/MAX，采用 Lightning Tension 设计，在保持 V>15 系列进攻性能的同时约减重 10%，强调抓球、旋转、稳定和挥拍速度。",
+      "tags": {
+        "brand": ["VICTAS（维克塔斯）"],
+        "position": ["正手", "反手"],
+        "rubberType": ["反胶"],
+        "sponge": ["蛋糕海绵"],
+        "thickness": ["2.0", "Max"],
+        "hardness": ["中硬"],
+        "style": ["弧圈", "相持", "连续进攻", "反拉", "轻量"],
+        "origin": ["德国"],
+        "alias": ["V11 Extra", "V 11 Extra", "V>11 Extra 轻量套胶"],
+        "spongeDetail": ["47.5±3 度 Lightning Tension 轻量海绵"],
+        "surface": ["涩性胶面"]
+      },
+      "sources": [
+        "https://victas.com/en_gb/products/detail.html?id=15",
+        "https://victas.com/products/detail.html?id=785",
+        "https://www.victas.com/feature/technic/content476.html",
+        "https://tieba.baidu.com/p/10995670931"
+      ],
+      "contributors": ["Codex AI 巡检 2026-09-06"],
+      "images": ["https://victas.com/en_gb/assets/images/products/products_20240729_104906.jpg"]
+    },
+    {
       "id": "meteor-845",
       "releaseDate": "2026-08-24",
       "name": "845 正胶",
